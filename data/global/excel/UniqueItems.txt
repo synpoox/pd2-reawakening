@@ -220,7 +220,7 @@ Duriel's Shell	100	1		1	1	49	41	xrs	Cuirass			3	5000	oran	oran						str		15	15	a
 Skullder's Ire	100	1		1	1	50	42	xpl	Russet Armor			3	5000								allskills		1	1	mag%/lvl		8	12	ac%		160	200	dur		60	60	red-mag		10	15	rep-dur	20			*vit		-10	-10	*enr		-10	-10																	0
 Guardian Angel	100	1		1	1	53	45	xlt	Templar Coat			3	5000	lgry	lgry						light		4	4	pal		1	1	ac%		180	200	block2		30	30	block		20	20	att-dem/lvl	28			res-fire-max		4	6	res-cold-max		4	6	res-ltng-max		4	6	res-pois-max		4	6									0
 Toothrow	100	1		1	1	56	48	xld	Sharktooth Armor			3	5000	bwht	whit						Deep-Wounds		260	350	ac		40	60	str		20	20	openwounds		40	40	res-fire		15	15	ac%		160	220	dur		15	15	deadly		15	25																	0
-Atma's Wail	100	1		1	1	59	51	xth	Embossed Plate			3	5000								dex		15	15	regen		20	30	mana%		20	30	balance2		20	20	ac/lvl	16			dur		50	50	ac%		120	160	mag%		25	25	allskills		1	1	cast2		20	20									0
+Atma's Wail	100	1		1	1	59	51	xth	Embossed Plate			3	5000								dex		15	15	regen		20	30	mana%		20	30	balance2		30	30	ac/lvl	16			dur		50	50	ac%		120	160	mag%		25	25	allskills		1	1	cast2		30	30									0
 Black Hades	100	1		1	1	61	53	xul	Chaos Armor			3	5000								light		-2	-2	att-demon		400	450	half-freeze		1	1	sock		3	4	ac%		140	200	dmg-demon		185	225																									0
 Corpsemourn	100	1		1	1	63	55	xar	Ornate Armor			3	5000	blac	blac		invxaru				str		8	8	vit		10	10	res-cold		35	35	reanimate	1	12	12	ac%		150	180	fire-min		120	160	fire-max		300	340	oskill	74	20	20	ease		-15	-15													0
 Que-Hegan's Wisdon	100	1		1	1	59	51	xtp	Mage Plate			3	5000								cast2		20	20	mana-kill		3	3	red-mag		6	10	enr		15	25	balance2		20	20	ac%		140	160	allskills		1	2																					0
@@ -439,14 +439,14 @@ Cyclopean Roar	100	1		1	1	34	28	ba6	Jawbone Visor			3	5000	lgld			Cyclopean				a
 Fallen Gardens Map	100	1		0	1	80	80	t53	t53			5	5000				invmapfallengardens				map-glob-density		125	175	map-play-addxp		15	25	map-play-mag-gold%		100	200	map-mon-dropjewels		2	2	map-mon-hp%		10	30	map-mon-phys-as-extra-ltng		50	100	map-mon-deadlystrike		10	20	map-mon-regen		50	100	map-glob-boss-dropfacet		1	1													0
 Uldyssian's Awakening	100	1		1	1	80	74	7st	Ghost Spear			5	5000	dgry			invuldyssian				dmg%		230	270	mindmg/energy		4	4	equipped-skill	Energy Shield SelfAura	28	30	swing2		40	40	manasteal		10	14	mana/lvl		60	60	hp%		-10	-10	dmg-to-mana		55	55	light		8	8	es-efficiency		20	20					splash	358	100	1	0
 Leoric's Mithril Blade	100	1		1	1	78	72	7cm	Highland Blade			5	5000	dgry			invhighlander				pal		2	2	dmg%		240	300	swing2		20	20	joust-reduction		13	13	crush		33	33	reanimate	440	8	8	lifesteal		5	8	dmg-und/lvl	20															splash	358	100	1	0
-Cain's Wisdom	100	1		1	1	80	80	cm1	charm			3	5000			flpmss	invcnws	item_gem	12	item_gem	addxp		150	200																																													0
+Cain's Wisdom	100	1		1	1	99	75	cm1	charm			3	5000			flpmss	invcnws	item_gem	12	item_gem	addxp		150	200																																													0
 Legacy Items																																																																					0
 Harlequin Crest	100	1		1	1	69	62	uapl	Shako			3	5000	cgrn	cgrn						allskills		2	2	ac%		100	100	indestruct		1	1	hp%		40	40	mag%		50	50																													0
 Arkaine's Valor	100	1		1	1	85	85	upll	Balrog Skin			3	5000	lred			arkaines				ac%		200	200	balance2		30	30	allskills		2	2	indestruct		1	1	vit/lvl	20			hp/lvl	16			res-fire		50	50																					0
 Armageddon Slippers	100	1		1	1	80	45	mull	Amulet			5	5000								pal		2	2	str		20	20	dex		17	17	hp		59	59	mana		58	58	res-all		20	20																									0
 Armageddon Fletch	100	1		1	1	80	41	mull	Amulet			5	5000								sor		2	2	str		18	18	cast2		20	20	hp		55	55	mana		59	59	res-all		23	23																									0
 Storm Circlet	100	1		1	1	80	34	mull	Amulet			5	5000								nec		2	2	sor		2	2	cast2		20	20	str		18	18	hp		55	55	mana		59	59	res-cold		23	23	res-ltng		23	23	res-fire		23	23													0
-Vampiregaze	100	1		1	1	49	41	xh9l	Grim Helm			3	5000	cgrn	cgrn		invbhmu				manasteal		8	8	lifesteal		8	8	stamdrain		15	15	red-dmg%		25	25	red-mag		15	15	ac%		150	150																									0
+Vampiregaze	100	1		1	1	49	41	xh9l	Grim Helm			3	5000	cgrn	cgrn		invbhmu				manasteal		8	8	lifesteal		8	8	stamdrain		15	15	red-dmg%		25	25	red-mag		15	15	ac%		100	100																									0
 Siggard's Stealth	100	1		1	1	68	51	uvcl	vampirefang belt			5	5000								allskills		1	1	swing2		10	10	pierce		100	100	lifesteal		5	5	manasteal		5	5	str		15	15	dex		25	25	res-all		20	20	red-dmg%		20	20	mana-kill		2	2	slow		10	10	light		-3	-3	0
 Snatchii's Steelclash	0	1		1	1	23	17	mgll	Chain Gloves			5	5000	blac			invkitu				pal		1	1	block		25	25	block1		20	20	ac%		75	75	ac		20	20	res-all		15	15	red-dmg		3	3	light		3	3																	0
 Wizardspike	100	1		1	1	69	61	tgll	Light Gauntlets			5	5000	lgry	lgry						mana/lvl	16			regen-mana		15	15	mana%		15	15	res-all		75	75	indestruct		1	1	cast3		50	50																									0

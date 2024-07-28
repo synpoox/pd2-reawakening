@@ -507,5 +507,5 @@ curse_effectiveness	504		1	9											103	40	1024		8	0	8	50																	38	
 map_glob_boss_dropfacet	505			2											1065	72	2009		2	2	2	2																	208	3	0	MapBossFacet	MapBossFacet									0
 map_mon_dropjewels	506		1	9											1065	72	506		7	20	7	20																	205	8	2	MapMonHave	MapMonHave	MapMonIncreasedJewels								0
 es_efficiency	507		1	7													1024		5		5																															0
-awakened	508			10	10										54	204	1024		8	0	10	0	10																0	3	0	StrAwakened	StrAwakened									0
+awakened	508			10	10										54	204	1024		8	0	10	0	10																246	3	0	StrAwakened	StrAwakened									0
 awakener	509			1	16											54	1024				12	0																	0	0	0	StrAwakenNum	StrAwakenNum									0
