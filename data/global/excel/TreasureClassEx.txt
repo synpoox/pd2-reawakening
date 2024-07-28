@@ -51,15 +51,6 @@ Runes 14 equiv			1						r27s	3	r28s	2	Runes 13 equiv	434																		0
 Runes 15 equiv			1						r29s	3	r30s	2	Runes 14 equiv	588																		0
 Runes 16 equiv			1						r31s	3	r32s	2	Runes 15 equiv	791																		0
 Runes 17 equiv			1						r33s	1	Runes 16 equiv	1034																				0
-Orbs			1					0	dvo	300	mfo	300	dvia	333	rotf	4	lbox	14	lpp	32												
-Fate Common A			1					0	fsls	1	fslu	1	fsat	1	fsus	1	fsrb	1	fsla	1	fsht	1	fstm	1	fsar	1						
-Fate Common B			1					0	fsms	1	fslc	1	fsed	1	fscs	1	fsta	1	fsts	1	fstf	1	fshs	1	fstw	1						
-Fate Common C			1					0	fsbl	1	fssf	1	fsse	1	fsew	1	fssg	1	fsuf	1	fsmw	1	fsap	1	fsem	1						
-Fate Common D																																
-Fate Uncommon A			1					0	fsdg	1	fsds	1	fsps	1	fstc	1	fspv	1	fscf	1	fstl	1	fsdw	1	fsbr	1						
-Fate Uncommon B																																
-Fate Rare A			1					0	fsha	1	fsjp	1	fsdi	1	fsfr	1																
-Fate Drop			1					0	Fate Common A	48	Fate Common B	48	Fate Common C	48	Fate Uncommon A	19	Fate Rare A	5														
 Map Tier 1			1			400	800		t23	1	t15	1	t12	1	t26	1	t25	1	t22	1	t36	1										0
 Map Tier 2			1			400	800		t34	1	t31	1	t24	1	t11	1	t33	1	t13	1												0
 Map Tier 3			1			400	800		t3a	2	t38	2	t39	2	t37	2	t14	2	t21	2	t32	2	t16	2	t35	2						0
@@ -233,6 +224,15 @@ Act 4 (H) Magic B	4	80	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic A	4	82	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic B	4	83	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic C	4	85	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Orbs			1					0	dvo	300	mfo	300	dvia	333	rotf	4	lbox	14	lpp	32												0
+Fate Common A			1					0	fsls	1	fslu	1	fsat	1	fsus	1	fsrb	1	fsla	1	fsht	1	fstm	1	fsar	1						0
+Fate Common B			1					0	fsms	1	fslc	1	fsed	1	fscs	1	fsta	1	fsts	1	fstf	1	fshs	1	fstw	1						0
+Fate Common C			1					0	fsbl	1	fssf	1	fsse	1	fsew	1	fssg	1	fsuf	1	fsmw	1	fsap	1	fsem	1						0
+Fate Common D																																0
+Fate Uncommon A			1					0	fsdg	1	fsds	1	fsps	1	fstc	1	fspv	1	fscf	1	fstl	1	fsdw	1	fsbr	1						0
+Fate Uncommon B																																0
+Fate Rare A			1					0	fsha	1	fsjp	1	fsdi	1	fsfr	1																0
+Fate Drop			1					0	Fate Common A	48	Fate Common B	48	Fate Common C	48	Fate Uncommon A	19	Fate Rare A	5														0
 Act 1 Good	5	0	1						Jewelry A	60	Chipped Gem	48	wss	1	Fate Drop	1																0
 Act 2 Good	5	12	1						Jewelry B	80	Chipped Gem	44	Flawed Gem	16	wss	1	Runes 1	12	Runes 2	12	Fate Drop	1										0
 Act 3 Good	5	18	1						Jewelry C	80	Chipped Gem	28	Flawed Gem	32	wss	1	Runes 3	12	Runes 4	12	Fate Drop	1										0
@@ -995,6 +995,36 @@ MapStat DropCrafting			1						Treasure Fallen Gem H	1	Treasure Fallen Rune NM	1	
 MapStat DropCharms			1						cm3	1	cm2	1	cm1	1																		0
 MapStat DropWss			1						wss	1																						0
 MapStat DropJewels			1						jew	1																						0
+Larzuk Puzzlebox N				0																												0
+Larzuk Puzzlebox NM				4500	10																											0
+Larzuk Puzzlebox H				3500	10																											0
+Larzuk Puzzlepiece N				4500	10																											0
+Larzuk Puzzlepiece NM				2250	10																											0
+Larzuk Puzzlepiece H				1500	10																											0
+SkeletonKey N				4000	100																											
+SkeletonKey NM				4000	100																											
+SkeletonKey H				4000	100																											
+Horadric ID Book N				4000	100																											
+Horadric ID Book NM				4000	100																											
+Horadric ID Book H				4000	100																											
+Horadric TP Book N				4000	100																											
+Horadric TP Book NM				4000	100																											
+Horadric TP Book H				4000	100																											
+Lillith Mirror N				12500	100																											
+Lillith Mirror NM				12500	100																											
+Lillith Mirror H				12500	100																											
+Vial of Lightsong N				7250	100																											
+Vial of Lightsong NM				7250	100																											
+Vial of Lightsong H				7250	100																											
+Corrupted Zone				50																												
+Unique Map Monsters				7500	3																											
+Unique Map MapBoss				1500																												
+Rathma Jawbone N				2000	30																											
+Rathma Jawbone NM				6750	5																											
+Rathma Jawbone H				2250	5																											
+UberAncients T1				2500																												
+UberAncients T2				2500																												
+UberAncients T3				2500																												
 Treasure Fallen Gem N			2					18	Flawless Gem	2																						0
 Treasure Fallen Rune N			2					13	Runes 5	2																						0
 Treasure Fallen Craft N			2					18	crfb	1	crfc	1	crfs	1	crfh	1	crfv	1	crfu	1												0
@@ -1004,33 +1034,3 @@ Treasure Fallen Craft NM			2					16	crfb	1	crfc	1	crfs	1	crfh	1	crfv	1	crfu	1			
 Treasure Fallen N			3					12	Treasure Fallen Gem N	1	Treasure Fallen Rune N	1	Treasure Fallen Craft N	1	"gld,mul=2048"	2																0
 Treasure Fallen NM			3					11	Treasure Fallen Gem NM	1	Treasure Fallen Rune NM	1	Treasure Fallen Craft NM	1	"gld,mul=3072"	2																0
 Treasure Fallen H			3						Treasure Fallen Gem H	1	Treasure Fallen Rune H	1	Treasure Fallen Craft H	1	Treasure Fallen Map	1	"gld,mul=4096"	1														0
-Larzuk Puzzlebox N				0																												0
-Larzuk Puzzlebox NM				4500	10																											0
-Larzuk Puzzlebox H				2250	10																											0
-Larzuk Puzzlepiece N				4500	10																											0
-Larzuk Puzzlepiece NM				2250	10																											0
-Larzuk Puzzlepiece H				1000	10																											0
-SkeletonKey N				5000	15																											
-SkeletonKey NM				5000	15																											
-SkeletonKey H				5000	15																											
-Horadric ID Book N				5000	5																											
-Horadric ID Book NM				5000	15																											
-Horadric ID Book H				5000	15																											
-Horadric TP Book N				5000	15																											
-Horadric TP Book NM				5000	15																											
-Horadric TP Book H				5000	15																											
-Lillith Mirror N				250000	10																											
-Lillith Mirror NM				250000	10																											
-Lillith Mirror H				250000	10																											
-Vial of Lightsong N				75000	16																											
-Vial of Lightsong NM				75000	16																											
-Vial of Lightsong H				75000	16																											
-Corrupted Zone				50																												
-Unique Map Monsters				7500	2																											
-Unique Map MapBoss				1000																												
-Rathma Jawbone N				2000	25																											
-Rathma Jawbone NM				6750	2																											
-Rathma Jawbone H				2250	2																											
-UberAncients T1				2500																												
-UberAncients T2				2500																												
-UberAncients T3				2500																												
