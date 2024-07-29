@@ -1018,7 +1018,7 @@ Vial of Lightsong NM				7250	100
 Vial of Lightsong H				7250	100																											
 Corrupted Zone				50																												
 Unique Map Monsters				7500	3																											
-Unique Map MapBoss				1500																												
+Unique Map MapBoss				3500																												
 Rathma Jawbone N				2000	30																											
 Rathma Jawbone NM				6750	5																											
 Rathma Jawbone H				2250	5																											
