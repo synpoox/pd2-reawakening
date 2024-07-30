@@ -285,7 +285,7 @@ Titan's Revenge	100	1		1	1	50	42	ama	Ceremonial Javelin			5	5000								ama		2	2
 Lycander's Aim	100	1		1	1	50	42	am7	Ceremonial Bow			5	5000								ama		2	2	skilltab	0	2	2	dmg%		225	275	swing2		20	20	reduce-ac		50	50	dex		20	20	enr		20	20	manasteal		5	8	dmg-norm		25	50													0
 Lycander's Flank	100	1		1	1	50	42	am9	Ceremonial Pike			5	5000								ama		2	2	skilltab	2	2	2	dmg%		250	300	swing2		30	30	red-dmg%		10	20	str		20	20	vit		20	20	lifesteal		5	9	dmg-norm		25	50									splash	358	100	1	0
 The Oculus	100	1		1	1	50	42	oba	Swirling Crystal			5	5000								allskills		2	3	gethit-skill	54	2	1	res-all		15	25	cast2		30	30	ac%		20	20	vit		20	20	enr		20	20	mana-kill		5	5	mag%		25	50													0
-Herald of Zakarum	100	1		1	1	50	42	pa9	Aerin Shield			5	5000								allskills		2	2	skilltab	9	1	2	ac%		150	200	block2		30	30	block		30	30	str		20	30	vit		20	30	att%		30	30	res-all		50	50													0
+Herald of Zakarum	100	1		1	1	50	42	pa9	Aerin Shield			5	5000								allskills		2	2	skilltab	9	2	2	ac%		150	200	block2		30	30	block		30	30	str		20	30	vit		20	30	att%		30	30	res-all		50	60													0
 Cutthroat1	100	1		1	1	50	42	9tw	Runic Talons			5	5000								ass		2	2	skilltab	20	1	2	dmg%		200	300	balance2		30	30	att%		20	20	str		20	20	dex		20	20	lifesteal		5	9	dmg-norm		25	50									splash	358	100	1	0
 Jalal's Mane	100	1		1	1	50	42	dra	Dream Spirit			5	5000								dru		2	2	skilltab	16	1	2	ac%		150	200	balance2		30	30	att%		20	20	str		15	20	enr		15	20	mana-kill		5	5	res-all		25	25													0
 The Scalper	100	1		1	1	65	57	9ta	Francisca			5	5000								dmg%		200	250	att%		25	25	Deep-Wounds		500	700	openwounds		33	33	lifesteal		4	6	mana-kill		4	4																					splash	358	100	1	0
