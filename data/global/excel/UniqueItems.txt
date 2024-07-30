@@ -341,7 +341,7 @@ Windhammer	100	1		1	1	76	68	7m7	ogre maul			5	5000	cblu	cblu		invmau				dmg%		23
 Thunderstroke	100	1		1	1	77	69	amf	matriarchal javelin			5	5000	dblu	dblu						dmg%		200	250	dmg-ltng		1	511	hit-skill	Lightning	20	28	swing2		15	15	pierce-ltng		10	15	skill	Lightning Bolt	3	3	skilltab	2	4	4																	splash	358	100	1	0
 Giantmaimer	100			1	1							5	5000	cred	cred																																																						0
 Demon's Arch	100	1		1	1	76	68	7s7	balrog spear			5	5000	cred	cred						dmg%		210	310	dmg-fire		232	323	lifesteal		6	12	pierce-fire		10	20	swing2		30	30	dmg-ltng		1	666	pierce-ltng		10	20																	splash	358	100	1	0
-Boneflame	100	1		1	1	80	72	nee	succubae skull			3	5000	dred	dred						ac%		120	150	move2		20	20	gethit-skill	Terror	5	3	nec		3	3	res-all		20	30	heal-kill		4	8	red-dmg%		10	20																					0
+Boneflame	100	1		1	1	80	72	nee	succubae skull			3	5000	dred	dred						ac%		120	150	move2		20	20	gethit-skill	Decrepify	15	3	nec		3	3	res-all		20	30	heal-kill		4	8	red-dmg%		10	20																					0
 Steelpillar	100	1		1	1	77	69	7p7	war pike			3	5000								dmg%		210	260	swing2		25	25	reduce-ac		20	20	ac%		50	80	crush		25	25	pierce-phys		5	10																					splash	358	100	1	0
 Nightwing's Veil	100	1		1	1	75	67	uhm	spired helm			3	5000	cblu	cblu						ac%		90	120	allskills		2	2	dex		10	20	abs-cold		5	9	half-freeze		1	1	extra-cold		8	15	ease		-50	-50	pierce-cold		5	10																	0
 Crown of Ages	100	1		1	1	86	82	urn	corona	1		3	5000	dgld	dgld						balance2		30	30	res-all		20	30	curse-res		50	50	ac		100	150	indestruct		1	1	red-dmg%		10	15	ac%		50	50	sock		1	3																	0
@@ -392,14 +392,14 @@ Ondal's Wisdom	100	1		1	1	74	66	6cs	elder staff			3	5000				invcstu				cast2		10
 The Reedeemer	100	1		1	1	80	72	7sc	mighty scepter			3	5000								dmg%		250	300	dmg-demon		200	250	pal		2	2	ease		-60	-60	skill	Redemption	2	4	skill	Holy Bolt	2	4	light		3	3	reduce-ac		33	33	dmg		60	120	skill	119	2	4					splash	358	100	1	0
 Headhunter's Glory	100	1		1	1	83	75	ush	troll nest			3	5000				invbshu				ac		320	420	ac-miss		300	350	res-pois		30	40	sock		1	3	res-fire		20	30	heal-kill		5	7	hit-skill	AmpDmg Proc	12	31	curse-effectiveness		20	30																	0
 Steelrend	100	1		1	1	78	70	uhg	ogre gauntlets			3	5000								ac		170	210	str		15	20	dmg%		60	80	crush		10	20	thorns		250	250																									splash	358	100	1	0
-Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-ltng		1	74	pierce-ltng		3	5	extra-ltng		3	5	death-skill	Chain Lightning	100	47																																	0
-Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-cold	3	24	38	pierce-cold		3	5	extra-cold		3	5	death-skill	Blizzard	100	37																																	0
-Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-fire		17	45	pierce-fire		3	5	extra-fire		3	5	death-skill	Meteor	100	31																																	0
-Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-pois	50	187	187	pierce-pois		3	5	extra-pois		3	5	death-skill	Poison Nova	100	51																																	0
-Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-ltng		1	74	pierce-ltng		3	5	extra-ltng		3	5	levelup-skill	Nova	100	41																																	0
-Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-cold	3	24	38	pierce-cold		3	5	extra-cold		3	5	levelup-skill	Frost Nova	100	43																																	0
-Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-fire		17	45	pierce-fire		3	5	extra-fire		3	5	levelup-skill	Blaze	100	29																																	0
-Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-pois	50	187	187	pierce-pois		3	5	extra-pois		3	5	levelup-skill	Venom	100	23																																	0
+Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-ltng		1	74	pierce-ltng		3	5	extra-ltng		3	5	cast-skill	Chain Lightning	1	47																																	0
+Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-cold	3	24	38	pierce-cold		3	5	extra-cold		3	5	cast-skill	Blizzard	1	37																																	0
+Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-fire		17	45	pierce-fire		3	5	extra-fire		3	5	cast-skill	Meteor	1	31																																	0
+Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-pois	50	187	187	pierce-pois		3	5	extra-pois		3	5	cast-skill	Poison Nova	1	47																																	0
+Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-ltng		1	74	pierce-ltng		3	5	extra-ltng		3	5	att-skill	Nova	1	41																																	0
+Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-cold	3	24	38	pierce-cold		3	5	extra-cold		3	5	att-skill	Frost Nova	1	43																																	0
+Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-fire		17	45	pierce-fire		3	5	extra-fire		3	5	att-skill	Combustion	1	32																																	0
+Rainbow Facet	100	1		1	1	85	49	jew	jewel			3	5000								dmg-pois	50	187	187	pierce-pois		3	5	extra-pois		3	5	att-skill	Venom	1	23																																	0
 Hellfire Torch	100	1		0	1	99	75	cm2	charm			3	5000			flptrch	invtrch	item_gem	12	item_gem	randclassskill1		0	6	vit		30	60	enr		10	20	res-all		10	20	light		4	8																													0
 Itheraels Path	100	1		0	1	131	85	utb	mirrored boots			5	5000				dcloneboots				ac		40	60	cast2		20	20	move2		20	20	dex		10	15	vit		10	15	balance2		20	20																									0
 Overlords Helm	100	1		0	1	131	85	uhl	Giant Conch			3	5000	cred			dclonehelm				pierce-phys		10	15	lifesteal		5	8	ac		460	680	str		20	20	enr		-30	-30	vit		15	15	dex		15	15	curse-effectiveness		-30	-30																	0
@@ -429,7 +429,7 @@ Brimstone Rain	100	1		1	1	87	80	6bs	Shillelah			5	5000	dred			brimstonerain				c
 Akarats Devotion	100	1		1	1	87	74	7qs	Seraph Rod			5	5000	whit			akaratdevotion				pal		2	2	dmg%		240	270	swing2		40	40	skill	112	3	4	mag%		25	25	regen		10	15	cast-skill	112	25	35																	splash	358	100	1	0
 Martyr	100	1		1	1	87	68	ned	Overseer Skull			5	5000	lgld			martyrdom				nec		2	3	ac%		160	200	balance2		35	35	curse-effectiveness		20	30	skill	73	2	2	dmg-pois	50	1538	1793	red-mag		18	24	hit-skill	68	15	35	block		35	35													0
 Stalkers Cull	100	1		1	1	87	65	7tw	Runic Talons			5	5000	dgry			stalkerscull				dmg%		280	330	ass		2	2	kick		30	40	deadly		20	30	skill	275	2	2	skill	254	3	4	dragonflight-reduction		13	13																	splash	358	100	1	0
-Purgatory	100	1		1	1	87	75	utp	Archon Plate			3	5000	cred			purgatory				block		20	20	block2		20	20	red-mag		16	24	dmg%/eth		60	60	mag%		40	65	rep-dur	25			ac%		220	260																					0
+Purgatory	100	1		1	1	87	75	utp	Archon Plate			3	5000	cred			purgatory				block		20	20	block2		20	20	red-mag		16	24	dmg%/eth		60	60	mag%		40	65	indestruct		1	1	ac%		220	260	ethereal		1	1																	0
 Raekors Virtue	100	1		1	1	87	78	baf	Guardian Crown			5	5000	lgld			raekorsvirtue				bar		2	2	skill	147	3	4	ac%		140	180	skill	133	3	4	manasteal		2	5	dex		15	25	maxcurse		1	1	curse-effectiveness		20	20	light		4	4													0
 Nightmares Feast	100	1		1	1	50	42	drf	Dream Spirit			5	5000	cred			nightmarefeast				noheal		1	1	skilltab	16	2	4	ac%		130	160	balance2		40	40	hp%		20	30	regen		-30	-30	splash%/missinghp%		1	1	lifesteal-cap		35	35																	0
 Zhar the Mad Map	100	1		0	1	80	80	t51	t51			5	5000				invmapzhar				map-glob-density		125	175	map-play-addxp		10	20	map-play-mag-gold%		50	100	map-mon-dropcharms		4	6	map-mon-hp%		20	30	map-mon-phys-as-extra-pois	125	50	100	map-play-res-all		-10	-10	map-play-regen		-100	-50	map-play-balance1		-30	-20	map-glob-boss-dropskillers		1	1									0
