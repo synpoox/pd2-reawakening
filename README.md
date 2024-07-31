@@ -2,7 +2,7 @@
 
 Forked from [PD2SPPlus](https://github.com/Lukaszpg/PD2-Single-Player-Plus-mod)
 
-### [9.0 Patch Notes](https://docs.google.com/document/d/e/2PACX-1vTqp7Uys-XhuvmhnynkNjRt2Z8e0DdEXGOJ66JhgRUDMajI9jWIxw5va9pukdOU_xotWZzO-_zdPdah/pub)
+### [Patch Notes](https://docs.google.com/document/d/e/2PACX-1vTqp7Uys-XhuvmhnynkNjRt2Z8e0DdEXGOJ66JhgRUDMajI9jWIxw5va9pukdOU_xotWZzO-_zdPdah/pub)
 
 ## Installation
 If you've played PlugY or any other PD2 single player mod, your current characters/stash will likely be incompatible.
