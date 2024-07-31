@@ -439,7 +439,8 @@ Cyclopean Roar	100	1		1	1	34	28	ba6	Jawbone Visor			3	5000	lgld			Cyclopean				a
 Fallen Gardens Map	100	1		0	1	80	80	t53	t53			5	5000				invmapfallengardens				map-glob-density		125	175	map-play-addxp		15	25	map-play-mag-gold%		100	200	map-mon-dropjewels		2	2	map-mon-hp%		10	30	map-mon-phys-as-extra-ltng		50	100	map-mon-deadlystrike		10	20	map-mon-regen		50	100	map-glob-boss-dropfacet		1	1													0
 Uldyssian's Awakening	100	1		1	1	80	74	7st	Ghost Spear			5	5000	dgry			invuldyssian				dmg%		230	270	mindmg/energy		4	4	equipped-skill	Energy Shield SelfAura	28	30	swing2		40	40	manasteal		10	14	mana/lvl		60	60	hp%		-10	-10	dmg-to-mana		55	55	light		8	8	es-efficiency		20	20					splash	358	100	1	0
 Leoric's Mithril Blade	100	1		1	1	78	72	7cm	Highland Blade			5	5000	dgry			invhighlander				pal		2	2	dmg%		240	300	swing2		20	20	joust-reduction		13	13	crush		33	33	reanimate	440	8	8	lifesteal		5	8	dmg-und/lvl	20															splash	358	100	1	0
-Cain's Wisdom	100	1		1	1	99	75	cm1	charm			3	5000			flpmss	invcnws	item_gem	12	item_gem	addxp		150	200																																													0
+Cain's Wisdom	100	0		1	1	99	75	cm1	charm			3	5000			flpmss	invcnws	item_gem	12	item_gem	addxp		150	200																																													0
+Larzuk's Legacy	100	1		1	1	75	70	cm3	charm			3	5000	blac							cast2		1	15	swing2		1	15	move2		5	25	addxp		25	50																																	0
 Legacy Items																																																																					0
 Harlequin Crest	100	1		1	1	69	62	uapl	Shako			3	5000	cgrn	cgrn						allskills		2	2	ac%		100	100	indestruct		1	1	hp%		40	40	mag%		50	50																													0
 Arkaine's Valor	100	1		1	1	85	85	upll	Balrog Skin			3	5000	lred			arkaines				ac%		200	200	balance2		30	30	allskills		2	2	indestruct		1	1	vit/lvl	20			hp/lvl	16			res-fire		50	50																					0
