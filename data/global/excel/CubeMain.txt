@@ -2377,6 +2377,20 @@ Perfect Topaz + Coin = 50 P. Topaz	1			100					2	gpy	ncoi,qty=1						gpys,qty=50
 Perfect Emerald + Coin = 50 P. Emerald	1			100					2	gpg	ncoi,qty=1						gpgs,qty=50																																																																																							0
 Perfect Diamond + Coin = 50 P. Diamond	1			100					2	gpw	ncoi,qty=1						gpws,qty=50																																																																																							0
 Perfect Skull + Coin = 50 P. Skull	1			100					2	skz	ncoi,qty=1						skzs,qty=50																																																																																							0
+																																																																																																								0
+ist + el -> 50 el	1			100					2	"r24s,qty=1"	"r01,qty=1"						"r01s,qty=50"																																																																																							0
+ist + eld -> 50 eld	1			100					2	"r24s,qty=1"	"r02,qty=1"						"r02s,qty=50"																																																																																							0
+ist + tir -> 50 tir	1			100					2	"r24s,qty=1"	"r03,qty=1"						"r03s,qty=50"																																																																																							0
+ist + nef -> 50 nef	1			100					2	"r24s,qty=1"	"r04,qty=1"						"r04s,qty=50"																																																																																							0
+ist + eth -> 50 eth	1			100					2	"r24s,qty=1"	"r05,qty=1"						"r05s,qty=50"																																																																																							0
+ist + ith -> 50 ith	1			100					2	"r24s,qty=1"	"r06,qty=1"						"r06s,qty=50"																																																																																							0
+ist + tal -> 50 tal	1			100					2	"r24s,qty=1"	"r07,qty=1"						"r07s,qty=50"																																																																																							0
+ist + ral -> 50 ral	1			100					2	"r24s,qty=1"	"r08,qty=1"						"r08s,qty=50"																																																																																							0
+ist + ort -> 50 ort	1			100					2	"r24s,qty=1"	"r09,qty=1"						"r09s,qty=50"																																																																																							0
+ist + thul -> 50 thul	1			100					2	"r24s,qty=1"	"r10,qty=1"						"r10s,qty=50"																																																																																							0
+ist + amn -> 50 amn	1			100					2	"r24s,qty=1"	"r11,qty=1"						"r11s,qty=50"																																																																																							0
+ist + sol -> 50 sol	1			100					2	"r24s,qty=1"	"r12,qty=1"						"r12s,qty=50"																																																																																							0
+																																																																																																								0
 goggly moogly																																																																																																								0
 RELIC OF THE NEPHALEM																																																																																																								0
 																																																																																																								0
