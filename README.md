@@ -6,7 +6,7 @@ Forked from [PD2SPPlus](https://github.com/Lukaszpg/PD2-Single-Player-Plus-mod)
 
 ## New Features
 - **Awakening**: A new system similar to corruption. Equipment and unique charms can be awakened when cubed with a Vial of Awakening, awakening it with a new property.
-- **Fate Cards:** Stackable uncommon drops, that when cubed together after a certain amount, is exchanged with a reward. Similar to Path of Exile’s [divination cards](https://pathofexile.fandom.com/wiki/Divination_card).
+- **Fate Cards:** Stackable uncommon drops, that upon collecting a certain amount, can be cubed together in exchange for a reward. Similar to Path of Exile’s [divination cards](https://pathofexile.fandom.com/wiki/Divination_card).
 - **Legacy Items**: Obtained through a rare drop Relic of the Nephalem, these legacy items are extremely powerful items from back in the good old days of patch 1.08.
 - **New Orbs**:
     - *Mythic Orb*: Converts non-ethereal item to unique
