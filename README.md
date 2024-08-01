@@ -2,6 +2,8 @@
 
 Forked from [PD2SPPlus](https://github.com/Lukaszpg/PD2-Single-Player-Plus-mod)
 
+### [Full Patch Notes](https://docs.google.com/document/d/e/2PACX-1vTqp7Uys-XhuvmhnynkNjRt2Z8e0DdEXGOJ66JhgRUDMajI9jWIxw5va9pukdOU_xotWZzO-_zdPdah/pub)
+
 ## New Features
 - **Awakening**: A new system similar to corruption. Equipment and unique charms can be awakened when cubed with a Vial of Awakening, awakening it with a new property.
 - **Fate Cards:** Stackable uncommon drops, that when cubed together after a certain amount, is exchanged with a reward. Similar to Path of Exile’s [divination cards](https://pathofexile.fandom.com/wiki/Divination_card).
@@ -16,8 +18,6 @@ Forked from [PD2SPPlus](https://github.com/Lukaszpg/PD2-Single-Player-Plus-mod)
 ### Relive some of the nostalgic moments of 1.08 with the modern features of Project Diablo 2.
 
 ![alt text](PoHIVHh.png)
-
-### [Full Patch Notes](https://docs.google.com/document/d/e/2PACX-1vTqp7Uys-XhuvmhnynkNjRt2Z8e0DdEXGOJ66JhgRUDMajI9jWIxw5va9pukdOU_xotWZzO-_zdPdah/pub)
 
 ## Installation
 If you've played PlugY or any other PD2 single player mod, your current characters/stash will likely be incompatible.
