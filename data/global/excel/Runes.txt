@@ -87,7 +87,7 @@ Runeword21	Deception																																															0
 Runeword23	Desire																																															0
 Runeword24	Despair																																															0
 Runeword32	Destiny's Daughter																																															0
-Runeword25	Destruction	1		pole	swor	spea							VexLoBerJahKo	r26	r28	r30	r31	r18		dmg%		300	300	swing2		30	40	hit-skill	Molten Boulder	8	35	hit-skill	Meteor	15	45	att-skill	Nova	15	40	hit-skill	Frost Nova	20	35					0
+Runeword25	Destruction	1		pole	swor	spea	miss	axe					VexLoBerJahKo	r26	r28	r30	r31	r18		dmg%		300	300	swing2		30	40	hit-skill	Molten Boulder	18	35	hit-skill	Meteor	25	45	att-skill	Nova	25	40	hit-skill	Frost Nova	30	35					0
 Runeword27	Dragon	1		tors	shld								SurLoSol	r29	r28	r12				ac		360	360	ac-miss		230	230	str/lvl	3			hit-skill	Hydra	12	28	gethit-skill	Venom	20	18	aura	Holy Fire	12	12	extra-hydra		1	1	0
 Runeword28	Dread																																															0
 Runeword29	Dream	1		helm	shld								IoJahPul	r16	r31	r21				ac		150	220	gethit-skill	Confuse	10	15	mana/lvl	5			res-all		10	20	balance3		20	30	aura	Holy Shock	13	13	mag%		20	30	0
@@ -186,6 +186,6 @@ Asylum	Asylum	1		hamm	pole	spea	miss	2hsw	swor				GulChamTirJahDolUm	r25	r32	r15
 Asylum Staff	Asylum	1		staf									GulChamHelJahDolUm	r25	r32	r15	r31	r14	r22	dmg%		265	315	dex		20	20	allskills		2	2	openwounds		20	20	aura	Sanctuary	17	20	gold%		100	100	cast-skill	121	25	40	0
 Revenge	Revenge			sc9									LoHelZodAmn	r28	r15	r33	r11			dmg%		250	300	red-dmg		18	18	swing2		60	60	skill	68	6	8	balance2		60	60	poisskill		4	4	dmg-pois	50	28672	28672	0
 Runeword41	Fortitude	1		weap									ElSolDolLo	r01	r12	r14	r28			ac%		200	200	dmg%		300	350	swing2		25	25	dmg-to-mana		12	12	hp/lvl		8	12	res-all		25	30					0
-Runeword25	Destruction	1		staf									VexLoBerJahKo	r26	r28	r30	r31	r18		dmg%		300	300	swing2		30	40	cast-skill	Molten Boulder	8	35	cast-skill	Meteor	15	45	cast-skill	Nova	15	40	cast-skill	Frost Nova	20	35					0
+Runeword25	Destruction	1		staf									VexLoBerJahKo	r26	r28	r30	r31	r18		dmg%		300	300	swing2		30	40	cast-skill	Molten Boulder	18	35	cast-skill	Meteor	25	45	cast-skill	Nova	25	40	cast-skill	Frost Nova	30	35					0
 Hustle	Hustle	1		tors									ShaelKoEld	r13	r18	r02				equipped-skill	Quickness SelfAura	6	6	swing2		20	20	stamdrain		35	35	res-all		10	10	half-freeze		1	1									0
 Obsession Sword	Obsession	1		swor									ZodIstLemLumIoNef	r33	r24	r20	r17	r16	r04	allskills		3	3	cast2		45	45	cast-skill	Weaken	24	18	hp%		15	25	res-all		30	40	balance2		30	30	regen-mana		15	30	0
