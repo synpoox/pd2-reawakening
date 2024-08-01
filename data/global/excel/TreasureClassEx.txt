@@ -224,7 +224,7 @@ Act 4 (H) Magic B	4	80	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic A	4	82	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic B	4	83	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic C	4	85	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Orbs			1					0	dvo	98	mfo	98	dvia	299	rotf	5																0
+Orbs			1					0	dvo	97	mfo	97	dvia	296	rotf	10																0
 Fate Common A			1					0	fslr	1	fslu	1	fsat	1	fsus	1	fsrb	1	fsla	1	fsht	1	fstm	1	fsar	1						0
 Fate Common B			1					0	fsms	1	fscf	1	fsed	1	fscs	1	fsta	1	fsts	1	fstf	1	fshs	1	fstw	1						0
 Fate Common C			1					0	fsbl	1	fssf	1	fsse	1	fsew	1	fssg	1	fsuf	1	fsmw	1	fsap	1	fsem	1						0
