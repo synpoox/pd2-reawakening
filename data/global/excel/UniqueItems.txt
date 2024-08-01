@@ -452,5 +452,5 @@ Siggard's Stealth	100	1		1	1	68	51	uvcl	vampirefang belt			5	5000								allskil
 Snatchii's Steelclash	100	1		1	1	23	17	mgll	Chain Gloves			5	5000	blac			invkitu				pal		1	1	block		25	25	block1		20	20	ac%		75	75	ac		20	20	res-all		15	15	red-dmg		3	3	light		3	3																	0
 Wizardspike	100	1		1	1	69	61	tgll	Light Gauntlets			5	5000	lgry	lgry						mana/lvl	16			regen-mana		15	15	mana%		15	15	res-all		75	75	indestruct		1	1	cast3		50	50																									0
 Occy Soj	100	1		1	1	39	29	rin	Ring			5	5000								sor		3	3	gethit-skill	54	25	1	res-all		20	20	cast2		30	30	ac%		20	20	vit		20	20	enr		20	20	mana-kill		5	5	mag%		50	50													0
-Izual's Redemption	100	1		1	1	87	77	ult	Hellforge Plate			3	5000	lblu	lblu						allskills		2	2	oskill	364	2	2	cast2		25	25	mana		200	200	extra-magi		20	25	cast-skill	364	11	22	abs-cold%		2	3	res-cold		20	30	ease		-30	-30	indestruct		1	1									0
-Veil of Light	100	1		1	1	87	74	pab	Sacred Targe			3	5000	bwht	bwht						pal		2	2	cast2		25	25	aura	Sanctuary	12	15	extra-ltng		12	15	extra-magi		12	15	skill	364	2	2	res-all		15	20	abs-mag		5	8																	0
+Izual's Redemption	100	1		1	1	87	77	ult	Hellforge Plate			3	5000	lblu	lblu						allskills		2	2	oskill	364	2	2	cast2		25	25	mana		200	200	extra-magi		20	25	aura	Sanctuary	12	15	abs-cold%		2	3	res-cold		20	30	ease		-30	-30	indestruct		1	1									0
+Veil of Light	100	1		1	1	87	74	pab	Sacred Targe			3	5000	bwht	bwht						pal		2	2	cast2		25	25	cast-skill	364	13	24	extra-ltng		5	10	extra-magi		30	35	skill	364	2	2	res-all		10	15	abs-mag		5	8																	0

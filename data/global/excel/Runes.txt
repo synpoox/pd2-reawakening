@@ -188,4 +188,4 @@ Revenge	Revenge			sc9									LoHelZodAmn	r28	r15	r33	r11			dmg%		250	300	red-dm
 Runeword41	Fortitude	1		weap									ElSolDolLo	r01	r12	r14	r28			ac%		200	200	dmg%		300	350	swing2		25	25	dmg-to-mana		12	12	hp/lvl		8	12	res-all		25	30					0
 Runeword25	Destruction	1		staf									VexLoBerJahKo	r26	r28	r30	r31	r18		dmg%		300	300	swing2		30	40	cast-skill	Molten Boulder	8	35	cast-skill	Meteor	15	45	cast-skill	Nova	15	40	cast-skill	Frost Nova	20	35					0
 Hustle	Hustle	1		tors									ShaelKoEld	r13	r18	r02				equipped-skill	Quickness SelfAura	6	6	swing2		20	20	stamdrain		35	35	res-all		10	10	half-freeze		1	1									0
-Obsession2	Obsession	1		swor									ZodIstLemLumIoNef	r33	r24	r20	r17	r16	r04	allskills		3	3	cast2		45	45	cast-skill	Weaken	24	18	hp%		15	25	res-all		30	40	balance2		30	30	regen-mana		15	30	0
+Obsession Sword	Obsession	1		swor									ZodIstLemLumIoNef	r33	r24	r20	r17	r16	r04	allskills		3	3	cast2		45	45	cast-skill	Weaken	24	18	hp%		15	25	res-all		30	40	balance2		30	30	regen-mana		15	30	0
