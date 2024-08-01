@@ -441,6 +441,7 @@ Uldyssian's Awakening	100	1		1	1	80	74	7st	Ghost Spear			5	5000	dgry			invuldyss
 Leoric's Mithril Blade	100	1		1	1	78	72	7cm	Highland Blade			5	5000	dgry			invhighlander				pal		2	2	dmg%		240	300	swing2		20	20	joust-reduction		13	13	crush		33	33	reanimate	440	8	8	lifesteal		5	8	dmg-und/lvl	20															splash	358	100	1	0
 Cain's Wisdom	100	0		1	1	99	75	cm1	charm			3	5000			flpmss	invcnws	item_gem	12	item_gem	addxp		150	200																																													0
 Larzuk's Legacy	100	1		1	1	75	70	cm3	charm			3	5000	blac							cast2		1	15	swing2		1	15	move2		5	25	addxp		25	50																																	0
+Izual's Redemption	100	1		1	1	87	77	ult	Hellforge Plate			3	5000	lblu	lblu						allskills		2	2	oskill	364	2	2	cast2		25	25	mana		200	200	extra-magi		20	25	cast-skill	364	11	22	abs-cold%		2	3	res-cold		20	30	ease		-30	-30	indestruct		1	1									0
 Legacy Items																																																																					0
 Harlequin Crest	100	1		1	1	69	62	uapl	Shako			3	5000	cgrn	cgrn						allskills		2	2	ac%		100	100	indestruct		1	1	hp%		40	40	mag%		50	50																													0
 Arkaine's Valor	100	1		1	1	85	85	upll	Balrog Skin			3	5000	lred	lred						ac%		200	200	balance2		30	30	allskills		2	2	indestruct		1	1	vit/lvl	20			hp/lvl	16			res-fire		50	50																					0
