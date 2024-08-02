@@ -14,6 +14,7 @@ Forked from [PD2SPPlus](https://github.com/Lukaszpg/PD2-Single-Player-Plus-mod)
     - *Coin*: Gold sink purchasable from Akara, hover over item to see recipes
 - **Rune Downgrading**: Runes are downgradable in a 1:1 ratio with cube recipe: key + unstacked rune. Runes above Ist require a Coin in the cube recipe.
 - **Item Changes**: Introducing new uniques, new runewords, and updating old ones to bring them back into play
+- **Circlet Crafting**: New cube recipes to craft +2 to Class skill Circlets
 
 ### Relive some of the nostalgic moments of 1.08 with the modern features of Project Diablo 2.
 
