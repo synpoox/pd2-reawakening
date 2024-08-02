@@ -16,7 +16,7 @@ Forked from [PD2SPPlus](https://github.com/Lukaszpg/PD2-Single-Player-Plus-mod)
 - **Item Changes**: Introducing new uniques, new runewords, and updating old ones to bring them back into play
 - **Circlet Crafting**: New cube recipes to craft +2 to Class skill Circlets
 
-### Relive some of the nostalgic moments of 1.08 with the modern features of Project Diablo 2.
+### Remember 08 Arkaine's? This is him now
 
 ![alt text](PoHIVHh.png)
 
