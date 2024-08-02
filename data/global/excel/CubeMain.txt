@@ -465,8 +465,8 @@ armor -> mana on kill	1	2		100	16	509	380		2	"tors"	"dvia,qty=1"						useitem			
 armor -> dual life/mana on kill	1	2		100	16	509	475		2	"tors"	"dvia,qty=1"						useitem			100	awaken	100		80	80	awakennum	100		1001	1001	heal-kill	100		3	5	mana-kill	100		3	5																																																																0
 armor -> fcr	1	2		100	16	509	570		2	"tors"	"dvia,qty=1"						useitem			100	awaken	100		40	40	awakennum	100		1001	1001	cast1	100		20	20																																																																					0
 armor -> ias	1	2		100	16	509	665		2	"tors"	"dvia,qty=1"						useitem			100	awaken	100		18	18	awakennum	100		1001	1001	swing1	100		20	20																																																																					0
-armor -> level 30 energy shield when equipped	1	2		100	16	509	760		2	"tors"	"dvia,qty=1"						useitem			100	awaken	100		58	58	awakennum	100		1001	1001	equipped-skill	100	554	30	30																																																																					0
-armor -> level 40 energy shield when equipped	1	2		100	16	509	790		2	"tors"	"dvia,qty=1"						useitem			100	awaken	100		58	58	awakennum	100		1001	1001	equipped-skill	100	554	40	40																																																																					0
+armor -> level 30 energy shield	1	2		100	16	509	760		2	"tors"	"dvia,qty=1"						useitem			100	awaken	100		47	47	awakennum	100		1001	1001	oskill	100	58	30	30	es-efficiency	100		20	20																																																																0
+armor -> level 40 energy shield	1	2		100	16	509	790		2	"tors"	"dvia,qty=1"						useitem			100	awaken	100		47	47	awakennum	100		1001	1001	oskill	100	58	40	40	es-efficiency	100		20	20																																																																0
 armor -> +2 ama	1	2		100	16	509	820		2	"tors"	"dvia,qty=1"						useitem			100	awaken	100		75	75	awakennum	100		1001	1001	ama	100		2	2																																																																					0
 armor -> +2 pal	1	2		100	16	509	850		2	"tors"	"dvia,qty=1"						useitem			100	awaken	100		75	75	awakennum	100		1001	1001	pal	100		2	2																																																																					0
 armor -> +2 nec	1	2		100	16	509	880		2	"tors"	"dvia,qty=1"						useitem			100	awaken	100		75	75	awakennum	100		1001	1001	nec	100		2	2																																																																					0
@@ -2343,7 +2343,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	1			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	0			100					1	"key,qty=1"							Veil of Light	99																												"dvia,qty=10"																																																										0
+generate (dev)	0			100					1	"key,qty=1"							Chaos Innoculation	99																												"dvia,qty=10"																																																										0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	99																																																																																						0
 3 of Luminescence -> Mara's Kaleidoscope	1			100					1	fslu,qty=3							Mara's Kaleidoscope	99																																																																																						0
 3 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=3							The Stone of Jordan	99																																																																																						0
