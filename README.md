@@ -1,6 +1,10 @@
 # PD2 SP Reawakening
 
-Forked from [PD2SPPlus](https://github.com/Lukaszpg/PD2-Single-Player-Plus-mod)
+Originally I just wanted to add some items to the game from 1.08, but after lurking in r/projectdiablo2 and the discord’s #feedback channel I decided to implement a bunch of things that I either agreed with or just straight up thought would be fun.
+
+Comments and feedback would be very appreciated, please comment or leave them in the [GitHub](https://github.com/synpoox/pd2-reawakening/issues) issues.
+
+Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Single-Player-Plus-mod)
 
 ### [Full Patch Notes](https://docs.google.com/document/d/e/2PACX-1vTqp7Uys-XhuvmhnynkNjRt2Z8e0DdEXGOJ66JhgRUDMajI9jWIxw5va9pukdOU_xotWZzO-_zdPdah/pub)
 
@@ -15,6 +19,9 @@ Forked from [PD2SPPlus](https://github.com/Lukaszpg/PD2-Single-Player-Plus-mod)
 - **Rune Downgrading**: Runes are downgradable in a 1:1 ratio with cube recipe: key + unstacked rune. Runes above Ist require a Coin in the cube recipe.
 - **Item Changes**: Introducing new uniques, new runewords, and updating old ones to bring them back into play
 - **Circlet Crafting**: New cube recipes to craft +2 to Class skill Circlets
+- **Drop Rate Increases**:
+    - Rune drops increased by 500%
+    - Drop rates increased across the board, see TreasureClassEx.txt for specifics or see [this](https://docs.google.com/spreadsheets/d/e/2PACX-1vSmG2BYE-c6W7l0ha8OcyEQROgDSKFtR99mWHuT9XM6OXW_f4ym87x-d5GrhlO37msQqxt2IJj_XRbF/pub?output=xlsx) for a short comparison
 
 ### Remember 08 Arkaine's? This is him now
 
