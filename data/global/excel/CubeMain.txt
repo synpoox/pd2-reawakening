@@ -1567,7 +1567,7 @@ rand boot	0			100					1	"key,qty=1"							"boot,uni"	99		100																				
 rand belt	0			100					1	"scou,qty=1"							"belt,uni"	99		100																																																																																				0
 rand shield	0			100					1	"upma,qty=1"							"shld,uni"	99		100																																																																																				0
 rand gloves	0			100					1	"key,qty=1"							"glov,uni"	99		100																																																																																				0
-rand ring	0			100					1	vps							"ring,uni"	99		100	awaken	100		25	25	allskills	100		1	1																"rin,uni"	99		100																										"rin,uni"	99		100																										0
+rand ring	0			100					1	vps							Hellfire Torch	99		100																																																																																				0
 rand amulet	0			100					1	"awst,qty=1"							"amul,uni"	99		100																										"amul,uni"	99		100																										"amul,uni"	99		100																										0
 phys charm	0			100					1	"isc,qty=1"							"cm3,mag"	95		100	dmg-max	100		6	9	att		30	60																	"cm3,mag"	95		100	dmg-max	100		6	9	att		30	60																	"cm3,mag"	95		100	dmg-max	100		6	9	att		30	60																	0
 skills charm	0			100					1	"key,qty=1"							"cm1,mag"	95		100	allskills	100		1	1																					"cm1,mag"	95		100	allskills	100		1	1																					"cm1,mag"	95		100	allskills	100		1	1																					0
@@ -2330,7 +2330,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	1			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	0			100					1	"key,qty=1"							Storm Circlet	99																												"dvia,qty=10"																																																										0
+generate (dev)	0			100					1	"key,qty=1"							"9sp,sock=3"	99																												"dvia,qty=10"																													Annihilus	99																												0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	99																																																																																						0
 3 of Luminescence -> Mara's Kaleidoscope	1			100					1	fslu,qty=3							Mara's Kaleidoscope	99																																																																																						0
 3 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=3							The Stone of Jordan	99																																																																																						0
