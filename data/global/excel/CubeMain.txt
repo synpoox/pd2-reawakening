@@ -2288,27 +2288,27 @@ rare circ + vial of awakening + rune 23 + p ruby -> ass ias circ	1			100					4	"
 																																																																																																								0
 DIVINE ORB																																																																																																								0
 																																																																																																								0
-Reroll unique non-ethereal no-socket armor values	1			100	18	361	0		2	armo,uni,noe,nos	"dvo,qty=1"						usetype,uni,noe	99																																																																																						0
-Reroll unique ethereal no-socket armor values	1			100	18	361	0		2	armo,uni,eth,nos	"dvo,qty=1"						usetype,uni,eth	99																																																																																						0
-Reroll unique non-ethereal no-socket weapon values	1			100	18	361	0		2	weap,uni,noe,nos	"dvo,qty=1"						usetype,uni,noe	99																																																																																						0
-Reroll unique ethereal no-socket weapon values	1			100	18	361	0		2	weap,uni,eth,nos	"dvo,qty=1"						usetype,uni,eth	99																																																																																						0
-Reroll set weapon no-socket values	1			100	18	361	0		2	weap,set,nos	"dvo,qty=1"						usetype,set	99																																																																																						0
-Reroll set armor no-socket values	1			100	18	361	0		2	armo,set,nos	"dvo,qty=1"						usetype,set	99																																																																																						0
-Reroll rainbow facet	1			100					2	jew,uni	"dvo,qty=1"						jew,uni	85																																																																																						0
-Reroll unique grand charm	1			100	18	509	0		2	"cm3,uni"	"dvo,qty=1"						"usetype,uni"			99																																																																																				0
+Reroll unique non-ethereal no-socket armor values	1			100	18	361	0		2	armo,uni,noe,nos	"dvo,qty=1"						usetype,uni,noe			100																																																																																				0
+Reroll unique ethereal no-socket armor values	1			100	18	361	0		2	armo,uni,eth,nos	"dvo,qty=1"						usetype,uni,eth			100																																																																																				0
+Reroll unique non-ethereal no-socket weapon values	1			100	18	361	0		2	weap,uni,noe,nos	"dvo,qty=1"						usetype,uni,noe			100																																																																																				0
+Reroll unique ethereal no-socket weapon values	1			100	18	361	0		2	weap,uni,eth,nos	"dvo,qty=1"						usetype,uni,eth			100																																																																																				0
+Reroll set weapon no-socket values	1			100	18	361	0		2	weap,set,nos	"dvo,qty=1"						usetype,set			100																																																																																				0
+Reroll set armor no-socket values	1			100	18	361	0		2	armo,set,nos	"dvo,qty=1"						usetype,set			100																																																																																				0
+Reroll rainbow facet	1			100					2	jew,uni	"dvo,qty=1"						jew,uni			100																																																																																				0
+Reroll unique grand charm	1			100	18	509	0		2	"cm3,uni"	"dvo,qty=1"						"usetype,uni"			100																																																																																				0
 																																																																																																								0
 MYTHIC ORB																																																																																																								0
 																																																																																																								0
-Convert normal quality non-ethereal armor to unique	1			100	18	361	0		2	armo,noe,nor	"mfo,qty=1"						usetype,uni,noe	99																																																																																						0
-Convert magic quality non-ethereal armor to unique	1			100	18	361	0		2	armo,noe,mag	"mfo,qty=1"						usetype,uni,noe	99																																																																																						0
-Convert rare quality non-ethereal armor to unique	1			100	18	361	0		2	armo,noe,rar	"mfo,qty=1"						usetype,uni,noe	99																																																																																						0
-Convert normal quality non-ethereal weapon to unique	1			100	18	361	0		2	weap,noe,nor	"mfo,qty=1"						usetype,uni,noe	99																																																																																						0
-Convert magic quality non-ethereal weapon to unique	1			100	18	361	0		2	weap,noe,mag	"mfo,qty=1"						usetype,uni,noe	99																																																																																						0
-Convert rare quality non-ethereal weapon to unique	1			100	18	361	0		2	weap,noe,rar	"mfo,qty=1"						usetype,uni,noe	99																																																																																						0
-Convert magic quality ring to unique	1			100	18	361	0		2	ring,mag	"mfo,qty=1"						usetype,uni,noe	99																																																																																						0
-Convert rare quality ring to unique	1			100	18	361	0		2	ring,rar	"mfo,qty=1"						usetype,uni,noe	99																																																																																						0
-Convert magic quality amulet to unique	1			100	18	361	0		2	amul,mag	"mfo,qty=1"						usetype,uni,noe	99																																																																																						0
-Convert rare quality amulet to unique	1			100	18	361	0		2	amul,rar	"mfo,qty=1"						usetype,uni,noe	99																																																																																						0
+Convert normal quality non-ethereal armor to unique	1			100	18	361	0		2	armo,noe,nor	"mfo,qty=1"						usetype,uni,noe			100																																																																																				0
+Convert magic quality non-ethereal armor to unique	1			100	18	361	0		2	armo,noe,mag	"mfo,qty=1"						usetype,uni,noe			100																																																																																				0
+Convert rare quality non-ethereal armor to unique	1			100	18	361	0		2	armo,noe,rar	"mfo,qty=1"						usetype,uni,noe			100																																																																																				0
+Convert normal quality non-ethereal weapon to unique	1			100	18	361	0		2	weap,noe,nor	"mfo,qty=1"						usetype,uni,noe			100																																																																																				0
+Convert magic quality non-ethereal weapon to unique	1			100	18	361	0		2	weap,noe,mag	"mfo,qty=1"						usetype,uni,noe			100																																																																																				0
+Convert rare quality non-ethereal weapon to unique	1			100	18	361	0		2	weap,noe,rar	"mfo,qty=1"						usetype,uni,noe			100																																																																																				0
+Convert magic quality ring to unique	1			100	18	361	0		2	ring,mag	"mfo,qty=1"						usetype,uni,noe			100																																																																																				0
+Convert rare quality ring to unique	1			100	18	361	0		2	ring,rar	"mfo,qty=1"						usetype,uni,noe			100																																																																																				0
+Convert magic quality amulet to unique	1			100	18	361	0		2	amul,mag	"mfo,qty=1"						usetype,uni,noe			100																																																																																				0
+Convert rare quality amulet to unique	1			100	18	361	0		2	amul,rar	"mfo,qty=1"						usetype,uni,noe			100																																																																																				0
 Mythic orb+ 15 jewel fragments = random rainbow facet	1			100					2	"mfo,qty=1"	"jewf,qty=15"						jew,uni	85																																																																																						0
 																																																																																																								0
 EXALTED ORB																																																																																																								0
@@ -2330,7 +2330,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	1			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	0			100					1	"key,qty=1"							Poison Inoculation	99																												"dvia,qty=10"																																																										0
+generate (dev)	0			100					1	"key,qty=1"							Storm Circlet	99																												"dvia,qty=10"																																																										0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	99																																																																																						0
 3 of Luminescence -> Mara's Kaleidoscope	1			100					1	fslu,qty=3							Mara's Kaleidoscope	99																																																																																						0
 3 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=3							The Stone of Jordan	99																																																																																						0
