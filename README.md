@@ -34,3 +34,19 @@ If you've played PlugY or any other PD2 single player mod, your current characte
 1. Copy and paste `pd2data.mpq` and `BH.dll` into your new PD2-PlugY install, overwriting any old files.
 1. Launch the game with `Plugy.exe`
 1. Go to Akara and look for an item with Alkor's quest potion. If it's there, then the mod was installed successfully.
+
+### Pastable Loot Filter Code
+This contains all the new item types (fate cards, new orbs, relic of the nephalem), stylized for Kryszard's filter.
+
+```
+//PD2 Single Player Reawakened
+ItemDisplay[awst OR mfo OR exo OR dvo OR dvia]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*%RED%*       %NAME%       %RED%*%PURPLE%*%GREEN%*
+//rare fate card
+ItemDisplay[fsha OR fsjp OR fsdi OR fsfr]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*%RED%*       %NAME%       %RED%*%PURPLE%*%GREEN%*
+//uncommon fate cards
+ItemDisplay[fsdg OR fsds OR fsdb OR fstc OR fspv OR  fslc OR fstl OR fsdw OR fsps OR fsbr]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*       %NAME%       %PURPLE%*%GREEN%*
+//common fate cards
+ItemDisplay[fslr OR fslu OR fsat OR fsus OR fsrb OR fstm OR fsdn OR fsht OR fsvi OR fscf OR fsgd OR fsed OR fscs OR fsta OR fsts OR fstf OR fshs OR fsar OR fstw OR fsms OR fsla]: %BORDER-0A%%DOT-62%*%PURPLE%      %NAME%      
+ItemDisplay[fsbl OR fssf OR fsse OR fsew OR fssg OR fsuf OR fsmw OR fsap OR fsem]: %BORDER-0A%%DOT-62%*%PURPLE%      %NAME%      
+//relic
+ItemDisplay[rotf]: %BORDER-68%%ORANGE%pick %PURPLE%*%RED%*%YELLOW%*%GREEN%*     %NAME%     %GREEN%*%YELLOW%*%RED%*%PURPLE%* %ORANGE%up```
