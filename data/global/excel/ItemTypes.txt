@@ -1,7 +1,7 @@
 ItemType	Code	Equiv1	Equiv2	Repair	Body	BodyLoc1	BodyLoc2	Shoots	Quiver	Throwable	Reload	ReEquip	AutoStack	Magic	Rare	Normal	Charm	Gem	Beltable	MaxSock1	MaxSock25	MaxSock40	TreasureClass	Rarity	StaffMods	CostFormula	Class	VarInvGfx	InvGfx1	InvGfx2	InvGfx3	InvGfx4	InvGfx5	InvGfx6	StorePage	*eol
 None				0	0					0	0	0	0			0	0	0	0	0	0	0	0	3		0		0								0
 None				0	0					0	0	0	0			0	0	0	0	0	0	0	0	3		0		0								0
-Shield	shie	shld		1	1	rarm	larm			0	0	0	0		1	0	0	0	0	3	3	4	0	3		1		0							armo	0
+Shield	shie	shld		1	1	rarm	larm			0	0	0	0		1	0	0	0	0	3	3	6	0	3		1		0							armo	0
 Armor	tors	armo		1	1	tors	tors			0	0	0	0		1	0	0	0	0	3	4	6	0	3		1		0							armo	0
 Gold	gold	misc		0	0					0	0	0	0			1	0	0	0	0	0	0	0	3		0		0								0
 Bow Quiver	bowq	misl		0	1	rarm	larm		bow	0	0	0	0		1	0	0	0	0	0	0	0	0	3		0		0							misc	0
