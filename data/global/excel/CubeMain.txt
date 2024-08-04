@@ -2331,10 +2331,10 @@ Convert rare quality ring to set piece	1			100	18	361	0		2	ring,rar	"exo,qty=1"	
 CAIN'S WISDOM																																																																																																								0
 																																																																																																								0
 Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm1			Cain's Wisdom	99																																																																																						0
-Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	1			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
+Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	1			100					1	"key,qty=1"							urg	99																												"jew,uni"	99																												"jew,uni"	99																												0
+generate (dev)	1			100					1	"key,qty=1"							Dragonscale	99																												"jew,uni"	99																												"jew,uni"	99																												0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	99																																																																																						0
 3 of Luminescence -> Mara's Kaleidoscope	1			100					1	fslu,qty=3							Mara's Kaleidoscope	99																																																																																						0
 3 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=3							The Stone of Jordan	99																																																																																						0
@@ -2434,6 +2434,9 @@ Perfect Topaz + Ist = 50 P. Topaz	1			100					2	"r24g,qty=1"	"gg4t,qty=1"						g
 Perfect Emerald + Coin = 50 P. Emerald	1			100					2	"r24g,qty=1"	"gg4e,qty=1"						gpgs,qty=50																																																																																							0
 Perfect Diamond + Coin = 50 P. Diamond	1			100					2	"r24g,qty=1"	"gg4d,qty=1"						gpws,qty=50																																																																																							0
 Perfect Skull + Coin = 50 P. Skull	1			100					2	"r24g,qty=1"	"gg4z,qty=1"						skzs,qty=50																																																																																							0
+vex + jewel + coin -> 10 vial of awakening	1			100					3	"r26g,qty=1"	"jewg,qty=1"	"ncoi,qty=1"					"dvia,qty=10"																																																																																							0
+Lo + jewel + coin -> 10 divine orbs	0			100					3	"r28g,qty=1"	"jewg,qty=1"	"ncoi,qty=1"					"dvo,qty=10"																																																																																							0
+sur + jewel + coin -> 10 mythic orbs	0			100					3	"r29g,qty=1"	"jewg,qty=1"	"ncoi,qty=1"					"mfo,qty=10"																																																																																							0
 																																																																																																								0
 ist + el -> 50 el	1			100					2	"r24s,qty=1"	"r01,qty=1"						"r01s,qty=50"																																																																																							0
 ist + eld -> 50 eld	1			100					2	"r24s,qty=1"	"r02,qty=1"						"r02s,qty=50"																																																																																							0
