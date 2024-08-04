@@ -16,9 +16,8 @@ Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Si
     - *Mythic Orb*: Converts non-ethereal item to unique (excluding charms)
     - *Divine Orb*: Rerolls unique item, limited to: equipment, jewelry, grand charms
     - *Coin*: Gold sink purchasable from Akara, hover over item to see recipes
-- **Rune Downgrading**: Runes are downgradable in a 1:1 ratio with cube recipe: key + unstacked rune. Runes above Ist require a Coin in the cube recipe.
 - **Item Changes**: Introducing new uniques, new runewords, and updating old ones to bring them back into play
-- **Circlet Crafting**: New cube recipes to craft +2 to Class skill Circlets
+- **New Cube Recipes**: +2 class skill Circlet crafting, rune downgrading, and more.
 - **Drop Rate Increases**:
     - Rune drops increased by 500%
     - Drop rates increased across the board, see TreasureClassEx.txt for specifics or see [this](https://docs.google.com/spreadsheets/d/e/2PACX-1vSmG2BYE-c6W7l0ha8OcyEQROgDSKFtR99mWHuT9XM6OXW_f4ym87x-d5GrhlO37msQqxt2IJj_XRbF/pubhtml) for a short comparison

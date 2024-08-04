@@ -2294,7 +2294,7 @@ Reroll unique non-ethereal no-socket weapon values	1			100	18	361	0		2	weap,uni,
 Reroll unique ethereal no-socket weapon values	1			100	18	361	0		2	weap,uni,eth,nos	"dvo,qty=1"						usetype,uni,eth			100																																																																																				0
 Reroll set weapon no-socket values	1			100	18	361	0		2	weap,set,nos	"dvo,qty=1"						usetype,set			100																																																																																				0
 Reroll set armor no-socket values	1			100	18	361	0		2	armo,set,nos	"dvo,qty=1"						usetype,set			100																																																																																				0
-Reroll rainbow facet	1			100					2	jew,uni	"dvo,qty=1"						jew,uni			100																																																																																				0
+Reroll unique jewel	1			100					2	jew,uni	"dvo,qty=1"						jew,uni			100																																																																																				0
 Reroll unique grand charm	1			100	18	509	0		2	"cm3,uni"	"dvo,qty=1"						"usetype,uni"			100																																																																																				0
 																																																																																																								0
 MYTHIC ORB																																																																																																								0
@@ -2309,7 +2309,7 @@ Convert magic quality ring to unique	1			100	18	361	0		2	ring,mag	"mfo,qty=1"			
 Convert rare quality ring to unique	1			100	18	361	0		2	ring,rar	"mfo,qty=1"						usetype,uni,noe			100																																																																																				0
 Convert magic quality amulet to unique	1			100	18	361	0		2	amul,mag	"mfo,qty=1"						usetype,uni,noe			100																																																																																				0
 Convert rare quality amulet to unique	1			100	18	361	0		2	amul,rar	"mfo,qty=1"						usetype,uni,noe			100																																																																																				0
-Mythic orb+ 15 jewel fragments = random rainbow facet	1			100					2	"mfo,qty=1"	"jewf,qty=15"						jew,uni	85																																																																																						0
+Mythic orb+ 15 jewel fragments = random unique jewel	1			100					2	"mfo,qty=1"	"jewf,qty=15"						jew,uni	85																																																																																						0
 																																																																																																								0
 EXALTED ORB																																																																																																								0
 																																																																																																								0
@@ -2330,7 +2330,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	1			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	0			100					1	"key,qty=1"							"9sp,sock=3"	99																												"dvia,qty=10"																													Annihilus	99																												0
+generate (dev)	1			100					1	"key,qty=1"							"jew,uni"	99																												"jew,uni"	99																												"jew,uni"	99																												0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	99																																																																																						0
 3 of Luminescence -> Mara's Kaleidoscope	1			100					1	fslu,qty=3							Mara's Kaleidoscope	99																																																																																						0
 3 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=3							The Stone of Jordan	99																																																																																						0
@@ -2410,26 +2410,26 @@ r25 downgrade gul -> ist	1			100					2	ncoi,qty=1	"r25,qty=1"						"r24s,qty=1"	
 r26 downgrade vex -> gul	1			100					2	ncoi,qty=1	"r26,qty=1"						"r25s,qty=1"																																																																																							0
 r27 downgrade ohm -> vex	1			100					2	ncoi,qty=1	"r27,qty=1"						"r26s,qty=1"																																																																																							0
 r28 downgrade lo -> ohm	1			100					2	ncoi,qty=1	"r28,qty=1"						"r27s,qty=1"																																																																																							0
-r29 downgrade sur -> lo	1			100					2	ncoi,qty=2	"r29,qty=1"						"r28s,qty=1"																																																																																							0
-r30 downgrade ber -> sur	1			100					2	ncoi,qty=2	"r30,qty=1"						"r29s,qty=1"																																																																																							0
-r31 downgrade jah -> ber	1			100					2	ncoi,qty=2	"r31,qty=1"						"r30s,qty=1"																																																																																							0
-r32 downgrade cham -> jah	1			100					2	ncoi,qty=2	"r32,qty=1"						"r31s,qty=1"																																																																																							0
-r33 downgrade zod -> cham	1			100					2	ncoi,qty=3	"r33,qty=1"						"r32s,qty=1"																																																																																							0
+r29 downgrade sur -> lo	1			100					2	ncoi,qty=1	"r29,qty=1"						"r28s,qty=1"																																																																																							0
+r30 downgrade ber -> sur	1			100					2	ncoi,qty=1	"r30,qty=1"						"r29s,qty=1"																																																																																							0
+r31 downgrade jah -> ber	1			100					2	ncoi,qty=1	"r31,qty=1"						"r30s,qty=1"																																																																																							0
+r32 downgrade cham -> jah	1			100					2	ncoi,qty=1	"r32,qty=1"						"r31s,qty=1"																																																																																							0
+r33 downgrade zod -> cham	1			100					2	ncoi,qty=1	"r33,qty=1"						"r32s,qty=1"																																																																																							0
 																																																																																																								0
 EXCHANGES																																																																																																								0
-3x LPP + Coin = Larzuk's Puzzle Box	1			100					2	lpp,qty=3	ncoi,qty=1						lbox																																																																																							0
-Larzuk's Puzzle Box + Coin = Vex	1			100					2	lbox,qty=1	ncoi,qty=1						"r26s,qty=1"																																																																																							0
-LPP + Coin = Mal	1			100					2	lpp,qty=1	ncoi,qty=1						"r23s,qty=1"																																																																																							0
-Catalyst Shard + Coin = 2x catalyst shard	1			100					2	iwss,qty=1	ncoi,qty=1						iwss																													iwss																																																										0
-Lilith's Mirror + 4x Coin = 4x Ber	1			100					2	llmr	ncoi,qty=4						r30s,qty=4																																																																																							0
-Vial of Lightsong + 2x Coin = 2x Ber	1			100					2	lsvl	ncoi,qty=2						r30s,qty=2																																																																																							0
-Perfect Amethyst + Coin = 50 P. Amethyst	1			100					2	gpv	ncoi,qty=1						gpvs,qty=50																																																																																							0
-Perfect Ruby + Coin = 50 P. Ruby	1			100					2	gpr	ncoi,qty=1						gprs,qty=50																																																																																							0
-Perfect Sapphire + Coin = 50 P. Sapphire	1			100					2	gpb	ncoi,qty=1						gpbs,qty=50																																																																																							0
-Perfect Topaz + Coin = 50 P. Topaz	1			100					2	gpy	ncoi,qty=1						gpys,qty=50																																																																																							0
-Perfect Emerald + Coin = 50 P. Emerald	1			100					2	gpg	ncoi,qty=1						gpgs,qty=50																																																																																							0
-Perfect Diamond + Coin = 50 P. Diamond	1			100					2	gpw	ncoi,qty=1						gpws,qty=50																																																																																							0
-Perfect Skull + Coin = 50 P. Skull	1			100					2	skz	ncoi,qty=1						skzs,qty=50																																																																																							0
+3x LPP + Coin = Larzuk's Puzzle Box	0			100					2	lpp,qty=3	ncoi,qty=1						lbox																																																																																							0
+Larzuk's Puzzle Box + Coin = Vex	0			100					2	lbox,qty=1	ncoi,qty=1						"r26s,qty=1"																																																																																							0
+LPP + Coin = Mal	0			100					2	lpp,qty=1	ncoi,qty=1						"r23s,qty=1"																																																																																							0
+Catalyst Shard + Coin = 2x catalyst shard	0			100					2	iwss,qty=1	ncoi,qty=1						iwss																													iwss																																																										0
+Lilith's Mirror + 4x Coin = 4x Ber	0			100					2	llmr	ncoi,qty=4						r30s,qty=4																																																																																							0
+Vial of Lightsong + 2x Coin = 2x Ber	0			100					2	lsvl	ncoi,qty=2						r30s,qty=2																																																																																							0
+Perfect Amethyst + Ist = 50 P. Amethyst	1			100					2	"r24g,qty=1"	"gg4a,qty=1"						gpvs,qty=50																																																																																							0
+Perfect Ruby + Ist = 50 P. Ruby	1			100					2	"r24g,qty=1"	"gg4r,qty=1"						gprs,qty=50																																																																																							0
+Perfect Sapphire + Ist = 50 P. Sapphire	1			100					2	"r24g,qty=1"	"gg4s,qty=1"						gpbs,qty=50																																																																																							0
+Perfect Topaz + Ist = 50 P. Topaz	1			100					2	"r24g,qty=1"	"gg4t,qty=1"						gpys,qty=50																																																																																							0
+Perfect Emerald + Coin = 50 P. Emerald	1			100					2	"r24g,qty=1"	"gg4e,qty=1"						gpgs,qty=50																																																																																							0
+Perfect Diamond + Coin = 50 P. Diamond	1			100					2	"r24g,qty=1"	"gg4d,qty=1"						gpws,qty=50																																																																																							0
+Perfect Skull + Coin = 50 P. Skull	1			100					2	"r24g,qty=1"	"gg4z,qty=1"						skzs,qty=50																																																																																							0
 																																																																																																								0
 ist + el -> 50 el	1			100					2	"r24s,qty=1"	"r01,qty=1"						"r01s,qty=50"																																																																																							0
 ist + eld -> 50 eld	1			100					2	"r24s,qty=1"	"r02,qty=1"						"r02s,qty=50"																																																																																							0
