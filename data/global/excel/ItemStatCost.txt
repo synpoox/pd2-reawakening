@@ -191,8 +191,8 @@ item_addskill_tab	188		1	3	6						1				11042	768	1024		10	0	3	0	16														
 openwounds_stack	189			5													1024		5	0	5	0																														0
 curse_slots	190			3													1024		3		3																															0
 item_skillonequip	191		1								1						1024		7	0	10	0	12																159	16	0	ModitemSkillOnEquip	ModitemSkillOnEquip									0
-unused192	192																1024		10	0																																0
-unused193	193																1024		10	0																																0
+combustion_reduction	192		1	5													1024		5		5																		240	9	2	CombustionReduc	CombustionReduc	NewSeconds								0
+holy_nova_reduction	193		1	5													1024		5		5																		240	9	2	HolyNovaReduc	HolyNovaReduc	NewSeconds								0
 item_numsockets	194		1	4											38	170	1024		4	0	4	0											1																			0
 item_skillonattack	195		1	7	16						1			2	190	256	1024		21	0	7	0	16											1	domeleeattack	20	domissileattack	20	160	15		ItemExpansiveChancX	ItemExpansiveChancX									0
 item_skillonkill	196		1	7	16						1			2	85	19	1024		21	0	7	0	16											1	kill	20			160	15		ModitemskonKill	ModitemskonKill									0
