@@ -109,7 +109,7 @@ Frostburn	0	1		1	1	39	29	hgl	Gauntlets			5	5000	dred	dred						ac		20	40	dmg-fir
 Hotspur	0	1		1	1	7	5	lbt	Leather Boots			5	5000	cred	cred						res-fire-max		5	10	hp		15	15	dmg-fire		3	6	ac		6	6	res-fire		45	45	ac%		10	20																									0
 Gorefoot	0	1		1	1	12	12	vbt	Heavy Boots			5	5000	dblu	dblu						bloody		3	5	move2		25	25	manasteal		2	4	leapspeed		20	30	ac%		20	30	skill	132	2	2																									0
 Treads of Cthon	0	1		1	1	20	15	mbt	Chain Boots			5	5000	lgrn	lgrn						move2		30	30	ac-miss		50	50	stamdrain		50	50	hp		10	30	ac		12	12	ac%		30	40	pierce		10	20																					0
-Goblin Toe	0	1		1	1	30	22	tbt	Light Plate Boots			5	5000	dgry	dgry						crush		15	25	red-dmg		3	5	red-mag		3	5	ac		15	15	move2		20	20	ac%		50	60	dmg%		20	30																					0
+Goblin Toe	0	1		1	1	30	22	tbt	Light Plate Boots			5	5000	lgry	lgry						crush		15	25	red-dmg		3	5	red-mag		3	5	ac		15	15	move2		20	20	ac%		50	60	dmg%		20	30																					0
 Tearhaunch	0	1		1	1	39	29	hbt	Plate Boots			5	5000	dgrn	dgrn						ac		35	35	str		5	10	dex		5	10	move2		20	20	res-all		10	10	ac%		60	80	skill	115	1	2	skilltab	11	2	2																	0
 Lenyms Cord	0	1		1	1	10	7	lbl	Sash			5	5000	cgrn	cgrn						mana		15	15	regen-mana		20	30	res-all		5	5	light		1	1	cast2		10	10																													0
 Snakecord	0	1		1	1	16	12	vbl	Light Belt			5	5000	blac	blac						extra-pois		4	6	res-pois		25	25	ac		10	10	ac%		20	30	regen		5	15	res-pois-len		50	50																									0
@@ -476,3 +476,4 @@ Split Personality	100	1		1	1	87	90	jew	jewel			3	5000								extra-golem		1	1			
 Split Personality	100	1		1	1	87	90	jew	jewel			3	5000								extra-shadow-warrior		1	1																																													0
 Split Personality	100	1		1	1	87	90	jew	jewel			3	5000								extra-shadow-master		1	1																																													0
 Unending Resolve	100	1		1	1	87	72	urgs	Hyperion			5	5000	lgry	lgry						sock		6	6	ac%		100	150																																									0
+Malthael's Shadow Steps	100	1		1	1	87	84	utb	Mirrored Boots			5	5000	blac	blac						balance2		60	60	move2		40	40	block2		20	20																																					0
