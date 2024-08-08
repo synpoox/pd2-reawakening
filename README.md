@@ -58,6 +58,9 @@ If you've played PlugY or any other PD2 single player mod, your current characte
 1. Toggle the checkbox to enable/disable Crafting League
 1. Press `Save`
 
+### **WARNING: Enabling Crafting league and logging into a character WILL delete ALL currently made runewords on THAT CHARACTER AND YOUR ENTIRE STASH**
+*Always make backups of your saves*
+
 ![alt text](VxDrwBe.png)
 
 #### Pastable Loot Filter Code
