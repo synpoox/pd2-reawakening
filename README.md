@@ -53,6 +53,13 @@ If you've played PlugY or any other PD2 single player mod, your current characte
 1. Launch the game with `Plugy.exe`
 1. Go to Akara and look for an item with Alkor's quest potion. If it's there, then the mod was installed successfully.
 
+#### Toggling Between Standard and Crafting
+1. Click the `Settings` button in the top left
+1. Toggle the checkbox to enable/disable Crafting League
+1. Press `Save`
+
+![alt text](VxDrwBe.png)
+
 #### Pastable Loot Filter Code
 
 This contains all the new item types (fate cards, new orbs, relic of the nephalem), stylized for Kryszard's filter.
