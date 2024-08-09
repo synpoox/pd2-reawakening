@@ -486,3 +486,4 @@ Malediction	100	1		1	1	87	66	rin	Ring			5	5000								maxcurse		1	1	curse-effect
 Malediction	100	1		1	1	87	66	rin	Ring			5	5000								maxcurse		1	1	curse-effectiveness		10	15	cast-skill	447	12	28	cast2		10	10																																	0
 Malediction	100	1		1	1	87	66	rin	Ring			5	5000								maxcurse		1	1	curse-effectiveness		10	15	att-skill	446	12	28	swing2		10	10																																	0
 Dreadweaver	100	1		1	1	87	70	neg	Hellspawn Skull			5	5000								nec		2	2	skilltab	7	2	2	extra-bonespear-teeth		4	5	cast2		20	20	res-pois		30	40	ac%		100	150	red-mag		15	20																					0
+Fleet Footwork	100	1		1	1	87	52	uea	Wyrmhide			5	5000	lgld	lgld						move2		100	100	oskill	29	1	1	sock		4	4	ac%		140	170																																	0
