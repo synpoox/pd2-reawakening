@@ -476,9 +476,13 @@ Split Personality	100	1		1	1	87	55	jew	jewel			3	5000								extra-golem		1	1			
 Split Personality	100	1		1	1	87	55	jew	jewel			3	5000								extra-shadow-warrior		1	1																																													0
 Split Personality	100	1		1	1	87	55	jew	jewel			3	5000								extra-shadow-master		1	1																																													0
 Unending Resolve	100	1		1	1	87	72	urgs	Hyperion			5	5000	lgry	lgry						sock		6	6	ac%		100	150																																									0
-Malthael's Shadow Steps	100	1		1	1	87	84	utb	Mirrored Boots			5	5000	blac	blac						balance2		60	60	move2		40	40	block2		20	20																																					0
+Malthael's Shadow Steps	100	1		1	1	87	68	utb	Mirrored Boots			5	5000	blac	blac						balance2		60	60	move2		40	40	block2		20	20																																					0
 Warbringer	100	1		1	1	87	80	uhc	Colossus Girdle			5	5000								allskills		1	1	dmg%		20	30	swing2		10	15	ac%		50	80	dmg-min		15	15	dmg-max		20	20	slow		5	10	regen		-50	-50																	0
 Worldshaper's Binding	100	1		1	1	87	75	utc	Troll Belt			5	5000								fireskill		2	2	res-fire		40	50	res-fire-max		5	5	ac%		150	200	regen		14	20	gethit-skill	376	4	25	hp%		2	5																					0
 Worldshaper's Binding	100	1		1	1	87	75	utc	Troll Belt			5	5000								magskill		2	2	curse-res		40	50	red-mag		12	17	ac%		150	200	curse-effectiveness		10	15	gethit-skill	84	4	34	mana%		2	5																					0
 Worldshaper's Binding	100	1		1	1	87	75	utc	Troll Belt			5	5000								poisskill		2	2	res-pois		40	50	res-pois-max		5	5	ac%		150	200	res-pois-len		20	30	gethit-skill	92	4	25	dex		8	15	str		8	15																	0
 Crown of the Faceless	100	1		1	1	87	90	ci1	Coronet			5	5000								allskills		1	1	ethereal		1	1	indestruct		1	1	randclassskill2		0	6	sock		3	3	move2		30	30	rip		1	1	ac		100	100	balance2		20	20	curse-effectiveness		10	10									0
+Malediction	100	1		1	1	87	66	rin	Ring			5	5000								maxcurse		1	1	curse-effectiveness		10	15	hit-skill	442	12	28	swing2		10	10																																	0
+Malediction	100	1		1	1	87	66	rin	Ring			5	5000								maxcurse		1	1	curse-effectiveness		10	15	cast-skill	447	12	28	cast2		10	10																																	0
+Malediction	100	1		1	1	87	66	rin	Ring			5	5000								maxcurse		1	1	curse-effectiveness		10	15	att-skill	446	12	28	swing2		10	10																																	0
+Dreadweaver	100	1		1	1	87	70	neg	Hellspawn Skull			5	5000								nec		2	2	skilltab	7	2	2	extra-bonespear-teeth		4	5	cast2		20	20	res-pois		30	40	ac%		100	150	red-mag		15	20																					0
