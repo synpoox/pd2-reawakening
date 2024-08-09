@@ -25,6 +25,7 @@ Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Si
 - **Crafting League Option**:
   - Uniques, sets, and runewords are disabled (Hellfire Torch/Annihilus are exceptions)
   - Mythic orbs, Divine orbs, and certain Fate Cards no longer drop
+  - Uber materials such as: Voidstone, Vision of Terror, Pandemonium Talisman are purchasable from Anya
   - Easily switch between Standard and Crafting modes through the PD2 Reawakening Launcher
 
 ### Remember 08 Arkaine's? This is him now
@@ -58,7 +59,7 @@ If you've played PlugY or any other PD2 single player mod, your current characte
 1. Toggle the checkbox to enable/disable Crafting League
 1. Press `Save`
 
-### **WARNING: Enabling Crafting league and logging into a character WILL delete ALL currently made runewords on THAT CHARACTER AND YOUR ENTIRE STASH**
+### **WARNING: Enabling Crafting league and logging into a character can sometimes cause runewords to be deleted from that character and your stash**
 *Always make backups of your saves*
 
 ![alt text](VxDrwBe.png)

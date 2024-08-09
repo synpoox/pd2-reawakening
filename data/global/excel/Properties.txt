@@ -433,5 +433,5 @@ extra-chainlightningsentry	1			1	extra_chainlightningsentry																					
 extra-lightningsentry	1			1	extra_lightningsentry																													430	0
 extra-shadow-warrior	1			1	extra_shadow_warrior																													431	0
 extra-shadow-master	1			1	extra_shadow_master																													432	0
-combustion-reduction	1			1	combustion_reduction																													433	0
+extra-bonespear-teeth	1			1	extra_bonespear_teeth																													433	0
 holy-nova-reduction	1			1	holy_nova_reduction																													434	0
