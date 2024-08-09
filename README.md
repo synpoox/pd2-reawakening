@@ -25,6 +25,7 @@ Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Si
 - **Crafting League Option**:
   - Uniques, sets, and runewords are disabled (Hellfire Torch/Annihilus are exceptions)
   - Mythic orbs, Divine orbs, and certain Fate Cards no longer drop
+  - Uber materials such as: Voidstone, Vision of Terror, Pandemonium Talisman are purchasable from Anya
   - Easily switch between Standard and Crafting modes through the PD2 Reawakening Launcher
 
 ### Remember 08 Arkaine's? This is him now
