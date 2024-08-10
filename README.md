@@ -6,7 +6,7 @@ Comments and feedback would be very appreciated, please comment or leave them in
 
 Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Single-Player-Plus-mod)
 
-### [Full Patch Notes](https://docs.google.com/document/d/e/2PACX-1vTqp7Uys-XhuvmhnynkNjRt2Z8e0DdEXGOJ66JhgRUDMajI9jWIxw5va9pukdOU_xotWZzO-_zdPdah/pub)
+**[Guidebook](https://docs.google.com/document/d/e/2PACX-1vTqp7Uys-XhuvmhnynkNjRt2Z8e0DdEXGOJ66JhgRUDMajI9jWIxw5va9pukdOU_xotWZzO-_zdPdah/pub) | [Latest Patch Notes (v0.9.50)](https://docs.google.com/document/d/e/2PACX-1vR3xhGhIwxdrRVN61iHjrbxtlYU7LoL5VRgSj3-CvpbupDvGJvtrW8ETOZIVkyVhShOjnQrVr7qix3x/pub)**
 
 ## New Features
 
@@ -23,7 +23,7 @@ Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Si
   - Rune drops increased by 500%
   - Drop rates increased across the board, see TreasureClassEx.txt for specifics or see [this](https://docs.google.com/spreadsheets/d/e/2PACX-1vSmG2BYE-c6W7l0ha8OcyEQROgDSKFtR99mWHuT9XM6OXW_f4ym87x-d5GrhlO37msQqxt2IJj_XRbF/pubhtml) for a short comparison
 - **Crafting League Option**:
-  - Uniques, sets, and runewords are disabled (Hellfire Torch/Annihilus are exceptions)
+  - Uniques, sets, and runewords are disabled (All unique charms are exceptions)
   - Mythic orbs, Divine orbs, and certain Fate Cards no longer drop
   - Uber materials such as: Voidstone, Vision of Terror, Pandemonium Talisman are purchasable from Anya
   - Easily switch between Standard and Crafting modes through the PD2 Reawakening Launcher
