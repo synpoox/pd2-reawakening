@@ -441,3 +441,4 @@ item-hiddenoskill	1			22	item_nonclassskill																													437	0
 item-magicmasteryperenergy	1			22	item_skillonequip			22	item_magicmasteryperenergy																									438	0
 item-convertmasterytomagic	1			22	item_skillonequip			22	item_convertmasterytomagic																									439	0
 item-physextramagic	1			22	item_skillonequip			22	item_physextramagic																									440	0
+item-elepierceaddmastery	1			22	item_skillonequip			22	item_elepierceaddmastery																									441	0

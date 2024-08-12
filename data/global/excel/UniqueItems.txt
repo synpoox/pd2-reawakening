@@ -456,7 +456,7 @@ Izual's Redemption	100	1		1	1	87	77	ult	Hellforge Plate			3	5000	lblu	lblu						
 Veil of Light	100	1		1	1	87	74	pab	Sacred Targe			3	5000	bwht	bwht						pal		2	2	cast2		15	15	cast-skill	364	15	24	extra-ltng		5	10	extra-magi		30	35	skill	364	2	2	abs-mag		6	9	balance2		25	25																	0
 Wraithgrip	100	1		1	1	87	69	ulg	Bramble Mitts			3	5000	blac	blac						extra-magi		10	15	cast2		20	20	gethit-skill	68	5	18	enr		5	10	abs-mag		2	3	ac		30	30	mana%		5	10																					0
 Poison Inoculation	100	1		1	1	87	82	cm3	charm			3	5000								oskill	Energy Shield	30	30	es-efficiency		20	20	res-pois-max		15	15	res-fire		-100	-100	res-ltng		-100	-100	res-cold		-100	-100	res-pois-len		175	175																					0
-Split Personality	100	1		1	1	87	55	jew	jewel			3	5000								extra-fireball		1	1																																													0
+Split Personality	100	0		1	1	87	55	jew	jewel			3	5000								extra-fireball		1	1																																													0
 Split Personality	100	1		1	1	87	55	jew	jewel			3	5000								extra-ice-lance		1	1																																													0
 Split Personality	100	1		1	1	87	55	jew	jewel			3	5000								extra-poison-creeper		1	1																																													0
 Split Personality	100	1		1	1	87	55	jew	jewel			3	5000								extra-grizzly		1	1																																													0
@@ -466,14 +466,14 @@ Split Personality	100	1		1	1	87	55	jew	jewel			3	5000								extra-chainlightnin
 Split Personality	100	1		1	1	87	55	jew	jewel			3	5000								extra-lightningsentry		1	1																																													0
 Split Personality	100	0		1	1	87	55	jew	jewel			3	5000								extra-bonespears		1	1																																													0
 Split Personality	100	1		1	1	87	55	jew	jewel			3	5000								extra-revives		1	1																																													0
-Split Personality	100	1		1	1	87	55	jew	jewel			3	5000								extra-spirits		1	1																																													0
+Split Personality	100	0		1	1	87	55	jew	jewel			3	5000								extra-spirits		1	1																																													0
 Split Personality	100	1		1	1	87	55	jew	jewel			3	5000								extra-skele-war		1	1	extra-skele-mage		1	1																																									0
 Split Personality	100	1		1	1	87	55	jew	jewel			3	5000								extra-skele-war		1	1	extra-skele-archer		1	1																																									0
 Split Personality	100	1		1	1	87	55	jew	jewel			3	5000								extra-skele-mage		1	1	extra-skele-archer		1	1																																									0
 Split Personality	100	1		1	1	87	55	jew	jewel			3	5000								extra-hydra		1	1																																													0
 Split Personality	100	1		1	1	87	55	jew	jewel			3	5000								extra-valk		1	1																																													0
 Split Personality	100	1		1	1	87	55	jew	jewel			3	5000								extra-golem		1	1																																													0
-Split Personality	100	1		1	1	87	55	jew	jewel			3	5000								extra-shadow-warrior		1	1																																													0
+Split Personality	100	0		1	1	87	55	jew	jewel			3	5000								extra-shadow-warrior		1	1																																													0
 Split Personality	100	1		1	1	87	55	jew	jewel			3	5000								extra-shadow-master		1	1																																													0
 Unending Resolve	100	1		1	1	87	72	urgs	Hyperion			5	5000	lgry	lgry						sock		6	6	ac%		175	220	ac		200	200	red-dmg%		25	25																																	0
 Malthael's Shadow Steps	100	1		1	1	87	68	utb	Mirrored Boots			5	5000	blac	blac						balance2		60	60	move2		40	40	block2		20	20																																					0
@@ -490,4 +490,4 @@ Fleet Footwork	100	1		1	1	87	52	uea	Wyrmhide			5	5000	lgld	lgld						move2		100	
 Mind Over Matter	100	1		1	1	87	67	ung	Diamond Mail			5	5000	cblu	cblu						item-physperenergy	571	1	1	mana		33	66	regen-mana		33	33	ac%		133	166	mana-kill		3	6																													0
 Phantom Dancer	100	1		1	1	87	63	amc	Grand Matron Bow			5	5000	dgry	dgry						item-frwperenergy	573	1	1	dmg%		380	420	hit-skill	446	8	15	vit		-30	-20	ignore-ac		1	1																													0
 Call of the Brotherhood	100	1		1	1	87	67	amu	Amulet			5	5000								item-convertmasterytomagic	576	1	1	dmg-mag		75	75	res-fire		-30	30	res-ltng		-30	30	res-cold		-30	30	res-pois		-30	30	cast2		5	10																					0
-New Item	100	0		1	1	87	70	ukp	Hydraskull			5	5000								item-physextramagic	575	1	1																																													0
+Elemental Overload	100	1		1	1	87	60	ukp	Hydraskull			5	5000	lyel	lyel						item-elepierceaddmastery	577	1	1	res-fire		-15	15	res-ltng		-15	15	res-cold		-15	15	res-pois		-15	15																													0
