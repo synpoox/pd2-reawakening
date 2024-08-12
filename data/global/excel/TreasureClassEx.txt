@@ -227,7 +227,7 @@ Act 5 (H) Magic C	4	85	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Orbs			1					0	dvo	108	mfo	108	dvia	274	rotf	10																0
 Fate Common A			1					0	fslr	1	fslu	1	fsat	1	fsus	1	fsrb	1	fsla	1	fsvi	1	fstm	1	fsar	1						0
 Fate Common B			1					0	fsms	1	fscf	1	fsed	1	fscs	1	fsta	1	fsts	1	fstf	1	fshs	1	fstw	1						0
-Fate Common C			1					0	fsbl	1	fssf	1	fsse	1	fsew	1	fssg	1	fsuf	1	fsmw	1	fsap	1	fsem	1						0
+Fate Common C			1					0	fsbl	1	fssf	1	fstb	1	fsew	1	fssg	1	fstu	1	fsmw	1	fsap	1	fsem	1						0
 Fate Common D																																0
 Fate Uncommon A			1					0	fsdg	1	fsds	1	fsps	1	fstc	1	fspv	1	fslc	1	fstl	1	fsdw	1	fsbr	1						0
 Fate Uncommon B																																0

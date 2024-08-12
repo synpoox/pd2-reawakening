@@ -125,7 +125,7 @@ dru	1		5	21	item_addclassskills																									All Druid Skills				121	
 ass	1		6	21	item_addclassskills																									All Assassin Skills				122	0
 skill	1			22	item_singleskill																													123	0
 skilltab	1			10	item_addskill_tab																													124	0
-aura	1			22	item_aura																													125	0
+aura	1			22	item_aura			22	item_aura_display																									125	0
 att-skill	1			11	item_skillonattack																									Proc Skill on Swing	Skill #	% Chance	Level	126	0
 hit-skill	1			11	item_skillonhit																									Proc Skill on Hit	Skill #	% Chance	Level	127	0
 gethit-skill	1			11	item_skillongethit																									Proc Skill on Get Hit	Skill #	% Chance	Level	128	0
@@ -414,7 +414,7 @@ map-glob-dropcorrupted	1			8	map_glob_dropcorrupted																													
 curse-effectiveness	1			1	curse_effectiveness																													411	0
 map-glob-boss-dropskillers	1			1	map_glob_boss_dropskillers																													412	0
 map-glob-boss-dropcorruptedunique	1			1	map_glob_boss_dropcorruptedunique																													413	0
-equipped-skill	1			22	item_skillonequip																													414	0
+equipped-skill	1			22	item_skillonequip			22	item_skillonequip_display																									414	0
 mindmg/energy	1			17	item_mindamage_energy																									Min Damage per energy	(8ths)			415	0
 map-glob-boss-dropfacet	1			1	map_glob_boss_dropfacet																													416	0
 map-mon-dropjewels	1			8	map_mon_dropjewels																													417	0
@@ -434,4 +434,10 @@ extra-lightningsentry	1			1	extra_lightningsentry																													43
 extra-shadow-warrior	1			1	extra_shadow_warrior																													431	0
 extra-shadow-master	1			1	extra_shadow_master																													432	0
 extra-bonespear-teeth	1			1	extra_bonespear_teeth																													433	0
-holy-nova-reduction	1			1	holy_nova_reduction																													434	0
+item-physperenergy	1			22	item_skillonequip			22	item_physperenergy																									434	0
+item-gainmagicmastery	1			22	item_skillonequip			22	item_gainmagicmastery																									435	0
+item-frwperenergy	1			22	item_skillonequip			22	item_frwperenergy																									436	0
+item-hiddenoskill	1			22	item_nonclassskill																													437	0
+item-magicmasteryperenergy	1			22	item_skillonequip			22	item_magicmasteryperenergy																									438	0
+item-convertmasterytomagic	1			22	item_skillonequip			22	item_convertmasterytomagic																									439	0
+item-physextramagic	1			22	item_skillonequip			22	item_physextramagic																									440	0
