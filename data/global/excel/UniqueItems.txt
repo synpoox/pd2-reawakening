@@ -475,7 +475,7 @@ Split Personality	100	1		1	1	87	55	jew	jewel			3	5000								extra-valk		1	1				
 Split Personality	100	1		1	1	87	55	jew	jewel			3	5000								extra-golem		1	1																																													0
 Split Personality	100	1		1	1	87	55	jew	jewel			3	5000								extra-shadow-warrior		1	1																																													0
 Split Personality	100	1		1	1	87	55	jew	jewel			3	5000								extra-shadow-master		1	1																																													0
-Unending Resolve	100	1		1	1	87	72	urgs	Hyperion			5	5000	lgry	lgry						sock		6	6	ac%		100	150																																									0
+Unending Resolve	100	1		1	1	87	72	urgs	Hyperion			5	5000	lgry	lgry						sock		6	6	ac%		175	220	ac		200	200	red-dmg%		25	25																																	0
 Malthael's Shadow Steps	100	1		1	1	87	68	utb	Mirrored Boots			5	5000	blac	blac						balance2		60	60	move2		40	40	block2		20	20																																					0
 Warbringer	100	1		1	1	87	80	uhc	Colossus Girdle			5	5000								allskills		1	1	dmg%		20	30	swing2		10	15	ac%		50	80	dmg-min		15	15	dmg-max		20	20	slow		5	10	regen		-50	-50																	0
 Worldshaper's Binding	100	1		1	1	87	75	utc	Troll Belt			5	5000	cred	cred						fireskill		2	2	res-fire		40	50	res-fire-max		5	5	ac%		150	200	regen		14	20	gethit-skill	376	4	25	hp%		2	5																					0
@@ -488,6 +488,6 @@ Malediction	100	1		2	1	87	66	rin	Ring			5	5000								maxcurse		1	1	curse-effect
 Dreadweaver	100	1		1	1	87	70	neg	Hellspawn Skull			5	5000								nec		2	2	skilltab	7	2	2	extra-bonespear-teeth		4	5	cast2		20	20	res-pois		30	40	ac%		100	150	red-mag		15	20																					0
 Fleet Footwork	100	1		1	1	87	52	uea	Wyrmhide			5	5000	lgld	lgld						move2		100	100	oskill	29	1	1	sock		4	4	ac%		140	170																																	0
 Mind Over Matter	100	1		1	1	87	67	ung	Diamond Mail			5	5000	cblu	cblu						item-physperenergy	571	1	1	mana		33	66	regen-mana		33	33	ac%		133	166	mana-kill		3	6																													0
-Phantom Dancer	100	1		1	1	87	63	amc	Grand Matron Bow			5	5000	dgry	dgry						item-frwperenergy	573	1	1	dmg%		350	385	hit-skill	446	8	15	vit		-30	-20	ignore-ac		1	1																													0
+Phantom Dancer	100	1		1	1	87	63	amc	Grand Matron Bow			5	5000	dgry	dgry						item-frwperenergy	573	1	1	dmg%		380	420	hit-skill	446	8	15	vit		-30	-20	ignore-ac		1	1																													0
 Call of the Brotherhood	100	1		1	1	87	67	amu	Amulet			5	5000								item-convertmasterytomagic	576	1	1	dmg-mag		75	75	res-fire		-30	30	res-ltng		-30	30	res-cold		-30	30	res-pois		-30	30	cast2		5	10																					0
 New Item	100	0		1	1	87	70	ukp	Hydraskull			5	5000								item-physextramagic	575	1	1																																													0
