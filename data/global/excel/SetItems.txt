@@ -57,7 +57,7 @@ Arctic Horn	Arctic Gear	swb	Short War Bow	7	3	2	lgld	lgld						5	2500	2	att%		20
 Arctic Furs	Arctic Gear	qui	Quilted Armor	7	3	2	lgld	lgld						5	2500	2	ac%		275	325	res-all		10	10																													ac/lvl	24							res-cold		15	15																													0
 Arctic Binding	Arctic Gear	vbl	Light Belt	7	3	2	lgld	lgld						5	2500	2	res-cold		40	40	ac		30	30																													mag%		40	40					res-cold		10	10																													0
 Arctic Mitts	Arctic Gear	tgl	Light Gauntlets	7	3	2	lgld	lgld						5	2500	2	hp		20	20	swing1		10	10																													att		50	50	pierce		25	25	dex		10	10																													0
-Arcanna's Sign	Arcanna's Tricks	amu	Amulet	1	20	15	blac	blac						5	2500	2	mana		35	35	regen-mana		20	20																													mag%		50	50					res-fire		30	30																													0
+Arcanna's Sign	Arcanna's Tricks	amu	Amulet	7	20	15	blac	blac						5	2500	2	mana		35	35	regen-mana		20	20																													mag%		50	50					res-fire		30	30																													0
 Arcanna's Deathwand	Arcanna's Tricks	wst	War Staff	7	20	15	blac	blac						5	2500	2	sor		1	1	deadly		25	50	dmg%		50	75	splash	358	100	1	cast2		10	10	cast-skill	84	15	2													mana		75	75					regen-mana		20	20					swing2		40	40																					0
 Arcanna's Head	Arcanna's Tricks	skp	Skull Cap	7	20	15	blac	blac						5	2500	2	regen		10	14	thorns		12	12	regen-mana		20	20	mana		30	40																					ac/lvl	24							res-ltng		25	25																													0
 Arcanna's Flesh	Arcanna's Tricks	ltp	Light Plate	7	20	15	blac	blac						5	2500	2	light		2	2	red-dmg		3	6	cast2		10	10																									ac		100	100					enr		20	20					regen-mana		20	20																					0
@@ -95,7 +95,7 @@ M'avina's Embrace	M'avina's Battle Hymn	uld	Kraken Shell	7	21	70	whit	whit						
 M'avina's Icy Clutch	M'avina's Battle Hymn	xtg	Battle Gauntlets	7	21	32	whit	whit						5	5000	2	ac		45	50	dmg-cold	150	12	36	nofreeze		1	1	gold%		56	56	str		8	12	dex		10	20																													dmg-cold	100	131	252					extra-cold		15	15													0
 M'avina's Tenet	M'avina's Battle Hymn	zvb	Sharkskin Belt	7	21	45	whit	whit						5	5000	2	ac		50	50	move2		20	20	manasteal		3	6	light		5	5																																					res-all		25	25																					0
 M'avina's Caster	M'avina's Battle Hymn	amc	Grand Matron Bow	7	21	70	whit	whit						5	5000	2	dmg%		230	288	swing3		40	40	att		50	150																									dmg-mag		228	754					hit-skill	Nova	10	25					skilltab	0	2	2																					0
-Telling of Beads	The Disciple	amu	Amulet	1	39	30	lblu	lblu						5	5000		res-pois		35	50	allskills		1	1	res-cold		18	18	thorns		24	30																																																													0
+Telling of Beads	The Disciple	amu	Amulet	3	39	30	lblu	lblu						5	5000		res-pois		35	50	allskills		1	1	res-cold		18	18	thorns		24	30																																																													0
 Laying of Hands	The Disciple	ulg	Bramble Mitts	7	39	63	lblu	lblu						5	5000	2	ac		25	50	swing2		20	20	res-fire		30	50	dmg-demon		150	200	hit-skill	101	10	13																	dmg-pois	50	1127	1127																																					0
 Rite of Passage	The Disciple	xlb	Demonhide Boots	7	39	29	lblu	lblu						5	5000		ac		25	25	move3		30	30	nofreeze		1	1	stam		15	25																																																													0
 Spiritual Custodian	The Disciple	uui	Dusk Shroud	7	39	43	lblu	lblu						5	5000		ac		305	415	res-fire		24	34	gethit-skill	48	25	23	dmg-pois	50	2458	3482	dmg-undead		200	250																																																									0
@@ -128,3 +128,6 @@ McAuley's Paragon	McAuley's Folly	cap	Cap	3	20	25	lpur	lpur						5	5000		mag%		3
 McAuley's Riprap	McAuley's Folly	vbt	Heavy Boots	7	20	20	lpur	lpur						5	5000		move3		40	40	att		100	100	str		5	5	dex		10	10																																																													0
 McAuley's Taboo	McAuley's Folly	vgl	Heavy Gloves	7	20	28	lpur	lpur						5	5000		ac		20	25	swing2		20	20	hp		40	40	dmg-pois	75	92	113																																																													0
 McAuley's Superstition	McAuley's Folly	bwn	Bone Wand	7	20	25	lpur	lpur						5	5000	2	dmg%	2	75	75	mana		25	25	manasteal		8	8	cast3		20	20	dmg-cold	50	25	75																	allskills		2	2	splash	358	100	1																																	0
+The Fear	Regalia of the Damned	rin	Ring	2	50	45								5	5000	2	all-stats		75	90																																																																									0
+The Anguish	Regalia of the Damned	rin	Ring	2	50	45								5	5000	2	res-all		20	40																																																																									0
+The Despair	Regalia of the Damned	amu	Amulet	1	50	45								5	5000	2	cast2		15	20	swing2		15	20																													allskills		1	1																																					0

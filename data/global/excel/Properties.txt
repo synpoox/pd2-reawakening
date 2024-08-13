@@ -442,3 +442,4 @@ item-magicmasteryperenergy	1			22	item_skillonequip			22	item_magicmasteryperene
 item-convertmasterytomagic	1			22	item_skillonequip			22	item_convertmasterytomagic																									439	0
 item-physextramagic	1			22	item_skillonequip			22	item_physextramagic																									440	0
 item-elepierceaddmastery	1			22	item_skillonequip			22	item_elepierceaddmastery																									441	0
+item-damagepercentmastery	1			22	item_skillonequip			22	item_damagepercentmastery																									442	0

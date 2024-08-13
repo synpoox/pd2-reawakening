@@ -275,7 +275,7 @@ item_magicmasteryperenergy	272		1								1						1024		7	0	10	0	12															
 item_convertmasterytomagic	273		1								1						1024		7	0	10	0	12																204	3	0	StrConvertMasteryMag	StrConvertMasteryMag									0
 item_physextramagic	274		1								1						1024		7	0	10	0	12																204	3	0	StrPhysExtraMagic	StrPhysExtraMagic									0
 item_elepierceaddmastery	275		1								1						1024		7	0	10	0	12																204	3	0	StrGainPierceAsMastery	StrGainPierceAsMastery									0
-item_energy_bytime	276		1	22										4		0	1024		22	0	22	0			6			energy											180	17	1	ModStr1d	ModStr1d									0
+item_damagepercentmastery	276		1								1						1024		7	0	10	0	12																204	3	0	StrDamagePercentMastery	StrDamagePercentMastery									0
 item_vitality_bytime	277		1	22										4		0	1024		22	0	22	0			6			vitality											180	17	1	ModStr1c	ModStr1c									0
 item_tohit_bytime	278		1	22										4		0	1024		22	0	22	0			6			tohit						1					180	17	1	ModStr1h	ModStr1h									0
 item_tohitpercent_bytime	279		1	22										4		0	1024		22	0	22	0			6			item_tohit_percent						1					180	18	1	ModStr4c	ModStr4c									0

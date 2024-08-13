@@ -244,3 +244,4 @@ magicmasteryenergyaura	241					1				1																																											
 physextramagicaura	242					1				1																																																													0
 convertmasterymagaura	243					1				1																																																													0
 elepierceaddmasteryaura	244					1				1																																																													0
+damagepercentmasteryaura	245					1				1																																																													0
