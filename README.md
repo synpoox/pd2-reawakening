@@ -6,7 +6,7 @@ Comments and feedback would be very appreciated, please comment or leave them in
 
 Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Single-Player-Plus-mod)
 
-**[Guidebook](https://docs.google.com/document/d/e/2PACX-1vTqp7Uys-XhuvmhnynkNjRt2Z8e0DdEXGOJ66JhgRUDMajI9jWIxw5va9pukdOU_xotWZzO-_zdPdah/pub) | [Latest Patch Notes (v0.9.50)](https://docs.google.com/document/d/e/2PACX-1vR3xhGhIwxdrRVN61iHjrbxtlYU7LoL5VRgSj3-CvpbupDvGJvtrW8ETOZIVkyVhShOjnQrVr7qix3x/pub)**
+**[Discord](https://discord.gg/rBCNMWaCNt) | [Guidebook](https://docs.google.com/document/d/e/2PACX-1vTqp7Uys-XhuvmhnynkNjRt2Z8e0DdEXGOJ66JhgRUDMajI9jWIxw5va9pukdOU_xotWZzO-_zdPdah/pub) | [Latest Patch Notes (v0.9.50)](https://docs.google.com/document/d/e/2PACX-1vR3xhGhIwxdrRVN61iHjrbxtlYU7LoL5VRgSj3-CvpbupDvGJvtrW8ETOZIVkyVhShOjnQrVr7qix3x/pub)**
 
 ## New Features
 
