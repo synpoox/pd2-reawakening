@@ -2516,4 +2516,4 @@ relic -> wiz gloves	1	2		100	16	509	900		1	"rotf"							"tgll,uni"	99											
 relic -> occy soj	1	2		100	16	509	1000		1	"rotf"							Occy Soj	99																																																																																						0
 																																																																																																								0
 8 zod + coin -> lightsong	1			100					2	"r33g,qty=8"	"ncoi,qty=1"						lsvl																																																																																							0
-50 pde + coin -> pandemonium talisman	1			100					2	"dcbl,qty=50"	"ncoi,qty=1"						ubtm																																																																																							0
+50 pde + 50 jewel fragments + coin -> pandemonium talisman	1			100					3	"dcbl,qty=50"	"ncoi,qty=1"	"jewg,qty=50"					ubtm																																																																																							0
