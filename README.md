@@ -14,9 +14,10 @@ Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Si
 - **Fate Cards:** Stackable uncommon drops, that upon collecting a certain amount, can be cubed together in exchange for a reward. Similar to Path of Exile’s [divination cards](https://pathofexile.fandom.com/wiki/Divination_card).
 - **Legacy Items**: Obtained through a rare drop Relic of the Nephalem, these legacy items are extremely powerful items from Diablo 2 LoD patch 1.08.
 - **New Orbs**:
-  - _Mythic Orb_: Converts non-ethereal item to unique (excluding charms)
+  - _Mythic Orb_: Transforms Magic/Rare item to Unique (excluding charms)
+  - _Regal Orb_: Transforms Magic/Rare item to Set
   - _Divine Orb_: Rerolls unique item, limited to: equipment, jewelry, grand charms
-  - _Coin_: Gold sink purchasable from Akara, hover over item to see recipes
+  - _Coin_: Gold sink purchasable from Akara
 - **Item Changes**: Introducing new uniques, new runewords, and updating old ones to bring them back into play
 - **New Cube Recipes**: +2 class skill Circlet crafting, rune downgrading, and more.
 - **Drop Rate Increases**:

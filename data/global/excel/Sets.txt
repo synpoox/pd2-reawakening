@@ -32,4 +32,4 @@ Bul-Kathos' Children	Bul-Kathos' Children	100	50																																
 Cow King's Leathers	Cow King's Leathers	100	20	res-pois		25	25																													stam		100	100	str		20	20	gold%		100	100	mag%		100	100	gethit-skill	42	25	18	swing3		30	30	state	cowset	1	1					0
 Naj's Ancient Set	Naj's Ancient Set	100	43	ac		175	175																													allskills		3	3	regen		10	10	dex		15	15	res-all		50	50	str		20	20	mana		100	100									0
 McAuley's Folly	McAuley's Folly	100	20	ac		50	50					att		75	75																					allskills		1	1	mag%		50	50	mana		50	50	lifesteal		4	4																	0
-Regalia of the Damned	Regalia of the Damned	100	50																																	allskills		3	3																													0
+Regalia of the Damned	Regalia of the Damned	100	50																																	allskills		3	3	cast2		5	5	dmg-min		15	15	dmg-max		20	20																	0

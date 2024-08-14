@@ -2358,18 +2358,22 @@ Convert magic quality amulet to unique	1			100	18	361	0		2	amul,mag	"mfo,qty=1"	
 Convert rare quality amulet to unique	1			100	18	361	0		2	amul,rar	"mfo,qty=1"						usetype,uni,noe			100																																																																																				0
 Mythic orb+ 15 jewel fragments = random unique jewel	1			100					2	"mfo,qty=1"	"jewf,qty=15"						jew,uni	85																																																																																						0
 																																																																																																								0
-EXALTED ORB																																																																																																								0
+REGAL ORB																																																																																																								0
 																																																																																																								0
-Convert normal quality non-ethereal armor to set piece	1			100	18	361	0		2	armo,noe,nor	"exo,qty=1"						usetype,set	99																																																																																						0
-Convert magic quality non-ethereal armor to set piece	1			100	18	361	0		2	armo,noe,mag	"exo,qty=1"						usetype,set	99																																																																																						0
-Convert rare quality non-ethereal armor to set piece	1			100	18	361	0		2	armo,noe,rar	"exo,qty=1"						usetype,set	99																																																																																						0
-Convert normal quality non-ethereal weapon to set piece	1			100	18	361	0		2	weap,noe,nor	"exo,qty=1"						usetype,set	99																																																																																						0
-Convert magic quality non-ethereal weapon to set piece	1			100	18	361	0		2	weap,noe,mag	"exo,qty=1"						usetype,set	99																																																																																						0
-Convert rare quality non-ethereal weapon to set piece	1			100	18	361	0		2	weap,noe,rar	"exo,qty=1"						usetype,set	99																																																																																						0
-Convert magic quality amulet to set piece	1			100	18	361	0		2	amul,mag	"exo,qty=1"						usetype,set	99																																																																																						0
-Convert rare quality amulet to set piece	1			100	18	361	0		2	amul,rar	"exo,qty=1"						usetype,set	99																																																																																						0
-Convert magic quality ring to set piece	1			100	18	361	0		2	ring,mag	"exo,qty=1"						usetype,set	99																																																																																						0
-Convert rare quality ring to set piece	1			100	18	361	0		2	ring,rar	"exo,qty=1"						usetype,set	99																																																																																						0
+Convert normal quality non-ethereal armor to set piece	0			100	18	361	0		2	armo,noe,nor	"rgo,qty=1"						usetype,set			100																																																																																				0
+Convert magic quality non-ethereal armor to set piece	1			100	18	361	0		2	armo,noe,mag	"rgo,qty=1"						usetype,set			100																																																																																				0
+Convert rare quality non-ethereal armor to set piece	1			100	18	361	0		2	armo,noe,rar	"rgo,qty=1"						usetype,set			100																																																																																				0
+Convert magic quality ethereal armor to set piece	1			100	18	361	0		2	armo,eth,mag	"rgo,qty=1"						usetype,set			100	ethereal	100		1	1																																																																															0
+Convert rare quality ethereal armor to set piece	1			100	18	361	0		2	armo,eth,rar	"rgo,qty=1"						usetype,set			100	ethereal	100		1	1																																																																															0
+Convert normal quality non-ethereal weapon to set piece	0			100	18	361	0		2	weap,noe,nor	"rgo,qty=1"						usetype,set			100																																																																																				0
+Convert magic quality non-ethereal weapon to set piece	1			100	18	361	0		2	weap,noe,mag	"rgo,qty=1"						usetype,set			100																																																																																				0
+Convert rare quality non-ethereal weapon to set piece	1			100	18	361	0		2	weap,noe,rar	"rgo,qty=1"						usetype,set			100																																																																																				0
+Convert magic quality ethereal weapon to set piece	1			100	18	361	0		2	weap,eth,mag	"rgo,qty=1"						usetype,set			100	ethereal	100		1	1																																																																															0
+Convert rare quality ethereal weapon to set piece	1			100	18	361	0		2	weap,eth,rar	"rgo,qty=1"						usetype,set			100	ethereal	100		1	1																																																																															0
+Convert magic quality amulet to set piece	1			100	18	361	0		2	amul,mag	"rgo,qty=1"						usetype,set			100																																																																																				0
+Convert rare quality amulet to set piece	1			100	18	361	0		2	amul,rar	"rgo,qty=1"						usetype,set			100																																																																																				0
+Convert magic quality ring to set piece	1			100	18	361	0		2	ring,mag	"rgo,qty=1"						usetype,set			100																																																																																				0
+Convert rare quality ring to set piece	1			100	18	361	0		2	ring,rar	"rgo,qty=1"						usetype,set			100																																																																																				0
 																																																																																																								0
 CAIN'S WISDOM																																																																																																								0
 																																																																																																								0
@@ -2377,7 +2381,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	1			100					1	"key,qty=1"							"urg,mag,eth"	99																												"amul,mag"	99																												"mfo,qty=50"	99																												0
+generate (dev)	1			100					1	"key,qty=1"							"rgo,qty=50"	99																												"amul,mag"	99																												"uth,eth,mag"	99																												0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
 3 of Luminescence -> Mara's Kaleidoscope	1			100					1	fslu,qty=3							Mara's Kaleidoscope	95																																																																																						0
 3 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=3							The Stone of Jordan	95																																																																																						0
@@ -2400,7 +2404,7 @@ generate (dev)	1			100					1	"key,qty=1"							"urg,mag,eth"	99																	
 3 of The Summit -> uber ancient mat	1			100					1	fsts,qty=3							uba																																																																																							0
 1 of Deckard's Gift -> 5 mythic orbs	1			100					1	fsdg,qty=1							"mfo,qty=5"																																																																																							0
 1 of Deckard's Stash -> 5 divine orbs	1			100					1	fsds,qty=1							"dvo,qty=5"																																																																																							0
-1 of Deckard's Blessing -> 5 exalted orbs	1			100					1	fsdb,qty=1							"exo,qty=5"																																																																																							0
+1 of Deckard's Blessing -> 5 regal orbs	1			100					1	fsdb,qty=1							"rgo,qty=5"																																																																																							0
 4 of The Fall of Tristram -> organ set	1			100					1	fstf,qty=4							dhn																													bey																													mbr																													0
 5 of Jordan's Perfected Stone -> corrupt awaken soj +1 all skills +10fcr	1			100					1	fsjp,qty=5							The Stone of Jordan	95			corrupt	100		42	42	corruptnum	100		1001	1001	cast1	100		10	10	awakennum	100		1001	1001	allskills	100		1	1																																																											0
 4 of The Arcane Pact -> corrupt rare ring with 20fcr	1			100					1	fsap,qty=4							"rin,rar,suf=174"		100		corrupt	100		42	42	corruptnum	100		1001	1001	cast1	100		10	10																																																																					0
