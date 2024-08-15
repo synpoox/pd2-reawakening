@@ -2381,7 +2381,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	1			100					1	"key,qty=1"							"rgo,qty=50"	99																												"amul,mag"	99																												"uth,eth,mag"	99																												0
+generate (dev)	0			100					1	"key,qty=1"							cm1	99																												"amul,mag"	99																												"uth,eth,mag"	99																												0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
 3 of Luminescence -> Mara's Kaleidoscope	1			100					1	fslu,qty=3							Mara's Kaleidoscope	95																																																																																						0
 3 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=3							The Stone of Jordan	95																																																																																						0
@@ -2431,29 +2431,29 @@ generate (dev)	1			100					1	"key,qty=1"							"rgo,qty=50"	99																		
 																																																																																																								0
 RUNE DOWNGRADING																																																																																																								0
 																																																																																																								0
-r02 downgrade eld -> 1 el	1			100					2	"key,qty=1"	"r02,qty=1"						"r01s,qty=1"																																																																																							0
-r03 downgrade tir -> 1 eld	1			100					2	"key,qty=1"	"r03,qty=1"						"r02s,qty=1"																																																																																							0
-r04 downgrade nef -> 1 tir	1			100					2	"key,qty=1"	"r04,qty=1"						"r03s,qty=1"																																																																																							0
-r05 downgrade eth -> 1 nef	1			100					2	"key,qty=1"	"r05,qty=1"						"r04s,qty=1"																																																																																							0
-r06 downgrade ith ->1 eth	1			100					2	"key,qty=1"	"r06,qty=1"						"r05s,qty=1"																																																																																							0
-r07 downgrade tal -> 1 ith	1			100					2	"key,qty=1"	"r07,qty=1"						"r06s,qty=1"																																																																																							0
-r08 downgrade ral -> 1 tal	1			100					2	"key,qty=1"	"r08,qty=1"						"r07s,qty=1"																																																																																							0
-r09 downgrade ort -> 1 ral	1			100					2	"key,qty=1"	"r09,qty=1"						"r08s,qty=1"																																																																																							0
-r10 downgrade thul -> 1 ort	1			100					2	"key,qty=1"	"r10,qty=1"						"r09s,qty=1"																																																																																							0
-r11 downgrade amn -> 1 thul	1			100					2	"key,qty=1"	"r11,qty=1"						"r10s,qty=1"																																																																																							0
-r12 downgrade sol -> 1 amn	1			100					2	"key,qty=1"	"r12,qty=1"						"r11s,qty=1"																																																																																							0
-r13 downgrade shael -> 1 sol	1			100					2	"key,qty=1"	"r13,qty=1"						"r12s,qty=1"																																																																																							0
-r14 downgrade dol -> 1 shael	1			100					2	"key,qty=1"	"r14,qty=1"						"r13s,qty=1"																																																																																							0
-r15 downgrade hel -> 1 dol	1			100					2	"key,qty=1"	"r15,qty=1"						"r14s,qty=1"																																																																																							0
-r16 downgrade io -> 1 hel	1			100					2	"key,qty=1"	"r16,qty=1"						"r15s,qty=1"																																																																																							0
-r17 downgrade lum -> 1 io	1			100					2	"key,qty=1"	"r17,qty=1"						"r16s,qty=1"																																																																																							0
-r18 downgrade ko -> 1 lum	1			100					2	"key,qty=1"	"r18,qty=1"						"r17s,qty=1"																																																																																							0
-r19 downgrade fal -> 1 ko	1			100					2	"key,qty=1"	"r19,qty=1"						"r18s,qty=1"																																																																																							0
-r20 downgrade lem -> 1 fal	1			100					2	"key,qty=1"	"r20,qty=1"						"r19s,qty=1"																																																																																							0
-r21 downgrade pul -> 1 lem	1			100					2	"key,qty=1"	"r21,qty=1"						"r20s,qty=1"																																																																																							0
-r22 downgrade um -> 1 pul	1			100					2	"key,qty=1"	"r22,qty=1"						"r21s,qty=1"																																																																																							0
-r23 downgrade mal -> 1 um	1			100					2	"key,qty=1"	"r23,qty=1"						"r22s,qty=1"																																																																																							0
-r24 downgrade ist -> 1 mal	1			100					2	"key,qty=1"	"r24,qty=1"						"r23s,qty=1"																																																																																							0
+r02 downgrade eld -> 1 el	1			100					2	"key,qty=1"	"r02,qty=1"						useitem			100																										"r01s,qty=1"																																																										0
+r03 downgrade tir -> 1 eld	1			100					2	"key,qty=1"	"r03,qty=1"						useitem			100																										"r02s,qty=1"																																																										0
+r04 downgrade nef -> 1 tir	1			100					2	"key,qty=1"	"r04,qty=1"						useitem			100																										"r03s,qty=1"																																																										0
+r05 downgrade eth -> 1 nef	1			100					2	"key,qty=1"	"r05,qty=1"						useitem			100																										"r04s,qty=1"																																																										0
+r06 downgrade ith ->1 eth	1			100					2	"key,qty=1"	"r06,qty=1"						useitem			100																										"r05s,qty=1"																																																										0
+r07 downgrade tal -> 1 ith	1			100					2	"key,qty=1"	"r07,qty=1"						useitem			100																										"r06s,qty=1"																																																										0
+r08 downgrade ral -> 1 tal	1			100					2	"key,qty=1"	"r08,qty=1"						useitem			100																										"r07s,qty=1"																																																										0
+r09 downgrade ort -> 1 ral	1			100					2	"key,qty=1"	"r09,qty=1"						useitem			100																										"r08s,qty=1"																																																										0
+r10 downgrade thul -> 1 ort	1			100					2	"key,qty=1"	"r10,qty=1"						useitem			100																										"r09s,qty=1"																																																										0
+r11 downgrade amn -> 1 thul	1			100					2	"key,qty=1"	"r11,qty=1"						useitem			100																										"r10s,qty=1"																																																										0
+r12 downgrade sol -> 1 amn	1			100					2	"key,qty=1"	"r12,qty=1"						useitem			100																										"r11s,qty=1"																																																										0
+r13 downgrade shael -> 1 sol	1			100					2	"key,qty=1"	"r13,qty=1"						useitem			100																										"r12s,qty=1"																																																										0
+r14 downgrade dol -> 1 shael	1			100					2	"key,qty=1"	"r14,qty=1"						useitem			100																										"r13s,qty=1"																																																										0
+r15 downgrade hel -> 1 dol	1			100					2	"key,qty=1"	"r15,qty=1"						useitem			100																										"r14s,qty=1"																																																										0
+r16 downgrade io -> 1 hel	1			100					2	"key,qty=1"	"r16,qty=1"						useitem			100																										"r15s,qty=1"																																																										0
+r17 downgrade lum -> 1 io	1			100					2	"key,qty=1"	"r17,qty=1"						useitem			100																										"r16s,qty=1"																																																										0
+r18 downgrade ko -> 1 lum	1			100					2	"key,qty=1"	"r18,qty=1"						useitem			100																										"r17s,qty=1"																																																										0
+r19 downgrade fal -> 1 ko	1			100					2	"key,qty=1"	"r19,qty=1"						useitem			100																										"r18s,qty=1"																																																										0
+r20 downgrade lem -> 1 fal	1			100					2	"key,qty=1"	"r20,qty=1"						useitem			100																										"r19s,qty=1"																																																										0
+r21 downgrade pul -> 1 lem	1			100					2	"key,qty=1"	"r21,qty=1"						useitem			100																										"r20s,qty=1"																																																										0
+r22 downgrade um -> 1 pul	1			100					2	"key,qty=1"	"r22,qty=1"						useitem			100																										"r21s,qty=1"																																																										0
+r23 downgrade mal -> 1 um	1			100					2	"key,qty=1"	"r23,qty=1"						useitem			100																										"r22s,qty=1"																																																										0
+r24 downgrade ist -> 1 mal	1			100					2	"key,qty=1"	"r24,qty=1"						useitem			100																										"r23s,qty=1"																																																										0
 																																																																																																								0
 																																																																																																								0
 ETERNAL COIN RUNE EXCHANGE																																																																																																								0
