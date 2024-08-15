@@ -36,7 +36,7 @@ Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Si
 
 If you've played PlugY or any other PD2 single player mod, your current characters/stash will likely be incompatible.
 
-#### With Reawakening Launcher (auto-updates Reawakening patches)
+#### With Launcher (auto-updates Reawakening patches)
 
 1. Create a copy of your PD2 installation in a new directory.
 1. Install [PD2-PlugY](https://github.com/BetweenWalls/PD2-PlugY)
@@ -56,7 +56,16 @@ If you've played PlugY or any other PD2 single player mod, your current characte
 
 ## Changing Save Folder Path
 
-Following the above instructions will point your new PD2 Reawakening install your old PD2 save folders, which can cause errors with incompatibility. To change your save folder path:
+Following the above instructions will point your new PD2 Reawakening install your old PD2 save folders, which can cause errors with incomptable characters/stashes. To change your save folder path:
+
+#### With Launcher
+1. Click `Settings` in the top left
+1. Click `Change Save Path`
+1. Select your desired Save directory
+
+![alt text](kAKT28i.png)
+
+#### Without Launcher
 
 1. Open `ProjectDiablo.json` in your new `...\PD2-Reawakening\ProjectD2` folder
 1. Look for `"save_path"` and edit it to your chosen directory:
@@ -79,8 +88,6 @@ Following the above instructions will point your new PD2 Reawakening install you
 ### **WARNING: Enabling Crafting league and logging into a character can sometimes cause runewords to be deleted from that character and your stash**
 
 _Always make backups of your saves_
-
-![alt text](VxDrwBe.png)
 
 ## Pastable Loot Filter Code
 
