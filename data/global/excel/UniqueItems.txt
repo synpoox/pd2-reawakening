@@ -223,14 +223,14 @@ Toothrow	100	1		1	1	56	48	xld	Sharktooth Armor			3	5000	bwht	whit						Deep-Woun
 Atma's Wail	100	1		1	1	59	51	xth	Embossed Plate			3	5000								dex		15	15	regen		20	30	mana%		20	30	balance2		30	30	ac/lvl	16			dur		50	50	ac%		120	160	mag%		25	25	allskills		1	1	cast2		30	30									0
 Black Hades	100	1		1	1	61	53	xul	Chaos Armor			3	5000								light		-2	-2	att-demon		400	450	half-freeze		1	1	sock		3	4	ac%		140	200	dmg-demon		185	225																									0
 Corpsemourn	100	1		1	1	63	55	xar	Ornate Armor			3	5000	blac	blac		invxaru				str		8	8	vit		10	10	res-cold		35	35	reanimate	1	12	12	ac%		150	180	fire-min		120	160	fire-max		300	340	kill-skill	74	20	20	ease		-15	-15													0
-Que-Hegan's Wisdon	100	1		1	1	59	51	xtp	Mage Plate			3	5000								cast2		20	20	mana-kill		3	3	red-mag		6	10	enr		15	25	balance2		20	20	ac%		140	160	allskills		1	2																					0
+Que-Hegan's Wisdon	100	1		1	1	59	51	xtp	Mage Plate			3	5000								cast2		20	20	mana-kill		3	3	red-mag		6	10	enr		15	25	balance2		20	20	ac%		140	160	allskills		2	2																					0
 Visceratuant	100	1		1	1	36	28	xuc	Defender			3	5000	dred			invbucu				sor		1	1	block2		30	30	block		30	30	ac%		100	150	light-thorns		35	50	extra-ltng		5	10																									0
 Mosers Blessed Circle	100	1		1	1	39	31	xml	Round Shield			3	5000				invxmlu				res-all		20	20	block		25	25	sock	2			ac%		180	220	block2		30	30	curse-effectiveness		10	10																									0
 Stormchaser	100	1		1	1	43	35	xrg	Scutum			3	5000	cblu	cblu		invxrgu				dmg-ltng		1	270	block		20	20	nofreeze		1	1	res-ltng		50	50	att		150	250	ac%		160	220	move2		20	30	gethit-skill	59	8	9	gethit-skill	245	8	15													0
 Tiamat's Rebuke	100	1		1	1	46	38	xit	Dragon Shield			3	5000	lgry	lgry		invkitu				dmg-cold	150	40	80	dmg-fire		53	142	dmg-ltng		1	180	res-all		25	35	ac%		140	200	gethit-skill	44	15	19	gethit-skill	48	15	17	gethit-skill	62	15	12	dur		40	40													0
 Kerke's Sanctuary	100	1		1	1	52	44	xow	Pavise			3	5000	lgrn	lgrn		invtowu				red-dmg		14	18	red-mag		14	18	regen		25	25	ac%		180	240	dur		100	100	block		30	30	res-all		20	30	allskills		1	1	block2		20	20													0
 Radimant's Sphere	100	1		1	1	58	50	xts	Ancient Shield			3	5000				invgtsu				gethit-skill	92	5	35	res-pois		50	75	ac%		160	200	block		30	30	block2		20	20	poisskill		1	2	dur		20	20	cast2		30	30	dmg-pois	50	1230	1230													0
-Lidless Wall	100	1		1	1	49	41	xsh	Grim Shield			3	5000	dgld	dgld		invxshu				light		1	1	allskills		1	2	cast2		20	20	mana-kill		4	6	ac%		80	130	enr		10	10	mana%		10	10																					0
+Lidless Wall	100	1		1	1	49	41	xsh	Grim Shield			3	5000	dgld	dgld		invxshu				light		1	1	allskills		2	2	cast2		20	20	mana-kill		4	6	ac%		80	130	enr		10	10	mana%		10	10																					0
 Lance Guard	100	1		1	1	43	35	xpk	Barbed Shield			3	5000				invxpku				hp/lvl	20			balance2		30	30	thorns		165	265	ac%		70	120	deadly		25	35	block2		50	50	dex		12	16																					0
 Venom Grip	100	1		1	1	37	29	xlg	Demonhide Gloves			5	5000	dgrn							res-pois		30	30	res-pois-max		5	5	extra-pois		10	15	crush		5	10	lifesteal		2	4	ac		15	25	ac%		130	160																					0
 Gravepalm	100	1		1	1	39	32	xvg	Sharkskin Gloves			5	5000								enr		10	10	str		10	10	dmg-undead		100	200	att-undead		100	200	ac%		140	180	deadly		10	15	skilltab	8	1	1																					0
@@ -348,7 +348,7 @@ Crown of Ages	100	1		1	1	86	82	urn	corona	1		3	5000	dgld	dgld						balance2		30	
 Andariel's Visage	100	1		1	1	85	83	usk	demonhead	1		3	5000	dred	dred						ac%		100	150	res-pois		70	70	allskills		2	2	res-pois-max		10	10	swing2		20	20	str		25	30	gethit-skill	92	15	30	charged	278	20	3	lifesteal		8	10	res-fire		-20	-20									0
 Darkfear	100			1	1			ulm	armet			5	5000	blac			invhlmu																																																				0
 Dragonscale	100	1		1	1	84	80	pae	zakarum shield			3	5000	dgrn	dgrn						ac%		170	200	abs-fire%		5	10	res-fire-max		5	5	str		15	25	dmg-fire		211	371	oskill	Hydra	35	35	extra-fire		15	20	cast2		35	35	oskill	Fire Mastery	1	1	aura	Holy Fire	16	19									0
-Steel Carapice	100	1		1	1	74	66	uul	shadow plate			3	5000	dgry	dgry						ac%		220	250	balance2		40	40	red-dmg		19	24	res-cold		40	60	rep-dur	10			gethit-skill	Iron Maiden Proc	4	26	allskills		1	2	thorns		1400	1600																	0
+Steel Carapice	100	1		1	1	74	66	uul	shadow plate			3	5000	dgry	dgry						ac%		220	250	balance2		40	40	red-dmg		19	24	res-cold		40	60	rep-dur	10			gethit-skill	Iron Maiden Proc	4	26	allskills		2	2	thorns		1400	1600																	0
 Medusa's Gaze	100	1		1	1	84	76	uow	aegis			3	5000	lred	lred		invtowu				ac%		150	180	slow		20	20	cast-skill	LowRes Proc	10	14	lifesteal		5	9	coldskill		2	2	res-cold		40	80	cast2		25	40	ease		-25	-25																	0
 Ravenlore	100	1		1	1	82	74	dre	sky spirit			3	5000	dgld	dgld						ac%		120	150	res-all		15	25	skilltab	17	3	3	enr		20	30	pierce-fire		10	20	skill	Raven	7	7																									0
 Boneshade	100	1		1	1	84	79	7bw	lich wand			3	5000	dgry	dgry		invbwnu				nec		2	2	cast2		25	25	skill	Teeth	4	5	skill	Bone Armor	4	5	skill	Bone Spear	2	3	skill	Bone Spirit	2	2	skill	Bone Wall	2	3																					0
@@ -367,7 +367,7 @@ Spike Thorn	100	1		1	1	78	70	upk	blade barrier			5	5000	dyel	dyel		invspku				ac
 Dracul's Grasp	100	1		1	1	84	76	uvg	vampirebone gloves			5	5000	dred	dred						ac%		90	120	lifesteal		8	12	openwounds		25	25	Deep-Wounds		240	320	heal-kill		5	10	str		10	20	swing2		20	20																					0
 Frostwind	100	1		1	1	78	70	7ls	cryptic sword			5	5000	cblu	cblu		invlsdu				dmg%		220	270	freeze		4	4	half-freeze		1	1	dmg-cold	150	237	486	swing2		25	25	aura	resist cold	6	6	oskill	230	2	3	coldskill		2	2													splash	358	100	1	0
 Templar's Might	100	1		8	1	82	74	uar	sacred armor			5	5000	cgrn	cgrn		invaaru				ac%		170	220	balance2		20	20	ac-miss		250	300	stam		40	50	str		20	30	vit		20	30	curse-effectiveness		20	20	aura	98	6	8																	0
-Eschuta's temper	100	1		1	1	80	72	obc	eldritch orb			5	5000	cred							allskills		2	3	cast2		40	40	extra-fire		10	20	extra-ltng		10	20	enr		20	30	pierce-fire		5	10	pierce-ltng		5	10																					0
+Eschuta's temper	100	1		1	1	80	72	obc	eldritch orb			5	5000	cred							allskills		3	3	cast2		40	40	extra-fire		10	20	extra-ltng		10	20	enr		20	30	pierce-fire		5	10	pierce-ltng		5	10																					0
 Firelizard's Talons	100	1		1	1	75	67	7lw	feral claws			5	5000								dmg%		200	270	swing2		15	15	skilltab	20	2	2	dmg-fire		236	480	res-fire		30	50	fireskill		2	3	pierce-fire		5	10																	splash	358	100	1	0
 Sandstorm Trek	100	1		1	1	72	64	uvb	scarabshell boots			5	5000								ac%		140	170	move2		30	30	balance2		20	20	stam/lvl	8			thorns		480	540	res-pois		40	70	rep-dur	10			str		10	15	vit		10	15	stamdrain		50	50									0
 Marrowwalk	100	1		1	1	74	66	umb	boneweave boots			5	5000	dgry							ac%		170	200	move2		20	20	regen-stam		10	10	regen-mana		10	20	nofreeze		1	1	str		10	20	dex		17	17	skill	Skeleton Mastery	1	2																	0
