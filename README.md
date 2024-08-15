@@ -61,7 +61,7 @@ Following the above instructions will point your new PD2 Reawakening install you
 1. Open `ProjectDiablo.json` in your new `...\PD2-Reawakening\ProjectD2` folder
 1. Look for `"save_path"` and edit it to your chosen directory:
 
-```
+```JSON
 "other": {
   "lng_file": "",
   "installpath": "C:\\Program Files (x86)\\PD2-Reawakening\\",
