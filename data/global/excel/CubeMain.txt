@@ -2375,13 +2375,19 @@ Convert rare quality amulet to set piece	1			100	18	361	0		2	amul,rar	"rgo,qty=1
 Convert magic quality ring to set piece	1			100	18	361	0		2	ring,mag	"rgo,qty=1"						usetype,set			100																																																																																				0
 Convert rare quality ring to set piece	1			100	18	361	0		2	ring,rar	"rgo,qty=1"						usetype,set			100																																																																																				0
 																																																																																																								0
+ORB OF UNMAKING																																																																																																								0
+unmaking amulet	1			100	18	303	0		2	"amul"	"oou,qty=1"						useitem			100	awaken	100		-100	-100	awakennum	100		-2002	-2002	unmaking	100		1	1																																																																					0
+unmaking ring	1			100	18	303	0		2	"ring"	"oou,qty=1"						useitem			100	awaken	100		-100	-100	awakennum	100		-2002	-2002	unmaking	100		1	1																																																																					0
+unmaking armor	1			100	18	303	0		2	"armo"	"oou,qty=1"						useitem			100	awaken	100		-100	-100	awakennum	100		-2002	-2002	unmaking	100		1	1																																																																					0
+unmaking weapon	1			100	18	303	0		2	"weap"	"oou,qty=1"						useitem			100	awaken	100		-100	-100	awakennum	100		-2002	-2002	unmaking	100		1	1																																																																					0
+																																																																																																								0
 CAIN'S WISDOM																																																																																																								0
 																																																																																																								0
 Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm1			Cain's Wisdom	99																																																																																						0
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	0			100					1	"key,qty=1"							cm1	99																												"amul,mag"	99																												"uth,eth,mag"	99																												0
+generate (dev)	0			100					1	"key,qty=1"							"oou,qty=50"	99																												"armo,rar"	99																												"dvia,qty=50"	99																												0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
 3 of Luminescence -> Mara's Kaleidoscope	1			100					1	fslu,qty=3							Mara's Kaleidoscope	95																																																																																						0
 3 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=3							The Stone of Jordan	95																																																																																						0

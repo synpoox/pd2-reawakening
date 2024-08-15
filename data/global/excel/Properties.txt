@@ -444,3 +444,4 @@ item-physextramagic	1			22	item_skillonequip			22	item_physextramagic											
 item-elepierceaddmastery	1			22	item_skillonequip			22	item_elepierceaddmastery																									441	0
 item-damagepercentmastery	1			22	item_skillonequip			22	item_damagepercentmastery																									442	0
 mythicnum	1			1	mythic_num																													443	0
+unmaking	1			1	unmaking_num																													444	0
