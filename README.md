@@ -54,30 +54,48 @@ If you've played PlugY or any other PD2 single player mod, your current characte
 1. Launch the game with `Plugy.exe`
 1. Go to Akara and look for an item with Alkor's quest potion. If it's there, then the mod was installed successfully.
 
-#### Toggling Between Standard and Crafting
+## Changing Save Folder Path
+
+Following the above instructions will point your new PD2 Reawakening install your old PD2 save folders, which can cause errors with incompatibility. To change your save folder path:
+
+1. Open `ProjectDiablo.json` in your new `...\PD2-Reawakening\ProjectD2` folder
+1. Look for `"save_path"` and edit it to your chosen directory:
+
+```
+"other": {
+  "lng_file": "",
+  "installpath": "C:\\Program Files (x86)\\PD2-Reawakening\\",
+  "save_path": "C:\\Program Files (x86)\\PD2-Reawakening\\Save\\"
+}
+```
+**Note that double backslashes are required**
+
+## Toggling Between Standard and Crafting
+
 1. Click the `Settings` button in the top left
 1. Toggle the checkbox to enable/disable Crafting League
 1. Press `Save`
 
 ### **WARNING: Enabling Crafting league and logging into a character can sometimes cause runewords to be deleted from that character and your stash**
-*Always make backups of your saves*
+
+_Always make backups of your saves_
 
 ![alt text](VxDrwBe.png)
 
-#### Pastable Loot Filter Code
+## Pastable Loot Filter Code
 
 This contains all the new item types (fate cards, new orbs, relic of the nephalem), stylized for Kryszard's filter.
 
-````
+```
 //PD2 Single Player Reawakened
-ItemDisplay[awst OR mfo OR exo OR dvo OR dvia]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*%RED%*       %NAME%       %RED%*%PURPLE%*%GREEN%*
+ItemDisplay[awst OR mfo OR exo OR dvo OR rgo OR dvia]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*%RED%*       %NAME%       %RED%*%PURPLE%*%GREEN%*
 //rare fate card
 ItemDisplay[fsha OR fsjp OR fsdi OR fsfr]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*%RED%*       %NAME%       %RED%*%PURPLE%*%GREEN%*
 //uncommon fate cards
 ItemDisplay[fsdg OR fsds OR fsdb OR fstc OR fspv OR  fslc OR fstl OR fsdw OR fsps OR fsbr]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*       %NAME%       %PURPLE%*%GREEN%*
 //common fate cards
-ItemDisplay[fslr OR fslu OR fsat OR fsus OR fsrb OR fstm OR fsdn OR fsht OR fsvi OR fscf OR fsgd OR fsed OR fscs OR fsta OR fsts OR fstf OR fshs OR fsar OR fstw OR fsms OR fsla]: %BORDER-0A%%DOT-62%*%PURPLE%      %NAME%
-ItemDisplay[fsbl OR fssf OR fsse OR fsew OR fssg OR fsuf OR fsmw OR fsap OR fsem]: %BORDER-0A%%DOT-62%*%PURPLE%      %NAME%
+ItemDisplay[fslr OR fslu OR fsat OR fsus OR fsrb OR fstm OR fsdn OR fsht OR fsvi OR fscf OR fsgd OR fsed OR fscs OR fsta OR fsts OR fstf OR fshs OR fsar OR fstw OR fsms OR fsla]: %BORDER-0A%%DOT-62%*%PURPLE%      %NAME%      
+ItemDisplay[fsbl OR fssf OR fsse OR fsew OR fssg OR fsuf OR fsmw OR fsap OR fsem OR fstu OR fstb]: %BORDER-0A%%DOT-62%*%PURPLE%      %NAME%      
 //relic
-ItemDisplay[rotf]: %BORDER-68%%ORANGE%pick %PURPLE%*%RED%*%YELLOW%*%GREEN%*     %NAME%     %GREEN%*%YELLOW%*%RED%*%PURPLE%* %ORANGE%up```
-````
+ItemDisplay[rotf]: %BORDER-68%%ORANGE%pick %PURPLE%*%RED%*%YELLOW%*%GREEN%*     %NAME%     %GREEN%*%YELLOW%*%RED%*%PURPLE%* %ORANGE%up
+```
