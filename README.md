@@ -1,12 +1,12 @@
 # PD2 SP Reawakening
 
-Originally I just wanted to add some items to the game from 1.08, but after lurking in r/projectdiablo2 and the discord’s #feedback channel I decided to implement a bunch of things that I either agreed with or just straight up thought would be fun.
+Originally I just wanted to add some items to the game from 1.08, but after lurking in r/projectdiablo2 and the pd2’s #feedback channel I decided to implement a bunch of things that I either agreed with or just straight up thought would be fun.
 
-Comments and feedback would be very appreciated, please comment or leave them in the [GitHub](https://github.com/synpoox/pd2-reawakening/issues) issues.
+Comments and feedback would be very appreciated, join the [Discord](https://discord.gg/rBCNMWaCNt) and share your thoughts!
 
 Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Single-Player-Plus-mod)
 
-**[Discord](https://discord.gg/rBCNMWaCNt) | [Guidebook](https://docs.google.com/document/d/e/2PACX-1vTqp7Uys-XhuvmhnynkNjRt2Z8e0DdEXGOJ66JhgRUDMajI9jWIxw5va9pukdOU_xotWZzO-_zdPdah/pub) | [Latest Patch Notes (v0.9.50)](https://docs.google.com/document/d/e/2PACX-1vR3xhGhIwxdrRVN61iHjrbxtlYU7LoL5VRgSj3-CvpbupDvGJvtrW8ETOZIVkyVhShOjnQrVr7qix3x/pub)**
+**[Discord](https://discord.gg/rBCNMWaCNt) | [Guidebook](https://docs.google.com/document/d/e/2PACX-1vTqp7Uys-XhuvmhnynkNjRt2Z8e0DdEXGOJ66JhgRUDMajI9jWIxw5va9pukdOU_xotWZzO-_zdPdah/pub) | [Latest Patch Notes (v0.9.6)](https://docs.google.com/document/d/1WFCpWh4WYfvxvOdTp1WW_NXk6l_grt4e5FdxcZ2zqCI/pub)**
 
 ## New Features
 
@@ -17,6 +17,7 @@ Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Si
   - _Mythic Orb_: Transforms Magic/Rare item to Unique (excluding charms)
   - _Regal Orb_: Transforms Magic/Rare item to Set
   - _Divine Orb_: Rerolls unique item, limited to: equipment, jewelry, grand charms
+  - _Orb of Unmaking_: Allows an item to be Awakened once more, keeping existing properties intact.
   - _Coin_: Gold sink purchasable from Akara
 - **Item Changes**: Introducing new uniques, new runewords, and updating old ones to bring them back into play
 - **New Cube Recipes**: +2 class skill Circlet crafting, rune downgrading, and more.
@@ -25,7 +26,7 @@ Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Si
   - Drop rates increased across the board, see TreasureClassEx.txt for specifics or see [this](https://docs.google.com/spreadsheets/d/e/2PACX-1vSmG2BYE-c6W7l0ha8OcyEQROgDSKFtR99mWHuT9XM6OXW_f4ym87x-d5GrhlO37msQqxt2IJj_XRbF/pubhtml) for a short comparison
 - **Crafting League Option**:
   - Uniques, sets, and runewords are disabled (All unique charms are exceptions)
-  - Mythic orbs, Divine orbs, and certain Fate Cards no longer drop
+  - Mythic orbs, Divine orbs, Regal orbs, and certain Fate Cards no longer drop
   - Uber materials such as: Voidstone, Vision of Terror, Pandemonium Talisman are purchasable from Anya
   - Easily switch between Standard and Crafting modes through the PD2 Reawakening Launcher
 
@@ -93,6 +94,8 @@ _Always make backups of your saves_
 ## Pastable Loot Filter Code
 
 This contains all the new item types (fate cards, new orbs, relic of the nephalem), stylized for Kryszard's filter.
+1. Open `loot.filter` in your `...\PD2-Reawakening\ProjectD2` directory
+1. Paste the following somewhere near the top
 
 ```
 //PD2 Single Player Reawakened
@@ -105,5 +108,5 @@ ItemDisplay[fsdg OR fsds OR fsdb OR fstc OR fspv OR  fslc OR fstl OR fsdw OR fsp
 ItemDisplay[fslr OR fslu OR fsat OR fsus OR fsrb OR fstm OR fsdn OR fsht OR fsvi OR fscf OR fsgd OR fsed OR fscs OR fsta OR fsts OR fstf OR fshs OR fsar OR fstw OR fsms OR fsla]: %BORDER-0A%%DOT-62%*%PURPLE%      %NAME%      
 ItemDisplay[fsbl OR fssf OR fsse OR fsew OR fssg OR fsuf OR fsmw OR fsap OR fsem OR fstu OR fstb]: %BORDER-0A%%DOT-62%*%PURPLE%      %NAME%      
 //relic
-ItemDisplay[rotf]: %BORDER-68%%ORANGE%pick %PURPLE%*%RED%*%YELLOW%*%GREEN%*     %NAME%     %GREEN%*%YELLOW%*%RED%*%PURPLE%* %ORANGE%up
+ItemDisplay[rotf OR oou]: %BORDER-68%%ORANGE%pick %PURPLE%*%RED%*%YELLOW%*%GREEN%*     %NAME%     %GREEN%*%YELLOW%*%RED%*%PURPLE%* %ORANGE%up
 ```
