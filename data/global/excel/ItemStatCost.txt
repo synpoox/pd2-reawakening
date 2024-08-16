@@ -190,9 +190,9 @@ map_glob_boss_dropcorruptedunique	187			2											1065	72	2008		2	2	2	2							
 item_addskill_tab	188		1	3	6						1				11042	768	1024		10	0	3	0	16																151	14		StrSklTabItem1	StrSklTabItem1									0
 openwounds_stack	189			5													1024		5	0	5	0																														0
 curse_slots	190			3													1024		3		3																															0
-item_skillonequip	191		1								1						1024		7	0	10	0	12																159	16	0	ModitemSkillOnEquip	ModitemSkillOnEquip									0
+item_skillonequip	191		1								1						1024		7	0	10	0	12																													0
 extra_bonespear_teeth	192		1	5													1024		6		5																		240	9	2	YourBoneSpear	YourBoneSpear	ExtraSpears								0
-holy_nova_reduction	193		1	5													1024		5		5																		240	9	2	HolyNovaReduc	HolyNovaReduc	NewSeconds								0
+item_skillonequip_display	193		1								1						1024		7	0	10	0	12																159	16	0	ModitemSkillOnEquip	ModitemSkillOnEquip									0
 item_numsockets	194		1	4											38	170	1024		4	0	4	0											1																			0
 item_skillonattack	195		1	7	16						1			2	190	256	1024		21	0	7	0	16											1	domeleeattack	20	domissileattack	20	160	15		ItemExpansiveChancX	ItemExpansiveChancX									0
 item_skillonkill	196		1	7	16						1			2	85	19	1024		21	0	7	0	16											1	kill	20			160	15		ModitemskonKill	ModitemskonKill									0
@@ -267,15 +267,15 @@ item_absorb_thrust	264		1														1024																																			0
 item_absorb_slash_percent	265		1														1024																																			0
 item_absorb_crush_percent	266		1														1024																																			0
 item_absorb_thrust_percent	267		1														1024																																			0
-item_armor_bytime	268		1	22										4		0	1024		22	0	22	0			6			armorclass											180	17	1	ModStr1i	ModStr1i									0
-item_armorpercent_bytime	269		1	22										4		0	1024		22	0	22	0			7			armorclass											180	18	1	Modstr2v	Modstr2v									0
-item_hp_bytime	270		1	22										4		0	1024		22	0	22	0			6			maxhp											180	17	1	ModStr1u	ModStr1u									0
-item_mana_bytime	271		1	22										4		0	1024		22	0	22	0			6			maxmana											180	17	1	ModStr1e	ModStr1e									0
-item_maxdamage_bytime	272		1	22										4		0	1024		22	0	22	0			6			maxdamage	secondary_maxdamage	item_throw_maxdamage				1					180	17	1	ModStr1f	ModStr1f									0
-item_maxdamage_percent_bytime	273		1	22										4		0	1024		22	0	22	0			7			maxdamage	secondary_mindamage	item_throw_mindamage				1					180	18	1	ModStr2j	ModStr2j									0
-item_strength_bytime	274		1	22										4		0	1024		22	0	22	0			6			strength											180	17	1	ModStr1a	ModStr1a									0
-item_dexterity_bytime	275		1	22										4		0	1024		22	0	22	0			6			dexterity											180	17	1	ModStr1b	ModStr1b									0
-item_energy_bytime	276		1	22										4		0	1024		22	0	22	0			6			energy											180	17	1	ModStr1d	ModStr1d									0
+item_physperenergy	268		1								1						1024		7	0	10	0	12																204	3	0	StrPhysPerEnergy	StrPhysPerEnergy									0
+item_gainmagicmastery	269		1								1						1024		7	0	10	0	12																204	3	0	StrGainMagicMastery	StrGainMagicMastery									0
+item_nonclassskill_display	270		1	15	9						1			1	181	327	1024		7	20	6	0	9																81	28												0
+item_frwperenergy	271		1								1						1024		7	0	10	0	12																204	3	0	StrFrwPerEnergy	StrFrwPerEnergy									0
+item_magicmasteryperenergy	272		1								1						1024		7	0	10	0	12																204	3	0	StrMagicMasteryPerEnergy	StrMagicMasteryPerEnergy									0
+item_convertmasterytomagic	273		1								1						1024		7	0	10	0	12																204	3	0	StrConvertMasteryMag	StrConvertMasteryMag									0
+item_physextramagic	274		1								1						1024		7	0	10	0	12																204	3	0	StrPhysExtraMagic	StrPhysExtraMagic									0
+item_elepierceaddmastery	275		1								1						1024		7	0	10	0	12																204	3	0	StrGainPierceAsMastery	StrGainPierceAsMastery									0
+item_damagepercentmastery	276		1								1						1024		7	0	10	0	12																204	3	0	StrDamagePercentMastery	StrDamagePercentMastery									0
 item_vitality_bytime	277		1	22										4		0	1024		22	0	22	0			6			vitality											180	17	1	ModStr1c	ModStr1c									0
 item_tohit_bytime	278		1	22										4		0	1024		22	0	22	0			6			tohit						1					180	17	1	ModStr1h	ModStr1h									0
 item_tohitpercent_bytime	279		1	22										4		0	1024		22	0	22	0			6			item_tohit_percent						1					180	18	1	ModStr4c	ModStr4c									0
@@ -302,8 +302,8 @@ item_tohit_undead_bytime	299		1	22										4		0	1024		22	0	22	0			6			item_unde
 item_crushingblow_bytime	300		1	22										4		0	1024		22	0	22	0			6			item_crushingblow						1					180	18	1	ModStr5c	ModStr5c									0
 item_openwounds_bytime	301		1	22										4		0	1024		22	0	22	0			6			item_openwounds						1					180	18	1	ModStr3m	ModStr3m									0
 item_kick_damage_bytime	302		1	22										4		0	1024		22	0	22	0			6			item_kickdamage						1					180	17	1	ModStr5e	ModStr5e									0
-item_deadlystrike_bytime	303		1	22										4		0	1024		22	0	22	0			6			item_deadlystrike						1					180	18	1	ModStr5q	ModStr5q									0
-item_find_gems_bytime	304		1											4		0	1024																																			0
+unmaking_num	303			1	16											54	1024				12	0																	0	0	0											0
+jeweller_num	304			1	16											54	1024				12	0																	200	1	1	StrAwakenNum	StrAwakenNum									0
 item_pierce_cold	305		1	9											1432	513	1024				6	50																	88	20	1	Moditemenrescoldsk	Moditemenrescoldsk									0
 item_pierce_fire	306		1	9											1240	497	1024				6	50																	88	20	1	Moditemenresfiresk	Moditemenresfiresk									0
 item_pierce_ltng	307		1	9											1187	481	1024				6	50																	88	20	1	Moditemenresltngsk	Moditemenresltngsk									0

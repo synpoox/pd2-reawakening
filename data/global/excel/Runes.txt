@@ -38,7 +38,7 @@ Runeword39	Famine	1		axe	hamm	swor							FalOhmOrtJah	r19	r27	r09	r31			dmg%		28
 Runeword48	Hand of Justice	1		weap									SurChamAmnLo	r29	r32	r11	r28			swing2		33	33	dmg%		280	330	aura	Holy Fire	12	12	levelup-skill	Blaze	100	36	death-skill	Meteor	100	48	ignore-ac		1	1	pierce-fire		15	25	0
 Runeword51	Heart of the Oak	1		staf	mace								KoVexPulThul	r18	r26	r21	r10			cast2		40	40	charged	Raven	60	14	mana%		15	15	allskills		3	3	regen		20	20	res-all		30	40	charged	226	25	4	0
 Runeword66	Kingslayer	1		swor	axe								MalUmGulFal	r23	r22	r25	r19			swing2		30	30	dmg%		230	270	reduce-ac		25	25	crush		33	33	dmg-cold	50	250	500	oskill	Vengeance	10	10	rep-dur	10			0
-Runeword95	Passion	1		weap									DolOrtEldLem	r14	r09	r02	r20			dmg%		160	210	oskill	Zeal	1	1	att%		50	80	oskill	Concentrate	1	1	swing2		25	25	charged	Heart of Wolverine	36	8	oskill	Multiple Shot	1	1	0
+Runeword95	Passion	1		weap									DolOrtEldLem	r14	r09	r02	r20			dmg%		160	210	oskill	Zeal	5	5	att%		50	80	oskill	Concentrate	5	5	swing2		25	25	charged	Heart of Wolverine	36	8	oskill	Multiple Shot	5	5	0
 Runeword45	Gloom	1		tors									FalUmPul	r19	r22	r21				ac%		170	230	res-all		30	30	gethit-skill	Dim Vision	15	9	balance2		20	40	dmg-to-mana		5	5	curse-effectiveness		20	20	half-freeze		1	1	0
 Runeword122	Sanctuary	1		shld									KoKoMal	r18	r18	r23				block		20	20	block2		20	20	ac%		130	160	charged	Slow Movement	60	12	res-all		40	50	balance2		20	20	nofreeze		1	1	0
 Runeword16	Chaos	1		h2h	knif								FalOhmUm	r19	r27	r22				demon-heal		15	15	dmg%		200	250	dmg-mag		200	400	skill	Blade Dance	2	2	hit-skill	Charged Bolt	18	40	hit-skill	Frozen Orb	20	30	indestruct		1	1	0
@@ -188,4 +188,4 @@ Revenge	Revenge			sc9									LoHelZodAmn	r28	r15	r33	r11			dmg%		250	300	red-dm
 Runeword41	Fortitude	1		weap									ElSolDolLo	r01	r12	r14	r28			ac%		200	200	dmg%		300	350	swing2		25	25	dmg-to-mana		12	12	hp/lvl		8	12	res-all		25	30					0
 Runeword25	Destruction	1		staf									VexLoBerJahKo	r26	r28	r30	r31	r18		dmg%		300	300	swing2		30	40	cast-skill	Molten Boulder	18	35	cast-skill	Meteor	25	45	cast-skill	Nova	25	40	cast-skill	Frost Nova	30	35					0
 Hustle	Hustle	1		tors									ShaelKoEld	r13	r18	r02				equipped-skill	Quickness SelfAura	6	6	swing2		20	20	stamdrain		35	35	res-all		10	10	half-freeze		1	1									0
-Obsession Sword	Obsession	1		swor									ZodIstLemLumIoNef	r33	r24	r20	r17	r16	r04	allskills		3	3	cast2		25	25	cast-skill	Weaken	10	18	hp%		5	10	res-all		20	30	balance2		30	30	regen-mana		8	12	0
+Obsession Sword	Obsession	1		swor									ZodIstLemLumIoNef	r33	r24	r20	r17	r16	r04	allskills		4	4	cast2		30	30	cast-skill	Weaken	10	18	hp%		5	10	res-all		20	30	balance2		30	30	regen-mana		8	12	0
