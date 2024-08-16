@@ -2384,13 +2384,36 @@ unmaking Hellfire Torch	1			100	18	303	0		2	Hellfire Torch	"oou,qty=1"						usei
 unmaking Annihilus	1			100	18	303	0		2	Annihilus	"oou,qty=1"						useitem			100	awaken	100		-100	-100	awakennum	100		-2002	-2002	unmaking	100		1	1																																																																					0
 unmaking unique grand charm	1			100	18	303	0		2	"cm3,uni"	"oou,qty=1"						useitem			100	awaken	100		-100	-100	awakennum	100		-2002	-2002	unmaking	100		1	1																																																																					0
 																																																																																																								0
-CAIN'S WISDOM																																																																																																								0
+TAINTED JEWELLERS ORB																																																																																																								0
+																																																																																																								0
+tainted jeweller's orb normal item factor	0	2		100	16	304	0		2	"any,sock,nor"	"tjo,qty=1"						useitem			100	jewellernum	100		1	1000																					"tjo,qty=1"																																																										0
+tainted jeweller's orb superior item factor	0	2		100	16	304	0		2	"any,sock,hiq"	"tjo,qty=1"						useitem			100	jewellernum	100		1	1000																					"tjo,qty=1"																																																										0
+tainted jeweller's orb magic item factor	1	2		100	16	304	0		2	"any,sock,mag"	"tjo,qty=1"						useitem			100	jewellernum	100		1	1000																					"tjo,qty=1"																																																										0
+tainted jeweller's orb rare item factor	1	2		100	16	304	0		2	"any,sock,rar"	"tjo,qty=1"						useitem			100	jewellernum	100		1	1000																					"tjo,qty=1"																																																										0
+tainted jeweller's orb crafted item factor	1	2		100	16	304	0		2	"any,sock,crf"	"tjo,qty=1"						useitem			100	jewellernum	100		1	1000																					"tjo,qty=1"																																																										0
+tainted jeweller's orb unique item factor	1	2		100	16	304	0		2	"any,sock,uni"	"tjo,qty=1"						useitem			100	jewellernum	100		1	1000																					"tjo,qty=1"																																																										0
+tainted jeweller's orb unique item factor	1	2		100	16	304	0		2	"any,sock,set"	"tjo,qty=1"						useitem			100	jewellernum	100		1	1000																					"tjo,qty=1"																																																										0
+																																																																																																								0
+tainted jeweller's orb + normal -> destroy sockets	0			100	16	304	500		2	"any,sock,nor"	"tjo,qty=1"						useitem,uns			100	jewellernum	100		-1000	-1000																																																																															0
+tainted jeweller's orb + normal -> remove sockets	0			100	16	304	1000		2	"any,sock,nor"	"tjo,qty=1"						useitem,rem			100	jewellernum	100		-1000	-1000																																																																															0
+tainted jeweller's orb + superior -> destroy sockets	0			100	16	304	500		2	"any,sock,hiq"	"tjo,qty=1"						useitem,uns			100	jewellernum	100		-1000	-1000																																																																															0
+tainted jeweller's orb + superior -> remove sockets	0			100	16	304	1000		2	"any,sock,hiq"	"tjo,qty=1"						useitem,rem			100	jewellernum	100		-1000	-1000																																																																															0
+tainted jeweller's orb + mag -> destroy sockets	1			100	16	304	500		2	"any,sock,mag"	"tjo,qty=1"						useitem,uns			100	jewellernum	100		-1000	-1000																																																																															0
+tainted jeweller's orb + mag -> remove sockets	1			100	16	304	1000		2	"any,sock,mag"	"tjo,qty=1"						useitem,rem			100	jewellernum	100		-1000	-1000																																																																															0
+tainted jeweller's orb + rare -> destroy sockets	1			100	16	304	500		2	"any,sock,rar"	"tjo,qty=1"						useitem,uns			100	jewellernum	100		-1000	-1000																																																																															0
+tainted jeweller's orb + rare -> remove sockets	1			100	16	304	1000		2	"any,sock,rar"	"tjo,qty=1"						useitem,rem			100	jewellernum	100		-1000	-1000																																																																															0
+tainted jeweller's orb + crafted -> destroy sockets	1			100	16	304	500		2	"any,sock,crf"	"tjo,qty=1"						useitem,uns			100	jewellernum	100		-1000	-1000																																																																															0
+tainted jeweller's orb + crafted -> remove sockets	1			100	16	304	1000		2	"any,sock,crf"	"tjo,qty=1"						useitem,rem			100	jewellernum	100		-1000	-1000																																																																															0
+tainted jeweller's orb + unique -> destroy sockets	1			100	16	304	500		2	"any,sock,uni"	"tjo,qty=1"						useitem,uns			100	jewellernum	100		-1000	-1000																																																																															0
+tainted jeweller's orb + unique -> remove sockets	1			100	16	304	1000		2	"any,sock,uni"	"tjo,qty=1"						useitem,rem			100	jewellernum	100		-1000	-1000																																																																															0
+tainted jeweller's orb + set -> destroy sockets	1			100	16	304	500		2	"any,sock,set"	"tjo,qty=1"						useitem,uns			100	jewellernum	100		-1000	-1000																																																																															0
+tainted jeweller's orb + set -> remove sockets	1			100	16	304	1000		2	"any,sock,set"	"tjo,qty=1"						useitem,rem			100	jewellernum	100		-1000	-1000																																																																															0
 																																																																																																								0
 Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm1			Cain's Wisdom	99																																																																																						0
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	0			100					1	"key,qty=1"							"oba,mag"	26																												"armo,rar"	99																												"rgo,qty=50"	99																												0
+generate (dev)	0			100					1	"key,qty=1"							"tjo,qty=50"	26																												"helm,hiq"	99			sock	100		2	2																					"jew,rar"	99																												0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
 3 of Luminescence -> Mara's Kaleidoscope	1			100					1	fslu,qty=3							Mara's Kaleidoscope	95																																																																																						0
 3 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=3							The Stone of Jordan	95																																																																																						0

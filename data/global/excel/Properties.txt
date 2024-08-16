@@ -443,5 +443,6 @@ item-convertmasterytomagic	1			22	item_skillonequip			22	item_convertmasterytoma
 item-physextramagic	1			22	item_skillonequip			22	item_physextramagic																									440	0
 item-elepierceaddmastery	1			22	item_skillonequip			22	item_elepierceaddmastery																									441	0
 item-damagepercentmastery	1			22	item_skillonequip			22	item_damagepercentmastery																									442	0
-mythicnum	1			1	mythic_num																													443	0
+mythicnum	1			1																														443	0
 unmaking	1			1	unmaking_num																													444	0
+jewellernum	1			1	jeweller_num																													445	0

@@ -303,7 +303,7 @@ item_crushingblow_bytime	300		1	22										4		0	1024		22	0	22	0			6			item_crus
 item_openwounds_bytime	301		1	22										4		0	1024		22	0	22	0			6			item_openwounds						1					180	18	1	ModStr3m	ModStr3m									0
 item_kick_damage_bytime	302		1	22										4		0	1024		22	0	22	0			6			item_kickdamage						1					180	17	1	ModStr5e	ModStr5e									0
 unmaking_num	303			1	16											54	1024				12	0																	0	0	0											0
-mythic_num	304			1	16											54	1024				12	0																	245	3	1	StrAwakenNum	StrAwakenNum									0
+jeweller_num	304			1	16											54	1024				12	0																	200	1	1	StrAwakenNum	StrAwakenNum									0
 item_pierce_cold	305		1	9											1432	513	1024				6	50																	88	20	1	Moditemenrescoldsk	Moditemenrescoldsk									0
 item_pierce_fire	306		1	9											1240	497	1024				6	50																	88	20	1	Moditemenresfiresk	Moditemenresfiresk									0
 item_pierce_ltng	307		1	9											1187	481	1024				6	50																	88	20	1	Moditemenresltngsk	Moditemenresltngsk									0
