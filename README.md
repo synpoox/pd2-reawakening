@@ -18,6 +18,7 @@ Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Si
   - _Regal Orb_: Transforms Magic/Rare item to Set
   - _Divine Orb_: Rerolls unique item, limited to: equipment, jewelry, grand charms
   - _Orb of Unmaking_: Allows an item to be Awakened once more, keeping existing properties intact.
+  - _Tainted Jeweller's Orb_: Unpredictably unsockets an item, either keeping or destroying contents in the process.
   - _Coin_: Gold sink purchasable from Akara
 - **Item Changes**: Introducing new uniques, new runewords, and updating old ones to bring them back into play
 - **New Cube Recipes**: +2 class skill Circlet crafting, rune downgrading, and more.
@@ -99,7 +100,7 @@ This contains all the new item types (fate cards, new orbs, relic of the nephale
 
 ```
 //PD2 Single Player Reawakened
-ItemDisplay[awst OR mfo OR exo OR dvo OR rgo OR dvia]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*%RED%*       %NAME%       %RED%*%PURPLE%*%GREEN%*
+ItemDisplay[awst OR mfo OR exo OR dvo OR rgo OR tjo OR dvia]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*%RED%*       %NAME%       %RED%*%PURPLE%*%GREEN%*
 //rare fate card
 ItemDisplay[fsha OR fsjp OR fsdi OR fsfr]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*%RED%*       %NAME%       %RED%*%PURPLE%*%GREEN%*
 //uncommon fate cards
