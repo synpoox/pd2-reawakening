@@ -6,7 +6,7 @@ Comments and feedback would be very appreciated, please comment or leave them in
 
 Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Single-Player-Plus-mod)
 
-**[Guidebook](https://docs.google.com/document/d/e/2PACX-1vTqp7Uys-XhuvmhnynkNjRt2Z8e0DdEXGOJ66JhgRUDMajI9jWIxw5va9pukdOU_xotWZzO-_zdPdah/pub) | [Latest Patch Notes (v0.9.50)](https://docs.google.com/document/d/e/2PACX-1vR3xhGhIwxdrRVN61iHjrbxtlYU7LoL5VRgSj3-CvpbupDvGJvtrW8ETOZIVkyVhShOjnQrVr7qix3x/pub)**
+**[Discord](https://discord.gg/rBCNMWaCNt) | [Guidebook](https://docs.google.com/document/d/e/2PACX-1vTqp7Uys-XhuvmhnynkNjRt2Z8e0DdEXGOJ66JhgRUDMajI9jWIxw5va9pukdOU_xotWZzO-_zdPdah/pub) | [Latest Patch Notes (v0.9.50)](https://docs.google.com/document/d/e/2PACX-1vR3xhGhIwxdrRVN61iHjrbxtlYU7LoL5VRgSj3-CvpbupDvGJvtrW8ETOZIVkyVhShOjnQrVr7qix3x/pub)**
 
 ## New Features
 
@@ -37,7 +37,7 @@ Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Si
 
 If you've played PlugY or any other PD2 single player mod, your current characters/stash will likely be incompatible.
 
-#### With Reawakening Launcher (auto-updates Reawakening patches)
+#### With Launcher (auto-updates Reawakening patches)
 
 1. Create a copy of your PD2 installation in a new directory.
 1. Install [PD2-PlugY](https://github.com/BetweenWalls/PD2-PlugY)
@@ -55,30 +55,55 @@ If you've played PlugY or any other PD2 single player mod, your current characte
 1. Launch the game with `Plugy.exe`
 1. Go to Akara and look for an item with Alkor's quest potion. If it's there, then the mod was installed successfully.
 
-#### Toggling Between Standard and Crafting
+## Changing Save Folder Path
+
+Following the above instructions will point your new PD2 Reawakening install your old PD2 save folders, which can cause errors with incomptable characters/stashes. To change your save folder path:
+
+#### With Launcher
+1. Click `Settings` in the top left
+1. Click `Change Save Path`
+1. Select your desired Save directory
+
+![alt text](kAKT28i.png)
+
+#### Without Launcher
+
+1. Open `ProjectDiablo.json` in your new `...\PD2-Reawakening\ProjectD2` folder
+1. Look for `"save_path"` and edit it to your chosen directory:
+
+```JSON
+"other": {
+  "lng_file": "",
+  "installpath": "C:\\Program Files (x86)\\PD2-Reawakening\\",
+  "save_path": "C:\\Program Files (x86)\\PD2-Reawakening\\Save\\"
+}
+```
+**Note that double backslashes are required**
+
+## Toggling Between Standard and Crafting
+
 1. Click the `Settings` button in the top left
 1. Toggle the checkbox to enable/disable Crafting League
 1. Press `Save`
 
 ### **WARNING: Enabling Crafting league and logging into a character can sometimes cause runewords to be deleted from that character and your stash**
-*Always make backups of your saves*
 
-![alt text](VxDrwBe.png)
+_Always make backups of your saves_
 
-#### Pastable Loot Filter Code
+## Pastable Loot Filter Code
 
 This contains all the new item types (fate cards, new orbs, relic of the nephalem), stylized for Kryszard's filter.
 
-````
+```
 //PD2 Single Player Reawakened
-ItemDisplay[awst OR mfo OR exo OR dvo OR dvia]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*%RED%*       %NAME%       %RED%*%PURPLE%*%GREEN%*
+ItemDisplay[awst OR mfo OR exo OR dvo OR rgo OR dvia]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*%RED%*       %NAME%       %RED%*%PURPLE%*%GREEN%*
 //rare fate card
 ItemDisplay[fsha OR fsjp OR fsdi OR fsfr]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*%RED%*       %NAME%       %RED%*%PURPLE%*%GREEN%*
 //uncommon fate cards
 ItemDisplay[fsdg OR fsds OR fsdb OR fstc OR fspv OR  fslc OR fstl OR fsdw OR fsps OR fsbr]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*       %NAME%       %PURPLE%*%GREEN%*
 //common fate cards
-ItemDisplay[fslr OR fslu OR fsat OR fsus OR fsrb OR fstm OR fsdn OR fsht OR fsvi OR fscf OR fsgd OR fsed OR fscs OR fsta OR fsts OR fstf OR fshs OR fsar OR fstw OR fsms OR fsla]: %BORDER-0A%%DOT-62%*%PURPLE%      %NAME%
-ItemDisplay[fsbl OR fssf OR fsse OR fsew OR fssg OR fsuf OR fsmw OR fsap OR fsem]: %BORDER-0A%%DOT-62%*%PURPLE%      %NAME%
+ItemDisplay[fslr OR fslu OR fsat OR fsus OR fsrb OR fstm OR fsdn OR fsht OR fsvi OR fscf OR fsgd OR fsed OR fscs OR fsta OR fsts OR fstf OR fshs OR fsar OR fstw OR fsms OR fsla]: %BORDER-0A%%DOT-62%*%PURPLE%      %NAME%      
+ItemDisplay[fsbl OR fssf OR fsse OR fsew OR fssg OR fsuf OR fsmw OR fsap OR fsem OR fstu OR fstb]: %BORDER-0A%%DOT-62%*%PURPLE%      %NAME%      
 //relic
-ItemDisplay[rotf]: %BORDER-68%%ORANGE%pick %PURPLE%*%RED%*%YELLOW%*%GREEN%*     %NAME%     %GREEN%*%YELLOW%*%RED%*%PURPLE%* %ORANGE%up```
-````
+ItemDisplay[rotf]: %BORDER-68%%ORANGE%pick %PURPLE%*%RED%*%YELLOW%*%GREEN%*     %NAME%     %GREEN%*%YELLOW%*%RED%*%PURPLE%* %ORANGE%up
+```
