@@ -2413,7 +2413,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	0			100					1	"key,qty=1"							"tjo,qty=50"	26																												"helm,mag"	99			sock	100		2	2																					"jew,rar"	99																												0
+generate (dev)	0			100					1	"key,qty=1"							"mfo,qty=50"	26																												"helm,mag"	99			sock	100		2	2																					"jew,rar"	99																												0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
 3 of Luminescence -> Mara's Kaleidoscope	1			100					1	fslu,qty=3							Mara's Kaleidoscope	95																																																																																						0
 3 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=3							The Stone of Jordan	95																																																																																						0
@@ -2441,7 +2441,7 @@ generate (dev)	0			100					1	"key,qty=1"							"tjo,qty=50"	26																		
 5 of Jordan's Perfected Stone -> corrupt awaken soj +1 all skills +10fcr	1			100					1	fsjp,qty=5							The Stone of Jordan	95			corrupt	100		42	42	corruptnum	100		1001	1001	cast1	100		10	10	awakennum	100		1001	1001	allskills	100		1	1																																																											0
 4 of The Arcane Pact -> corrupt rare ring with 20fcr	1			100					1	fsap,qty=4							"rin,rar,suf=174"		100		corrupt	100		42	42	corruptnum	100		1001	1001	cast1	100		10	10																																																																					0
 3 of The Lifespring -> skiller grand charm with 41-45 life	1			100					1	fstl,qty=3							"cms,mag,pre=999,suf=339"	91																																																																																						0
-9 of Demonic Infusion -> corrupted annihilus +1 all skills	1			100					1	fsdi,qty=9							Annihilus	99			corrupt	100		27	27	corruptnum	100		1001	1001	allskills	100		1	1	dye	100		10	10																																																																0
+9 of Demonic Infusion -> corrupted annihilus +1 all skills	1			100					1	fsdi,qty=9							Annihilus	120			corrupt	100		27	27	corruptnum	100		1001	1001	allskills	100		1	1	dye	100		10	10																																																																0
 3 of Bloodlust -> fine small charm of vita	1			100					1	fsbl,qty=3							"cm1,mag,pre=256,suf=349"	99																																																																																						0
 3 of Serpent's Fang -> serpent's small charm of vita	1			100					1	fssf,qty=3							"cm1,mag,pre=303,suf=349"	99																																																																																						0
 3 of Serpent's Embrace -> serpent's small charm of balance	1			100					1	fsse,qty=3							"cm1,mag,pre=303,suf=267"	99																																																																																						0
@@ -2536,16 +2536,16 @@ RELIC OF THE NEPHALEM																																																											
 																																																																																																								0
 add relic factor	1	2		100	18	509	0		1	"rotf"							useitem			100	awakennum	100		1	1000																																																																															0
 																																																																																																								0
-relic -> 08 shako	1	2		100	16	509	100		1	"rotf"							"uapl,uni"	99																																																																																						0
-relic -> 08 arkaines	1	2		100	16	509	200		1	"rotf"							"upll,uni"	99																																																																																						0
-relic -> armageddon slippers	1	2		100	16	509	300		1	"rotf"							Armageddon Slippers	99																																																																																						0
-relic -> armageddon fletch	1	2		100	16	509	400		1	"rotf"							Armageddon Fletch	99																																																																																						0
-relic -> storm circlet	1	2		100	16	509	500		1	"rotf"							Storm Circlet	99																																																																																						0
-relic -> 08 vgaze	1	2		100	16	509	600		1	"rotf"							"xh9l,uni"	99																																																																																						0
-relic -> siggard's stealth	1	2		100	16	509	700		1	"rotf"							Siggard's Stealth	99																																																																																						0
-relic -> snatchii's steelclash	1	2		100	16	509	800		1	"rotf"							Snatchii's Steelclash	99																																																																																						0
-relic -> wiz gloves	1	2		100	16	509	900		1	"rotf"							"tgll,uni"	99																																																																																						0
-relic -> occy soj	1	2		100	16	509	1000		1	"rotf"							Occy Soj	99																																																																																						0
+relic -> 08 shako	1	2		100	16	509	100		1	"rotf"							"uapl,uni"	120																																																																																						0
+relic -> 08 arkaines	1	2		100	16	509	200		1	"rotf"							"upll,uni"	120																																																																																						0
+relic -> armageddon slippers	1	2		100	16	509	300		1	"rotf"							Armageddon Slippers	120																																																																																						0
+relic -> armageddon fletch	1	2		100	16	509	400		1	"rotf"							Armageddon Fletch	120																																																																																						0
+relic -> storm circlet	1	2		100	16	509	500		1	"rotf"							Storm Circlet	120																																																																																						0
+relic -> 08 vgaze	1	2		100	16	509	600		1	"rotf"							"xh9l,uni"	120																																																																																						0
+relic -> siggard's stealth	1	2		100	16	509	700		1	"rotf"							Siggard's Stealth	120																																																																																						0
+relic -> snatchii's steelclash	1	2		100	16	509	800		1	"rotf"							Snatchii's Steelclash	120																																																																																						0
+relic -> wiz gloves	1	2		100	16	509	900		1	"rotf"							"tgll,uni"	120																																																																																						0
+relic -> occy soj	1	2		100	16	509	1000		1	"rotf"							Occy Soj	120																																																																																						0
 																																																																																																								0
 8 zod + coin -> lightsong	1			100					2	"r33g,qty=8"	"ncoi,qty=1"						lsvl																																																																																							0
 50 pde + 50 jewel fragments + coin -> pandemonium talisman	1			100					3	"dcbl,qty=50"	"ncoi,qty=1"	"jewg,qty=50"					ubtm																																																																																							0
