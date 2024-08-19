@@ -365,13 +365,13 @@ AWAKENED SHARD ITEM ROLLING																																																					
 vial of awakening + pde + jawbone -> awakened worldstone shard	0			100					3	"dvia,qty=1"	"rtmo,qty=1"	"dcbl,qty=1"					awst																																																																																							0
 																																																																																																								0
 PHASE 1																																																																																																								0
-add awaken factor to weapon	1	2		100	18	509	0		2	"weap"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
-add awaken factor to armor	1	2		100	18	509	0		2	"armo"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
-add awaken factor to amulet	1	2		100	18	509	0		2	"amul"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
-add awaken factor to ring	1	2		100	18	509	0		2	"ring"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
-add awaken factor to Hellfire Torch	1	2		100	18	509	0		2	"Hellfire Torch"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
-add awaken factor to unique gc	1	2		100	18	509	0		2	"cm3,uni"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
-add awaken factor to Annihilus	1	2		100	18	509	0		2	"Annihilus"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
+add awaken factor to weapon	1	2		100	16	509	0		2	"weap"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
+add awaken factor to armor	1	2		100	16	509	0		2	"armo"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
+add awaken factor to amulet	1	2		100	16	509	0		2	"amul"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
+add awaken factor to ring	1	2		100	16	509	0		2	"ring"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
+add awaken factor to Hellfire Torch	1	2		100	16	509	0		2	"Hellfire Torch"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
+add awaken factor to unique gc	1	2		100	16	509	0		2	"cm3,uni"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
+add awaken factor to Annihilus	1	2		100	16	509	0		2	"Annihilus"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
 																																																																																																								0
 PHASE 2 (outcomes)																																																																																																								0
 																																																																																																								0
