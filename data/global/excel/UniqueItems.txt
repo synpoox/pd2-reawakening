@@ -492,3 +492,11 @@ Phantom Dancer	100	1		1	1	87	63	amc	Grand Matron Bow			5	5000	dgry	dgry						ite
 Call of the Brotherhood	100	1		1	1	87	67	amu	Amulet			5	5000								item-convertmasterytomagic	576	1	1	dmg-mag		75	75	res-fire		-30	30	res-ltng		-30	30	res-cold		-30	30	res-pois		-30	30	cast2		5	10																					0
 Elemental Overload	100	1		1	1	87	60	ukp	Hydraskull			5	5000	lyel	lyel						item-elepierceaddmastery	577	1	1	res-fire		-15	15	res-ltng		-15	15	res-cold		-15	15	res-pois		-15	15																													0
 Endlessness	100	0		1	1	87	85	72h	Legend Sword			5	5000	dgry	dgry						item-damagepercentmastery	578	1	1	swing2		20	20	hp		80	100																																	splash	358	100	1	0
+Bugged Buriza-Do Kyanon	100	1		1	1	120	41	xld	Sharktooth Armor			5	5000								pierce		100	100	dex		35	35	ac		75	150	dmg/lvl	20			swing2		80	80	dmg%		150	200	freeze		3	3	dmg-cold	200	32	196																	0
+Bugged Windforce	100	1		1	1	120	73	6lw	Hydra Bow			5	5000	dyel	dyel						dex		35	35	dmg/lvl	25			allskills		2	2	manasteal		8	8	knock		1	1	dmg%		350	350	swing2		20	20	lifesteal		8	8	sock		6	6	regen-stam		30	30									0
+Aquariu's Stormrider	100	1		1	1	120	41	tbl	Heavy Belt			5	5000	lred	lred						hit-skill	53	5	10	hit-skill	38	10	30	dmg-ltng		1	200	dmg-norm		35	75	dmg%		100	100	dur		50	50	light-thorns		15	15	gethit-skill	38	15	5																	0
+Bugged Stormshield	100	1		1	1	120	73	uit	Monarch			3	5000				invkitu				ac/lvl	24			red-dmg%		35	35	str		30	30	indestruct		1	1	block2		35	35	res-ltng		25	25	block		25	25	res-cold		60	60	thorns		10	10	allskills		2	2	hp%		20	20	sock		4	4	0
+Bugged Wartraveler	100	1		1	1	120	42	xtb	Battle Boots			5	5000								vit		10	10	str		10	10	mag%		100	100	indestruct		1	1	move2		35	35	ac%		150	190	dmg-norm		15	25	res-all		30	30	stamdrain		40	40	red-dmg%		15	15	allskills		1	1					0
+King's Jewel of Blazing	100	1		1	1	120	48	jew	jewel			3	5000								allskills		1	1	res-all		25	25	mag%/lvl	2																																							0
+Mark of the Askari	100	1		1	1	55	24	cqv	bolts			5	5000	dyel	dyel						oskill	26	3	3	move2		20	20	swing2		10	10	crushing		10	15	dex		10	20	dmg%		30	50																									0
+Surgefletcher	100	1		1	1	55	45	aqv	arrows			5	5000	dyel	dyel						oskill	63	1	1	dmg-ltng		1	256	res-ltng		20	30	res-fire		-15	-15	hp		40	75	swing2		7	10	heal-kill		3	5																					0
