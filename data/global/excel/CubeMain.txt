@@ -372,6 +372,7 @@ add awaken factor to ring	1	2		100	16	509	0		2	"ring"	"dvia,qty=1"						useitem	
 add awaken factor to Hellfire Torch	1	2		100	16	509	0		2	"Hellfire Torch"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
 add awaken factor to unique gc	1	2		100	16	509	0		2	"cm3,uni"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
 add awaken factor to Annihilus	1	2		100	16	509	0		2	"Annihilus"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
+add awaken factor to quiver	1	2		100	16	509	0		2	"misl"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
 																																																																																																								0
 PHASE 2 (outcomes)																																																																																																								0
 																																																																																																								0
@@ -545,6 +546,23 @@ weapon -> fcr, ias, poison pierce	1	2		100	16	509	910		2	"weap"	"dvia,qty=1"				
 weapon -> 30 ias, enhanced damage	1	2		100	16	509	940		2	"weap"	"dvia,qty=1"						useitem			100	awaken	100		20	20	awakennum	100		1001	1001	swing1	100		30	30	dmg%	100		150	200																																																																0
 weapon -> 40 fcr	1	2		100	16	509	970		2	"weap"	"dvia,qty=1"						useitem			100	awaken	100		40	40	awakennum	100		1001	1001	cast1	100		40	40																																																																					0
 weapon -> +1 all skill	1	2		100	16	509	1000		2	"weap"	"dvia,qty=1"						useitem			100	awaken	100		25	25	awakennum	100		1001	1001	allskills	100		1	1																																																																					0
+																																																																																																								0
+quiver -> life leech	1	2		100	16	509	95		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		55	55	awakennum	100		1001	1001	lifesteal	100		3	6																																																																					0
+quiver -> mana leech	1	2		100	16	509	190		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		56	56	awakennum	100		1001	1001	manasteal	100		3	6																																																																					0
+quiver -> frw	1	2		100	16	509	285		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		42	42	awakennum	100		1001	1001	move1	100		20	20																																																																					0
+quiver -> cyclone armor on striking	1	2		100	16	509	380		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		88	88	awakennum	100		1001	1001	hit-skill	100	235	11	18																																																																					0
+quiver -> cold pierce	1	2		100	16	509	475		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		12	12	awakennum	100		1001	1001	pierce-cold	100		10	15																																																																					0
+quiver -> bone armor on striking	1	2		100	16	509	570		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		88	88	awakennum	100		1001	1001	hit-skill	100	68	11	18																																																																					0
+quiver -> fire pierce	1	2		100	16	509	665		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		10	10	awakennum	100		1001	1001	pierce-fire	100		10	15																																																																					0
+quiver -> 10ias	1	2		100	16	509	760		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		18	18	awakennum	100		1001	1001	swing1	100		10	10																																																																					0
+quiver -> 20ias	1	2		100	16	509	790		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		18	18	awakennum	100		1001	1001	swing1	100		20	20																																																																					0
+quiver -> enhanced damage	1	2		100	16	509	820		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		1	1	awakennum	100		1001	1001	dmg%	100		40	65																																																																					0
+quiver -> flat damage, deadly	1	2		100	16	509	850		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		23	23	awakennum	100		1001	1001	dmg-min	100		10	10	dmg-max	100		15	15	deadly	100		10	10																																																											0
+quiver -> phys pierce	1	2		100	16	509	880		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		30	30	awakennum	100		1001	1001	pierce-phys	100		10	15																																																																					0
+quiver -> might aura	1	2		100	16	509	910		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		90	90	awakennum	100		1001	1001	aura	100	98	12	12																																																																					0
+quiver -> conviction aura	1	2		100	16	509	940		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		90	90	awakennum	100		1001	1001	aura	100	123	12	12																																																																					0
+quiver -> fanaticism aura	1	2		100	16	509	970		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		90	90	awakennum	100		1001	1001	aura	100	122	12	12																																																																					0
+quiver -> +1 all skill	1	2		100	16	509	1000		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		25	25	awakennum	100		1001	1001	allskills	100		1	1																																																																					0
 																																																																																																								0
 PHASE 1	0																																																																																																							0
 add corrupt factor to weapon	1	2		100	18	361	0		2	"weap,nos"	"wss,qty=1"						useitem			100	corruptnum	100		1	1000																					"wss,qty=1"																																																										0
@@ -2300,6 +2318,7 @@ Reroll unique ring	1			100	18	361	0		2	ring,uni	"dvo,qty=1"						usetype,uni			1
 Reroll set ring	1			100	18	361	0		2	ring,set	"dvo,qty=1"						usetype,set			100																																																																																				0
 Reroll unique amulet	1			100	18	361	0		2	amul,uni	"dvo,qty=1"						usetype,uni			100																																																																																				0
 Reroll set amulet	1			100	18	361	0		2	amul,set	"dvo,qty=1"						usetype,set			100																																																																																				0
+Reroll unique quiver	1			100	18	361	0		2	misl,uni	"dvo,qty=1"						usetype,uni			100																																																																																				0
 																																																																																																								0
 MYTHIC ORB																																																																																																								0
 																																																																																																								0
@@ -2356,6 +2375,8 @@ Convert magic quality ring to unique	1			100	18	361	0		2	ring,mag	"mfo,qty=1"			
 Convert rare quality ring to unique	1			100	18	361	0		2	ring,rar	"mfo,qty=1"						usetype,uni,noe			100																																																																																				0
 Convert magic quality amulet to unique	1			100	18	361	0		2	amul,mag	"mfo,qty=1"						usetype,uni,noe			100																																																																																				0
 Convert rare quality amulet to unique	1			100	18	361	0		2	amul,rar	"mfo,qty=1"						usetype,uni,noe			100																																																																																				0
+Convert magic quality quiver to unique	1			100	18	361	0		2	misl,mag	"mfo,qty=1"						usetype,uni,noe			100																																																																																				0
+Convert rare quality quiver to unique	1			100	18	361	0		2	misl,rar	"mfo,qty=1"						usetype,uni,noe			100																																																																																				0
 Mythic orb+ 15 jewel fragments = random unique jewel	1			100					2	"mfo,qty=1"	"jewf,qty=15"						jew,uni	85																																																																																						0
 																																																																																																								0
 REGAL ORB																																																																																																								0
@@ -2413,7 +2434,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	0			100					1	"key,qty=1"							"mfo,qty=50"	26																												"helm,mag"	99			sock	100		2	2																					"jew,rar"	99																												0
+generate (dev)	0			100					1	"key,qty=1"							misl,mag	120																												"mfo,qty=50"	120																												"dvo,qty=50"	99																												0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
 3 of Luminescence -> Mara's Kaleidoscope	1			100					1	fslu,qty=3							Mara's Kaleidoscope	95																																																																																						0
 3 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=3							The Stone of Jordan	95																																																																																						0
@@ -2536,16 +2557,18 @@ RELIC OF THE NEPHALEM																																																											
 																																																																																																								0
 add relic factor	1	2		100	18	509	0		1	"rotf"							useitem			100	awakennum	100		1	1000																																																																															0
 																																																																																																								0
-relic -> 08 shako	1	2		100	16	509	100		1	"rotf"							"uapl,uni"	120																																																																																						0
-relic -> 08 arkaines	1	2		100	16	509	200		1	"rotf"							"upll,uni"	120																																																																																						0
-relic -> armageddon slippers	1	2		100	16	509	300		1	"rotf"							Armageddon Slippers	120																																																																																						0
-relic -> armageddon fletch	1	2		100	16	509	400		1	"rotf"							Armageddon Fletch	120																																																																																						0
-relic -> storm circlet	1	2		100	16	509	500		1	"rotf"							Storm Circlet	120																																																																																						0
-relic -> 08 vgaze	1	2		100	16	509	600		1	"rotf"							"xh9l,uni"	120																																																																																						0
-relic -> siggard's stealth	1	2		100	16	509	700		1	"rotf"							Siggard's Stealth	120																																																																																						0
-relic -> snatchii's steelclash	1	2		100	16	509	800		1	"rotf"							Snatchii's Steelclash	120																																																																																						0
-relic -> wiz gloves	1	2		100	16	509	900		1	"rotf"							"tgll,uni"	120																																																																																						0
-relic -> occy soj	1	2		100	16	509	1000		1	"rotf"							Occy Soj	120																																																																																						0
+relic -> 08 shako	1	2		100	16	509	83		1	"rotf"							"uapl,uni"	120																																																																																						0
+relic -> 08 arkaines	1	2		100	16	509	167		1	"rotf"							"upll,uni"	120																																																																																						0
+relic -> armageddon slippers	1	2		100	16	509	250		1	"rotf"							Armageddon Slippers	120																																																																																						0
+relic -> King's Jewel of Blazing	1	2		100	16	509	333		1	"rotf"							King's Jewel of Blazing	120																																																																																						0
+relic -> storm circlet	1	2		100	16	509	417		1	"rotf"							Storm Circlet	120																																																																																						0
+relic -> 08 vgaze	1	2		100	16	509	500		1	"rotf"							"xh9l,uni"	120																																																																																						0
+relic -> siggard's stealth	1	2		100	16	509	583		1	"rotf"							Siggard's Stealth	120																																																																																						0
+relic -> snatchii's steelclash	1	2		100	16	509	667		1	"rotf"							Snatchii's Steelclash	120																																																																																						0
+relic -> wiz gloves	1	2		100	16	509	750		1	"rotf"							"tgll,uni"	120																																																																																						0
+relic -> occy soj	1	2		100	16	509	833		1	"rotf"							Occy Soj	120																																																																																						0
+relic -> Bugged Windforce	1	2		100	16	509	917		1	"rotf"							Bugged Windforce	120																																																																																						0
+relic -> Bugged Stormshield	1	2		100	16	509	1000		1	"rotf"							Bugged Stormshield	120																																																																																						0
 																																																																																																								0
 8 zod + coin -> lightsong	1			100					2	"r33g,qty=8"	"ncoi,qty=1"						lsvl																																																																																							0
 50 pde + 50 jewel fragments + coin -> pandemonium talisman	1			100					3	"dcbl,qty=50"	"ncoi,qty=1"	"jewg,qty=50"					ubtm																																																																																							0
