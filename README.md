@@ -6,7 +6,7 @@ Comments and feedback would be very appreciated, join the [Discord](https://disc
 
 Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Single-Player-Plus-mod)
 
-**[Discord](https://discord.gg/rBCNMWaCNt) | [Wiki](https://phpstack-1313102-4804738.cloudwaysapps.com/wiki/index.php?title=Main_Page) | [Latest Patch Notes (v0.9.6)](https://docs.google.com/document/d/1WFCpWh4WYfvxvOdTp1WW_NXk6l_grt4e5FdxcZ2zqCI/pub)**
+**[Discord](https://discord.gg/rBCNMWaCNt) | [Wiki](https://phpstack-1313102-4804738.cloudwaysapps.com/wiki/index.php?title=Main_Page) | [Latest Patch Notes (v0.9.8)](https://docs.google.com/document/d/1-gg-buFPovUvg_Tb_lSUDos8E-bLGlXLm00jvBkjxDo/pub)**
 
 ## New Features
 
