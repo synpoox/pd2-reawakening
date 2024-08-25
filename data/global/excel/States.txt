@@ -245,3 +245,4 @@ physextramagicaura	242					1				1																																															
 convertmasterymagaura	243					1				1																																																													0
 elepierceaddmasteryaura	244					1				1																																																													0
 damagepercentmasteryaura	245					1				1																																																													0
+awakenedconcentration	246									1					1																													concentrationfront	concentrationback						damagepercent												paladin_aura_concentration								0

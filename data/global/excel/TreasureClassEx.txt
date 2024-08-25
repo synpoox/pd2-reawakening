@@ -224,11 +224,11 @@ Act 4 (H) Magic B	4	80	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic A	4	82	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic B	4	83	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic C	4	85	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Orbs			1					0	dvo	268	mfo	236	rgo	140	oou	1	tjo	1	dvia	340	rotf	14										0
+Orbs			1					0	dvo	270	mfo	243	rgo	141	oou	1	tjo	1	dvia	340	rotf	14										0
 Extra TC A																																0
 Extra TC B																																0
-Extra TC C																																0
-Extra TC D																																0
+Prime Evil Embers			1					0	heo	1	teo	1																				0
+Map Orbs Drop			1					0	Orbs	995	Prime Evil Embers	5																				0
 Fate Common A			1					0	fslr	1	fslu	1	fsat	1	fsus	1	fsrb	1	fsla	1	fsvi	1	fstm	1	fsar	1						0
 Fate Common B			1					0	fsms	1	fscf	1	fsed	1	fscs	1	fsta	1	fsts	1	fstf	1	fshs	1	fstw	1						0
 Fate Common C			1					0	fsbl	1	fssf	1	fstb	1	fsew	1	fssg	1	fstu	1	fsmw	1	fsap	1	fsem	1						0
@@ -236,7 +236,7 @@ Fate Common D																																0
 Fate Uncommon A			1					0	fsdg	1	fsds	1	fsps	1	fstc	1	fspv	1	fslc	1	fstl	1	fsdw	1	fsbr	1	fsdb	1				0
 Fate Uncommon B																																0
 Fate Rare A			1					0	fsha	1	fsjp	1	fsdi	1	fsfr	1																0
-Fate Drop			1					0	Fate Common A	47	Fate Common B	47	Fate Common C	47	Fate Uncommon A	22	Fate Rare A	5														0
+Fate Drop			1					0	Fate Common A	92	Fate Common B	92	Fate Common C	92	Fate Uncommon A	31	Fate Rare A	1														0
 Act 1 Good	5	0	1						Jewelry A	60	Chipped Gem	48	wss	1	Fate Drop	1																0
 Act 2 Good	5	12	1						Jewelry B	80	Chipped Gem	44	Flawed Gem	16	wss	1	Runes 1	12	Runes 2	12	Fate Drop	1										0
 Act 3 Good	5	18	1						Jewelry C	80	Chipped Gem	28	Flawed Gem	32	wss	1	Runes 3	12	Runes 4	12	Fate Drop	1										0
@@ -252,9 +252,9 @@ Act 2 (H) Good	5	72	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Ge
 Act 3 (H) Good	5	78	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	50	Perfect Gem	8	Runes 15 equiv	30	wss	4	Map Tier 1	2	Orbs	6	Fate Drop	2				0
 Act 4 (H) Good	5	82	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	50	Perfect Gem	8	Runes 16 equiv	30	wss	4	Map Tier 1	2	Orbs	6	Fate Drop	2				0
 Act 5 (H) Good	5	85	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	50	Perfect Gem	8	Runes 17 equiv	30	wss	4	Map Tier 1	2	Orbs	6	Fate Drop	2				0
-Map Good t1	20	85	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	48	Perfect Gem	8	Runes 17 equiv	30	wss	6	T1 Map Drop	8	Orbs	10	Fate Drop	5				0
-Map Good t2	20	86	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	48	Perfect Gem	8	Runes 17 equiv	30	wss	6	T2 Map Drop	8	Orbs	10	Fate Drop	5				0
-Map Good t3	20	87	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	48	Perfect Gem	8	Runes 17 equiv	30	wss	6	T3 Map Drop	8	Orbs	10	Fate Drop	5				0
+Map Good t1	20	85	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	48	Perfect Gem	8	Runes 17 equiv	30	wss	6	T1 Map Drop	8	Map Orbs Drop	10	Fate Drop	5				0
+Map Good t2	20	86	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	48	Perfect Gem	8	Runes 17 equiv	30	wss	6	T2 Map Drop	8	Map Orbs Drop	10	Fate Drop	5				0
+Map Good t3	20	87	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	48	Perfect Gem	8	Runes 17 equiv	30	wss	6	T3 Map Drop	8	Map Orbs Drop	10	Fate Drop	5				0
 Act 1 Chest A	6	0	4					173	gld	295	Act 1 Junk	295	Act 1 Equip A	196	Act 1 Good	39																0
 Act 1 Chest B	6	5	4					173	gld	295	Act 1 Junk	295	Act 1 Equip B	196	Act 1 Good	39																0
 Act 1 Chest C	6	9	4					145	gld	272	Act 1 Junk	218	Act 2 Junk	54	Act 1 Equip C	272	Act 1 Good	36														0
