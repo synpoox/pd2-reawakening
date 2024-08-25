@@ -228,7 +228,7 @@ Orbs			1					0	dvo	270	mfo	243	rgo	141	oou	1	tjo	1	dvia	340	rotf	14										0
 Extra TC A																																0
 Extra TC B																																0
 Prime Evil Embers			1					0	heo	1	teo	1																				0
-Map Orbs Drop			1					0	Orbs	995	Prime Evil Embers	5																				0
+Map Orbs Drop			1					0	Orbs	329	Prime Evil Embers	1																				0
 Fate Common A			1					0	fslr	1	fslu	1	fsat	1	fsus	1	fsrb	1	fsla	1	fsvi	1	fstm	1	fsar	1						0
 Fate Common B			1					0	fsms	1	fscf	1	fsed	1	fscs	1	fsta	1	fsts	1	fstf	1	fshs	1	fstw	1						0
 Fate Common C			1					0	fsbl	1	fssf	1	fstb	1	fsew	1	fssg	1	fstu	1	fsmw	1	fsap	1	fsem	1						0
@@ -247,14 +247,14 @@ Act 2 (N) Good	5	42	1						Jewelry C	60	Chipped Gem	2	Flawed Gem	10	Normal Gem	1
 Act 3 (N) Good	5	46	1						Jewelry C	60	Chipped Gem	2	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	wss	2	Runes 10	14	Fate Drop	1	Orbs	1						0
 Act 4 (N) Good	5	51	1						Jewelry C	60	Chipped Gem	2	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	wss	2	Runes 11	14	Fate Drop	1	Orbs	1						0
 Act 5 (N) Good	5	57	1						Jewelry C	60	Chipped Gem	2	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	wss	2	Runes 12 equiv	14	Fate Drop	1	Orbs	1						0
-Act 1 (H) Good	5	66	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	50	Perfect Gem	8	Runes 13 equiv	30	wss	4	Map Tier 1	2	Orbs	6	Fate Drop	2				0
-Act 2 (H) Good	5	72	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	50	Perfect Gem	8	Runes 14 equiv	30	wss	4	Map Tier 1	2	Orbs	6	Fate Drop	2				0
-Act 3 (H) Good	5	78	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	50	Perfect Gem	8	Runes 15 equiv	30	wss	4	Map Tier 1	2	Orbs	6	Fate Drop	2				0
-Act 4 (H) Good	5	82	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	50	Perfect Gem	8	Runes 16 equiv	30	wss	4	Map Tier 1	2	Orbs	6	Fate Drop	2				0
-Act 5 (H) Good	5	85	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	50	Perfect Gem	8	Runes 17 equiv	30	wss	4	Map Tier 1	2	Orbs	6	Fate Drop	2				0
-Map Good t1	20	85	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	48	Perfect Gem	8	Runes 17 equiv	30	wss	6	T1 Map Drop	8	Map Orbs Drop	10	Fate Drop	5				0
-Map Good t2	20	86	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	48	Perfect Gem	8	Runes 17 equiv	30	wss	6	T2 Map Drop	8	Map Orbs Drop	10	Fate Drop	5				0
-Map Good t3	20	87	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	48	Perfect Gem	8	Runes 17 equiv	30	wss	6	T3 Map Drop	8	Map Orbs Drop	10	Fate Drop	5				0
+Act 1 (H) Good	5	66	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	50	Perfect Gem	8	Runes 13 equiv	30	wss	4	Map Tier 1	2	Orbs	4	Fate Drop	2				0
+Act 2 (H) Good	5	72	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	50	Perfect Gem	8	Runes 14 equiv	30	wss	4	Map Tier 1	2	Orbs	4	Fate Drop	2				0
+Act 3 (H) Good	5	78	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	50	Perfect Gem	8	Runes 15 equiv	30	wss	4	Map Tier 1	2	Orbs	4	Fate Drop	2				0
+Act 4 (H) Good	5	82	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	50	Perfect Gem	8	Runes 16 equiv	30	wss	4	Map Tier 1	2	Orbs	4	Fate Drop	2				0
+Act 5 (H) Good	5	85	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	50	Perfect Gem	8	Runes 17 equiv	30	wss	4	Map Tier 1	2	Orbs	4	Fate Drop	2				0
+Map Good t1	20	85	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	48	Perfect Gem	8	Runes 17 equiv	30	wss	6	T1 Map Drop	8	Map Orbs Drop	9	Fate Drop	5				0
+Map Good t2	20	86	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	48	Perfect Gem	8	Runes 17 equiv	30	wss	6	T2 Map Drop	8	Map Orbs Drop	9	Fate Drop	5				0
+Map Good t3	20	87	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	48	Perfect Gem	8	Runes 17 equiv	30	wss	6	T3 Map Drop	8	Map Orbs Drop	9	Fate Drop	5				0
 Act 1 Chest A	6	0	4					173	gld	295	Act 1 Junk	295	Act 1 Equip A	196	Act 1 Good	39																0
 Act 1 Chest B	6	5	4					173	gld	295	Act 1 Junk	295	Act 1 Equip B	196	Act 1 Good	39																0
 Act 1 Chest C	6	9	4					145	gld	272	Act 1 Junk	218	Act 2 Junk	54	Act 1 Equip C	272	Act 1 Good	36														0
@@ -1025,12 +1025,12 @@ Rathma Jawbone H				2250	5
 UberAncients T1				3250																												
 UberAncients T2				3250																												
 UberAncients T3				3250																												
-Treasure Fallen Cards N			2					18	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0
-Treasure Fallen Cards NM			2					17	Fate Common A	2	Fate Common B	2	Fate Common C	2																		0
-Treasure Fallen Cards H			2					15	Fate Common A	3	Fate Common B	3	Fate Common C	3																		0
-Treasure Fallen Orbs N			2					18	Orbs	4																						0
-Treasure Fallen Orbs NM			2					16	Orbs	5																						0
-Treasure Fallen Orbs H			2					12	Orbs	7																						0
+Treasure Fallen Cards N			2					40	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0
+Treasure Fallen Cards NM			2					32	Fate Common A	2	Fate Common B	2	Fate Common C	2																		0
+Treasure Fallen Cards H			2					19	Fate Common A	3	Fate Common B	3	Fate Common C	3																		0
+Treasure Fallen Orbs N			2					39	Orbs	4																						0
+Treasure Fallen Orbs NM			2					32	Orbs	4																						0
+Treasure Fallen Orbs H			2					19	Orbs	7																						0
 Treasure Fallen Gem H			2					10	Perfect Gem	2	Flawless Gem	1																				0
 Treasure Fallen Map			2					12	T3 Map Drop	2	imra	1	rera	1	imma	1	scou	1														0
 Treasure Fallen Rune H			2					12	Runes 12	7																						0
@@ -1041,6 +1041,6 @@ Treasure Fallen Craft N			2					18	crfb	1	crfc	1	crfs	1	crfh	1	crfv	1	crfu	1				
 Treasure Fallen Gem NM			2					16	Perfect Gem	3	Flawless Gem	2																				0
 Treasure Fallen Rune NM			2					12	Runes 10	2																						0
 Treasure Fallen Craft NM			2					16	crfb	1	crfc	1	crfs	1	crfh	1	crfv	1	crfu	1												0
-Treasure Fallen N			3					12	Treasure Fallen Gem N	1	Treasure Fallen Rune N	1	Treasure Fallen Craft N	1	Treasure Fallen Orbs N	1	Treasure Fallen Cards N	1	"gld,mul=2048"	2												0
-Treasure Fallen NM			3					11	Treasure Fallen Gem NM	1	Treasure Fallen Rune NM	1	Treasure Fallen Craft NM	1	Treasure Fallen Orbs NM	1	Treasure Fallen Cards NM	1	"gld,mul=3072"	2												0
-Treasure Fallen H			3						Treasure Fallen Gem H	1	Treasure Fallen Rune H	1	Treasure Fallen Craft H	1	Treasure Fallen Map	1	Treasure Fallen Orbs H	1	Treasure Fallen Cards H	1	"gld,mul=4096"	1										0
+Treasure Fallen N			3					29	Treasure Fallen Gem N	4	Treasure Fallen Rune N	4	Treasure Fallen Craft N	4	Treasure Fallen Orbs N	1	Treasure Fallen Cards N	1	"gld,mul=2048"	15												0
+Treasure Fallen NM			3					21	Treasure Fallen Gem NM	4	Treasure Fallen Rune NM	4	Treasure Fallen Craft NM	4	Treasure Fallen Orbs NM	1	Treasure Fallen Cards NM	1	"gld,mul=3072"	15												0
+Treasure Fallen H			3						Treasure Fallen Gem H	4	Treasure Fallen Rune H	4	Treasure Fallen Craft H	4	Treasure Fallen Map	4	Treasure Fallen Orbs H	1	Treasure Fallen Cards H	1	"gld,mul=4096"	4										0
