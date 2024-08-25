@@ -2404,6 +2404,7 @@ unmaking weapon	1			100	18	303	0		2	"weap"	"oou,qty=1"						useitem			100	awaken
 unmaking Hellfire Torch	1			100	18	303	0		2	Hellfire Torch	"oou,qty=1"						useitem			100	awaken	100		-100	-100	awakennum	100		-2002	-2002	unmaking	100		1	1																																																																					0
 unmaking Annihilus	1			100	18	303	0		2	Annihilus	"oou,qty=1"						useitem			100	awaken	100		-100	-100	awakennum	100		-2002	-2002	unmaking	100		1	1																																																																					0
 unmaking unique grand charm	1			100	18	303	0		2	"cm3,uni"	"oou,qty=1"						useitem			100	awaken	100		-100	-100	awakennum	100		-2002	-2002	unmaking	100		1	1																																																																					0
+unmaking quiver	1			100	18	303	0		2	"misl"	"oou,qty=1"						useitem			100	awaken	100		-100	-100	awakennum	100		-2002	-2002	unmaking	100		1	1																																																																					0
 																																																																																																								0
 TAINTED JEWELLERS ORB																																																																																																								0
 																																																																																																								0
@@ -2451,7 +2452,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	1			100					1	"key,qty=1"							Hellfire Torch	120			skill	100	493	5	5																					"cm1,mag"	99			allskills	100		8	8																					"jew,uni"	87																												0
+generate (dev)	1			100					1	"key,qty=1"							Hellfire Torch	120			skill	100	498	5	5																					"cm1,mag"	99			allskills	100		8	8																					Bugged Windforce	120																												0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
 3 of Luminescence -> Mara's Kaleidoscope	1			100					1	fslu,qty=3							Mara's Kaleidoscope	95																																																																																						0
 3 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=3							The Stone of Jordan	95																																																																																						0
