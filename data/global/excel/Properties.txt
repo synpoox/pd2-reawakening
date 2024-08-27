@@ -446,3 +446,8 @@ item-damagepercentmastery	1			22	item_skillonequip			22	item_damagepercentmaster
 mythicnum	1			1																														443	0
 unmaking	1			1	unmaking_num																													444	0
 jewellernum	1			1	jeweller_num																													445	0
+awakened-skill-duration	1			1	awakened_skill_duration																													446	0
+awakened-skill-reduction	1			1	awakened_skill_reduction																													447	0
+influenced	1			1	prime_evil_influenced																													448	0
+hatred-influenced	1			1	hatred_influenced																													449	0
+terror-influenced	1			1	terror_influenced																													450	0

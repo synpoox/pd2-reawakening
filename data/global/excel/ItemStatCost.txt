@@ -297,11 +297,11 @@ item_regenstamina_bytime	294		1	22										4		0	1024		22	0	22	0			6			staminare
 item_stamina_bytime	295		1	22										4		0	1024		22	0	22	0			6			maxstamina											180	17	1	ModStr5d	ModStr5d									0
 item_damage_demon_bytime	296		1	22										4		0	1024		22	0	22	0			6			item_demondamage_percent						1					180	18	1	ModStr4e	ModStr4e									0
 item_damage_undead_bytime	297		1	22										4		0	1024		22	0	22	0			6			item_undeaddamage_percent						1					180	18	1	ModStr4f	ModStr4f									0
-item_tohit_demon_bytime	298		1	22										4		0	1024		22	0	22	0			6			item_demon_tohit						1					180	17	1	ModStr4j	ModStr4j									0
-item_tohit_undead_bytime	299		1	22										4		0	1024		22	0	22	0			6			item_undead_tohit						1					180	17	1	ModStr4k	ModStr4k									0
-item_crushingblow_bytime	300		1	22										4		0	1024		22	0	22	0			6			item_crushingblow						1					180	18	1	ModStr5c	ModStr5c									0
-item_openwounds_bytime	301		1	22										4		0	1024		22	0	22	0			6			item_openwounds						1					180	18	1	ModStr3m	ModStr3m									0
-item_kick_damage_bytime	302		1	22										4		0	1024		22	0	22	0			6			item_kickdamage						1					180	17	1	ModStr5e	ModStr5e									0
+terror_influenced	298			10	10										54	204	1024		8	0	10	0	10																248	3	0	StrTerrorInfluenced	StrTerrorInfluenced									0
+hatred_influenced	299			10	10										54	204	1024		8	0	10	0	10																248	3	0	StrHatredInfluenced	StrHatredInfluenced									0
+prime_evil_influenced	300			1	16											54	1024				12	0																	0	0	0											0
+awakened_skill_reduction	301		1	5													1024		6		6																		180	9	2	AwakenedSkReduced	AwakenedSkReduced	NewSeconds								0
+awakened_skill_duration	302		1	5													1024		6		6																		180	9	2	AwakenedSkDuration	AwakenedSkDuration	NewSeconds								0
 unmaking_num	303			1	16											54	1024				12	0																	0	0	0											0
 jeweller_num	304			1	16											54	1024				12	0																	0	0	0											0
 item_pierce_cold	305		1	9											1432	513	1024				6	50																	88	20	1	Moditemenrescoldsk	Moditemenrescoldsk									0

@@ -226,3 +226,4 @@ Fate Shards	fash			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0								0
 Awaken	awak			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0							misc	0
 Amulet	lmul	amul		0	1	neck	neck			0	0	0	0			0	0	0	0	0	0	0	0	3		0		3	invamu1	invamu2	invamu3				misc	0
 Large Charm Skiller	lchs	char		0	0					0	0	0	0	1		0	1	0	0	0	0	0	0	3		0		3	invch3	invch6	invch9				misc	0
+Small Charm [S]	schs	char		0	0					0	0	0	0	1		0	1	0	0	1	1	1	0	3		0		3	invch1	invch4	invch7				misc	0

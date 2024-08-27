@@ -369,30 +369,16 @@ add awaken factor to weapon	1	2		100	16	509	0		2	"weap"	"dvia,qty=1"						useite
 add awaken factor to armor	1	2		100	16	509	0		2	"armo"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
 add awaken factor to amulet	1	2		100	16	509	0		2	"amul"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
 add awaken factor to ring	1	2		100	16	509	0		2	"ring"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
-add awaken factor to Hellfire Torch	1	2		100	16	509	0		2	"Hellfire Torch"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
-add awaken factor to unique gc	1	2		100	16	509	0		2	"cm3,uni"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
-add awaken factor to Annihilus	1	2		100	16	509	0		2	"Annihilus"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
 add awaken factor to quiver	1	2		100	16	509	0		2	"misl"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
+add awaken factor to unique charms	1	2		100	16	509	0		2	"char,uni"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
 																																																																																																								0
 PHASE 2 (outcomes)																																																																																																								0
 																																																																																																								0
-Hellfire Torch -> +1 all skills	1	2		100	16	509	200		2	"Hellfire Torch"	"dvia,qty=1"						useitem			100	awaken	100		25	25	awakennum	100		1001	1001	allskills	100		1	1																																																																					0
-Hellfire Torch -> hp%, flat hp	1	2		100	16	509	400		2	"Hellfire Torch"	"dvia,qty=1"						useitem			100	awaken	100		77	77	awakennum	100		1001	1001	hp%	100		5	10	hp	100		40	80																																																																0
-Hellfire Torch -> mana%, flat mana	1	2		100	16	509	600		2	"Hellfire Torch"	"dvia,qty=1"						useitem			100	awaken	100		78	78	awakennum	100		1001	1001	mana%	100		5	10	mana	100		40	80																																																																0
-Hellfire Torch -> all res, all stats	1	2		100	16	509	800		2	"Hellfire Torch"	"dvia,qty=1"						useitem			100	awaken	100		76	76	awakennum	100		1001	1001	res-all	100		10	20	all-stats	100		10	20																																																																0
-Hellfire Torch -> xp	1	2		100	16	509	1000		2	"Hellfire Torch"	"dvia,qty=1"						useitem			100	awaken	100		87	87	awakennum	100		1001	1001	addxp	100		10	20																																																																					0
-																																																																																																								0
-unique gc -> +1 all skills	1	2		100	16	509	200		2	"cm3,uni"	"dvia,qty=1"						useitem			100	awaken	100		25	25	awakennum	100		1001	1001	allskills	100		1	1																																																																					0
-unique gc -> hp%, flat hp	1	2		100	16	509	400		2	"cm3,uni"	"dvia,qty=1"						useitem			100	awaken	100		77	77	awakennum	100		1001	1001	hp%	100		5	10	hp	100		40	80																																																																0
-unique gc -> mana%, flat mana	1	2		100	16	509	600		2	"cm3,uni"	"dvia,qty=1"						useitem			100	awaken	100		78	78	awakennum	100		1001	1001	mana%	100		5	10	mana	100		40	80																																																																0
-unique gc -> all res, all stats	1	2		100	16	509	800		2	"cm3,uni"	"dvia,qty=1"						useitem			100	awaken	100		76	76	awakennum	100		1001	1001	res-all	100		10	20	all-stats	100		10	20																																																																0
-unique gc -> xp	1	2		100	16	509	1000		2	"cm3,uni"	"dvia,qty=1"						useitem			100	awaken	100		87	87	awakennum	100		1001	1001	addxp	100		10	20																																																																					0
-																																																																																																								0
-Annihilus -> +1 all skills	1	2		100	16	509	200		2	"Annihilus"	"dvia,qty=1"						useitem			100	awaken	100		25	25	awakennum	100		1001	1001	allskills	100		1	1																																																																					0
-Annihilus -> hp%, flat hp	1	2		100	16	509	400		2	"Annihilus"	"dvia,qty=1"						useitem			100	awaken	100		77	77	awakennum	100		1001	1001	hp%	100		5	10	hp	100		40	80																																																																0
-Annihilus -> mana%, flat mana	1	2		100	16	509	600		2	"Annihilus"	"dvia,qty=1"						useitem			100	awaken	100		78	78	awakennum	100		1001	1001	mana%	100		5	10	mana	100		40	80																																																																0
-Annihilus -> all res, all stats	1	2		100	16	509	800		2	"Annihilus"	"dvia,qty=1"						useitem			100	awaken	100		76	76	awakennum	100		1001	1001	res-all	100		10	20	all-stats	100		10	20																																																																0
-Annihilus -> xp	1	2		100	16	509	1000		2	"Annihilus"	"dvia,qty=1"						useitem			100	awaken	100		87	87	awakennum	100		1001	1001	addxp	100		10	20																																																																					0
+unique charm -> +1 all skills	1	2		100	16	509	200		2	"char,uni"	"dvia,qty=1"						useitem			100	awaken	100		25	25	awakennum	100		1001	1001	allskills	100		1	1																																																																					0
+unique charm -> hp%, flat hp	1	2		100	16	509	400		2	"char,uni"	"dvia,qty=1"						useitem			100	awaken	100		77	77	awakennum	100		1001	1001	hp%	100		5	10	hp	100		40	80																																																																0
+unique charm -> mana%, flat mana	1	2		100	16	509	600		2	"char,uni"	"dvia,qty=1"						useitem			100	awaken	100		78	78	awakennum	100		1001	1001	mana%	100		5	10	mana	100		40	80																																																																0
+unique charm -> all res, all stats	1	2		100	16	509	800		2	"char,uni"	"dvia,qty=1"						useitem			100	awaken	100		76	76	awakennum	100		1001	1001	res-all	100		10	20	all-stats	100		10	20																																																																0
+unique charm -> xp	1	2		100	16	509	1000		2	"char,uni"	"dvia,qty=1"						useitem			100	awaken	100		87	87	awakennum	100		1001	1001	addxp	100		10	20																																																																					0
 																																																																																																								0
 amulet -> all resist	1	2		100	16	509	95		2	"amul"	"dvia,qty=1"						useitem			100	awaken	100		49	49	awakennum	100		1001	1001	res-all	100		10	20																																																																					0
 amulet -> max all resist	1	2		100	16	509	190		2	"amul"	"dvia,qty=1"						useitem			100	awaken	100		70	70	awakennum	100		1001	1001	res-all-max	100		3	4																																																																					0
@@ -436,8 +422,8 @@ glove -> fire skill damage	1	2		100	16	509	475		2	"glov"	"dvia,qty=1"						useit
 glove -> lightning skill damage	1	2		100	16	509	570		2	"glov"	"dvia,qty=1"						useitem			100	awaken	100		67	67	awakennum	100		1001	1001	extra-ltng	100		12	16																																																																					0
 glove -> cold skill damage	1	2		100	16	509	665		2	"glov"	"dvia,qty=1"						useitem			100	awaken	100		68	68	awakennum	100		1001	1001	extra-cold	100		12	16																																																																					0
 glove -> poison skill damage	1	2		100	16	509	760		2	"glov"	"dvia,qty=1"						useitem			100	awaken	100		69	69	awakennum	100		1001	1001	extra-pois	100		12	16																																																																					0
-glove -> decrepify on striking	1	2		100	16	509	790		2	"glov"	"dvia,qty=1"						useitem			100	awaken	100		88	88	awakennum	100		1001	1001	hit-skill	100	87	48	39																																																																					0
-glove -> life tap on striking	1	2		100	16	509	820		2	"glov"	"dvia,qty=1"						useitem			100	awaken	100		88	88	awakennum	100		1001	1001	hit-skill	100	82	48	39																																																																					0
+glove -> lower resist on striking	1	2		100	16	509	790		2	"glov"	"dvia,qty=1"						useitem			100	awaken	100		88	88	awakennum	100		1001	1001	hit-skill	100	447	13	20																																																																					0
+glove -> cannot be frozen	1	2		100	16	509	820		2	"glov"	"dvia,qty=1"						useitem			100	awaken	100		43	43	awakennum	100		1001	1001	nofreeze	100		1	1																																																																					0
 glove -> phys pierce	1	2		100	16	509	850		2	"glov"	"dvia,qty=1"						useitem			100	awaken	100		30	30	awakennum	100		1001	1001	pierce-phys	100		10	15																																																																					0
 glove -> fire pierce	1	2		100	16	509	880		2	"glov"	"dvia,qty=1"						useitem			100	awaken	100		10	10	awakennum	100		1001	1001	pierce-fire	100		10	15																																																																					0
 glove -> lightning pierce	1	2		100	16	509	910		2	"glov"	"dvia,qty=1"						useitem			100	awaken	100		11	11	awakennum	100		1001	1001	pierce-ltng	100		10	15																																																																					0
@@ -2377,7 +2363,7 @@ Convert magic quality amulet to unique	1			100	18	361	0		2	amul,mag	"mfo,qty=1"	
 Convert rare quality amulet to unique	1			100	18	361	0		2	amul,rar	"mfo,qty=1"						usetype,uni,noe			100																																																																																				0
 Convert magic quality quiver to unique	1			100	18	361	0		2	misl,mag	"mfo,qty=1"						usetype,uni,noe			100																																																																																				0
 Convert rare quality quiver to unique	1			100	18	361	0		2	misl,rar	"mfo,qty=1"						usetype,uni,noe			100																																																																																				0
-Mythic orb+ 15 jewel fragments = random unique jewel	1			100					2	"mfo,qty=1"	"jewf,qty=15"						jew,uni	85																																																																																						0
+Mythic orb+ 25 jewel fragments = random unique jewel	1			100					2	"mfo,qty=1"	"jewf,qty=25"						jew,uni	87																																																																																						0
 																																																																																																								0
 REGAL ORB																																																																																																								0
 																																																																																																								0
@@ -2401,9 +2387,8 @@ unmaking amulet	1			100	18	303	0		2	"amul"	"oou,qty=1"						useitem			100	awaken
 unmaking ring	1			100	18	303	0		2	"ring"	"oou,qty=1"						useitem			100	awaken	100		-100	-100	awakennum	100		-2002	-2002	unmaking	100		1	1																																																																					0
 unmaking armor	1			100	18	303	0		2	"armo"	"oou,qty=1"						useitem			100	awaken	100		-100	-100	awakennum	100		-2002	-2002	unmaking	100		1	1																																																																					0
 unmaking weapon	1			100	18	303	0		2	"weap"	"oou,qty=1"						useitem			100	awaken	100		-100	-100	awakennum	100		-2002	-2002	unmaking	100		1	1																																																																					0
-unmaking Hellfire Torch	1			100	18	303	0		2	Hellfire Torch	"oou,qty=1"						useitem			100	awaken	100		-100	-100	awakennum	100		-2002	-2002	unmaking	100		1	1																																																																					0
-unmaking Annihilus	1			100	18	303	0		2	Annihilus	"oou,qty=1"						useitem			100	awaken	100		-100	-100	awakennum	100		-2002	-2002	unmaking	100		1	1																																																																					0
-unmaking unique grand charm	1			100	18	303	0		2	"cm3,uni"	"oou,qty=1"						useitem			100	awaken	100		-100	-100	awakennum	100		-2002	-2002	unmaking	100		1	1																																																																					0
+unmaking unique charms	1			100	18	303	0		2	"char,uni"	"oou,qty=1"						useitem			100	awaken	100		-100	-100	awakennum	100		-2002	-2002	unmaking	100		1	1																																																																					0
+unmaking quiver	1			100	18	303	0		2	"misl"	"oou,qty=1"						useitem			100	awaken	100		-100	-100	awakennum	100		-2002	-2002	unmaking	100		1	1																																																																					0
 																																																																																																								0
 TAINTED JEWELLERS ORB																																																																																																								0
 																																																																																																								0
@@ -2430,21 +2415,53 @@ tainted jeweller's orb + unique -> remove sockets	1			100	16	304	1000		2	"any,so
 tainted jeweller's orb + set -> destroy sockets	1			100	16	304	500		2	"any,sock,set"	"tjo,qty=1"						useitem,uns			100	jewellernum	100		-1000	-1000																																																																															0
 tainted jeweller's orb + set -> remove sockets	1			100	16	304	1000		2	"any,sock,set"	"tjo,qty=1"						useitem,rem			100	jewellernum	100		-1000	-1000																																																																															0
 																																																																																																								0
+HATRED/TERROR EMBER																																																																																																								0
+																																																																																																								0
+hatred ember + torch + ama -> awakened multiple shot	1			100	18	300	0	ama	2	Hellfire Torch	"heo,qty=1"						useitem			100	skill	100	498	3	3	influenced	100		1	1	hatred-influenced	100		1	1	dye	100		7	7																																																																0
+hatred ember + torch + sor -> awakened charged bolt	1			100	18	300	0	sor	2	Hellfire Torch	"heo,qty=1"						useitem			100	skill	100	510	5	5	influenced	100		1	1	hatred-influenced	100		1	1	dye	100		7	7																																																																0
+hatred ember + torch + nec -> awakened teeth	1			100	18	300	0	nec	2	Hellfire Torch	"heo,qty=1"						useitem			100	skill	100	501	5	5	influenced	100		1	1	hatred-influenced	100		1	1	dye	100		7	7																																																																0
+hatred ember + torch + pal -> awakened concentration	1			100	18	300	0	pal	2	Hellfire Torch	"heo,qty=1"						useitem			100	skill	100	503	5	5	influenced	100		1	1	hatred-influenced	100		1	1	dye	100		7	7																																																																0
+hatred ember + torch + bar -> awakened concentrate	1			100	18	300	0	bar	2	Hellfire Torch	"heo,qty=1"						useitem			100	skill	100	505	5	5	influenced	100		1	1	hatred-influenced	100		1	1	dye	100		7	7																																																																0
+hatred ember + torch + dru -> awakened cyclone armor	1			100	18	300	0	dru	2	Hellfire Torch	"heo,qty=1"						useitem			100	skill	100	507	5	5	influenced	100		1	1	hatred-influenced	100		1	1	dye	100		7	7																																																																0
+hatred ember + torch + ass -> awakened fade of speed	1			100	18	300	0	ass	2	Hellfire Torch	"heo,qty=1"						useitem			100	skill	100	497	5	5	influenced	100		1	1	hatred-influenced	100		1	1	dye	100		7	7																																																																0
+terror ember + torch + ama -> awakened cold arrow	1			100	18	300	0	ama	2	Hellfire Torch	"teo,qty=1"						useitem			100	skill	100	491	5	5	influenced	100		1	1	terror-influenced	100		1	1	dye	100		8	8																																																																0
+terror ember + torch + sor -> awakened blizzard	1			100	18	300	0	sor	2	Hellfire Torch	"teo,qty=1"						useitem			100	skill	100	509	5	5	influenced	100		1	1	terror-influenced	100		1	1	dye	100		8	8																																																																0
+terror ember + torch + nec -> awakened bone spear	1			100	18	300	0	nec	2	Hellfire Torch	"teo,qty=1"						useitem			100	skill	100	500	5	5	influenced	100		1	1	terror-influenced	100		1	1	dye	100		8	8																																																																0
+terror ember + torch + pal -> awakened blessed hammer	1			100	18	300	0	pal	2	Hellfire Torch	"teo,qty=1"						useitem			100	skill	100	493	5	5	influenced	100		1	1	terror-influenced	100		1	1	dye	100		8	8																																																																0
+terror ember + torch + bar -> awakened war cry	1			100	18	300	0	bar	2	Hellfire Torch	"teo,qty=1"						useitem			100	skill	100	504	5	5	influenced	100		1	1	terror-influenced	100		1	1	dye	100		8	8																																																																0
+terror ember + torch + dru -> awakened tornado	1			100	18	300	0	dru	2	Hellfire Torch	"teo,qty=1"						useitem			100	skill	100	506	5	5	influenced	100		1	1	terror-influenced	100		1	1	dye	100		8	8																																																																0
+terror ember + torch + ass -> awakened mind blast	1			100	18	300	0	ass	2	Hellfire Torch	"teo,qty=1"						useitem			100	skill	100	508	5	5	influenced	100		1	1	terror-influenced	100		1	1	dye	100		8	8																																																																0
+																																																																																																								0
+hatred ember + torch + ama -> awakened multiple shot	1			100	18	300	0	ama	2	Annihilus	"heo,qty=1"						useitem			100	skill	100	498	3	3	influenced	100		1	1	hatred-influenced	100		1	1																																																																					0
+hatred ember + torch + sor -> awakened charged bolt	1			100	18	300	0	sor	2	Annihilus	"heo,qty=1"						useitem			100	skill	100	510	5	5	influenced	100		1	1	hatred-influenced	100		1	1																																																																					0
+hatred ember + torch + nec -> awakened teeth	1			100	18	300	0	nec	2	Annihilus	"heo,qty=1"						useitem			100	skill	100	501	5	5	influenced	100		1	1	hatred-influenced	100		1	1																																																																					0
+hatred ember + torch + pal -> awakened concentration	1			100	18	300	0	pal	2	Annihilus	"heo,qty=1"						useitem			100	skill	100	503	5	5	influenced	100		1	1	hatred-influenced	100		1	1																																																																					0
+hatred ember + torch + bar -> awakened concentrate	1			100	18	300	0	bar	2	Annihilus	"heo,qty=1"						useitem			100	skill	100	505	5	5	influenced	100		1	1	hatred-influenced	100		1	1																																																																					0
+hatred ember + torch + dru -> awakened cyclone armor	1			100	18	300	0	dru	2	Annihilus	"heo,qty=1"						useitem			100	skill	100	507	5	5	influenced	100		1	1	hatred-influenced	100		1	1																																																																					0
+hatred ember + torch + ass -> awakened fade of speed	1			100	18	300	0	ass	2	Annihilus	"heo,qty=1"						useitem			100	skill	100	497	5	5	influenced	100		1	1	hatred-influenced	100		1	1																																																																					0
+terror ember + torch + ama -> awakened cold arrow	1			100	18	300	0	ama	2	Annihilus	"teo,qty=1"						useitem			100	skill	100	491	5	5	influenced	100		1	1	terror-influenced	100		1	1																																																																					0
+terror ember + torch + sor -> awakened blizzard	1			100	18	300	0	sor	2	Annihilus	"teo,qty=1"						useitem			100	skill	100	509	5	5	influenced	100		1	1	terror-influenced	100		1	1																																																																					0
+terror ember + torch + nec -> awakened bone spear	1			100	18	300	0	nec	2	Annihilus	"teo,qty=1"						useitem			100	skill	100	500	5	5	influenced	100		1	1	terror-influenced	100		1	1																																																																					0
+terror ember + torch + pal -> awakened blessed hammer	1			100	18	300	0	pal	2	Annihilus	"teo,qty=1"						useitem			100	skill	100	493	5	5	influenced	100		1	1	terror-influenced	100		1	1																																																																					0
+terror ember + torch + bar -> awakened war cry	1			100	18	300	0	bar	2	Annihilus	"teo,qty=1"						useitem			100	skill	100	504	5	5	influenced	100		1	1	terror-influenced	100		1	1																																																																					0
+terror ember + torch + dru -> awakened tornado	1			100	18	300	0	dru	2	Annihilus	"teo,qty=1"						useitem			100	skill	100	506	5	5	influenced	100		1	1	terror-influenced	100		1	1																																																																					0
+terror ember + torch + ass -> awakened mind blast	1			100	18	300	0	ass	2	Annihilus	"teo,qty=1"						useitem			100	skill	100	508	5	5	influenced	100		1	1	terror-influenced	100		1	1																																																																					0
+																																																																																																								0
 Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm1			Cain's Wisdom	99																																																																																						0
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	0			100					1	"key,qty=1"							misl,mag	120																												"mfo,qty=50"	120																												"dvo,qty=50"	99																												0
-3 of Lawful Sentence -> Tal Rasha’s Adjudication	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
-3 of Luminescence -> Mara's Kaleidoscope	1			100					1	fslu,qty=3							Mara's Kaleidoscope	95																																																																																						0
-3 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=3							The Stone of Jordan	95																																																																																						0
-3 of Untethered Soul -> Wisp Projector	1			100					1	fsus,qty=3							Wisp	95																																																																																						0
-3 of Rotting Bride -> Bul Kathos' Wedding Band	1			100					1	fsrb,qty=3							Bul Katho's Wedding Band	95																																																																																						0
-3 of The Man from the High Castle -> Highlord's Wrath	1			100					1	fstm,qty=3							Highlord's Wrath	95																																																																																						0
-3 of Dawn -> Rising Sun	1			100					1	fsdn,qty=3							The Rising Sun	95																																																																																						0
-2 of Heritage -> Gheed's Fortune	1			100					1	fsht,qty=2							Gheed's Fortune	95																																																																																						0
+generate (dev)	0			100					1	"key,qty=1"							Hellfire Torch	120																												"heo,qty=50"	99																												"teo,qty=50"	120																												0
+3 of Lawful Sentence -> Tal Rasha’s Adjudication (DROP DISABLED)	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
+4 of Luminescence -> Mara's Kaleidoscope 	1			100					1	fslu,qty=4							Mara's Kaleidoscope	95																																																																																						0
+4 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=4							The Stone of Jordan	95																																																																																						0
+4 of Untethered Soul -> Wisp Projector	1			100					1	fsus,qty=4							Wisp	95																																																																																						0
+4 of Rotting Bride -> Bul Kathos' Wedding Band	1			100					1	fsrb,qty=4							Bul Katho's Wedding Band	95																																																																																						0
+4 of The Man from the High Castle -> Highlord's Wrath	1			100					1	fstm,qty=4							Highlord's Wrath	95																																																																																						0
+3 of Dawn -> Rising Sun (DROP DISABLED)	1			100					1	fsdn,qty=3							The Rising Sun	95																																																																																						0
+2 of Heritage -> Gheed's Fortune (DROP DISABLED)	1			100					1	fsht,qty=2							Gheed's Fortune	95																																																																																						0
 8 of Eternal Damnation ->Tainted WSS	1			100					1	fsed,qty=8							"cwss,qty=1"	95																																																																																						0
-4 of The Gilded Dream ->4os Herald of Zakarum	1			100					1	fsgd,qty=4							Herald of Zakarum	95			sock	100		4	4																																																																															0
+4 of The Gilded Dream ->4os Herald of Zakarum (DROP DISABLED)	1			100					1	fsgd,qty=4							Herald of Zakarum	95			sock	100		4	4																																																																															0
 1 of Legacy of Cain -> awakened unique ring +1 all skills	1			100					1	fslc,qty=1							"ring,uni"		100		awaken	100		25	25	awakennum	100		1001	1001	allskills	100		1	1																																																																					0
 4 of Hellforge's Secret -> superior max socket eth armor	1			100					1	fshs,qty=4							"tors,hiq,eth,sock=4"		100																																																																																					0
 1 of Pendant of the Void -> corrupted unique amulet +1 all skills	1			100					1	fspv,qty=1							"amul,uni"		100		corrupt	100		27	27	corruptnum	100		1001	1001	allskills	100		1	1																																																																					0
@@ -2458,9 +2475,9 @@ generate (dev)	0			100					1	"key,qty=1"							misl,mag	120																					
 1 of Deckard's Gift -> 5 mythic orbs	1			100					1	fsdg,qty=1							"mfo,qty=5"																																																																																							0
 1 of Deckard's Stash -> 5 divine orbs	1			100					1	fsds,qty=1							"dvo,qty=5"																																																																																							0
 1 of Deckard's Blessing -> 5 regal orbs	1			100					1	fsdb,qty=1							"rgo,qty=5"																																																																																							0
-4 of The Fall of Tristram -> organ set	1			100					1	fstf,qty=4							dhn																													bey																													mbr																													0
-5 of Jordan's Perfected Stone -> corrupt awaken soj +1 all skills +10fcr	1			100					1	fsjp,qty=5							The Stone of Jordan	95			corrupt	100		42	42	corruptnum	100		1001	1001	cast1	100		10	10	awakennum	100		1001	1001	allskills	100		1	1																																																											0
-4 of The Arcane Pact -> corrupt rare ring with 20fcr	1			100					1	fsap,qty=4							"rin,rar,suf=174"		100		corrupt	100		42	42	corruptnum	100		1001	1001	cast1	100		10	10																																																																					0
+4 of The Fall of Tristram -> pandemonium talisman	1			100					1	fstf,qty=4							ubtm																																																																																							0
+6 of Jordan's Perfected Stone -> corrupt awaken soj +1 all skills +10fcr	1			100					1	fsjp,qty=6							The Stone of Jordan	95			corrupt	100		42	42	corruptnum	100		1001	1001	cast1	100		10	10	awakennum	100		1001	1001	allskills	100		1	1																																																											0
+4 of The Arcane Pact -> corrupt rare ring with 20fcr (DROP DISABLED)	1			100					1	fsap,qty=4							"rin,rar,suf=174"		100		corrupt	100		42	42	corruptnum	100		1001	1001	cast1	100		10	10																																																																					0
 3 of The Lifespring -> skiller grand charm with 41-45 life	1			100					1	fstl,qty=3							"cms,mag,pre=999,suf=339"	91																																																																																						0
 9 of Demonic Infusion -> corrupted annihilus +1 all skills	1			100					1	fsdi,qty=9							Annihilus	120			corrupt	100		27	27	corruptnum	100		1001	1001	allskills	100		1	1	dye	100		10	10																																																																0
 3 of Bloodlust -> fine small charm of vita	1			100					1	fsbl,qty=3							"cm1,mag,pre=256,suf=349"	99																																																																																						0
@@ -2480,7 +2497,8 @@ generate (dev)	0			100					1	"key,qty=1"							misl,mag	120																					
 7 of Bottled Radiance -> vial of lightsong	1			100					1	fsbr,qty=7							lsvl																																																																																							0
 6 of The Lord of Terror -> Vision of Terror	1			100					1	fslr,qty=6							dcma																																																																																							0
 3 of Victory -> 5 standard of heroes	1			100					1	fsvi,qty=3							"std,qty=5"																																																																																							0
-3 of The Brotherhood -> Call of the Brotherhood	1			100					1	fstb,qty=3							Call of the Brotherhood	95																																																																																						0
+4 of The Brotherhood -> Call of the Brotherhood	1			100					1	fstb,qty=4							Call of the Brotherhood	95																																																																																						0
+5 of The Fallen Archangel -> Inarius' Trinket	1			100					1	fsfa,qty=4							Inarius' Trinket	110																																																																																						0
 																																																																																																								0
 RUNE DOWNGRADING																																																																																																								0
 																																																																																																								0
@@ -2557,18 +2575,22 @@ RELIC OF THE NEPHALEM																																																											
 																																																																																																								0
 add relic factor	1	2		100	18	509	0		1	"rotf"							useitem			100	awakennum	100		1	1000																																																																															0
 																																																																																																								0
-relic -> 08 shako	1	2		100	16	509	83		1	"rotf"							"uapl,uni"	120																																																																																						0
-relic -> 08 arkaines	1	2		100	16	509	167		1	"rotf"							"upll,uni"	120																																																																																						0
-relic -> armageddon slippers	1	2		100	16	509	250		1	"rotf"							Armageddon Slippers	120																																																																																						0
-relic -> King's Jewel of Blazing	1	2		100	16	509	333		1	"rotf"							King's Jewel of Blazing	120																																																																																						0
-relic -> storm circlet	1	2		100	16	509	417		1	"rotf"							Storm Circlet	120																																																																																						0
-relic -> 08 vgaze	1	2		100	16	509	500		1	"rotf"							"xh9l,uni"	120																																																																																						0
-relic -> siggard's stealth	1	2		100	16	509	583		1	"rotf"							Siggard's Stealth	120																																																																																						0
-relic -> snatchii's steelclash	1	2		100	16	509	667		1	"rotf"							Snatchii's Steelclash	120																																																																																						0
-relic -> wiz gloves	1	2		100	16	509	750		1	"rotf"							"tgll,uni"	120																																																																																						0
-relic -> occy soj	1	2		100	16	509	833		1	"rotf"							Occy Soj	120																																																																																						0
-relic -> Bugged Windforce	1	2		100	16	509	917		1	"rotf"							Bugged Windforce	120																																																																																						0
-relic -> Bugged Stormshield	1	2		100	16	509	1000		1	"rotf"							Bugged Stormshield	120																																																																																						0
+relic -> 08 shako	1	2		100	16	509	62		1	"rotf"							"uapl,uni"	120																																																																																						0
+relic -> 08 arkaines	1	2		100	16	509	125		1	"rotf"							"upll,uni"	120																																																																																						0
+relic -> armageddon slippers	1	2		100	16	509	187		1	"rotf"							Armageddon Slippers	120																																																																																						0
+relic -> King's Jewel of Blazing	1	2		100	16	509	250		1	"rotf"							King's Jewel of Blazing	120																																																																																						0
+relic -> storm circlet	1	2		100	16	509	312		1	"rotf"							Storm Circlet	120																																																																																						0
+relic -> 08 vgaze	1	2		100	16	509	375		1	"rotf"							"xh9l,uni"	120																																																																																						0
+relic -> siggard's stealth	1	2		100	16	509	437		1	"rotf"							Siggard's Stealth	120																																																																																						0
+relic -> snatchii's steelclash	1	2		100	16	509	500		1	"rotf"							Snatchii's Steelclash	120																																																																																						0
+relic -> wiz gloves	1	2		100	16	509	562		1	"rotf"							"tgll,uni"	120																																																																																						0
+relic -> occy soj	1	2		100	16	509	625		1	"rotf"							Occy Soj	120																																																																																						0
+relic -> Bugged Windforce	1	2		100	16	509	687		1	"rotf"							Bugged Windforce	120																																																																																						0
+relic -> Bugged Stormshield	1	2		100	16	509	750		1	"rotf"							Bugged Stormshield	120																																																																																						0
+relic -> Bugged Buriza-Do Kyanon	1	2		100	16	509	812		1	"rotf"							Bugged Buriza-Do Kyanon	120																																																																																						0
+relic -> Bugged Aquariu's Stormrider	1	2		100	16	509	875		1	"rotf"							Aquariu's Stormrider	120																																																																																						0
+relic -> Bugged Wartraveler	1	2		100	16	509	937		1	"rotf"							Bugged Wartraveler	120																																																																																						0
+relic -> Ith Colossus Blade	1	2		100	16	509	1000		1	"rotf"							Ith Colossus Blade	120																																																																																						0
 																																																																																																								0
 8 zod + coin -> lightsong	1			100					2	"r33g,qty=8"	"ncoi,qty=1"						lsvl																																																																																							0
 50 pde + 50 jewel fragments + coin -> pandemonium talisman	1			100					3	"dcbl,qty=50"	"ncoi,qty=1"	"jewg,qty=50"					ubtm																																																																																							0

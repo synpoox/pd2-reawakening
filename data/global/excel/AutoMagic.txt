@@ -45,4 +45,4 @@ Staff Tier 2		100	1	1	1		1				1	313	cast2		30	30	splash	358	100	1							armo	wea
 Staff Tier 3		100	1	1	1		1				1	314	cast2		50	50	splash	358	100	1							armo	weap													0
 of Virulence		100	1	1	50		36				2	305	pois-min		1012	1012	pois-max		1270	1270	pois-len		50	50			armo	weap													0
 Awakening Recolor		100	1		1		0				1	315													1	bwht	corr														0
-Vial Color		100	1		1		0				1	316													1	bwht	norb														0
+Vial Color		100	1		1		0				1	316													1		norb														0
