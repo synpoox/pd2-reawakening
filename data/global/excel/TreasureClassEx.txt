@@ -224,7 +224,7 @@ Act 4 (H) Magic B	4	80	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic A	4	82	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic B	4	83	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic C	4	85	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Orbs			1					0	dvo	243	mfo	209	rgo	131	oou	1	tjo	1	dvia	400	rotf	15										0
+Orbs			1					0	dvo	243	mfo	210	rgo	129	oou	2	tjo	2	dvia	400	rotf	14										0
 Extra TC A																																0
 Extra TC B																																0
 Prime Evil Embers			1					0	heo	1	teo	1																				0
@@ -235,7 +235,7 @@ Fate Common C			1					0	fsbl	1	fssf	1	fstb	1	fsew	1	fssg	1	fstu	1	fsmw	1	fsem	1	
 Fate Common D																																0
 Fate Uncommon A			1					0	fsdg	1	fsds	1	fsps	1	fstc	1	fspv	1	fsms	1												0
 Fate Uncommon B			1					0	fscs	1	fslc	1	fstl	1	fsdw	1	fsbr	1	fsdb	1												0
-Fate Rare A			1					0	fsha	1	fsjp	1	fsdi	1	fsfr	1																0
+Fate Rare A			1					0	fsha	1	fsjp	1	fsdi	1	fsfr	1	fsfa	1														0
 Fate Drop			1					0	Fate Common A	92	Fate Common B	92	Fate Common C	92	Fate Uncommon A	16	Fate Uncommon B	16	Fate Rare A	1												0
 Act 1 Good	5	0	1						Jewelry A	60	Chipped Gem	48	wss	1	Fate Drop	1																0
 Act 2 Good	5	12	1						Jewelry B	80	Chipped Gem	44	Flawed Gem	16	wss	1	Runes 1	12	Runes 2	12	Fate Drop	1										0
@@ -756,10 +756,10 @@ Mephistoq (N)			7	993	993	1024	1024	0	Act 4 (N) Equip A	945	Act 4 (N) Good	54	ce
 Mephistoq (H)			7	993	993	1024	1024	0	Act 4 (H) Equip A	928	Act 4 (H) Good	65	ceh	30																		0
 Diablo			7	983	983	983	1024	0	"gld,mul=1280"	76	Act 5 Equip A	799	Act 5 Junk	76	Act 5 Good	46																0
 Diablo (N)			7	983	983	983	1024	0	"gld,mul=1536"	76	Act 5 (N) Equip A	799	Act 5 (N) Junk	76	Act 5 (N) Good	46	bet	15														0
-Diablo (H)			7	983	983	983	1024	0	"gld,mul=2048"	75	Act 5 (H) Equip A	777	Act 5 (H) Junk	75	Act 5 (H) Good	65	bet	30	dcso	30												0
+Diablo (H)			7	983	983	983	1024	0	"gld,mul=2048"	75	Act 5 (H) Equip A	777	Act 5 (H) Junk	75	Act 5 (H) Good	65	bet	30	dcso	35												0
 Diabloq			7	993	993	1024	1024	0	Act 5 Equip A	945	Act 5 Good	54																				0
 Diabloq (N)			7	993	993	1024	1024	0	Act 5 (N) Equip A	945	Act 5 (N) Good	54	bet	17																		0
-Diabloq (H)			7	993	993	1024	1024	0	Act 5 (H) Equip A	918	Act 5 (H) Good	65	bet	30	dcso	30																0
+Diabloq (H)			7	993	993	1024	1024	0	Act 5 (H) Equip A	918	Act 5 (H) Good	65	bet	30	dcso	35																0
 Summoner			5	900	900	972	1024	4	"gld,mul=1280"	248	Act 2 Equip C	414	Act 3 Junk	138	Act 2 Good	82	Act 3 Magic A	110														0
 Summoner (N)			5	900	900	972	1024	4	"gld,mul=1536"	248	Act 2 (N) Equip C	414	Act 3 (N) Junk	138	Act 2 (N) Good	82	Act 3 (N) Magic A	110														0
 Summoner (H)			5	900	900	972	1024	4	"gld,mul=2048"	242	Act 2 (H) Equip C	403	Act 3 (H) Junk	134	Act 2 (H) Good	80	Act 3 (H) Magic A	107	pk2	242												0
@@ -790,10 +790,10 @@ Nihlathak (N)			5	900	900	900	1024	3	"gld,mul=1536"	340	Act 5 (N) Equip B	461	Ac
 Nihlathak (H)			5	900	900	900	1024	2	"gld,mul=2048"	332	Act 5 (H) Equip B	451	Act 5 (H) Junk	71	Act 5 (H) Good	71	pk3	232														0
 Baal			7	983	983	983	1024	0	"gld,mul=1280"	76	Act 1 (N) Equip A	799	Act 1 (N) Junk	76	Act 1 (N) Good	46																0
 Baal (N)			7	983	983	983	1024	0	"gld,mul=1536"	76	Act 1 (H) Equip A	799	Act 1 (H) Junk	76	Act 1 (H) Good	46	fed	15														0
-Baal (H)			7	983	983	983	1024	0	"gld,mul=2048"	75	Act 5 (H) Equip B	777	Act 5 (H) Junk	75	Act 5 (H) Good	65	fed	30	dcso	30												0
+Baal (H)			7	983	983	983	1024	0	"gld,mul=2048"	75	Act 5 (H) Equip B	777	Act 5 (H) Junk	69	Act 5 (H) Good	65	fed	30	dcso	53												0
 Baalq			7	993	993	1024	1024	0	Act 1 (N) Equip A	945	Act 1 (N) Good	54																				0
 Baalq (N)			7	993	993	1024	1024	0	Act 1 (H) Equip A	945	Act 1 (H) Good	54	fed	17																		0
-Baalq (H)			7	993	993	1024	1024	0	Act 5 (H) Equip B	918	Act 5 (H) Good	65	fed	30	dcso	30																0
+Baalq (H)			7	993	993	1024	1024	0	Act 5 (H) Equip B	911	Act 5 (H) Good	65	fed	30	dcso	53																0
 Blood Raven			5	800	800	972	1024	3	"gld,mul=1280"	340	Act 1 Equip B	461	Act 1 Junk	121	Act 1 Good	121																0
 Blood Raven (N)			5	800	800	972	1024	3	"gld,mul=1536"	340	Act 1 (N) Equip B	461	Act 1 (N) Junk	121	Act 1 (N) Good	121																0
 Blood Raven (H)			5	800	800	972	1024	3	"gld,mul=2048"	340	Act 1 (H) Equip B	461	Act 1 (H) Junk	121	Act 1 (H) Good	121	pk1	261														0
@@ -893,10 +893,10 @@ Act 4 (H) Super Cx	18	87	-4	512	654	972	1024	0	Act 4 (H) Uitem B	2	Act 4 (H) Cpo
 Act 5 (H) Super Ax	18	90	-4	512	654	972	1024	0	Act 5 (H) Uitem A	2	Act 5 (H) Cpot A	2																				0
 Act 5 (H) Super Bx	18	93	-4	512	654	972	1024	0	Act 5 (H) Uitem B	2	Act 5 (H) Cpot B	2																				0
 Act 5 (H) Super Cx	18	96	-4	512	654	972	1024	0	Act 5 (H) Uitem C	2	Act 5 (H) Cpot C	2																				0
-Map Boss T1		85	5	983	983	983	1024	0	Act 5 (H) Equip C	58	Act 5 (H) Good	4	T1 Map Drop	3	dcbl	17																0
-Map Boss T2		85	5	983	983	983	1024	0	Act 5 (H) Equip C	58	Act 5 (H) Good	4	T2 Map Drop	3	dcbl	17																0
-Map Boss T3		85	5	983	983	983	1024	0	Act 5 (H) Equip C	58	Act 5 (H) Good	4	T3 Map Drop	3	dcbl	17																0
-Map Boss T4		85	5	983	983	983	1024	0	Act 5 (H) Equip C	58	Act 5 (H) Good	4	T3 Map Drop	3	dcbl	17																0
+Map Boss T1		85	5	983	983	983	1024	0	Act 5 (H) Equip C	252	Act 5 (H) Good	21	T1 Map Drop	15	dcbl	38	dcho	1														0
+Map Boss T2		85	5	983	983	983	1024	0	Act 5 (H) Equip C	252	Act 5 (H) Good	21	T1 Map Drop	15	dcbl	38	dcho	1														0
+Map Boss T3		85	5	983	983	983	1024	0	Act 5 (H) Equip C	252	Act 5 (H) Good	21	T1 Map Drop	15	dcbl	38	dcho	1														0
+Map Boss T4		85	5	983	983	983	1024	0	Act 5 (H) Equip C	252	Act 5 (H) Good	21	T1 Map Drop	15	dcbl	38	dcho	1														0
 Cow King			5	850	983	983	1024	0	Act 1 Uitem C	1	Act 1 Melee B	2																				0
 Cow King (N)			5	850	983	983	1024	0	Act 1 (H) Uitem C	1	Act 1 (N) Melee B	2																				0
 Cow King (H)			5	850	983	983	1024	0	Act 1 (H) Uitem C	1	Act 1 (H) Melee B	2																				0
@@ -1025,12 +1025,12 @@ Rathma Jawbone H				2250	5
 UberAncients T1				3250																												
 UberAncients T2				3250																												
 UberAncients T3				3250																												
-Treasure Fallen Cards N			2					40	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0
-Treasure Fallen Cards NM			2					32	Fate Common A	2	Fate Common B	2	Fate Common C	2																		0
-Treasure Fallen Cards H			2					19	Fate Common A	3	Fate Common B	3	Fate Common C	3																		0
-Treasure Fallen Orbs N			2					39	Orbs	4																						0
-Treasure Fallen Orbs NM			2					32	Orbs	4																						0
-Treasure Fallen Orbs H			2					19	Orbs	7																						0
+Treasure Fallen Cards N			2					46	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0
+Treasure Fallen Cards NM			2					37	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0
+Treasure Fallen Cards H			2					25	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0
+Treasure Fallen Orbs N			2					46	Orbs	3																						0
+Treasure Fallen Orbs NM			2					37	Orbs	3																						0
+Treasure Fallen Orbs H			2					25	Orbs	3																						0
 Treasure Fallen Gem H			2					10	Perfect Gem	2	Flawless Gem	1																				0
 Treasure Fallen Map			2					12	T3 Map Drop	2	imra	1	rera	1	imma	1	scou	1														0
 Treasure Fallen Rune H			2					12	Runes 12	7																						0

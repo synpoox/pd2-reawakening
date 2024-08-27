@@ -450,4 +450,4 @@ awakened-skill-duration	1			1	awakened_skill_duration																											
 awakened-skill-reduction	1			1	awakened_skill_reduction																													447	0
 influenced	1			1	prime_evil_influenced																													448	0
 hatred-influenced	1			1	hatred_influenced																													449	0
-terror-influenced	1			1	terror_influenced																													449	0
+terror-influenced	1			1	terror_influenced																													450	0
