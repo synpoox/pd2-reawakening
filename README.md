@@ -102,12 +102,12 @@ This contains all the new item types (fate cards, new orbs, relic of the nephale
 //PD2 Single Player Reawakened
 ItemDisplay[awst OR mfo OR exo OR dvo OR rgo OR tjo OR dvia]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*%RED%*       %NAME%       %RED%*%PURPLE%*%GREEN%*
 //rare fate card
-ItemDisplay[fsha OR fsjp OR fsdi OR fsfr]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*%RED%*       %NAME%       %RED%*%PURPLE%*%GREEN%*
+ItemDisplay[fsha OR fsjp OR fsdi OR fsfr OR fsfa]: %BORDER-68%%ORANGE%pick %PURPLE%*%RED%*%YELLOW%*%GREEN%*     %NAME%     %GREEN%*%YELLOW%*%RED%*%PURPLE%* %ORANGE%up
 //uncommon fate cards
-ItemDisplay[fsdg OR fsds OR fsdb OR fstc OR fspv OR  fslc OR fstl OR fsdw OR fsps OR fsbr]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*       %NAME%       %PURPLE%*%GREEN%*
+ItemDisplay[fsdg OR fsds OR fsdb OR fstc OR fspv OR  fslc OR fstl OR fsdw OR fsps OR fsbr OR fsms OR fscs]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*       %NAME%       %PURPLE%*%GREEN%*
 //common fate cards
-ItemDisplay[fslr OR fslu OR fsat OR fsus OR fsrb OR fstm OR fsdn OR fsht OR fsvi OR fscf OR fsgd OR fsed OR fscs OR fsta OR fsts OR fstf OR fshs OR fsar OR fstw OR fsms OR fsla]: %BORDER-0A%%DOT-62%*%PURPLE%      %NAME%      
-ItemDisplay[fsbl OR fssf OR fsse OR fsew OR fssg OR fsuf OR fsmw OR fsap OR fsem OR fstu OR fstb]: %BORDER-0A%%DOT-62%*%PURPLE%      %NAME%      
-//relic
-ItemDisplay[rotf OR oou]: %BORDER-68%%ORANGE%pick %PURPLE%*%RED%*%YELLOW%*%GREEN%*     %NAME%     %GREEN%*%YELLOW%*%RED%*%PURPLE%* %ORANGE%up
+ItemDisplay[fslr OR fslu OR fsat OR fsus OR fsrb OR fstm OR fsdn OR fsht OR fsvi OR fscf OR fsgd OR fsed OR fsta OR fsts OR fstf OR fshs OR fsar OR fstw OR fsla]: %BORDER-0A%%DOT-62%*%PURPLE%      %NAME%      
+ItemDisplay[fsbl OR fssf OR fsse OR fsew OR fssg OR fsuf OR fsmw OR fsap OR fsem OR fstu OR fstb OR fsls]: %BORDER-0A%%DOT-62%*%PURPLE%      %NAME%      
+//relic, orb of unmaking, prime evil embers
+ItemDisplay[rotf OR oou OR teo OR heo OR deo]: %BORDER-68%%ORANGE%pick %PURPLE%*%RED%*%YELLOW%*%GREEN%*     %NAME%     %GREEN%*%YELLOW%*%RED%*%PURPLE%* %ORANGE%up
 ```
