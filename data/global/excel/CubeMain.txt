@@ -2467,7 +2467,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	1			100					1	"key,qty=1"							Annihilus	120			allskills	100		1	1																					"heo,qty=50"	99																												"teo,qty=50"	120																												0
+generate (dev)	1			100					1	"key,qty=1"							rotf	120																												"heo,qty=50"	99																												"teo,qty=50"	120																												0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication (DROP DISABLED)	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
 4 of Luminescence -> Mara's Kaleidoscope 	1			100					1	fslu,qty=4							Mara's Kaleidoscope	95																																																																																						0
 4 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=4							The Stone of Jordan	95																																																																																						0
@@ -2590,18 +2590,22 @@ RELIC OF THE NEPHALEM																																																											
 																																																																																																								0
 add relic factor	1	2		100	18	509	0		1	"rotf"							useitem			100	awakennum	100		1	1000																																																																															0
 																																																																																																								0
-relic -> 08 shako	1	2		100	16	509	83		1	"rotf"							"uapl,uni"	120																																																																																						0
-relic -> 08 arkaines	1	2		100	16	509	167		1	"rotf"							"upll,uni"	120																																																																																						0
-relic -> armageddon slippers	1	2		100	16	509	250		1	"rotf"							Armageddon Slippers	120																																																																																						0
-relic -> King's Jewel of Blazing	1	2		100	16	509	333		1	"rotf"							King's Jewel of Blazing	120																																																																																						0
-relic -> storm circlet	1	2		100	16	509	417		1	"rotf"							Storm Circlet	120																																																																																						0
-relic -> 08 vgaze	1	2		100	16	509	500		1	"rotf"							"xh9l,uni"	120																																																																																						0
-relic -> siggard's stealth	1	2		100	16	509	583		1	"rotf"							Siggard's Stealth	120																																																																																						0
-relic -> snatchii's steelclash	1	2		100	16	509	667		1	"rotf"							Snatchii's Steelclash	120																																																																																						0
-relic -> wiz gloves	1	2		100	16	509	750		1	"rotf"							"tgll,uni"	120																																																																																						0
-relic -> occy soj	1	2		100	16	509	833		1	"rotf"							Occy Soj	120																																																																																						0
-relic -> Bugged Windforce	1	2		100	16	509	917		1	"rotf"							Bugged Windforce	120																																																																																						0
-relic -> Bugged Stormshield	1	2		100	16	509	1000		1	"rotf"							Bugged Stormshield	120																																																																																						0
+relic -> 08 shako	1	2		100	16	509	62		1	"rotf"							"uapl,uni"	120																																																																																						0
+relic -> 08 arkaines	1	2		100	16	509	125		1	"rotf"							"upll,uni"	120																																																																																						0
+relic -> armageddon slippers	1	2		100	16	509	187		1	"rotf"							Armageddon Slippers	120																																																																																						0
+relic -> King's Jewel of Blazing	1	2		100	16	509	250		1	"rotf"							King's Jewel of Blazing	120																																																																																						0
+relic -> storm circlet	1	2		100	16	509	312		1	"rotf"							Storm Circlet	120																																																																																						0
+relic -> 08 vgaze	1	2		100	16	509	375		1	"rotf"							"xh9l,uni"	120																																																																																						0
+relic -> siggard's stealth	1	2		100	16	509	437		1	"rotf"							Siggard's Stealth	120																																																																																						0
+relic -> snatchii's steelclash	1	2		100	16	509	500		1	"rotf"							Snatchii's Steelclash	120																																																																																						0
+relic -> wiz gloves	1	2		100	16	509	562		1	"rotf"							"tgll,uni"	120																																																																																						0
+relic -> occy soj	1	2		100	16	509	625		1	"rotf"							Occy Soj	120																																																																																						0
+relic -> Bugged Windforce	1	2		100	16	509	687		1	"rotf"							Bugged Windforce	120																																																																																						0
+relic -> Bugged Stormshield	1	2		100	16	509	750		1	"rotf"							Bugged Stormshield	120																																																																																						0
+relic -> Bugged Buriza-Do Kyanon	1	2		100	16	509	812		1	"rotf"							Bugged Buriza-Do Kyanon	120																																																																																						0
+relic -> Bugged Aquariu's Stormrider	1	2		100	16	509	875		1	"rotf"							Aquariu's Stormrider	120																																																																																						0
+relic -> Bugged Wartraveler	1	2		100	16	509	937		1	"rotf"							Bugged Wartraveler	120																																																																																						0
+relic -> Ith Colossus Blade	1	2		100	16	509	1000		1	"rotf"							Ith Colossus Blade	120																																																																																						0
 																																																																																																								0
 8 zod + coin -> lightsong	1			100					2	"r33g,qty=8"	"ncoi,qty=1"						lsvl																																																																																							0
 50 pde + 50 jewel fragments + coin -> pandemonium talisman	1			100					3	"dcbl,qty=50"	"ncoi,qty=1"	"jewg,qty=50"					ubtm																																																																																							0

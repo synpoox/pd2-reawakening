@@ -502,3 +502,4 @@ Mark of the Askari	100	1		1	1	69	66	cqv	bolts			5	5000	dyel	dyel						oskill	26	
 Surgefletcher	100	1		1	1	52	45	aqv	arrows			5	5000	dyel	dyel						hit-skill	53	15	40	dmg-ltng		1	256	res-ltng		20	30	res-fire		-15	-15	hp		40	75	swing2		7	10	heal-kill		3	5	oskill	63	1	1																	0
 Light's Hope	100	1		1	1	87	90	cm3	charm			5	5000		whit						awakened-skill-reduction		1	1																																													0
 Ember of Eternity	100	1		1	1	87	75	jew	jewel			3	5000								awakened-skill-duration		1	1																																													0
+Ith Colossus Blade	100	1		1	1	120	55	7gd	Colossus Blade			5	5000								ethereal		1	1	indestruct		1	1	allskills		2	2	swing2		20	20	balance2		20	20	dmg%		200	200	res-all		75	75	manasteal		4	4	stupidity		33	33	sock	6							splash	358	100	1	0
