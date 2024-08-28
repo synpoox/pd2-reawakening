@@ -455,7 +455,7 @@ Occy Soj	100	1		1	1	120	29	rin	Ring			5	5000								sor		3	3	gethit-skill	54	25	
 Izual's Redemption	100	1		1	1	87	77	ult	Hellforge Plate			3	5000	lblu	lblu						allskills		2	2	oskill	364	2	2	cast2		25	25	mana		200	200	extra-magi		20	25	aura	Sanctuary	12	15	abs-cold%		2	3	res-cold		20	30	ease		-30	-30	indestruct		1	1									0
 Veil of Light	100	1		1	1	87	74	pab	Sacred Targe			3	5000	bwht	bwht						pal		2	2	cast2		15	15	cast-skill	364	15	24	extra-ltng		5	10	extra-magi		30	35	skill	364	2	2	abs-mag		6	9	balance2		25	25																	0
 Wraithgrip	100	1		1	1	87	69	ulg	Bramble Mitts			3	5000	blac	blac						extra-magi		10	15	cast2		20	20	gethit-skill	68	5	18	enr		5	10	abs-mag		2	3	ac		30	30	mana%		5	10																					0
-Poison Inoculation	100	1		3	1	87	82	cm3	charm			3	5000		dgrn						oskill	Energy Shield	30	30	es-efficiency		20	20	res-pois-max		15	15	res-fire		-100	-100	res-ltng		-100	-100	res-cold		-100	-100	res-pois-len		175	175																					0
+Poison Inoculation	100	1		3	1	87	82	cm3	charm			3	5000		dgrn						oskill	Energy Shield	30	30	es-efficiency		20	20	res-pois-max		15	15	res-fire		-100	-100	res-ltng		-100	-100	res-cold		-100	-100	res-pois-len		175	175	extra-pois		12	15																	0
 Split Personality	100	0		1	1	87	55	jew	jewel			3	5000								extra-fireball		1	1																																													0
 Split Personality	100	1		3	1	87	55	jew	jewel			3	5000								extra-ice-lance		1	1																																													0
 Split Personality	100	1		3	1	87	55	jew	jewel			3	5000								extra-poison-creeper		1	1																																													0

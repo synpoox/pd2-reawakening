@@ -224,11 +224,11 @@ Act 4 (H) Magic B	4	80	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic A	4	82	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic B	4	83	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic C	4	85	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Orbs			1					0	dvo	243	mfo	210	rgo	129	oou	2	tjo	2	dvia	400	rotf	14										0
+Orbs			1					0	dvo	243	mfo	210	rgo	128	oou	2	tjo	2	dvia	400	rotf	15										0
 Extra TC A																																0
 Extra TC B																																0
 Prime Evil Embers			1					0	heo	1	teo	1																				0
-Map Orbs Drop			1					0	Orbs	299	Prime Evil Embers	1																				0
+Map Orbs Drop			1					0	Orbs	269	Prime Evil Embers	1																				0
 Fate Common A			1					0	fslr	1	fslu	1	fsat	1	fsus	1	fsrb	1	fsla	1	fsvi	1	fstm	1								0
 Fate Common B			1					0	fsar	1	fscf	1	fsed	1	fsta	1	fsts	1	fstf	1	fshs	1	fstw	1								0
 Fate Common C			1					0	fsbl	1	fssf	1	fstb	1	fsew	1	fssg	1	fstu	1	fsmw	1	fsem	1								0
