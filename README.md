@@ -100,7 +100,7 @@ This contains all the new item types (fate cards, new orbs, relic of the nephale
 
 ```
 //PD2 Single Player Reawakened
-ItemDisplay[awst OR mfo OR exo OR dvo OR rgo OR tjo OR dvia]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*%RED%*       %NAME%       %RED%*%PURPLE%*%GREEN%*
+ItemDisplay[awst OR mfo OR exo OR dvo OR rgo OR cho OR tjo OR dvia]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*%RED%*       %NAME%       %RED%*%PURPLE%*%GREEN%*
 //rare fate card
 ItemDisplay[fsha OR fsjp OR fsdi OR fsfr OR fsfa]: %BORDER-68%%ORANGE%pick %PURPLE%*%RED%*%YELLOW%*%GREEN%*     %NAME%     %GREEN%*%YELLOW%*%RED%*%PURPLE%* %ORANGE%up
 //uncommon fate cards
