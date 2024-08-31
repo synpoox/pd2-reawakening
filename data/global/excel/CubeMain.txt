@@ -2306,6 +2306,17 @@ Reroll unique amulet	1			100	18	361	0		2	amul,uni	"dvo,qty=1"						usetype,uni		
 Reroll set amulet	1			100	18	361	0		2	amul,set	"dvo,qty=1"						usetype,set			100																																																																																				0
 Reroll unique quiver	1			100	18	361	0		2	misl,uni	"dvo,qty=1"						usetype,uni			100																																																																																				0
 																																																																																																								0
+CHAOS ORB																																																																																																								0
+																																																																																																								0
+chaos orb + rare weap -> rerolled rare weap	1			2	18	361	0		2	"weap,rar,noe"	"cho,qty=1"						"usetype,rar,noe"			100																																																																																				0
+chaos orb + rare eth weap -> rerolled rare eth weap	1			2	18	361	0		2	"weap,rar,eth"	"cho,qty=1"						"usetype,rar"			100	ethereal	100		1	1																																																																															0
+chaos orb + rare armor -> rerolled rare armor	1			2	18	361	0		2	"armo,rar,noe"	"cho,qty=1"						"usetype,rar,noe"			100																																																																																				0
+chaos orb + rare eth armor -> rerolled rare eth armor	1			2	18	361	0		2	"armo,rar,eth"	"cho,qty=1"						"usetype,rar"			100	ethereal	100		1	1																																																																															0
+chaos orb + rare ring -> rerolled rare ring	1			2	18	361	0		2	"ring,rar"	"cho,qty=1"						"usetype,rar"			100																																																																																				0
+chaos orb + rare amul -> rerolled rare amulet	1			2	18	361	0		2	"amul,rar"	"cho,qty=1"						"usetype,rar"			100																																																																																				0
+chaos orb + rare quiver -> rerolled rare quiver	1			2	18	361	0		2	"misl,rar"	"cho,qty=1"						"usetype,rar"			100																																																																																				0
+chaos orb + rare jewel -> rerolled rare jewel	1			2	18	361	0		2	"jew,rar"	"cho,qty=1"						"usetype,rar"			100																																																																																				0
+																																																																																																								0
 MYTHIC ORB																																																																																																								0
 																																																																																																								0
 add mythic factor to normal weapon	0	2		100	18	304	0		2	"weap,nor"	"mfo,qty=1"						useitem			100	mythicnum	100		1	1000																					"mfo,qty=1"																																																										0
@@ -2451,7 +2462,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	0			100					1	"key,qty=1"							"fsfa,qty=50"	120																												"heo,qty=50"	99																												"teo,qty=50"	120																												0
+generate (dev)	0			100					1	"key,qty=1"							Infernal Mantle	110																												"cho,qty=50"	99																												"teo,qty=50"	120																												0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication (DROP DISABLED)	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
 4 of Luminescence -> Mara's Kaleidoscope 	1			100					1	fslu,qty=4							Mara's Kaleidoscope	95																																																																																						0
 4 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=4							The Stone of Jordan	95																																																																																						0
@@ -2592,5 +2603,6 @@ relic -> Bugged Aquariu's Stormrider	1	2		100	16	509	875		1	"rotf"							Aquariu
 relic -> Bugged Wartraveler	1	2		100	16	509	937		1	"rotf"							Bugged Wartraveler	120																																																																																						0
 relic -> Ith Colossus Blade	1	2		100	16	509	1000		1	"rotf"							Ith Colossus Blade	120																																																																																						0
 																																																																																																								0
-8 zod + coin -> lightsong	1			100					2	"r33g,qty=8"	"ncoi,qty=1"						lsvl																																																																																							0
+10 zod + coin -> lightsong	1			100					2	"r33g,qty=10"	"ncoi,qty=1"						lsvl																																																																																							0
 50 pde + 50 jewel fragments + coin -> pandemonium talisman	1			100					3	"dcbl,qty=50"	"ncoi,qty=1"	"jewg,qty=50"					ubtm																																																																																							0
+50 wss + 1 jah -> rathma access	1			100					2	"wss,qty=50"	"r31g,qty=1"						rtma																																																																																							0
