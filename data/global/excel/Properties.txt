@@ -451,3 +451,4 @@ awakened-skill-reduction	1			1	awakened_skill_reduction																									
 influenced	1			1	prime_evil_influenced																													448	0
 hatred-influenced	1			1	hatred_influenced																													449	0
 terror-influenced	1			1	terror_influenced																													450	0
+combustion-cd-reduction	1			1	combustion_cd_reduction																													451	0

@@ -480,14 +480,14 @@ Guardian's	477	100	1	1	60		45	pal			1	125	skilltab	11	3	3									1	lgld	shld	as
 Expert's	478	100	1	1	50		42	bar			2	125	skilltab	12	1	1											lcha	lchs													0
 Fanatic	479	100	1	1	50		42	bar			2	125	skilltab	13	1	1											lcha	lchs													0
 Sounding	480	100	1	1	50		42	bar			2	125	skilltab	14	1	1											lcha	lchs													0
-Expert's	481	100	1	1	20		15	bar			1	125	skilltab	12	1	1											phlm	weap	helm					miss	rod	knif					0
-Veteran's	482	100	1	1	40		30	bar			1	125	skilltab	12	2	2									1	lgld	phlm	weap	helm					miss	rod	knif					0
-Master's	483	100	1	1	60		45	bar			1	125	skilltab	12	3	3									1	lgld	phlm	weap	helm					miss	rod	knif					0
-Fanatic	484	100	1	1	20		15	bar			1	125	skilltab	13	1	1											phlm	weap	amul					miss	rod	knif					0
-Raging	485	100	1	1	40		30	bar			1	125	skilltab	13	2	2									1	lgld	phlm	weap	amul					miss	rod	knif					0
+Expert's	481	100	1	1	20		15	bar			1	125	skilltab	12	1	1											phlm	weap	helm	amul	glov			miss	rod	knif					0
+Veteran's	482	100	1	1	40		30	bar			1	125	skilltab	12	2	2									1	lgld	phlm	weap	helm	amul	glov			miss	rod	knif					0
+Master's	483	100	1	1	60		45	bar			1	125	skilltab	12	3	3									1	lgld	phlm	weap	helm	amul				miss	rod	knif					0
+Fanatic	484	100	1	1	20		15	bar			1	125	skilltab	13	1	1											phlm	weap	amul	glov				miss	rod	knif					0
+Raging	485	100	1	1	40		30	bar			1	125	skilltab	13	2	2									1	lgld	phlm	weap	amul	glov				miss	rod	knif					0
 Furious	486	100	1	1	60		45	bar			1	125	skilltab	13	3	3									1	lgld	phlm	weap	amul					miss	rod	knif					0
-Sounding	487	100	1	1	20		15	bar			1	125	skilltab	14	1	1											phlm	weap	amul					miss	rod	knif					0
-Resonant	488	100	1	1	40		30	bar			1	125	skilltab	14	2	2									1	lgld	phlm	weap	amul					miss	rod	knif					0
+Sounding	487	100	1	1	20		15	bar			1	125	skilltab	14	1	1											phlm	weap	amul	glov				miss	rod	knif					0
+Resonant	488	100	1	1	40		30	bar			1	125	skilltab	14	2	2									1	lgld	phlm	weap	amul	glov				miss	rod	knif					0
 Echoing	489	100	1	1	60		45	bar			1	125	skilltab	14	3	3									1	lgld	phlm	weap	amul					miss	rod	knif					0
 Trainer's	490	100	1	1	50		42	dru			2	125	skilltab	15	1	1											lcha	lchs													0
 Spiritual	491	100	1	1	50		42	dru			2	125	skilltab	16	1	1											lcha	lchs													0
