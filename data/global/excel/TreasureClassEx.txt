@@ -8,7 +8,7 @@ Flawed Gem			1						gfv	3	gfy	3	gfb	3	gfg	3	gfr	3	gfw	3	skf	2										0
 Normal Gem			1						gsv	3	gsy	3	gsb	3	gsg	3	gsr	3	gsw	3	sku	2										0
 Flawless Gem			1						gzvs	3	glys	3	glbs	3	glgs	3	glrs	3	glws	3	skls	2										0
 Perfect Gem			1						gpvs	3	gpys	3	gpbs	3	gpgs	3	gprs	3	gpws	3	skzs	2										0
-Ammo			1					9	aqv	1	cqv	1																				0
+Ammo			1					12	aqv	1	cqv	1																				0
 Misc 0			1						key	3	tsc	3	isc	3	tpfs	2	tpgs	2	tpcs	2	tpls	2										0
 Misc 1			1						key	3	tsc	3	isc	3	tpfm	2	tpgm	2	tpcm	2	tplm	2										0
 Misc 2			1						key	3	tsc	3	isc	3	tpfl	2	tpgl	2	tpcl	2	tpll	2										0
@@ -224,11 +224,11 @@ Act 4 (H) Magic B	4	80	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic A	4	82	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic B	4	83	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic C	4	85	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Orbs			1					0	dvo	221	mfo	168	rgo	86	cho	106	oou	2	tjo	2	dvia	400	rotf	15								0
+Orbs			1					0	dvo	191	mfo	158	rgo	76	cho	156	oou	3	tjo	1	dvia	400	rotf	15								0
 Extra TC A																																0
 Extra TC B																																0
 Prime Evil Embers			1					0	heo	1	teo	1																				0
-Map Orbs Drop			1					0	Orbs	219	Prime Evil Embers	1																				0
+Map Orbs Drop			1					0	Orbs	159	Prime Evil Embers	1																				0
 Fate Common A			1					0	fslr	1	fslu	1	fsat	1	fsus	1	fsrb	1	fsla	1	fsvi	1	fstm	1								0
 Fate Common B			1					0	fsar	1	fscf	1	fsed	1	fsta	1	fsts	1	fstf	1	fshs	1	fstw	1								0
 Fate Common C			1					0	fsbl	1	fssf	1	fstb	1	fsew	1	fssg	1	fstu	1	fsmw	1	fsem	1								0
@@ -893,10 +893,10 @@ Act 4 (H) Super Cx	18	87	-4	512	654	972	1024	0	Act 4 (H) Uitem B	2	Act 4 (H) Cpo
 Act 5 (H) Super Ax	18	90	-4	512	654	972	1024	0	Act 5 (H) Uitem A	2	Act 5 (H) Cpot A	2																				0
 Act 5 (H) Super Bx	18	93	-4	512	654	972	1024	0	Act 5 (H) Uitem B	2	Act 5 (H) Cpot B	2																				0
 Act 5 (H) Super Cx	18	96	-4	512	654	972	1024	0	Act 5 (H) Uitem C	2	Act 5 (H) Cpot C	2																				0
-Map Boss T1		85	5	983	983	983	1024	0	Act 5 (H) Equip C	252	Act 5 (H) Good	21	T1 Map Drop	15	dcbl	30	dcho	1														0
-Map Boss T2		85	5	983	983	983	1024	0	Act 5 (H) Equip C	252	Act 5 (H) Good	21	T1 Map Drop	15	dcbl	30	dcho	1														0
-Map Boss T3		85	5	983	983	983	1024	0	Act 5 (H) Equip C	252	Act 5 (H) Good	21	T1 Map Drop	15	dcbl	30	dcho	1														0
-Map Boss T4		85	5	983	983	983	1024	0	Act 5 (H) Equip C	252	Act 5 (H) Good	21	T1 Map Drop	15	dcbl	30	dcho	1														0
+Map Boss T1		85	5	983	983	983	1024	0	Act 5 (H) Equip C	252	Act 5 (H) Good	21	T1 Map Drop	15	dcbl	22	dcho	1														0
+Map Boss T2		85	5	983	983	983	1024	0	Act 5 (H) Equip C	252	Act 5 (H) Good	21	T1 Map Drop	15	dcbl	22	dcho	1														0
+Map Boss T3		85	5	983	983	983	1024	0	Act 5 (H) Equip C	252	Act 5 (H) Good	21	T1 Map Drop	15	dcbl	22	dcho	1														0
+Map Boss T4		85	5	983	983	983	1024	0	Act 5 (H) Equip C	252	Act 5 (H) Good	21	T1 Map Drop	15	dcbl	22	dcho	1														0
 Cow King			5	850	983	983	1024	0	Act 1 Uitem C	1	Act 1 Melee B	2																				0
 Cow King (N)			5	850	983	983	1024	0	Act 1 (H) Uitem C	1	Act 1 (N) Melee B	2																				0
 Cow King (H)			5	850	983	983	1024	0	Act 1 (H) Uitem C	1	Act 1 (H) Melee B	2																				0
@@ -1022,9 +1022,9 @@ Unique Map MapBoss				3500
 Rathma Jawbone N				2000	30																											
 Rathma Jawbone NM				6750	5																											
 Rathma Jawbone H				2250	5																											
-UberAncients T1				3250																												
-UberAncients T2				3250																												
-UberAncients T3				3250																												
+UberAncients T1				3750																												
+UberAncients T2				3750																												
+UberAncients T3				3750																												
 Treasure Fallen Cards N			2					46	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0
 Treasure Fallen Cards NM			2					37	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0
 Treasure Fallen Cards H			2					25	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0
