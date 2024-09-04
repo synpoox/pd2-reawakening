@@ -224,7 +224,7 @@ Act 4 (H) Magic B	4	80	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic A	4	82	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic B	4	83	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic C	4	85	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Orbs			1					0	dvo	200	mfo	148	rgo	76	cho	156	oou	4	tjo	1	dvia	400	rotf	15								0
+Orbs			1					0	dvo	194	mfo	142	rgo	70	cho	150	oou	4	tjo	1	dvia	397	rotf	14	rofp	28						0
 Extra TC A																																0
 Extra TC B																																0
 Prime Evil Embers			1					0	heo	1	teo	1																				0
@@ -893,10 +893,10 @@ Act 4 (H) Super Cx	18	87	-4	512	654	972	1024	0	Act 4 (H) Uitem B	2	Act 4 (H) Cpo
 Act 5 (H) Super Ax	18	90	-4	512	654	972	1024	0	Act 5 (H) Uitem A	2	Act 5 (H) Cpot A	2																				0
 Act 5 (H) Super Bx	18	93	-4	512	654	972	1024	0	Act 5 (H) Uitem B	2	Act 5 (H) Cpot B	2																				0
 Act 5 (H) Super Cx	18	96	-4	512	654	972	1024	0	Act 5 (H) Uitem C	2	Act 5 (H) Cpot C	2																				0
-Map Boss T1		85	5	983	983	983	1024	0	Act 5 (H) Equip C	1764	Act 5 (H) Good	147	T1 Map Drop	105	dcbl	154	dcho	7	dcso	28	rtmv	14	rotv	1								0
-Map Boss T2		85	5	983	983	983	1024	0	Act 5 (H) Equip C	1764	Act 5 (H) Good	147	T2 Map Drop	105	dcbl	154	dcho	7	dcso	28	rtmv	14	rotv	1								0
-Map Boss T3		85	5	983	983	983	1024	0	Act 5 (H) Equip C	1764	Act 5 (H) Good	147	T3 Map Drop	105	dcbl	154	dcho	7	dcso	28	rtmv	14	rotv	1								0
-Map Boss T4		85	5	983	983	983	1024	0	Act 5 (H) Equip C	1764	Act 5 (H) Good	147	T3 Map Drop	105	dcbl	154	dcho	7	dcso	28	rtmv	14	rotv	1								0
+Map Boss T1		85	5	983	983	983	1024	0	Act 5 (H) Equip C	1764	Act 5 (H) Good	147	T1 Map Drop	105	dcbl	154	dcho	7	dcso	28	rtmv	14	rofp	1								0
+Map Boss T2		85	5	983	983	983	1024	0	Act 5 (H) Equip C	1764	Act 5 (H) Good	147	T2 Map Drop	105	dcbl	154	dcho	7	dcso	28	rtmv	14	rofp	1								0
+Map Boss T3		85	5	983	983	983	1024	0	Act 5 (H) Equip C	1764	Act 5 (H) Good	147	T3 Map Drop	105	dcbl	154	dcho	7	dcso	28	rtmv	14	rofp	1								0
+Map Boss T4		85	5	983	983	983	1024	0	Act 5 (H) Equip C	1764	Act 5 (H) Good	147	T3 Map Drop	105	dcbl	154	dcho	7	dcso	28	rtmv	14	rofp	1								0
 Cow King			5	850	983	983	1024	0	Act 1 Uitem C	1	Act 1 Melee B	2																				0
 Cow King (N)			5	850	983	983	1024	0	Act 1 (H) Uitem C	1	Act 1 (N) Melee B	2																				0
 Cow King (H)			5	850	983	983	1024	0	Act 1 (H) Uitem C	1	Act 1 (H) Melee B	2																				0
@@ -956,8 +956,8 @@ BR Arena Bodies H		90	1	570	400	850	450	0	Act 5 (H) Equip C	48	BR Arena misc	4	B
 BR Arena Zomb N		30	3	9000	9000	1	1	0	Act 5 Uitem C	30	BR Arena jewerly	8																				0
 BR Arena Zomb NM		60	3	9000	9000	1	1	0	Act 5 (N) Uitem C	30	BR Arena jewerly	8																				0
 BR Arena Zomb H		90	3	9000	9000	1	1	0	Act 5 (H) Uitem C	30	BR Arena jewerly	8																				0
-UberAncients		90	6	950	960	990	1024	0	Act 5 (H) Equip C	800	Jewelry C	100	Runes 17 equiv	25	wss	25	scrb	3	Orbs	25	Fate Drop	25	T3 Map Drop	10	T2 Map Drop	10	T1 Map Drop	10				0
-ShadowOfMendeln		90	6	950	960	990	1024	0	Act 5 (H) Equip C	787	Act 5 (H) Good	45	Act 5 (H) Junk	75	Runes 17 equiv	10	wss	15	Jewelry C	30	scrb	5	Orbs	10	Fate Drop	12						0
+UberAncients		90	6	950	960	990	1024	0	Act 5 (H) Equip C	2000	Jewelry C	250	Runes 17 equiv	62	wss	62	scrb	8	Orbs	63	Fate Drop	63	T3 Map Drop	25	T2 Map Drop	50	rotv	1				0
+ShadowOfMendeln		90	6	950	960	990	1024	0	Act 5 (H) Equip C	6296	Act 5 (H) Good	360	Act 5 (H) Junk	600	Runes 17 equiv	80	wss	120	Jewelry C	240	scrb	40	Orbs	80	Fate Drop	96	rotv	1				0
 Act 1 (H) Weap A	1	68	1						weap54	2	armo54	0	weap57	6	armo57	0	weap60	14	armo60	0	weap63	6	armo63	3	Act 5 (N) Weap C	1785			28	1813	0.977	0
 Act 1 (H) Weap B	1	70	1						weap57	2	armo57	0	weap60	6	armo60	0	weap63	14	armo63	0	weap66	2	armo66	1	Act 1 (H) Weap A	1530			24	1554	0.977	0
 Act 1 (H) Weap C	1	71	1						weap57	2	armo57	0	weap60	6	armo60	0	weap63	14	armo63	0	weap66	6	armo66	3	Act 1 (H) Weap A	1785			28	1813	0.977	0
