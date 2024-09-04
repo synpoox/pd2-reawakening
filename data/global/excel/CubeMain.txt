@@ -391,7 +391,7 @@ amulet -> cyclone armor on cast	1	2		100	16	509	760		2	"amul"	"dvia,qty=1"						
 amulet -> bone spear on cast	1	2		100	16	509	790		2	"amul"	"dvia,qty=1"						useitem			100	awaken	100		89	89	awakennum	100		1001	1001	cast-skill	100	84	13	40																																																																					0
 amulet -> cold enchant on kill	1	2		100	16	509	820		2	"amul"	"dvia,qty=1"						useitem			100	awaken	100		89	89	awakennum	100		1001	1001	kill-skill	100	40	4	20																																																																					0
 amulet -> foh on striking	1	2		100	16	509	850		2	"amul"	"dvia,qty=1"						useitem			100	awaken	100		88	88	awakennum	100		1001	1001	hit-skill	100	121	13	40																																																																					0
-amulet -> corpse explosion on kill	1	2		100	16	509	880		2	"amul"	"dvia,qty=1"						useitem			100	awaken	100		89	89	awakennum	100		1001	1001	kill-skill	100	74	15	20																																																																					0
+amulet -> corpse explosion on kill	1	2		100	16	509	880		2	"amul"	"dvia,qty=1"						useitem			100	awaken	100		89	89	awakennum	100		1001	1001	kill-skill	100	74	15	30																																																																					0
 amulet -> tornado on cast	1	2		100	16	509	910		2	"amul"	"dvia,qty=1"						useitem			100	awaken	100		89	89	awakennum	100		1001	1001	cast-skill	100	245	13	40																																																																					0
 amulet -> holy nova on striking	1	2		100	16	509	940		2	"amul"	"dvia,qty=1"						useitem			100	awaken	100		88	88	awakennum	100		1001	1001	hit-skill	100	364	13	25																																																																					0
 amulet -> pnova on striking	1	2		100	16	509	970		2	"amul"	"dvia,qty=1"						useitem			100	awaken	100		88	88	awakennum	100		1001	1001	hit-skill	100	92	13	25																																																																					0
@@ -2469,7 +2469,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	0			100					1	"key,qty=1"							"cho,qty=50"	120																												"wss,qty=50"	99																												"dvia,qty=50"	120																												0
+generate (dev)	1			100					1	"key,qty=1"							rofp	90																												rotv	85																												rotf	85																												0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication (DROP DISABLED)	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
 4 of Luminescence -> Mara's Kaleidoscope 	1			100					1	fslu,qty=4							Mara's Kaleidoscope	95																																																																																						0
 4 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=4							The Stone of Jordan	95																																																																																						0
@@ -2574,6 +2574,8 @@ Perfect Skull + Coin = 50 P. Skull	1			100					2	"r24g,qty=1"	"gg4z,qty=1"						
 vex + jewel + coin -> 10 vial of awakening	1			100					3	"r26g,qty=1"	"jewg,qty=50"	"ncoi,qty=1"					"dvia,qty=10"																																																																																							0
 Lo + jewel + coin -> 10 divine orbs	0			100					3	"r28g,qty=1"	"jewg,qty=50"	"ncoi,qty=1"					"dvo,qty=10"																																																																																							0
 sur + jewel + coin -> 10 mythic orbs	0			100					3	"r29g,qty=1"	"jewg,qty=50"	"ncoi,qty=1"					"mfo,qty=10"																																																																																							0
+sur + 50 t2 sigil -> 50 t1 sigil	1			100					2	"r29g,qty=1"	"ubab,qty=50"						"ubaa,qty=50"																																																																																							0
+sur + 50 t3 sigil -> 50 t2 sigil	1			100					2	"r29g,qty=1"	"ubac,qty=50"						"ubab,qty=50"																																																																																							0
 																																																																																																								0
 ist + el -> 50 el	1			100					2	"r24s,qty=1"	"r01,qty=1"						"r01s,qty=50"																																																																																							0
 ist + eld -> 50 eld	1			100					2	"r24s,qty=1"	"r02,qty=1"						"r02s,qty=50"																																																																																							0
@@ -2593,7 +2595,7 @@ RELIC OF THE NEPHALEM																																																											
 																																																																																																								0
 add relic factor	1	2		100	18	509	0		1	"rotf"							useitem			100	awakennum	100		1	1000																																																																															0
 																																																																																																								0
-relic -> 08 shako	1	2		100	16	509	62		1	"rotf"							"uapl,uni"	120																																																																																						0
+relic -> 08 shako	1	2		100	16	509	62		1	"rotf"							"uapl,uni"	120			dye	100		-9	-9																																																																															0
 relic -> 08 arkaines	1	2		100	16	509	125		1	"rotf"							"upll,uni"	120																																																																																						0
 relic -> armageddon slippers	1	2		100	16	509	187		1	"rotf"							Armageddon Slippers	120																																																																																						0
 relic -> King's Jewel of Blazing	1	2		100	16	509	250		1	"rotf"							King's Jewel of Blazing	120																																																																																						0
