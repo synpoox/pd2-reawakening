@@ -6,7 +6,7 @@ Comments and feedback would be very appreciated, join the [Discord](https://disc
 
 Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Single-Player-Plus-mod)
 
-**[Discord](https://discord.gg/rBCNMWaCNt) | [Wiki](https://pd2reawakening.com/wiki/) | [Latest Patch Notes (v0.9.11)](https://docs.google.com/document/d/13w2W_tg1drGpytu2UzZuqbmxPpr23cDsQZg-HiMuD0U/pub)**
+**[Discord](https://discord.gg/rBCNMWaCNt) | [Wiki](https://pd2reawakening.com/wiki/) | [Latest Patch Notes (v0.9.12)](https://docs.google.com/document/d/1H1efCeh5ctFM6-w9jRscjnMu3rcp43m7xkTJFEcnT2M/pub)**
 
 ## New Features
 
@@ -108,6 +108,7 @@ ItemDisplay[fsdg OR fsds OR fsdb OR fstc OR fspv OR  fslc OR fstl OR fsdw OR fsp
 //common fate cards
 ItemDisplay[fslr OR fslu OR fsat OR fsus OR fsrb OR fstm OR fsdn OR fsht OR fsvi OR fscf OR fsgd OR fsed OR fsta OR fsts OR fstf OR fshs OR fsar OR fstw OR fsla]: %BORDER-0A%%DOT-62%*%PURPLE%      %NAME%      
 ItemDisplay[fsbl OR fssf OR fsse OR fsew OR fssg OR fsuf OR fsmw OR fsap OR fsem OR fstu OR fstb OR fsls]: %BORDER-0A%%DOT-62%*%PURPLE%      %NAME%      
-//relic, orb of unmaking, prime evil embers
-ItemDisplay[rotf OR oou OR teo OR heo OR deo]: %BORDER-68%%ORANGE%pick %PURPLE%*%RED%*%YELLOW%*%GREEN%*     %NAME%     %GREEN%*%YELLOW%*%RED%*%PURPLE%* %ORANGE%up
+//relics, orb of unmaking, prime evil embers
+ItemDisplay[rotf OR rotv OR rofp OR oou OR teo OR heo OR deo]: %BORDER-68%%ORANGE%pick %PURPLE%*%RED%*%YELLOW%*%GREEN%*     %NAME%     %GREEN%*%YELLOW%*%RED%*%PURPLE%* %ORANGE%up
+
 ```
