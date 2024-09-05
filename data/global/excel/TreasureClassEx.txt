@@ -224,7 +224,7 @@ Act 4 (H) Magic B	4	80	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic A	4	82	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic B	4	83	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic C	4	85	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Orbs			1					0	dvo	194	mfo	142	rgo	70	cho	150	oou	4	tjo	1	dvia	397	rotf	14	rofp	28						0
+Orbs			1					0	dvo	200	mfo	140	rgo	95	cho	150	oou	4	tjo	1	dvia	395	rotf	15								0
 Extra TC A																																0
 Extra TC B																																0
 Prime Evil Embers			1					0	heo	1	teo	1																				0
@@ -252,9 +252,9 @@ Act 2 (H) Good	5	72	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Ge
 Act 3 (H) Good	5	78	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	50	Perfect Gem	8	Runes 15 equiv	30	wss	4	Map Tier 1	2	Orbs	4	Fate Drop	2				0
 Act 4 (H) Good	5	82	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	50	Perfect Gem	8	Runes 16 equiv	30	wss	4	Map Tier 1	2	Orbs	4	Fate Drop	2				0
 Act 5 (H) Good	5	85	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	50	Perfect Gem	8	Runes 17 equiv	30	wss	4	Map Tier 1	2	Orbs	4	Fate Drop	2				0
-Map Good t1	20	85	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	48	Perfect Gem	8	Runes 17 equiv	30	wss	6	T1 Map Drop	8	Map Orbs Drop	9	Fate Drop	5				0
-Map Good t2	20	86	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	48	Perfect Gem	8	Runes 17 equiv	30	wss	6	T2 Map Drop	8	Map Orbs Drop	9	Fate Drop	5				0
-Map Good t3	20	87	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	48	Perfect Gem	8	Runes 17 equiv	30	wss	6	T3 Map Drop	8	Map Orbs Drop	9	Fate Drop	5				0
+Map Good t1	20	85	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	50	Perfect Gem	8	Runes 17 equiv	30	wss	6	T1 Map Drop	6	Map Orbs Drop	9	Fate Drop	5				0
+Map Good t2	20	86	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	50	Perfect Gem	8	Runes 17 equiv	30	wss	6	T2 Map Drop	6	Map Orbs Drop	9	Fate Drop	5				0
+Map Good t3	20	87	1						Jewelry C	120	Flawed Gem	20	Normal Gem	28	Flawless Gem	50	Perfect Gem	8	Runes 17 equiv	30	wss	6	T3 Map Drop	6	Map Orbs Drop	9	Fate Drop	5				0
 Act 1 Chest A	6	0	4					173	gld	295	Act 1 Junk	295	Act 1 Equip A	196	Act 1 Good	39																0
 Act 1 Chest B	6	5	4					173	gld	295	Act 1 Junk	295	Act 1 Equip B	196	Act 1 Good	39																0
 Act 1 Chest C	6	9	4					145	gld	272	Act 1 Junk	218	Act 2 Junk	54	Act 1 Equip C	272	Act 1 Good	36														0
@@ -893,10 +893,10 @@ Act 4 (H) Super Cx	18	87	-4	512	654	972	1024	0	Act 4 (H) Uitem B	2	Act 4 (H) Cpo
 Act 5 (H) Super Ax	18	90	-4	512	654	972	1024	0	Act 5 (H) Uitem A	2	Act 5 (H) Cpot A	2																				0
 Act 5 (H) Super Bx	18	93	-4	512	654	972	1024	0	Act 5 (H) Uitem B	2	Act 5 (H) Cpot B	2																				0
 Act 5 (H) Super Cx	18	96	-4	512	654	972	1024	0	Act 5 (H) Uitem C	2	Act 5 (H) Cpot C	2																				0
-Map Boss T1		85	5	983	983	983	1024	0	Act 5 (H) Equip C	1764	Act 5 (H) Good	147	T1 Map Drop	105	dcbl	154	dcho	7	dcso	28	rtmv	14	rofp	1								0
-Map Boss T2		85	5	983	983	983	1024	0	Act 5 (H) Equip C	1764	Act 5 (H) Good	147	T2 Map Drop	105	dcbl	154	dcho	7	dcso	28	rtmv	14	rofp	1								0
-Map Boss T3		85	5	983	983	983	1024	0	Act 5 (H) Equip C	1764	Act 5 (H) Good	147	T3 Map Drop	105	dcbl	154	dcho	7	dcso	28	rtmv	14	rofp	1								0
-Map Boss T4		85	5	983	983	983	1024	0	Act 5 (H) Equip C	1764	Act 5 (H) Good	147	T3 Map Drop	105	dcbl	154	dcho	7	dcso	28	rtmv	14	rofp	1								0
+Map Boss T1		85	5	983	983	983	1024	0	Act 5 (H) Equip C	252	Act 5 (H) Good	21	T1 Map Drop	16	dcbl	20	dcho	1	dcso	4	rtmv	2										0
+Map Boss T2		85	5	983	983	983	1024	0	Act 5 (H) Equip C	252	Act 5 (H) Good	21	T2 Map Drop	16	dcbl	20	dcho	1	dcso	4	rtmv	2										0
+Map Boss T3		85	5	983	983	983	1024	0	Act 5 (H) Equip C	252	Act 5 (H) Good	21	T3 Map Drop	16	dcbl	20	dcho	1	dcso	4	rtmv	2										0
+Map Boss T4		85	5	983	983	983	1024	0	Act 5 (H) Equip C	252	Act 5 (H) Good	21	T3 Map Drop	16	dcbl	20	dcho	1	dcso	4	rtmv	2										0
 Cow King			5	850	983	983	1024	0	Act 1 Uitem C	1	Act 1 Melee B	2																				0
 Cow King (N)			5	850	983	983	1024	0	Act 1 (H) Uitem C	1	Act 1 (N) Melee B	2																				0
 Cow King (H)			5	850	983	983	1024	0	Act 1 (H) Uitem C	1	Act 1 (H) Melee B	2																				0

@@ -195,7 +195,7 @@ extra_bonespear_teeth	192		1	5													1024		6		5																		240	9	2	Y
 item_skillonequip_display	193		1								1						1024		7	0	10	0	12																159	16	0	ModitemSkillOnEquip	ModitemSkillOnEquip									0
 item_numsockets	194		1	4											38	170	1024		4	0	4	0											1																			0
 item_skillonattack	195		1	7	16						1			2	190	256	1024		21	0	7	0	16											1	domeleeattack	20	domissileattack	20	160	15		ItemExpansiveChancX	ItemExpansiveChancX									0
-item_skillonkill	196		1	7	16						1			2	85	19	1024		21	0	7	0	16											1	kill	20			160	15		ModitemskonKill	ModitemskonKill									0
+item_skillonkill	196		1	7	16						1			2	85	19	1024		21	0	7	0	16											1	kill	30			160	15		ModitemskonKill	ModitemskonKill									0
 item_skillondeath	197		1	7	16						1			2	11	9	1024		21	0	7	0	16												killed	30			160	15		Moditemskondeath	Moditemskondeath									0
 item_skillonhit	198		1	7	16						1			2	190	256	1024		21	0	7	0	16											1	domeleedamage	20	domissiledamage	20	160	15		ItemExpansiveChanc1	ItemExpansiveChanc1									0
 item_skillonlevelup	199		1	7	16						1			2	7	6	1024		21	0	7	0	16												levelup	30			160	15		ModitemskonLevel	ModitemskonLevel									0
