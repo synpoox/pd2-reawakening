@@ -130,4 +130,4 @@ McAuley's Taboo	McAuley's Folly	vgl	Heavy Gloves	7	20	28	lpur	lpur						5	5000		
 McAuley's Superstition	McAuley's Folly	bwn	Bone Wand	7	20	25	lpur	lpur						5	5000	2	dmg%	2	75	75	mana		25	25	manasteal		8	8	cast3		20	20	dmg-cold	50	25	75																	allskills		2	2	splash	358	100	1																																	0
 The Fear	Regalia of the Damned	rin	Ring	1	50	45								5	5000	2	all-stats		20	35																																																																									0
 The Anguish	Regalia of the Damned	rin	Ring	1	50	45								5	5000	2	res-all		25	40																																																																									0
-The Despair	Regalia of the Damned	amu	Amulet	1	50	45								5	5000	2	cast2		10	15	swing2		15	20																													allskills		1	1																																					0
+The Despair	Regalia of the Damned	amu	Amulet	2	50	45								5	5000	2	cast2		10	15	swing2		15	20																													allskills		1	1																																					0
