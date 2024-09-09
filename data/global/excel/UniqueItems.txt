@@ -487,7 +487,7 @@ Malediction	100	1		1	1	87	66	rin	Ring			5	5000								maxcurse		1	1	curse-effect
 Malediction	100	1		1	1	87	66	rin	Ring			5	5000								maxcurse		1	1	curse-effectiveness		10	15	att-skill	446	12	28	swing2		10	10																																	0
 Dreadweaver	100	1		1	1	87	70	neg	Hellspawn Skull			5	5000								nec		2	2	skilltab	7	2	2	extra-bonespear-teeth		4	5	cast2		20	20	res-pois		30	40	ac%		100	150	red-mag		15	20																					0
 Fleet Footwork	100	1		1	1	87	52	uea	Wyrmhide			5	5000	lgld	lgld						move2		100	100	oskill	29	1	1	sock		4	4	ac%		140	170																																	0
-Mind Over Matter	100	1		1	1	87	67	ung	Diamond Mail			5	5000	cblu	cblu						item-physperenergy	571	1	1	mana		33	66	regen-mana		33	33	ac%		133	166	mana-kill		3	6																													0
+Mind Over Matter	100	1		1	1	87	67	ung	Diamond Mail			5	5000	cblu	cblu						item-physperenergy	571	1	1	lifesteal-cap		75	75	mana%		40	50	ac%		150	200	manasteal		5	8	mana		100	175	nofreeze		1	1	balance2		30	40																	0
 Phantom Dancer	100	1		1	1	87	63	amc	Grand Matron Bow			5	5000	dgry	dgry						item-frwperenergy	573	1	1	dmg%		380	420	hit-skill	446	8	15	vit		-30	-20	ignore-ac		1	1																													0
 Call of the Brotherhood	100	1		1	1	87	67	amu	Amulet			5	5000								item-convertmasterytomagic	576	1	1	dmg-mag		75	75	res-fire		-30	30	res-ltng		-30	30	res-cold		-30	30	res-pois		-30	30	cast2		5	10																					0
 Elemental Overload	100	1		1	1	87	60	ukp	Hydraskull			5	5000	lyel	lyel						item-elepierceaddmastery	577	1	1	res-fire		-15	15	res-ltng		-15	15	res-cold		-15	15	res-pois		-15	15																													0
