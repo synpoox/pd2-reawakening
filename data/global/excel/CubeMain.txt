@@ -553,6 +553,8 @@ quiver -> +1 all skill	1	2		100	16	509	1000		2	"misl"	"dvia,qty=1"						useitem	
 PHASE 1	0																																																																																																							0
 add corrupt factor to weapon	1	2		100	18	361	0		2	"weap,nos"	"wss,qty=1"						useitem			100	corruptnum	100		1	1000																					"wss,qty=1"																																																										0
 add corrupt factor to armour	1	2		100	18	361	0		2	"armo,nos"	"wss,qty=1"						useitem			100	corruptnum	100		1	1000																					"wss,qty=1"																																																										0
+add corrupt factor to glove (replica hand of broc)	1	2		100	18	361	0		2	"glov"	"wss,qty=1"						useitem			100	corruptnum	100		1	1000																					"wss,qty=1"																																																										0
+add corrupt factor to boot (replica malthael)	1	2		100	18	361	0		2	"boot"	"wss,qty=1"						useitem			100	corruptnum	100		1	1000																					"wss,qty=1"																																																										0
 add corrupt factor to belt (rathma belt)	1	2		100	18	361	0		2	"belt"	"wss,qty=1"						useitem			100	corruptnum	100		1	1000																					"wss,qty=1"																																																										0
 add corrupt factor to amulet	1	2		100	18	361	0		2	"amul"	"wss,qty=1"						useitem			100	corruptnum	100		1	1000																					"wss,qty=1"																																																										0
 add corrupt factor to ring	1	2		100	18	361	0		2	"ring"	"wss,qty=1"						useitem			100	corruptnum	100		1	1000																					"wss,qty=1"																																																										0
@@ -773,60 +775,60 @@ item -> added mod 7	1	1		100	16	361	987		2	"helm,nos"	"wss,qty=1"						useitem		
 item -> added mod 8	1	1		100	16	361	1000		2	"helm,nos"	"wss,qty=1"						useitem			100	corrupt	100		56	56	corruptnum	100		1001	1001	res-pois-max	100		4	5	res-pois	100		15	15																																																																0
 BOOTS -----------------------------	0																																																																																																							0
 Tier 1	0																																																																																																							0
-item -> added mod 1	1	1		100	16	361	295		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		33	33	corruptnum	100		1001	1001	ac%	100		50	80																																																																					0
-item -> added mod 2	1	1		100	16	361	340		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		7	7	corruptnum	100		1001	1001	mag%	100		10	25																																																																					0
-item -> added mod 3	1	1		100	16	361	385		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		60	60	corruptnum	100		1001	1001	gold%	100		50	100																																																																					0
-item -> added mod 4	1	1		100	16	361	430		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		36	36	corruptnum	100		1001	1001	res-fire	100		15	20																																																																					0
-item -> added mod 5	1	1		100	16	361	475		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		37	37	corruptnum	100		1001	1001	res-cold	100		15	20																																																																					0
-item -> added mod 6	1	1		100	16	361	520		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		38	38	corruptnum	100		1001	1001	res-ltng	100		15	20																																																																					0
-item -> added mod 7	1	1		100	16	361	565		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		39	39	corruptnum	100		1001	1001	res-pois	100		15	20																																																																					0
-item -> added mod 8	1	1		100	16	361	610		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		40	40	corruptnum	100		1001	1001	regen-mana	100		10	15																																																																					0
+item -> added mod 1	1	1		100	16	361	295		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		33	33	corruptnum	100		1001	1001	ac%	100		50	80																																																																					0
+item -> added mod 2	1	1		100	16	361	340		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		7	7	corruptnum	100		1001	1001	mag%	100		10	25																																																																					0
+item -> added mod 3	1	1		100	16	361	385		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		60	60	corruptnum	100		1001	1001	gold%	100		50	100																																																																					0
+item -> added mod 4	1	1		100	16	361	430		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		36	36	corruptnum	100		1001	1001	res-fire	100		15	20																																																																					0
+item -> added mod 5	1	1		100	16	361	475		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		37	37	corruptnum	100		1001	1001	res-cold	100		15	20																																																																					0
+item -> added mod 6	1	1		100	16	361	520		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		38	38	corruptnum	100		1001	1001	res-ltng	100		15	20																																																																					0
+item -> added mod 7	1	1		100	16	361	565		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		39	39	corruptnum	100		1001	1001	res-pois	100		15	20																																																																					0
+item -> added mod 8	1	1		100	16	361	610		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		40	40	corruptnum	100		1001	1001	regen-mana	100		10	15																																																																					0
 Tier 2	0																																																																																																							0
-item -> added mod 1	1	1		100	16	361	640		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		64	64	corruptnum	100		1001	1001	block2			10	10																																																																					0
-item -> added mod 2	1	1		100	16	361	670		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		61	61	corruptnum	100		1001	1001	hp	100		20	40																																																																					0
-item -> added mod 3	1	1		100	16	361	700		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		48	48	corruptnum	100		1001	1001	indestruct	100		1	1	ac%	100		50	80																																																																0
-item -> added mod 4	1	1		100	16	361	730		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		51	51	corruptnum	100		1001	1001	res-all	100		5	8																																																																					0
-item -> added mod 5	1	1		100	16	361	760		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		34	34	corruptnum	100		1001	1001	regen	100		15	25																																																																					0
-item -> added mod 6	1	1		100	16	361	790		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		8	8	corruptnum	100		1001	1001	heal-kill	100		2	3																																																																					0
-item -> added mod 7	1	1		100	16	361	820		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		9	9	corruptnum	100		1001	1001	mana-kill	100		2	3																																																																					0
-item -> added mod 8	1	1		100	16	361	850		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		35	35	corruptnum	100		1001	1001	balance1	100		10	10																																																																					0
+item -> added mod 1	1	1		100	16	361	640		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		64	64	corruptnum	100		1001	1001	block2			10	10																																																																					0
+item -> added mod 2	1	1		100	16	361	670		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		61	61	corruptnum	100		1001	1001	hp	100		20	40																																																																					0
+item -> added mod 3	1	1		100	16	361	700		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		48	48	corruptnum	100		1001	1001	indestruct	100		1	1	ac%	100		50	80																																																																0
+item -> added mod 4	1	1		100	16	361	730		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		51	51	corruptnum	100		1001	1001	res-all	100		5	8																																																																					0
+item -> added mod 5	1	1		100	16	361	760		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		34	34	corruptnum	100		1001	1001	regen	100		15	25																																																																					0
+item -> added mod 6	1	1		100	16	361	790		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		8	8	corruptnum	100		1001	1001	heal-kill	100		2	3																																																																					0
+item -> added mod 7	1	1		100	16	361	820		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		9	9	corruptnum	100		1001	1001	mana-kill	100		2	3																																																																					0
+item -> added mod 8	1	1		100	16	361	850		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		35	35	corruptnum	100		1001	1001	balance1	100		10	10																																																																					0
 Tier 3	0																																																																																																							0
-item -> added mod 1	1	1		100	16	361	869		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		44	44	corruptnum	100		1001	1001	move1	100		10	10																																																																					0
-item -> added mod 2	1	1		100	16	361	888		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		67	67	corruptnum	100		1001	1001	block	100		10	10																																																																					0
-item -> added mod 3	1	1		100	16	361	907		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		62	62	corruptnum	100		1001	1001	curse-res	100		10	10																																																																					0
-item -> added mod 4	1	1		100	16	361	925		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		52	52	corruptnum	100		1001	1001	red-dmg%	100		2	3																																																																					0
-item -> added mod 5	1	1		100	16	361	944		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		53	53	corruptnum	100		1001	1001	res-fire-max	100		2	3	res-fire	100		10	10																																																																0
-item -> added mod 6	1	1		100	16	361	963		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		54	54	corruptnum	100		1001	1001	res-cold-max	100		2	3	res-cold	100		10	10																																																																0
-item -> added mod 7	1	1		100	16	361	982		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		55	55	corruptnum	100		1001	1001	res-ltng-max	100		2	3	res-ltng	100		10	10																																																																0
-item -> added mod 8	1	1		100	16	361	1000		2	"boot,nos"	"wss,qty=1"						useitem			100	corrupt	100		56	56	corruptnum	100		1001	1001	res-pois-max	100		2	3	res-pois	100		10	10																																																																0
+item -> added mod 1	1	1		100	16	361	869		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		44	44	corruptnum	100		1001	1001	move1	100		10	10																																																																					0
+item -> added mod 2	1	1		100	16	361	888		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		67	67	corruptnum	100		1001	1001	block	100		10	10																																																																					0
+item -> added mod 3	1	1		100	16	361	907		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		62	62	corruptnum	100		1001	1001	curse-res	100		10	10																																																																					0
+item -> added mod 4	1	1		100	16	361	925		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		52	52	corruptnum	100		1001	1001	red-dmg%	100		2	3																																																																					0
+item -> added mod 5	1	1		100	16	361	944		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		53	53	corruptnum	100		1001	1001	res-fire-max	100		2	3	res-fire	100		10	10																																																																0
+item -> added mod 6	1	1		100	16	361	963		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		54	54	corruptnum	100		1001	1001	res-cold-max	100		2	3	res-cold	100		10	10																																																																0
+item -> added mod 7	1	1		100	16	361	982		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		55	55	corruptnum	100		1001	1001	res-ltng-max	100		2	3	res-ltng	100		10	10																																																																0
+item -> added mod 8	1	1		100	16	361	1000		2	"boot"	"wss,qty=1"						useitem			100	corrupt	100		56	56	corruptnum	100		1001	1001	res-pois-max	100		2	3	res-pois	100		10	10																																																																0
 GLOVES -------------------------------	0																																																																																																							0
 Tier 1	0																																																																																																							0
-item -> added mod 1	1	1		100	16	361	295		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		33	33	corruptnum	100		1001	1001	ac%	100		50	80																																																																					0
-item -> added mod 2	1	1		100	16	361	340		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		7	7	corruptnum	100		1001	1001	mag%	100		10	25																																																																					0
-item -> added mod 3	1	1		100	16	361	385		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		60	60	corruptnum	100		1001	1001	gold%	100		50	100																																																																					0
-item -> added mod 4	1	1		100	16	361	430		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		36	36	corruptnum	100		1001	1001	res-fire	100		10	15																																																																					0
-item -> added mod 5	1	1		100	16	361	475		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		37	37	corruptnum	100		1001	1001	res-cold	100		10	15																																																																					0
-item -> added mod 6	1	1		100	16	361	520		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		38	38	corruptnum	100		1001	1001	res-ltng	100		10	15																																																																					0
-item -> added mod 7	1	1		100	16	361	565		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		39	39	corruptnum	100		1001	1001	res-pois	100		10	15																																																																					0
-item -> added mod 8	1	1		100	16	361	610		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		40	40	corruptnum	100		1001	1001	regen-mana	100		10	15																																																																					0
+item -> added mod 1	1	1		100	16	361	295		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		33	33	corruptnum	100		1001	1001	ac%	100		50	80																																																																					0
+item -> added mod 2	1	1		100	16	361	340		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		7	7	corruptnum	100		1001	1001	mag%	100		10	25																																																																					0
+item -> added mod 3	1	1		100	16	361	385		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		60	60	corruptnum	100		1001	1001	gold%	100		50	100																																																																					0
+item -> added mod 4	1	1		100	16	361	430		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		36	36	corruptnum	100		1001	1001	res-fire	100		10	15																																																																					0
+item -> added mod 5	1	1		100	16	361	475		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		37	37	corruptnum	100		1001	1001	res-cold	100		10	15																																																																					0
+item -> added mod 6	1	1		100	16	361	520		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		38	38	corruptnum	100		1001	1001	res-ltng	100		10	15																																																																					0
+item -> added mod 7	1	1		100	16	361	565		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		39	39	corruptnum	100		1001	1001	res-pois	100		10	15																																																																					0
+item -> added mod 8	1	1		100	16	361	610		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		40	40	corruptnum	100		1001	1001	regen-mana	100		10	15																																																																					0
 Tier 2	0																																																																																																							0
-item -> added mod 1	1	1		100	16	361	640		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		3	3	corruptnum	100		1001	1001	att	100		100	150																																																																					0
-item -> added mod 2	1	1		100	16	361	670		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		61	61	corruptnum	100		1001	1001	hp	100		20	40																																																																					0
-item -> added mod 3	1	1		100	16	361	700		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		63	63	corruptnum	100		1001	1001	pierce	100		10	15																																																																					0
-item -> added mod 4	1	1		100	16	361	730		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		64	64	corruptnum	100		1001	1001	block1	100		10	20																																																																					0
-item -> added mod 5	1	1		100	16	361	760		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		34	34	corruptnum	100		1001	1001	regen	100		15	20																																																																					0
-item -> added mod 6	1	1		100	16	361	790		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		57	57	corruptnum	100		1001	1001	lifesteal	100		2	3																																																																					0
-item -> added mod 7	1	1		100	16	361	820		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		58	58	corruptnum	100		1001	1001	manasteal	100		2	3																																																																					0
-item -> added mod 8	1	1		100	16	361	850		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		65	65	corruptnum	100		1001	1001	all-stats	100		3	6																																																																					0
+item -> added mod 1	1	1		100	16	361	640		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		3	3	corruptnum	100		1001	1001	att	100		100	150																																																																					0
+item -> added mod 2	1	1		100	16	361	670		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		61	61	corruptnum	100		1001	1001	hp	100		20	40																																																																					0
+item -> added mod 3	1	1		100	16	361	700		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		63	63	corruptnum	100		1001	1001	pierce	100		10	15																																																																					0
+item -> added mod 4	1	1		100	16	361	730		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		64	64	corruptnum	100		1001	1001	block1	100		10	20																																																																					0
+item -> added mod 5	1	1		100	16	361	760		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		34	34	corruptnum	100		1001	1001	regen	100		15	20																																																																					0
+item -> added mod 6	1	1		100	16	361	790		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		57	57	corruptnum	100		1001	1001	lifesteal	100		2	3																																																																					0
+item -> added mod 7	1	1		100	16	361	820		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		58	58	corruptnum	100		1001	1001	manasteal	100		2	3																																																																					0
+item -> added mod 8	1	1		100	16	361	850		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		65	65	corruptnum	100		1001	1001	all-stats	100		3	6																																																																					0
 Tier 3	0																																																																																																							0
-item -> added mod 1	1	1		100	16	361	869		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		19	19	corruptnum	100		1001	1001	deadly	100		10	10																																																																					0
-item -> added mod 2	1	1		100	16	361	888		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		9	9	corruptnum	100		1001	1001	mana-kill	100		2	4																																																																					0
-item -> added mod 3	1	1		100	16	361	907		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		42	42	corruptnum	100		1001	1001	cast1	100		10	10																																																																					0
-item -> added mod 4	1	1		100	16	361	925		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		51	51	corruptnum	100		1001	1001	res-all	100		5	8																																																																					0
-item -> added mod 5	1	1		100	16	361	944		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		20	20	corruptnum	100		1001	1001	swing1	100		10	10																																																																					0
-item -> added mod 6	1	1		100	16	361	963		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		66	66	corruptnum	100		1001	1001	reduce-ac	100		15	25																																																																					0
-item -> added mod 7	1	1		100	16	361	982		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		67	67	corruptnum	100		1001	1001	block	100		10	10																																																																					0
-item -> added mod 8	1	1		100	16	361	1000		2	"glov,nos"	"wss,qty=1"						useitem			100	corrupt	100		2	2	corruptnum	100		1001	1001	dmg%	100		30	40																																																																					0
+item -> added mod 1	1	1		100	16	361	869		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		19	19	corruptnum	100		1001	1001	deadly	100		10	10																																																																					0
+item -> added mod 2	1	1		100	16	361	888		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		9	9	corruptnum	100		1001	1001	mana-kill	100		2	4																																																																					0
+item -> added mod 3	1	1		100	16	361	907		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		42	42	corruptnum	100		1001	1001	cast1	100		10	10																																																																					0
+item -> added mod 4	1	1		100	16	361	925		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		51	51	corruptnum	100		1001	1001	res-all	100		5	8																																																																					0
+item -> added mod 5	1	1		100	16	361	944		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		20	20	corruptnum	100		1001	1001	swing1	100		10	10																																																																					0
+item -> added mod 6	1	1		100	16	361	963		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		66	66	corruptnum	100		1001	1001	reduce-ac	100		15	25																																																																					0
+item -> added mod 7	1	1		100	16	361	982		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		67	67	corruptnum	100		1001	1001	block	100		10	10																																																																					0
+item -> added mod 8	1	1		100	16	361	1000		2	"glov"	"wss,qty=1"						useitem			100	corrupt	100		2	2	corruptnum	100		1001	1001	dmg%	100		30	40																																																																					0
 BELTS -----------------------------------	0																																																																																																							0
 Tier 1	0																																																																																																							0
 item -> added mod 1	1	1		100	16	361	295		2	"belt"	"wss,qty=1"						useitem			100	corrupt	100		68	68	corruptnum	100		1001	1001	str	100		5	10																																																																					0
@@ -913,32 +915,32 @@ item -> added mod 7	1	1		100	16	361	987		2	"shld,nos"	"wss,qty=1"						useitem		
 item -> added mod 8	1	1		100	16	361	1000		2	"shld,nos"	"wss,qty=1"						useitem			100	corrupt	100		56	56	corruptnum	100		1001	1001	res-pois-max	100		4	5	res-pois	100		15	20																																																																0
 RINGS ------------------------------------	0																																																																																																							0
 Tier 1	0																																																																																																							0
-item -> added mod 1	1	1		100	16	361	295		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		68	68	corruptnum	100		1001	1001	str	100		5	10																																																																					0
-item -> added mod 2	1	1		100	16	361	340		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		69	69	corruptnum	100		1001	1001	dex	100		5	10																																																																					0
-item -> added mod 3	1	1		100	16	361	385		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		70	70	corruptnum	100		1001	1001	vit	100		5	10																																																																					0
-item -> added mod 4	1	1		100	16	361	430		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		71	71	corruptnum	100		1001	1001	enr	100		5	10																																																																					0
-item -> added mod 5	1	1		100	16	361	475		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		36	36	corruptnum	100		1001	1001	res-fire	100		10	15																																																																					0
-item -> added mod 6	1	1		100	16	361	520		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		37	37	corruptnum	100		1001	1001	res-cold	100		10	15																																																																					0
-item -> added mod 7	1	1		100	16	361	565		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		38	38	corruptnum	100		1001	1001	res-ltng	100		10	15																																																																					0
-item -> added mod 8	1	1		100	16	361	610		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		39	39	corruptnum	100		1001	1001	res-pois	100		10	15																																																																					0
+item -> added mod 1	1	1		100	16	361	295		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		68	68	corruptnum	100		1001	1001	str	100		5	10																																																																					0
+item -> added mod 2	1	1		100	16	361	340		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		69	69	corruptnum	100		1001	1001	dex	100		5	10																																																																					0
+item -> added mod 3	1	1		100	16	361	385		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		70	70	corruptnum	100		1001	1001	vit	100		5	10																																																																					0
+item -> added mod 4	1	1		100	16	361	430		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		71	71	corruptnum	100		1001	1001	enr	100		5	10																																																																					0
+item -> added mod 5	1	1		100	16	361	475		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		36	36	corruptnum	100		1001	1001	res-fire	100		10	15																																																																					0
+item -> added mod 6	1	1		100	16	361	520		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		37	37	corruptnum	100		1001	1001	res-cold	100		10	15																																																																					0
+item -> added mod 7	1	1		100	16	361	565		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		38	38	corruptnum	100		1001	1001	res-ltng	100		10	15																																																																					0
+item -> added mod 8	1	1		100	16	361	610		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		39	39	corruptnum	100		1001	1001	res-pois	100		10	15																																																																					0
 Tier 2	0																																																																																																							0
-item -> added mod 1	1	1		100	16	361	640		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		61	61	corruptnum	100		1001	1001	hp	100		20	40																																																																					0
-item -> added mod 2	1	1		100	16	361	670		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		7	7	corruptnum	100		1001	1001	mag%	100		15	20																																																																					0
-item -> added mod 3	1	1		100	16	361	700		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		60	60	corruptnum	100		1001	1001	gold%	100		40	80																																																																					0
-item -> added mod 4	1	1		100	16	361	730		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		46	46	corruptnum	100		1001	1001	red-dmg	100		4	6																																																																					0
-item -> added mod 5	1	1		100	16	361	760		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		47	47	corruptnum	100		1001	1001	red-mag	100		4	6																																																																					0
-item -> added mod 6	1	1		100	16	361	790		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		8	8	corruptnum	100		1001	1001	heal-kill	100		2	3																																																																					0
-item -> added mod 7	1	1		100	16	361	820		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		9	9	corruptnum	100		1001	1001	mana-kill	100		2	3																																																																					0
-item -> added mod 8	1	1		100	16	361	850		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		3	3	corruptnum	100		1001	1001	att	100		100	150																																																																					0
+item -> added mod 1	1	1		100	16	361	640		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		61	61	corruptnum	100		1001	1001	hp	100		20	40																																																																					0
+item -> added mod 2	1	1		100	16	361	670		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		7	7	corruptnum	100		1001	1001	mag%	100		15	20																																																																					0
+item -> added mod 3	1	1		100	16	361	700		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		60	60	corruptnum	100		1001	1001	gold%	100		40	80																																																																					0
+item -> added mod 4	1	1		100	16	361	730		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		46	46	corruptnum	100		1001	1001	red-dmg	100		4	6																																																																					0
+item -> added mod 5	1	1		100	16	361	760		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		47	47	corruptnum	100		1001	1001	red-mag	100		4	6																																																																					0
+item -> added mod 6	1	1		100	16	361	790		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		8	8	corruptnum	100		1001	1001	heal-kill	100		2	3																																																																					0
+item -> added mod 7	1	1		100	16	361	820		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		9	9	corruptnum	100		1001	1001	mana-kill	100		2	3																																																																					0
+item -> added mod 8	1	1		100	16	361	850		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		3	3	corruptnum	100		1001	1001	att	100		100	150																																																																					0
 Tier 3	0																																																																																																							0
-item -> added mod 1	1	1		100	16	361	869		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		44	44	corruptnum	100		1001	1001	move1	100		10	10																																																																					0
-item -> added mod 2	1	1		100	16	361	888		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		52	52	corruptnum	100		1001	1001	red-dmg%	100		2	3																																																																					0
-item -> added mod 3	1	1		100	16	361	907		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		62	62	corruptnum	100		1001	1001	curse-res	100		10	10																																																																					0
-item -> added mod 4	1	1		100	16	361	925		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		57	57	corruptnum	100		1001	1001	lifesteal	100		3	4																																																																					0
-item -> added mod 5	1	1		100	16	361	944		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		58	58	corruptnum	100		1001	1001	manasteal	100		3	4																																																																					0
-item -> added mod 6	1	1		100	16	361	963		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		42	42	corruptnum	100		1001	1001	cast1	100		10	10																																																																					0
-item -> added mod 7	1	1		100	16	361	982		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		51	51	corruptnum	100		1001	1001	res-all	100		4	6																																																																					0
-item -> added mod 8	1	1		100	16	361	1000		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		65	65	corruptnum	100		1001	1001	all-stats	100		4	6																																																																					0
+item -> added mod 1	1	1		100	16	361	869		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		44	44	corruptnum	100		1001	1001	move1	100		10	10																																																																					0
+item -> added mod 2	1	1		100	16	361	888		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		52	52	corruptnum	100		1001	1001	red-dmg%	100		2	3																																																																					0
+item -> added mod 3	1	1		100	16	361	907		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		62	62	corruptnum	100		1001	1001	curse-res	100		10	10																																																																					0
+item -> added mod 4	1	1		100	16	361	925		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		57	57	corruptnum	100		1001	1001	lifesteal	100		3	4																																																																					0
+item -> added mod 5	1	1		100	16	361	944		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		58	58	corruptnum	100		1001	1001	manasteal	100		3	4																																																																					0
+item -> added mod 6	1	1		100	16	361	963		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		42	42	corruptnum	100		1001	1001	cast1	100		10	10																																																																					0
+item -> added mod 7	1	1		100	16	361	982		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		51	51	corruptnum	100		1001	1001	res-all	100		4	6																																																																					0
+item -> added mod 8	1	1		100	16	361	1000		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		65	65	corruptnum	100		1001	1001	all-stats	100		4	6																																																																					0
 AMULETS --------------------------------	0																																																																																																							0
 Tier 1	0																																																																																																							0
 item -> added mod 1	1	1		100	16	361	295		2	"amul"	"wss,qty=1"						useitem			100	corrupt	100		68	68	corruptnum	100		1001	1001	str	100		6	12																																																																					0
@@ -2469,7 +2471,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	0			100					1	"key,qty=1"							Replica Griffon's Eye	120																												Replica Steel Carapace	120																												"dvo,qty=50"	85																												0
+generate (dev)	1			100					1	"key,qty=1"							llmr	131																												"tjo,qty=50"	131																												"armo,uni,eli"	131			sock	100		4	4																					0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication (DROP DISABLED)	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
 4 of Luminescence -> Mara's Kaleidoscope 	1			100					1	fslu,qty=4							Mara's Kaleidoscope	95																																																																																						0
 4 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=4							The Stone of Jordan	95																																																																																						0
@@ -2626,3 +2628,108 @@ relic of the void -> The Third Eye	1	2		100	16	509	1000		1	"rotv"							The Thir
 10 zod + coin -> lightsong	1			100					2	"r33g,qty=10"	"ncoi,qty=1"						lsvl																																																																																							0
 50 pde + 50 jewel fragments + coin -> pandemonium talisman	1			100					3	"dcbl,qty=50"	"ncoi,qty=1"	"jewg,qty=50"					ubtm																																																																																							0
 50 wss + 1 jah -> rathma access	1			100					2	"wss,qty=50"	"r31g,qty=1"						rtma																																																																																							0
+																																																																																																								0
+RELIC OF THE FALSE PROPHET																																																																																																								0
+add relic factor	1	2		100	18	509	0		1	"rofp"							useitem			100	awakennum	100		1	101																																																																															0
+																																																																																																								0
+relic of the false prophet -> replica	1	2		100	16	509	1		1	"rofp"							Replica Templar's Might	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	2		1	"rofp"							Replica Tyrael's Might	131																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	3		1	"rofp"							Replica Steel Carapace	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	4		1	"rofp"							Replica Leviathan	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	5		1	"rofp"							Replica Atma's Wail	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	6		1	"rofp"							Replica Shaftstop	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	7		1	"rofp"							Replica Spirit Forge	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	8		1	"rofp"							Replica Heavenly Garb	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	9		1	"rofp"							Replica Griffon's Eye	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	10		1	"rofp"							Replica Izual's Redemption	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	11		1	"rofp"							Replica Infernal Mantle	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	12		1	"rofp"							Replica Valkyrie Wing	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	13		1	"rofp"							Replica Overlords Helm	131																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	14		1	"rofp"							Replica Kira's Guardian	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	15		1	"rofp"							Replica Halaberd's Reign	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	16		1	"rofp"							Replica Raekors Virtue	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	17		1	"rofp"							Replica Ravenlore	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	18		1	"rofp"							Replica Crown of the Faceless	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	19		1	"rofp"							Replica Andariel's Visage	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	20		1	"rofp"							Replica Dark Abyss	131																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	21		1	"rofp"							Replica Spike Thorn	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	22		1	"rofp"							Replica Medusa's Gaze	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	23		1	"rofp"							Replica Unending Resolve	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	24		1	"rofp"							Replica Spirit Ward	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	25		1	"rofp"							Replica Dreadweaver	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	26		1	"rofp"							Replica Dragonscale	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	27		1	"rofp"							Replica Headhunter's Glory	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	28		1	"rofp"							Replica Frostburn	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	29		1	"rofp"							Replica Hellmouth	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	30		1	"rofp"							Replica Dracul's Grasp	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	31		1	"rofp"							Replica Occultist	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	32		1	"rofp"							Replica Steelrend	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	33		1	"rofp"							Replica Wraithgrip	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	34		1	"rofp"							Replica Gravepalm	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	35		1	"rofp"							Replica Magefist	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	36		1	"rofp"							Replica Tearhaunch	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	37		1	"rofp"							Replica Infernostride	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	38		1	"rofp"							Replica Marrowwalk	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	39		1	"rofp"							Replica Itheraels Path	131																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	40		1	"rofp"							Replica Silkweave	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	41		1	"rofp"							Replica Shadow Dancer	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	42		1	"rofp"							Replica Warbringer	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	43		1	"rofp"							Replica Worldshaper's Binding	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	44		1	"rofp"							Replica Arachnid Mesh	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	45		1	"rofp"							Replica Thundergod's Vigor	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	46		1	"rofp"							Replica Snowclash	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	47		1	"rofp"							Replica Nosferatu's Coil	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	48		1	"rofp"							Replica Saracen's Chance	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	49		1	"rofp"							Replica Highlord's Wrath	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	50		1	"rofp"							Replica The Cat's Eye	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	51		1	"rofp"							Replica The Third Eye	131																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	52		1	"rofp"							Replica Metalgrid	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	53		1	"rofp"							Replica Mara's Kaleidoscope	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	54		1	"rofp"							Replica Amulet of the Viper	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	55		1	"rofp"							Replica The Stone of Jordan	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	56		1	"rofp"							Replica Carrion Wind	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	57		1	"rofp"							Replica Wisp Projector	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	58		1	"rofp"							Replica Raven Frost	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	59		1	"rofp"							Replica Dwarf Star	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	60		1	"rofp"							Replica Kadala's Heirloom	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	61		1	"rofp"							Replica Bul Kathos Wedding Band	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	62		1	"rofp"							Replica Nature's Peace	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	63		1	"rofp"							Replica Rainbow Facet	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	64		1	"rofp"							Replica Split Personality	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	65		1	"rofp"							Replica Ember of Eternity	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	66		1	"rofp"							Replica Death Cleaver	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	67		1	"rofp"							Replica Executioner's Justice	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	68		1	"rofp"							Replica Hellslayer	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	69		1	"rofp"							Replica Horizon's Tornado	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	70		1	"rofp"							Replica Earth Shifter	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	71		1	"rofp"							Replica Lightsabre	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	72		1	"rofp"							Replica Azurewrath	125																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	73		1	"rofp"							Replica Hadriels Hand	131																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	74		1	"rofp"							Replica Leoric's Mithril Bane	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	75		1	"rofp"							Replica Grim's Burning Dead	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	76		1	"rofp"							Replica Skull Collector	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	77		1	"rofp"							Replica Mang Song's Lesson	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	78		1	"rofp"							Replica Blood Raven's Charge	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	79		1	"rofp"							Replica Shadow Killer	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	80		1	"rofp"							Replica Aidan's Scar	131																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	81		1	"rofp"							Replica Surgefletcher	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	82		1	"rofp"							Replica Malediction	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	83		1	"rofp"							Replica Crown of Ages	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	84		1	"rofp"							Replica Giant Skull	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	85		1	"rofp"							Replica Nightwing's Veil	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	86		1	"rofp"							Replica Elemental Overload	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	87		1	"rofp"							Replica Purgatory	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	88		1	"rofp"							Replica Soul Drainer	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	89		1	"rofp"							Replica Death's Fathom	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	90		1	"rofp"							Replica Eschuta's Temper	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	91		1	"rofp"							Replica Ursa's Nightmare	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	92		1	"rofp"							Replica Band of Skulls	131																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	93		1	"rofp"							Replica Call of the Brotherhood	131																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	94		1	"rofp"							Replica Cage of the Unsullied	131																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	95		1	"rofp"							Replica The Hand of Broc	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	96		1	"rofp"							Replica The Gladiator's Bane	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	97		1	"rofp"							Replica Malthael's Shadow Steps	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	98		1	"rofp"							Replica Tals	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	99		1	"rofp"							Replica Ondal's Almighty	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	100		1	"rofp"							Replica Bk Ring	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	101		1	"rofp"							Replica Telling of Beads	120																																																																																						0

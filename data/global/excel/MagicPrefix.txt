@@ -776,7 +776,7 @@ Slayer's	773	1	1	1	36		27	bar			1	125	bar		1	1											tors	shld	helm									
 Shaman's	774	100	1	1	36		27	dru			1	125	dru		1	1											tors	shld	helm												95000
 Magekiller's	775	100	1	1	36		27	ass			1	125	ass		1	1											tors	shld	helm												95000
 Cerulean	776	100	1	1	49		41				2	115	mana		21	30									1	cblu	jewl														0
-Lancer's	777	100	1		60		45	ama			1	125	skilltab	2	3	3									1	lgld	amul														0
+Lancer's	777	100	1	1	60		45	ama			1	125	skilltab	2	3	3									1	lgld	amul	circ													0
 Souless	778	1	1	1	1		1				1	169	map-glob-add-mon-souls		918	918	map-glob-density		25	30	map-play-mag-gold%		50	60			t1m	t2m	t3m					t4m							0
 Shamanic	779	1	1	1	1		1				1	169	map-glob-add-mon-fetish		785	785	map-glob-density		20	25	map-play-mag-gold%		25	30			t1m	t2m	t3m					t4m							0
 Strange	780	100	1		32		24				5	110	att		151	300									1	lgld	misl														0
@@ -815,3 +815,5 @@ Ember	812	100	1	1	25	65	18				3	138	fire-min		16	25	fire-max		31	60					1	dred	c
 Snowflake	813	100	1	1	25	65	18				3	137	cold-len		25	25	cold-min		6	9	cold-max		19	30	1	lblu	circ														0
 Virulent	814	100	1	1	76		66				1	140	dmg-pois	50	3780	3780									1	dgrn	weap	misl													0
 Infectious	815	100	1	1	76		66				1	140	dmg-pois	50	4535	4535									1	dgrn	knif	sc9						tkni							0
+Archer's	816	100	1	1	60		45	ama			1	125	skilltab	0	3	3									1	lgld	amul	circ													0
+Athlete's	817	100	1	1	60		45	ama			1	125	skilltab	1	3	3									1	lgld	amul	circ													0
