@@ -492,15 +492,15 @@ Echoing	489	100	1	1	60		45	bar			1	125	skilltab	14	3	3									1	lgld	phlm	weap	
 Trainer's	490	100	1	1	50		42	dru			2	125	skilltab	15	1	1											lcha	lchs													0
 Spiritual	491	100	1	1	50		42	dru			2	125	skilltab	16	1	1											lcha	lchs													0
 Nature's	492	100	1	1	50		42	dru			2	125	skilltab	17	1	1											lcha	lchs													0
-Trainer's	493	100	1	1	20		15	dru			1	125	skilltab	15	1	1											club	pelt	amul	circ											0
-Caretaker's	494	100	1	1	40		30	dru			1	125	skilltab	15	2	2									1	lgld	club	pelt	amul	circ											0
-Keeper's	495	100	1	1	60		45	dru			1	125	skilltab	15	3	3									1	lgld	club	pelt	amul	circ											0
-Spiritual	496	100	1	1	20		15	dru			1	125	skilltab	16	1	1											club	pelt	amul	circ											0
-Feral	497	100	1	1	40		30	dru			1	125	skilltab	16	2	2									1	lgld	club	pelt	amul	circ											0
-Communal	498	100	1	1	60		45	dru			1	125	skilltab	16	3	3									1	lgld	club	pelt	amul	circ											0
-Nature's	499	100	1	1	20		15	dru			1	125	skilltab	17	1	1											club	pelt	amul	circ											0
-Terra's	500	100	1	1	40		30	dru			1	125	skilltab	17	2	2									1	lgld	club	pelt	amul	circ											0
-Gaea's	501	100	1	1	60		45	dru			1	125	skilltab	17	3	3									1	lgld	club	pelt	amul	circ											0
+Trainer's	493	100	1	1	20		15	dru			1	125	skilltab	15	1	1											club	pelt	amul												0
+Caretaker's	494	100	1	1	40		30	dru			1	125	skilltab	15	2	2									1	lgld	club	pelt	amul												0
+Keeper's	495	100	1	1	60		45	dru			1	125	skilltab	15	3	3									1	lgld	club	pelt	amul												0
+Spiritual	496	100	1	1	20		15	dru			1	125	skilltab	16	1	1											club	pelt	amul												0
+Feral	497	100	1	1	40		30	dru			1	125	skilltab	16	2	2									1	lgld	club	pelt	amul												0
+Communal	498	100	1	1	60		45	dru			1	125	skilltab	16	3	3									1	lgld	club	pelt	amul												0
+Nature's	499	100	1	1	20		15	dru			1	125	skilltab	17	1	1											club	pelt	amul												0
+Terra's	500	100	1	1	40		30	dru			1	125	skilltab	17	2	2									1	lgld	club	pelt	amul												0
+Gaea's	501	100	1	1	60		45	dru			1	125	skilltab	17	3	3									1	lgld	club	pelt	amul												0
 Entrapping	502	100	1	1	50		42	ass			2	125	skilltab	18	1	1											lcha	lchs													0
 Mentalist's	503	100	1	1	50		42	ass			2	125	skilltab	19	1	1											lcha	lchs													0
 Shogukusha's	504	100	1	1	50		42	ass			2	125	skilltab	20	1	1											lcha	lchs													0
@@ -559,36 +559,36 @@ Envenomed	556	100	1	1	10	50	7				2	140	dmg-pois	50	123	123									1	dgrn	weap	m
 Corosive	557	100	1	1	20		15				1	140	dmg-pois	50	400	400									1	dgrn	weap	misl													0
 Toxic	558	100	1	1	35		26				1	140	dmg-pois	50	1160	1160									1	dgrn	weap	misl													0
 Pestilent	559	100	1	1	50		37				1	140	dmg-pois	50	1970	1970									1	dgrn	weap	misl													0
-Maiden's	560	1	1	1	36		27	ama			4	202	ama		1	1											amul	circ													0
-Valkyrie's	561	1	1	1	90		67	ama			2	202	ama		2	2									1	cgrn	amul	circ													0
+Maiden's	560	1	1	1	36		27	ama			4	125	ama		1	1											amul														0
+Valkyrie's	561	1	1	1	90		67	ama			2	125	ama		2	2									1	cgrn	amul														0
 Maiden's	562	1	1	1	30		22	ama			4	125	ama		1	1											miss	spea													0
 Valkyrie's	563	1	1	1	50		42	ama			2	125	ama		2	2									1	cgrn	miss	spea													0
-Monk's	564	1	1	1	36		27	pal			4	202	pal		1	1											amul	circ													0
-Priest's	565	1	1	1	90		67	pal			2	202	pal		2	2									1	cgrn	amul	circ													0
+Monk's	564	1	1	1	36		27	pal			4	125	pal		1	1											amul														0
+Priest's	565	1	1	1	90		67	pal			2	125	pal		2	2									1	cgrn	amul														0
 Monk's	566	1	1	1	30		22	pal			4	125	pal		1	1											scep	ashd													0
 Priest's	567	1	1	1	50		42	pal			2	125	pal		2	2									1	cgrn	scep	ashd													0
 Monk's	568	1	1	1	35		27	pal			4	125	pal		1	1											swor	mace	hamm	shld											0
 Priest's	569	1	1	1	65		58	pal			2	125	pal		2	2									1	cgrn	swor	mace	hamm	shld											0
-Summoner's	570	1	1	1	36		27	nec			4	202	nec		1	1											amul	circ													0
-Necromancer's	571	1	1	1	90		67	nec			2	202	nec		2	2									1	cgrn	amul	circ													0
+Summoner's	570	1	1	1	36		27	nec			4	125	nec		1	1											amul														0
+Necromancer's	571	1	1	1	90		67	nec			2	125	nec		2	2									1	cgrn	amul														0
 Summoner's	572	1	1	1	30		22	nec			4	125	nec		1	1											wand	knif	head					tkni							0
 Necromancer's	573	1	1	1	50		42	nec			2	125	nec		2	2									1	cgrn	wand	knif	head					tkni							0
-Angel's	574	1	1	1	36		27	sor			4	202	sor		1	1											amul	circ													0
-Arch-Angel's	575	1	1	1	90		67	sor			2	202	sor		2	2									1	cgrn	amul	circ													0
+Angel's	574	1	1	1	36		27	sor			4	125	sor		1	1											amul														0
+Arch-Angel's	575	1	1	1	90		67	sor			2	125	sor		2	2									1	cgrn	amul														0
 Angel's	576	1	1	1	30		22	sor			4	125	sor		1	1											staf	orb													0
 Arch-Angel's	577	1	1	1	50		42	sor			2	125	sor		2	2									1	cgrn	staf	orb													0
-Slayer's	578	1	1	1	36		27	bar			4	202	bar		1	1											amul	circ													0
-Berserker's	579	1	1	1	90		67	bar			2	202	bar		2	2									1	cgrn	amul	circ													0
+Slayer's	578	1	1	1	36		27	bar			4	125	bar		1	1											amul														0
+Berserker's	579	1	1	1	90		67	bar			2	125	bar		2	2									1	cgrn	amul														0
 Slayer's	580	1	1	1	30		22	bar			4	125	bar		1	1											tkni	axe	spea	club	swor	hamm	mace	jave							0
 Berserker's	581	1	1	1	50		42	bar			1	125	bar		2	2									1	cgrn	tkni	axe	spea	club	swor	hamm	mace	jave							0
 Slayer's	582	100	1	1	30		22	bar			4	125	bar		1	1											phlm														0
 Berserker's	583	100	1	1	50		42	bar			2	125	bar		2	2									1	cgrn	phlm														0
-Shaman's	584	100	1	1	36		27	dru			4	202	dru		1	1											amul	circ													0
-Hierophant's	585	100	1	1	90		67	dru			2	202	dru		2	2									1	cgrn	amul	circ													0
+Shaman's	584	100	1	1	36		27	dru			4	125	dru		1	1											amul														0
+Hierophant's	585	100	1	1	90		67	dru			2	125	dru		2	2									1	cgrn	amul														0
 Shaman's	586	100	1	1	30		22	dru			4	125	dru		1	1											club	pelt													0
 Hierophant's	587	100	1	1	50		42	dru			2	125	dru		2	2									1	cgrn	club	pelt													0
-Magekiller's	588	100	1	1	36		27	ass			4	202	ass		1	1											amul	circ													0
-Witch-hunter's	589	100	1	1	90		67	ass			2	202	ass		2	2									1	cgrn	amul	circ													0
+Magekiller's	588	100	1	1	36		27	ass			4	125	ass		1	1											amul														0
+Witch-hunter's	589	100	1	1	90		67	ass			2	125	ass		2	2									1	cgrn	amul														0
 Magekiller's	590	100	1	1	30		22	ass			4	125	ass		1	1											h2h	knif						tkni							0
 Witch-hunter's	591	100	1	1	50		42	ass			2	125	ass		2	2									1	cgrn	h2h	knif						tkni							0
 Compact	592	100			1		1				0	141	stack		20	40											thro														0
@@ -817,3 +817,17 @@ Virulent	814	100	1	1	76		66				1	140	dmg-pois	50	3780	3780									1	dgrn	weap	m
 Infectious	815	100	1	1	76		66				1	140	dmg-pois	50	4535	4535									1	dgrn	knif	sc9						tkni							0
 Archer's	816	100	1	1	60		45	ama			1	125	skilltab	0	3	3									1	lgld	amul	circ													0
 Athlete's	817	100	1	1	60		45	ama			1	125	skilltab	1	3	3									1	lgld	amul	circ													0
+Maiden's	818	1	1	1	36		27	ama			4	202	ama		1	1											circ														0
+Valkyrie's	819	1	1	1	90		67	ama			2	202	ama		2	2									1	cgrn	circ														0
+Monk's	820	1	1	1	36		27	pal			4	202	pal		1	1											circ														0
+Priest's	821	1	1	1	90		67	pal			2	202	pal		2	2									1	cgrn	circ														0
+Summoner's	822	1	1	1	36		27	nec			4	202	nec		1	1											circ														0
+Necromancer's	823	1	1	1	90		67	nec			2	202	nec		2	2									1	cgrn	circ														0
+Angel's	824	1	1	1	36		27	sor			4	202	sor		1	1											circ														0
+Arch-Angel's	825	1	1	1	90		67	sor			2	202	sor		2	2									1	cgrn	circ														0
+Slayer's	826	1	1	1	36		27	bar			4	202	bar		1	1											circ														0
+Berserker's	827	1	1	1	90		67	bar			2	202	bar		2	2									1	cgrn	circ														0
+Shaman's	828	100	1	1	36		27	dru			4	202	dru		1	1											circ														0
+Hierophant's	829	100	1	1	90		67	dru			2	202	dru		2	2									1	cgrn	circ														0
+Magekiller's	830	100	1	1	36		27	ass			4	202	ass		1	1											circ														0
+Witch-hunter's	831	100	1	1	90		67	ass			2	202	ass		2	2									1	cgrn	circ														0
