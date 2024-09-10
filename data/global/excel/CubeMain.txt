@@ -2471,7 +2471,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	1			100					1	"key,qty=1"							Replica Arkaine's Valor	131																												Replica Malediction	131			oskill	100	357	1	1																					"armo,uni,eli"	131			sock	100		4	4																					0
+generate (dev)	1			100					1	"key,qty=1"							Frostripper	131																												Replica Malediction	131																												Replica Malediction Amp	131																												0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication (DROP DISABLED)	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
 4 of Luminescence -> Mara's Kaleidoscope 	1			100					1	fslu,qty=4							Mara's Kaleidoscope	95																																																																																						0
 4 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=4							The Stone of Jordan	95																																																																																						0
@@ -2633,7 +2633,7 @@ RELIC OF THE FALSE PROPHET																																																						
 add relic factor	1	2		100	18	509	0		1	"rofp"							useitem			100	awakennum	100		1	103																																																																															0
 																																																																																																								0
 relic of the false prophet -> replica	1	2		100	16	509	1		1	"rofp"							Replica Templar's Might	120																																																																																						0
-relic of the false prophet -> replica	1	2		100	16	509	2		1	"rofp"							Replica Tyrael's Might	131																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	2		1	"rofp"							Replica Tyrael's Might	125																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	3		1	"rofp"							Replica Steel Carapace	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	4		1	"rofp"							Replica Leviathan	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	5		1	"rofp"							Replica Atma's Wail	120																																																																																						0
@@ -2644,14 +2644,14 @@ relic of the false prophet -> replica	1	2		100	16	509	9		1	"rofp"							Replica 
 relic of the false prophet -> replica	1	2		100	16	509	10		1	"rofp"							Replica Izual's Redemption	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	11		1	"rofp"							Replica Infernal Mantle	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	12		1	"rofp"							Replica Valkyrie Wing	120																																																																																						0
-relic of the false prophet -> replica	1	2		100	16	509	13		1	"rofp"							Replica Overlords Helm	131																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	13		1	"rofp"							Replica Overlords Helm	125																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	14		1	"rofp"							Replica Kira's Guardian	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	15		1	"rofp"							Replica Halaberd's Reign	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	16		1	"rofp"							Replica Raekors Virtue	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	17		1	"rofp"							Replica Ravenlore	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	18		1	"rofp"							Replica Crown of the Faceless	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	19		1	"rofp"							Replica Andariel's Visage	120																																																																																						0
-relic of the false prophet -> replica	1	2		100	16	509	20		1	"rofp"							Replica Dark Abyss	131																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	20		1	"rofp"							Replica Dark Abyss	125																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	21		1	"rofp"							Replica Spike Thorn	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	22		1	"rofp"							Replica Medusa's Gaze	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	23		1	"rofp"							Replica Unending Resolve	120																																																																																						0
@@ -2670,7 +2670,7 @@ relic of the false prophet -> replica	1	2		100	16	509	35		1	"rofp"							Replica
 relic of the false prophet -> replica	1	2		100	16	509	36		1	"rofp"							Replica Tearhaunch	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	37		1	"rofp"							Replica Infernostride	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	38		1	"rofp"							Replica Marrowwalk	120																																																																																						0
-relic of the false prophet -> replica	1	2		100	16	509	39		1	"rofp"							Replica Itheraels Path	131																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	39		1	"rofp"							Replica Itheraels Path	125																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	40		1	"rofp"							Replica Silkweave	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	41		1	"rofp"							Replica Shadow Dancer	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	42		1	"rofp"							Replica Warbringer	120																																																																																						0
@@ -2682,7 +2682,7 @@ relic of the false prophet -> replica	1	2		100	16	509	47		1	"rofp"							Replica
 relic of the false prophet -> replica	1	2		100	16	509	48		1	"rofp"							Replica Saracen's Chance	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	49		1	"rofp"							Replica Highlord's Wrath	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	50		1	"rofp"							Replica The Cat's Eye	120																																																																																						0
-relic of the false prophet -> replica	1	2		100	16	509	51		1	"rofp"							Replica The Third Eye	131																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	51		1	"rofp"							Replica The Third Eye	125																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	52		1	"rofp"							Replica Metalgrid	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	53		1	"rofp"							Replica Mara's Kaleidoscope	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	54		1	"rofp"							Replica Amulet of the Viper	120																																																																																						0
@@ -2704,14 +2704,14 @@ relic of the false prophet -> replica	1	2		100	16	509	69		1	"rofp"							Replica
 relic of the false prophet -> replica	1	2		100	16	509	70		1	"rofp"							Replica Earth Shifter	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	71		1	"rofp"							Replica Lightsabre	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	72		1	"rofp"							Replica Azurewrath	125																																																																																						0
-relic of the false prophet -> replica	1	2		100	16	509	73		1	"rofp"							Replica Hadriels Hand	131																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	73		1	"rofp"							Replica Hadriels Hand	125																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	74		1	"rofp"							Replica Leoric's Mithril Bane	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	75		1	"rofp"							Replica Grim's Burning Dead	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	76		1	"rofp"							Replica Skull Collector	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	77		1	"rofp"							Replica Mang Song's Lesson	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	78		1	"rofp"							Replica Blood Raven's Charge	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	79		1	"rofp"							Replica Shadow Killer	120																																																																																						0
-relic of the false prophet -> replica	1	2		100	16	509	80		1	"rofp"							Replica Aidan's Scar	131																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	80		1	"rofp"							Replica Aidan's Scar	125																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	81		1	"rofp"							Replica Surgefletcher	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	82		1	"rofp"							Replica Malediction	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	83		1	"rofp"							Replica Crown of Ages	120																																																																																						0
@@ -2723,9 +2723,9 @@ relic of the false prophet -> replica	1	2		100	16	509	88		1	"rofp"							Replica
 relic of the false prophet -> replica	1	2		100	16	509	89		1	"rofp"							Replica Death's Fathom	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	90		1	"rofp"							Replica Eschuta's Temper	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	91		1	"rofp"							Replica Ursa's Nightmare	120																																																																																						0
-relic of the false prophet -> replica	1	2		100	16	509	92		1	"rofp"							Replica Band of Skulls	131																																																																																						0
-relic of the false prophet -> replica	1	2		100	16	509	93		1	"rofp"							Replica Call of the Brotherhood	131																																																																																						0
-relic of the false prophet -> replica	1	2		100	16	509	94		1	"rofp"							Replica Cage of the Unsullied	131																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	92		1	"rofp"							Replica Band of Skulls	125																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	93		1	"rofp"							Replica Call of the Brotherhood	125																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	94		1	"rofp"							Replica Cage of the Unsullied	125																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	95		1	"rofp"							Replica The Hand of Broc	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	96		1	"rofp"							Replica The Gladiator's Bane	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	97		1	"rofp"							Replica Malthael's Shadow Steps	120																																																																																						0
