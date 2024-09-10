@@ -589,7 +589,7 @@ Replica Blood Raven's Charge	100	1		1	1	120	71	amb	matriarchal bow			5	5000	dgld
 Replica Shadow Killer	100	1		1	1	120	78	7cs	battle cestus			5	5000				invaxfu				dmg%		170	270	reduce-ac		25	25	freeze		2	2	mana-kill		4	8	extra-shadow-master		1	1	ethereal		1	1	indestruct		1	1	skilltab	19	3	4	cast1		20	20									splash	358	100	1	0
 Replica Aidan's Scar	100	1		0	1	131	85	9qr	Scissors Quhab			5	5000	blac			dcloneclaw				dmg%		300	360	swing2		20	30	skilltab	19	2	2	dmg-min		15	15	indestruct		1	1	hit-skill	442	10	13	vit		-20	-30	att/lvl	12															splash	358	100	1	0
 Replica Surgefletcher	100	1		1	1	120	45	aqv	arrows			5	5000	dyel	dyel						hit-skill	52	2	30	dmg-fire		21	75	res-fire		20	30	res-ltng		-15	-15	hp		40	75	swing2		7	10	manasteal		3	5	oskill	61	1	1																	0
-Replica Malediction	100	1		1	1	120	66	rin	Ring			5	5000								allskills		1	1	maxcurse		1	1	kill-skill	447	3	19	res-all		-15	-15																																	0
+Replica Malediction	100	1		1	1	120	66	rin	Ring			5	5000								allskills		1	1	maxcurse		1	1	kill-skill	447	4	19	res-all		-15	-15																																	0
 Replica Crown of Ages	100	1		1	1	120	82	urn	corona	1		3	5000	dgld	dgld						balance2		30	30	allskills		1	1	curse-res		25	25	ac		100	150	indestruct		1	1	red-dmg%		10	15	ac%		50	50	sock		3	3																	0
 Replica Giant Skull	100	1		1	1	120	65	uh9	bone visage			3	5000	lgry	lgry		invbhm				ac		250	320	dex		25	35	dmg%		70	100	sock		3	3																																	0
 Replica Nightwing's Veil	100	1		1	1	120	67	uhm	spired helm			3	5000	cblu	cblu						ac%		90	120	allskills		1	1	enr		10	20	pierce-pois		5	10	res-pois-len		50	50	extra-pois		10	15	ease		-50	-50	poisskill		1	1																	0
@@ -606,3 +606,5 @@ Replica The Hand of Broc	0	1		1	1	120	5	ulgr	Bramble Mitts			5	5000	cblu	cblu			
 Replica The Gladiator's Bane	100	1		1	1	120	85	utu	Wire Fleece			3	5000	lgry	lgry						dmg%		150	200	str		8	15	dex		8	15	oskill	pierce	2	2	res-pois-len		50	50	dur		103	103	swing2		30	30																					0
 Replica Guardian Angel	100	1		1	1	120	45	xlt	Templar Coat			3	5000	lgry	lgry						light		4	4	aura	Defiance	9	12	ac%		180	200	block2		30	30	block		20	20	att-dem/lvl	28			res-fire-max		5	8	res-cold-max		5	8	res-ltng-max		5	8	res-pois-max		5	8									0
 Replica Leviathan	100	1		1	1	120	65	uld	kraken shell			5	5000	cgrn	cgrn						ac%		170	200	ac		100	150	aura	Cleansing	10	10	str		40	50	indestruct		1	1	curse-effectiveness		20	20																									0
+Replica Malediction Amp	100	1		1	1	120	66	rin	Ring			5	5000								allskills		1	1	maxcurse		1	1	kill-skill	442	4	19	curse-effectiveness		-5	-5																																	0
+Replica Atma's Scarab	100	1		1	1	120	60	amu	Amulet			5	5000	cgrn	cgrn						hit-skill	447	8	15	res-pois		30	60	light		3	3	dmg-ltng		1	100	dmg-fire		25	86	dmg-cold	75	10	54	att%		40	60																					0

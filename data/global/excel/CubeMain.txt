@@ -2471,7 +2471,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	1			100					1	"key,qty=1"							Mind Over Matter	131																												"circ,rar,pre=777"	131																												"armo,uni,eli"	131			sock	100		4	4																					0
+generate (dev)	1			100					1	"key,qty=1"							Replica Arkaine's Valor	131																												Replica Malediction	131			oskill	100	357	1	1																					"armo,uni,eli"	131			sock	100		4	4																					0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication (DROP DISABLED)	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
 4 of Luminescence -> Mara's Kaleidoscope 	1			100					1	fslu,qty=4							Mara's Kaleidoscope	95																																																																																						0
 4 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=4							The Stone of Jordan	95																																																																																						0
@@ -2630,7 +2630,7 @@ relic of the void -> The Third Eye	1	2		100	16	509	1000		1	"rotv"							The Thir
 50 wss + 1 jah -> rathma access	1			100					2	"wss,qty=50"	"r31g,qty=1"						rtma																																																																																							0
 																																																																																																								0
 RELIC OF THE FALSE PROPHET																																																																																																								0
-add relic factor	1	2		100	18	509	0		1	"rofp"							useitem			100	awakennum	100		1	101																																																																															0
+add relic factor	1	2		100	18	509	0		1	"rofp"							useitem			100	awakennum	100		1	103																																																																															0
 																																																																																																								0
 relic of the false prophet -> replica	1	2		100	16	509	1		1	"rofp"							Replica Templar's Might	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	2		1	"rofp"							Replica Tyrael's Might	131																																																																																						0
@@ -2733,3 +2733,5 @@ relic of the false prophet -> replica	1	2		100	16	509	98		1	"rofp"							Replica
 relic of the false prophet -> replica	1	2		100	16	509	99		1	"rofp"							Replica Ondal's Almighty	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	100		1	"rofp"							Replica Bk Ring	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	101		1	"rofp"							Replica Telling of Beads	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	102		1	"rofp"							Replica Malediction Amp	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	103		1	"rofp"							Replica Atma's Scarab	120																																																																																						0
