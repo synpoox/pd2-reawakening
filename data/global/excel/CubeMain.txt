@@ -391,7 +391,7 @@ amulet -> cyclone armor on cast	1	2		100	16	509	760		2	"amul"	"dvia,qty=1"						
 amulet -> bone spear on cast	1	2		100	16	509	790		2	"amul"	"dvia,qty=1"						useitem			100	awaken	100		89	89	awakennum	100		1001	1001	cast-skill	100	84	13	40																																																																					0
 amulet -> venom on kill	1	2		100	16	509	820		2	"amul"	"dvia,qty=1"						useitem			100	awaken	100		89	89	awakennum	100		1001	1001	kill-skill	100	278	2	35																																																																					0
 amulet -> foh on striking	1	2		100	16	509	850		2	"amul"	"dvia,qty=1"						useitem			100	awaken	100		88	88	awakennum	100		1001	1001	hit-skill	100	121	13	40																																																																					0
-amulet -> corpse explosion on kill	1	2		100	16	509	880		2	"amul"	"dvia,qty=1"						useitem			100	awaken	100		89	89	awakennum	100		1001	1001	kill-skill	100	74	7	30																																																																					0
+amulet -> lesser fade on kill	1	2		100	16	509	880		2	"amul"	"dvia,qty=1"						useitem			100	awaken	100		89	89	awakennum	100		1001	1001	kill-skill	100	391	5	5																																																																					0
 amulet -> tornado on cast	1	2		100	16	509	910		2	"amul"	"dvia,qty=1"						useitem			100	awaken	100		89	89	awakennum	100		1001	1001	cast-skill	100	245	13	40																																																																					0
 amulet -> holy nova on striking	1	2		100	16	509	940		2	"amul"	"dvia,qty=1"						useitem			100	awaken	100		88	88	awakennum	100		1001	1001	hit-skill	100	364	13	25																																																																					0
 amulet -> pnova on striking	1	2		100	16	509	970		2	"amul"	"dvia,qty=1"						useitem			100	awaken	100		88	88	awakennum	100		1001	1001	hit-skill	100	92	13	25																																																																					0
@@ -2471,7 +2471,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	1			100					1	"key,qty=1"							Frostripper	131																												Replica Malediction	131																												Replica Malediction Amp	131																												0
+generate (dev)	1			100					1	"key,qty=1"							Replica Kadala's Heirloom	131																												Replica Malediction	131																												Replica Malediction Amp	131																												0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication (DROP DISABLED)	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
 4 of Luminescence -> Mara's Kaleidoscope 	1			100					1	fslu,qty=4							Mara's Kaleidoscope	95																																																																																						0
 4 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=4							The Stone of Jordan	95																																																																																						0
@@ -2630,7 +2630,7 @@ relic of the void -> The Third Eye	1	2		100	16	509	1000		1	"rotv"							The Thir
 50 wss + 1 jah -> rathma access	1			100					2	"wss,qty=50"	"r31g,qty=1"						rtma																																																																																							0
 																																																																																																								0
 RELIC OF THE FALSE PROPHET																																																																																																								0
-add relic factor	1	2		100	18	509	0		1	"rofp"							useitem			100	awakennum	100		1	103																																																																															0
+add relic factor	1	2		100	18	509	0		1	"rofp"							useitem			100	awakennum	100		1	106																																																																															0
 																																																																																																								0
 relic of the false prophet -> replica	1	2		100	16	509	1		1	"rofp"							Replica Templar's Might	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	2		1	"rofp"							Replica Tyrael's Might	125																																																																																						0
@@ -2735,3 +2735,6 @@ relic of the false prophet -> replica	1	2		100	16	509	100		1	"rofp"							Replic
 relic of the false prophet -> replica	1	2		100	16	509	101		1	"rofp"							Replica Telling of Beads	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	102		1	"rofp"							Replica Malediction Amp	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	103		1	"rofp"							Replica Atma's Scarab	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	104		1	"rofp"							Replica Darkforce Spawn	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	105		1	"rofp"							Replica Harlequin Crest	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	106		1	"rofp"							Replica Steel Shade	120																																																																																						0

@@ -15,7 +15,7 @@ Amulet	amul	misc		0	1	neck	neck			0	0	0	0	1	1	0	0	0	0	0	0	0	0	3		0		3	invamu1	in
 Charm	char	misc		0	0					0	0	0	0	1		0	1	0	0	0	0	0	0	3		0		3	invch1	invch4	invch7				misc	0
 Not Used				0	0					0	0	0	0			0	0	0	0	0	0	0	0	3		0		0								0
 Boots	boot	armo		1	1	feet	feet			0	0	0	0		1	0	0	0	0	0	0	1	0	3		1		0							armo	0
-Gloves	glov	armo		1	1	glov	glov			0	0	0	0		1	0	0	0	0	0	0	3	0	3		1		0							armo	0
+Gloves	glov	armo		1	1	glov	glov			0	0	0	0		1	0	0	0	0	0	0	2	0	3		1		0							armo	0
 Not Used				0	0					0	0	0	0			0	0	0	0	0	0	0	0	3		0		0								0
 Book	book	misc		0	0					0	0	0	0			1	0	0	0	0	0	0	0	3		0		0							misc	0
 Belt	belt	armo		1	1	belt	belt			0	0	0	0		1	0	0	0	0	0	0	0	0	3		1		0							armo	0
