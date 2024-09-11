@@ -200,7 +200,7 @@ Rune ten plus Generic	r1pg			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0								0
 Uber	ubr			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0								0
 UberOrgan	ubor			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0								0
 Pvp Map	pvpm			0	0					0	0	0	0			1	0	0	0	0	0	0	0	3		0		0							misc	0
-Belt [S]	bels	belt		1	1	belt	belt			0	0	0	0			0	0	0	0	2	2	2	0	0		1		0							armo	0
+Belt [S]	bels	belt		1	1	belt	belt			0	0	0	0			0	0	0	0	1	1	1	0	0		1		0							armo	0
 Amulet [S]	amus	amul		0	1	neck	neck			0	0	0	0			0	0	0	0	1	1	1	0	0		0		3	invamu1	invamu2	invamu3				misc	0
 Jewel Generic	jewg			0	0					0	0	0	0			0	0	0	0	0	0	0	0	0		0		0								0
 Jewel Fragments	jewf	jewg		0	0					0	0	0	1			1	0	0	0	0	0	0	0	0		0		0								0
