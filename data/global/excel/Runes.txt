@@ -25,7 +25,7 @@ Runeword162	White	1		wand									DolIo	r14	r16					skilltab	7	3	3	mana-kill		1	
 Runeword170	Zephyr	1		miss									OrthEth	r09	r05					move2		25	25	swing2		25	25	dmg%		33	66	att		66	66	gethit-skill	240	7	10	ac		25	25					0
 Runeword14	Bound by Duty	1		tors									DolUmBerIst	r14	r22	r30	r24			res-all		65	75	ac%		80	100	dmg-demon		200	200	dmg-undead		100	100	lifesteal		8	8	allskills		2	2	str		20	20	0
 Runeword9	Bramble	1		tors									RalOhmSurEth	r08	r27	r29	r05			balance2		50	50	ac		300	300	aura	Thorns	18	21	heal-kill		4	6	extra-pois		40	50	res-pois		100	100	charged	Spirit of Barbs	33	13	0
-Runeword11	Breath of the Dying	1		weap									VexHelElEldZodEth	r26	r15	r01	r02	r33	r05	swing2		60	60	dmg-undead		125	125	lifesteal		8	12	noheal		1	1	hit-skill	Corpse Explosion	35	40	dmg%		450	500	all-stats		30	30	0
+Runeword11	Breath of the Dying	1		weap									VexHelElEldZodEth	r26	r15	r01	r02	r33	r05	swing2		60	60	dmg-undead		125	125	lifesteal		8	12	noheal		1	1	hit-skill	92	35	40	dmg%		450	500	all-stats		30	30	0
 Runeword13	Call to Arms	1		weap									AmnRalMalIstOhm	r11	r08	r23	r24	r27		swing2		40	40	dmg%		200	240	allskills		1	1	oskill	Battle Command	2	6	oskill	Battle Orders	2	6	oskill	Battle Cry	1	3	regen		12	12	0
 Runeword17	Crescent Moon	1		axe	swor	h2h							ShaelUmTir	r13	r22	r03				pierce-ltng		10	15	ignore-ac		1	1	dmg%		180	220	abs-mag		3	5	charged	Summon Spirit Wolf	30	18	hit-skill	Static Field	12	13	hit-skill	Lightning	10	27	0
 Runeword22	Delirium	1		helm									LemIstIo	r20	r24	r16				hit-skill	Confuse	11	18	charged	Attract	60	17	gethit-skill	Terror	14	13	ac		261	261	gethit-skill	Mind Blast	6	14	allskills		2	2					0
@@ -188,4 +188,4 @@ Revenge	Revenge			sc9									LoHelZodAmn	r28	r15	r33	r11			dmg%		250	300	red-dm
 Runeword41	Fortitude	1		weap									ElSolDolLo	r01	r12	r14	r28			ac%		200	200	dmg%		300	350	swing2		25	25	dmg-to-mana		12	12	hp/lvl		8	12	res-all		25	30					0
 Runeword25	Destruction	1		staf									VexLoBerJahKo	r26	r28	r30	r31	r18		dmg%		300	300	swing2		30	40	cast-skill	Molten Boulder	18	35	cast-skill	Meteor	25	45	cast-skill	Nova	25	40	cast-skill	Frost Nova	30	35					0
 Hustle	Hustle	1		tors									ShaelKoEld	r13	r18	r02				equipped-skill	Quickness SelfAura	6	6	swing2		20	20	stamdrain		35	35	res-all		10	10	half-freeze		1	1									0
-Obsession Sword	Obsession	1		swor									ZodIstLemLumIoNef	r33	r24	r20	r17	r16	r04	allskills		4	4	cast2		30	30	cast-skill	Weaken	10	18	hp%		5	10	res-all		20	30	balance2		30	30	regen-mana		8	12	0
+Obsession Sword	Obsession	1		swor									ZodIstLemLumIoNef	r33	r24	r20	r17	r16	r04	allskills		4	4	cast2		30	30	cast-skill	Weaken	24	18	hp%		5	10	res-all		20	30	balance2		40	40	regen-mana		8	12	0

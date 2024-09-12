@@ -293,7 +293,7 @@ item_absorb_ltng_bytime	290		1	22										4		0	1024		22	0	22	0			6			item_absor
 item_absorb_pois_bytime	291		1	22										4		0	1024		22	0	22	0			6			item_absorbmagic																								0
 item_find_gold_bytime	292		1	22										4		0	1024		22	0	22	0			6			item_goldbonus											180	18	2	ModStr1w	ModStr1w									0
 item_find_magic_bytime	293		1	22										4		0	1024		22	0	22	0			6			item_magicbonus											180	18	1	ModStr1x	ModStr1x									0
-item_regenstamina_bytime	294		1	22										4		0	1024		22	0	22	0			6			staminarecoverybonus											180	18	2	ModStr3v	ModStr3v									0
+item_converteletomagic	294		1								1						1024		7	0	10	0	12																204	3	0	StrConvertEleMag	StrConvertEleMag									0
 combustion_cd_reduction	295		1	5													1024		6		6																		150	9	2	CombustionCdReduced	CombustionCdReduced	NewSeconds								0
 control_player_hp	296		1	16													1024		6	10	6	10			11			hitpoints																								0
 item_damage_undead_bytime	297		1	22										4		0	1024		22	0	22	0			6			item_undeaddamage_percent						1					180	18	1	ModStr4f	ModStr4f									0

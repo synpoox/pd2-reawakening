@@ -224,11 +224,11 @@ Act 4 (H) Magic B	4	80	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic A	4	82	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic B	4	83	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic C	4	85	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Orbs			1					0	dvo	200	mfo	140	rgo	95	cho	150	oou	4	tjo	1	dvia	395	rotf	15								0
-Extra TC A																																0
-Extra TC B																																0
+Orbs			1					0	dvo	200	mfo	133	rgo	90	cho	140	oou	4	tjo	1	dvia	365	rotf	15	rofp	50						0
+Map Boss TC		85	5					0	Act 5 (H) Equip C	256	Act 5 (H) Good	20	T3 Map Drop	15	dcbl	20	dcho	1	dcso	4	rtmv	2										0
+Replica			1					0	rofp	1	gld	5																				0
 Prime Evil Embers			1					0	heo	1	teo	1																				0
-Map Orbs Drop			1					0	Orbs	159	Prime Evil Embers	1																				0
+Map Orbs Drop			1					0	Orbs	139	Prime Evil Embers	1																				0
 Fate Common A			1					0	fslr	1	fslu	1	fsat	1	fsus	1	fsrb	1	fsla	1	fsvi	1	fstm	1								0
 Fate Common B			1					0	fsar	1	fscf	1	fsed	1	fsta	1	fsts	1	fstf	1	fshs	1	fstw	1								0
 Fate Common C			1					0	fsbl	1	fssf	1	fstb	1	fsew	1	fssg	1	fstu	1	fsmw	1	fsem	1								0
@@ -893,10 +893,10 @@ Act 4 (H) Super Cx	18	87	-4	512	654	972	1024	0	Act 4 (H) Uitem B	2	Act 4 (H) Cpo
 Act 5 (H) Super Ax	18	90	-4	512	654	972	1024	0	Act 5 (H) Uitem A	2	Act 5 (H) Cpot A	2																				0
 Act 5 (H) Super Bx	18	93	-4	512	654	972	1024	0	Act 5 (H) Uitem B	2	Act 5 (H) Cpot B	2																				0
 Act 5 (H) Super Cx	18	96	-4	512	654	972	1024	0	Act 5 (H) Uitem C	2	Act 5 (H) Cpot C	2																				0
-Map Boss T1		85	5	983	983	983	1024	0	Act 5 (H) Equip C	252	Act 5 (H) Good	21	T1 Map Drop	16	dcbl	20	dcho	1	dcso	4	rtmv	2										0
-Map Boss T2		85	5	983	983	983	1024	0	Act 5 (H) Equip C	252	Act 5 (H) Good	21	T2 Map Drop	16	dcbl	20	dcho	1	dcso	4	rtmv	2										0
-Map Boss T3		85	5	983	983	983	1024	0	Act 5 (H) Equip C	252	Act 5 (H) Good	21	T3 Map Drop	16	dcbl	20	dcho	1	dcso	4	rtmv	2										0
-Map Boss T4		85	5	983	983	983	1024	0	Act 5 (H) Equip C	252	Act 5 (H) Good	21	T3 Map Drop	16	dcbl	20	dcho	1	dcso	4	rtmv	2										0
+Map Boss T1		85	-2	983	983	983	1024	0	Map Boss TC	1	Replica	1																				0
+Map Boss T2		85	-2	983	983	983	1024	0	Map Boss TC	1	Replica	1																				0
+Map Boss T3		85	-2	983	983	983	1024	0	Map Boss TC	1	Replica	1																				0
+Map Boss T4		85	5	983	983	983	1024	0	Act 5 (H) Equip C	283	Act 5 (H) Good	20	T3 Map Drop	15																		0
 Cow King			5	850	983	983	1024	0	Act 1 Uitem C	1	Act 1 Melee B	2																				0
 Cow King (N)			5	850	983	983	1024	0	Act 1 (H) Uitem C	1	Act 1 (N) Melee B	2																				0
 Cow King (H)			5	850	983	983	1024	0	Act 1 (H) Uitem C	1	Act 1 (H) Melee B	2																				0
@@ -944,15 +944,15 @@ BR Arena Runes 16			1						r31s	3	r32s	2	BR Arena Runes 15	122																		
 BR Arena Runes 17			1						r33s	3	BR Arena Runes 16	138																				0
 BR Arena Perfect Gem			1						gpvs	3	gpys	3	gpbs	3	gpgs	3	gprs	3	gpws	3	skzs	2										0
 BR Arena Flawless Gem			1						gzvs	3	glys	3	glbs	3	glgs	3	glrs	3	glws	3	skls	2										0
-BR Arena misc			1						wss	44	lbox	1	Orbs	38	Fate Drop	12																0
+BR Arena misc			1						wss	39	lbox	1	Orbs	38	Fate Drop	17																0
 BR Arena jewerly			1						rin	2	amu	2	jew	1	cm3	1	cm2	1	cm1	1												0
 BR Arena Potions			1						hp4	1	hp5	1	mp4	1	mp5	1																0
-BR Arena Chests N		30	1	930	500	840	260	10	Act 5 Uitem C	48	BR Arena misc	5	BR Arena Flawless Gem	2	BR Arena Perfect Gem	1	BR Arena Runes 12	4	BR Arena jewerly	8												0
-BR Arena Chests NM		60	1	930	500	840	260	10	Act 5 (N) Uitem C	48	BR Arena misc	5	BR Arena Flawless Gem	2	BR Arena Perfect Gem	1	BR Arena Runes 15	4	BR Arena jewerly	8												0
-BR Arena Chests H		90	1	930	500	840	260	10	Act 5 (H) Uitem C	48	BR Arena misc	5	BR Arena Flawless Gem	2	BR Arena Perfect Gem	1	BR Arena Runes 17	4	BR Arena jewerly	8												0
-BR Arena Bodies N		30	1	570	400	850	450	0	Act 5 Equip C	48	BR Arena misc	4	BR Arena Flawless Gem	2	Ammo	1	BR Arena Perfect Gem	1	BR Arena Runes 12	4	BR Arena jewerly	2										0
-BR Arena Bodies NM		60	1	570	400	850	450	0	Act 5 (N) Equip C	48	BR Arena misc	4	BR Arena Flawless Gem	2	Ammo	1	BR Arena Perfect Gem	1	BR Arena Runes 15	4	BR Arena jewerly	2										0
-BR Arena Bodies H		90	1	570	400	850	450	0	Act 5 (H) Equip C	48	BR Arena misc	4	BR Arena Flawless Gem	2	Ammo	1	BR Arena Perfect Gem	1	BR Arena Runes 17	4	BR Arena jewerly	2										0
+BR Arena Chests N		30	1	930	500	840	260	10	Act 5 Uitem C	51	BR Arena misc	3	BR Arena Flawless Gem	1	BR Arena Perfect Gem	1	BR Arena Runes 12	4	BR Arena jewerly	8												0
+BR Arena Chests NM		60	1	930	500	840	260	10	Act 5 (N) Uitem C	51	BR Arena misc	3	BR Arena Flawless Gem	1	BR Arena Perfect Gem	1	BR Arena Runes 15	4	BR Arena jewerly	8												0
+BR Arena Chests H		90	1	930	500	840	260	10	Act 5 (H) Uitem C	51	BR Arena misc	3	BR Arena Flawless Gem	1	BR Arena Perfect Gem	1	BR Arena Runes 17	4	BR Arena jewerly	8												0
+BR Arena Bodies N		30	1	570	400	850	450	0	Act 5 Equip C	50	BR Arena misc	3	BR Arena Flawless Gem	1	Ammo	1	BR Arena Perfect Gem	1	BR Arena Runes 12	4	BR Arena jewerly	2										0
+BR Arena Bodies NM		60	1	570	400	850	450	0	Act 5 (N) Equip C	50	BR Arena misc	3	BR Arena Flawless Gem	1	Ammo	1	BR Arena Perfect Gem	1	BR Arena Runes 15	4	BR Arena jewerly	2										0
+BR Arena Bodies H		90	1	570	400	850	450	0	Act 5 (H) Equip C	50	BR Arena misc	3	BR Arena Flawless Gem	1	Ammo	1	BR Arena Perfect Gem	1	BR Arena Runes 17	4	BR Arena jewerly	2										0
 BR Arena Zomb N		30	3	9000	9000	1	1	0	Act 5 Uitem C	30	BR Arena jewerly	8																				0
 BR Arena Zomb NM		60	3	9000	9000	1	1	0	Act 5 (N) Uitem C	30	BR Arena jewerly	8																				0
 BR Arena Zomb H		90	3	9000	9000	1	1	0	Act 5 (H) Uitem C	30	BR Arena jewerly	8																				0

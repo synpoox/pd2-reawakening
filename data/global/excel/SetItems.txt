@@ -131,3 +131,7 @@ McAuley's Superstition	McAuley's Folly	bwn	Bone Wand	7	20	25	lpur	lpur						5	50
 The Fear	Regalia of the Damned	rin	Ring	1	50	45								5	5000	2	all-stats		20	35																																																																									0
 The Anguish	Regalia of the Damned	rin	Ring	1	50	45								5	5000	2	res-all		25	40																																																																									0
 The Despair	Regalia of the Damned	amu	Amulet	2	50	45								5	5000	2	cast2		10	15	swing2		15	20																													allskills		1	1																																					0
+Replica Tals	Collection of Deceit	uth	Lacquered Plate	7	120	71	dpur	dpur						5	5000	2	ease		-60	-60	red-mag		15	15	red-dmg%		25	25	res-all		40	40	allskills		2	2	move2		25	25	ac		400	400	hp%		5	5					allskills		1	1					balance2		20	20																													0
+Replica Ondal's Almighty	Collection of Deceit	uhm	Spired Helm	7	120	69								5	5000	2	ac		50	150	ease		-35	-35	sock		2	2	str		10	15	dex		10	20	move2		24	24	allskills		2	2									allskills		1	1					block		20	20																													0
+Replica Bk Ring	Collection of Deceit	rin	Ring	2	120	69	dgrn	dgrn						5	5000	2	dmg-undead		40	75	dmg-demon		40	75	res-fire		15	25	red-dmg%		5	5																					half-freeze		1	1					allskills		1	1																													0
+Replica Telling of Beads	Collection of Deceit	amu	Amulet	3	120	30	lblu	lblu						5	5000	2	res-pois		35	50	allskills		1	1	res-cold		18	18	curse-effectiveness		24	30																					half-freeze		1	1					allskills		1	1																													0
