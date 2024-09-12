@@ -6,7 +6,7 @@ Comments and feedback would be very appreciated, join the [Discord](https://disc
 
 Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Single-Player-Plus-mod)
 
-**[Discord](https://discord.gg/rBCNMWaCNt) | [Wiki](https://pd2reawakening.com/wiki/) | [Latest Patch Notes (v0.9.12)](https://docs.google.com/document/d/1H1efCeh5ctFM6-w9jRscjnMu3rcp43m7xkTJFEcnT2M/pub)**
+**[Discord](https://discord.gg/rBCNMWaCNt) | [Wiki](https://pd2reawakening.com/wiki/) | [Latest Patch Notes (v0.9.13)](https://docs.google.com/document/d/1CeSgjIYaRiJ1GjYCbEmJlfHmj6RjpKVmMvNtssRXbTw/pub)**
 
 ## New Features
 
@@ -99,7 +99,7 @@ This contains all the new item types (fate cards, new orbs, relic of the nephale
 1. Paste the following somewhere near the top
 
 ```
-//PD2 Single Player Reawakened
+//PD2 Single Player Reawakening
 ItemDisplay[awst OR mfo OR exo OR dvo OR rgo OR cho OR tjo OR dvia]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*%RED%*       %NAME%       %RED%*%PURPLE%*%GREEN%*
 //rare fate card
 ItemDisplay[fsha OR fsjp OR fsdi OR fsfr OR fsfa]: %BORDER-68%%ORANGE%pick %PURPLE%*%RED%*%YELLOW%*%GREEN%*     %NAME%     %GREEN%*%YELLOW%*%RED%*%PURPLE%* %ORANGE%up
