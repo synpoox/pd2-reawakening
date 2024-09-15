@@ -368,7 +368,7 @@ Dracul's Grasp	100	1		1	1	84	76	uvg	vampirebone gloves			5	5000	dred	dred						a
 Frostwind	100	1		1	1	78	70	7ls	cryptic sword			5	5000	cblu	cblu		invlsdu				dmg%		220	270	freeze		4	4	half-freeze		1	1	dmg-cold	150	237	486	swing2		25	25	aura	resist cold	6	6	oskill	230	2	3	coldskill		2	2													splash	358	100	1	0
 Templar's Might	100	1		8	1	82	74	uar	sacred armor			5	5000	cgrn	cgrn		invaaru				ac%		170	220	balance2		20	20	ac-miss		250	300	stam		40	50	str		20	30	vit		20	30	curse-effectiveness		20	20	aura	98	6	8																	0
 Eschuta's temper	100	1		1	1	80	72	obc	eldritch orb			5	5000	cred							allskills		3	3	cast2		40	40	extra-fire		10	20	extra-ltng		10	20	enr		20	30	pierce-fire		5	10	pierce-ltng		5	10																					0
-Firelizard's Talons	100	1		1	1	75	67	7lw	feral claws			5	5000								dmg%		200	270	swing2		15	15	skilltab	20	2	2	dmg-fire		236	480	res-fire		30	50	fireskill		2	3	pierce-fire		5	10																	splash	358	100	1	0
+Firelizard's Talons	100	1		1	1	75	67	7lw	feral claws			5	5000								dmg%		200	270	swing2		15	15	skilltab	20	2	2	dmg-fire		236	480	res-fire		30	50	fireskill		3	3	pierce-fire		5	10																	splash	358	100	1	0
 Sandstorm Trek	100	1		1	1	72	64	uvb	scarabshell boots			5	5000								ac%		140	170	move2		30	30	balance2		20	20	stam/lvl	8			thorns		480	540	res-pois		40	70	rep-dur	10			str		10	15	vit		10	15	stamdrain		50	50									0
 Marrowwalk	100	1		1	1	74	66	umb	boneweave boots			5	5000	dgry							ac%		170	200	move2		20	20	regen-stam		10	10	regen-mana		10	20	nofreeze		1	1	str		10	20	dex		17	17	skill	Skeleton Mastery	1	2																	0
 Heaven's Light	100	1		1	1	69	61	7sc	mighty scepter			5	5000	cblu	cblu						dmg%		275	325	swing2		20	20	reduce-ac		33	33	light		3	3	demon-heal		15	20	crush		33	33	sock		1	3	pal		2	3													splash	358	100	1	0
@@ -612,3 +612,5 @@ Replica Darkforce Spawn	100	1		1	1	120	64	nef	bloodlord skull			5	5000	cred	cred
 Replica Harlequin Crest	100	1		1	1	120	62	uap	Shako			3	5000	cgrn	cgrn						allskills		2	2	sock		2	2	mag%		25	50	curse-effectiveness		3	5	all-stats		2	2																													0
 Replica Steel Shade	100	1		1	1	120	62	ulm	armet			5	5000	blac	blac		invhlmu				ac%		150	200	allskills		2	2	block		20	20	block2		20	20	red-dmg%		8	12	thorns		900	1000	red-dmg		12	24																					0
 Replica Fleet Footwork	100	1		1	1	120	52	uea	Wyrmhide			5	5000	lgld	lgld						move2		75	85	oskill	13	1	1	sock		4	4	ac%		140	170																																	0
+Replica Firelizard's Talons	100	1		1	1	120	67	7lw	feral claws			5	5000								dmg%		200	270	swing2		15	15	skilltab	20	2	2	dmg-ltng		1	750	res-ltng		30	50	ltngskill		3	3	pierce-ltng		5	10																	splash	358	100	1	0
+Replica Death's Web	100	1		1	1	120	66	7gw	unearthed wand			5	5000	bwht	bwht						allskills		2	2	pierce-fire		20	30	heal-kill		1	3	mana-kill		1	3	skill	74	4	6	pierce-phys		3	8	corpseexplosion-radius		6	6																					0
