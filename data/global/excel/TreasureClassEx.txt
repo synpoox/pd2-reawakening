@@ -224,9 +224,9 @@ Act 4 (H) Magic B	4	80	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic A	4	82	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic B	4	83	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic C	4	85	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Orbs			1					0	dvo	200	mfo	134	rgo	90	cho	140	oou	3	tjo	1	dvia	365	rotf	15	rofp	50						0
+Orbs			1					0	dvo	200	mfo	131	rgo	90	cho	140	oou	3	tjo	1	dvia	365	rotf	15	rofp	53						0
 Map Boss TC		85	5					0	Act 5 (H) Equip C	259	Act 5 (H) Good	20	T3 Map Drop	15	dcbl	19	dcho	1	dcso	2	rtmv	2										0
-Replica			1					0	rofp	1	gld	5																				0
+Replica			1					0	rofp	1	gld	6																				0
 Prime Evil Embers			1					0	heo	1	teo	1																				0
 Map Orbs Drop			1					0	Orbs	139	Prime Evil Embers	1																				0
 Fate Common A			1					0	fslr	1	fslu	1	fsat	1	fsus	1	fsrb	1	fsla	1	fsvi	1	fstm	1								0
@@ -1050,5 +1050,5 @@ Uber Diablo Void			1					0	rotv	1	gld	109																				0
 Rathma Legacy			1					0	rotf	1	gld	49																				0
 Rathma Replica			1					0	rofp	1																						0
 Rathma Void			1					0	rotv	1	gld	84																				0
-Uber Diablo Relics			0					0	Uber Diablo Legacy	0	Uber Diablo Replica	0	Uber Diablo Void	0																		0
-Rathma Relics			0					0	Rathma Legacy	0	Rathma Replica	0	Rathma Void	0																		0
+Uber Diablo Relics			-3					0	Uber Diablo Legacy	1	Uber Diablo Replica	1	Uber Diablo Void	1																		0
+Rathma Relics			-3					0	Rathma Legacy	1	Rathma Replica	1	Rathma Void	1																		0
