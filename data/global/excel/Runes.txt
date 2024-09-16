@@ -126,7 +126,7 @@ Runeword102	Pestilence																																															0
 Runeword103	Phoenix	1		shld									VexVexLoJah	r26	r26	r28	r31			dmg%		250	300	ac-miss		350	400	hit-skill	Firestorm	20	40	levelup-skill	Blaze	100	40	pierce-fire		28	28	aura	Redemption	10	12					0
 Runeword104	Piety																																															0
 Runeword105	Pillar of Faith																																															0
-Runeword106	Plague	1		weap									ChamFalUm	r32	r19	r22				dmg-demon		340	380	cast-skill	LowRes Proc	30	35	hit-skill	Poison Nova	25	35	plague-fcr-pierce		20	20	deadly/lvl	3			aura	Cleansing	15	17	allskills		2	2	0
+Runeword106	Plague	1		weap									ChamFalUm	r32	r19	r22				dmg-demon		340	380	cast-skill	LowRes Proc	25	30	hit-skill	Poison Nova	25	35	plague-fcr-pierce		20	20	deadly/lvl	3			aura	Cleansing	15	17	allskills		2	2	0
 Runeword107	Praise																																															0
 Runeword108	Prayer																																															0
 Runeword109	Pride	1		pole	spea	staf							ChamSurIoLo	r32	r29	r16	r28			dmg%/lvl	32			dmg-ltng		50	280	att%		260	300	aura	Concentration	18	20	gethit-skill	Fire Wall	25	40	regen		8	8	gold%/lvl	15			0
