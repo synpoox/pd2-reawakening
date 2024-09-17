@@ -445,7 +445,7 @@ armor -> fire mastery, pierce	1	2		100	16	509	850		2	"tors"	"dvia,qty=1"						us
 armor -> ltng mastery, pierce	1	2		100	16	509	880		2	"tors"	"dvia,qty=1"						useitem			100	awaken	100		36	36	awakennum	100		1001	1001	extra-ltng	100		5	8	pierce-ltng	100		4	5																																																																0
 armor -> cold mastery, pierce	1	2		100	16	509	910		2	"tors"	"dvia,qty=1"						useitem			100	awaken	100		37	37	awakennum	100		1001	1001	extra-cold	100		5	8	pierce-cold	100		4	5																																																																0
 armor -> pois mastery, pierce	1	2		100	16	509	940		2	"tors"	"dvia,qty=1"						useitem			100	awaken	100		51	51	awakennum	100		1001	1001	extra-pois	100		5	8	pierce-pois	100		4	5																																																																0
-armor -> magi mastery	1	2		100	16	509	970		2	"tors"	"dvia,qty=1"						useitem			100	awaken	100		74	74	awakennum	100		1001	1001	extra-magi	100		12	18																																																																					0
+armor -> +1 max curse	1	2		100	16	509	970		2	"tors"	"dvia,qty=1"						useitem			100	awaken	100		3	3	awakennum	100		1001	1001	maxcurse	100		1	1																																																																					0
 armor -> flat max, phys pierce	1	2		100	16	509	1000		2	"tors"	"dvia,qty=1"						useitem			100	awaken	100		8	8	awakennum	100		1001	1001	dmg-max	100		30	40	pierce-phys	100		4	5																																																																0
 																																																																																																								0
 helm -> damage reduced %	1	2		100	16	509	95		2	"helm"	"dvia,qty=1"						useitem			100	awaken	100		50	50	awakennum	100		1001	1001	red-dmg%	100		8	8																																																																					0
@@ -455,10 +455,10 @@ helm -> absorb cold %	1	2		100	16	509	380		2	"helm"	"dvia,qty=1"						useitem			
 helm -> fcr, mana on kill	1	2		100	16	509	475		2	"helm"	"dvia,qty=1"						useitem			100	awaken	100		38	38	awakennum	100		1001	1001	cast1	100		10	20	mana-kill	100		2	4																																																																0
 helm -> ias, frw	1	2		100	16	509	570		2	"helm"	"dvia,qty=1"						useitem			100	awaken	100		16	16	awakennum	100		1001	1001	swing1	100		10	20	move1	100		20	30																																																																0
 helm -> ibc, fbr	1	2		100	16	509	665		2	"helm"	"dvia,qty=1"						useitem			100	awaken	100		71	71	awakennum	100		1001	1001	block	100		10	20	block1	100		20	30																																																																0
-helm -> fhr, hp%, mana%	1	2		100	16	509	760		2	"helm"	"dvia,qty=1"						useitem			100	awaken	100		32	32	awakennum	100		1001	1001	balance1	100		10	20	hp%	100		10	20	mana%	100		10	20																																																											0
+helm -> fhr, hp%, mana%	1	2		100	16	509	760		2	"helm"	"dvia,qty=1"						useitem			100	awaken	100		32	32	awakennum	100		1001	1001	balance1	100		15	20	hp%	100		3	8	mana%	100		3	8																																																											0
 helm -> +1 all skill, fcr, ias	1	2		100	16	509	790		2	"helm"	"dvia,qty=1"						useitem			100	awaken	100		24	24	awakennum	100		1001	1001	allskills	100		1	1	cast1	100		10	10	swing1	100		10	10																																																											0
 helm -> +2 random class skills	1	2		100	16	509	820		2	"helm"	"dvia,qty=1"						useitem			100	awaken	100		75	75	awakennum	100		1001	1001	randclassskill2	100		0	6																																																																					0
-helm -> +1 max curse	1	2		100	16	509	850		2	"helm"	"dvia,qty=1"						useitem			100	awaken	100		3	3	awakennum	100		1001	1001	maxcurse	100		1	1																																																																					0
+helm -> flat max, phys pierce	1	2		100	16	509	850		2	"helm"	"dvia,qty=1"						useitem			100	awaken	100		8	8	awakennum	100		1001	1001	dmg-max	100		30	40	pierce-phys	100		4	5																																																																0
 helm -> splash radius	1	2		100	16	509	880		2	"helm"	"dvia,qty=1"						useitem			100	awaken	100		59	59	awakennum	100		1001	1001	inc-splash-radius	100		20	20																																																																					0
 helm -> fire mastery, pierce	1	2		100	16	509	910		2	"helm"	"dvia,qty=1"						useitem			100	awaken	100		35	35	awakennum	100		1001	1001	extra-fire	100		5	8	pierce-fire	100		4	5																																																																0
 helm -> ltng mastery, pierce	1	2		100	16	509	940		2	"helm"	"dvia,qty=1"						useitem			100	awaken	100		36	36	awakennum	100		1001	1001	extra-ltng	100		5	8	pierce-ltng	100		4	5																																																																0
@@ -512,7 +512,7 @@ shield -> max all res	1	2		100	16	509	820		2	"shld"	"dvia,qty=1"						useitem			
 shield -> redemption aura	1	2		100	16	509	850		2	"shld"	"dvia,qty=1"						useitem			100	awaken	100		90	90	awakennum	100		1001	1001	aura	100	124	12	12																																																																					0
 shield -> holy freeze aura	1	2		100	16	509	880		2	"shld"	"dvia,qty=1"						useitem			100	awaken	100		90	90	awakennum	100		1001	1001	aura	100	114	12	12																																																																					0
 shield -> vigor aura	1	2		100	16	509	910		2	"shld"	"dvia,qty=1"						useitem			100	awaken	100		90	90	awakennum	100		1001	1001	aura	100	115	12	12																																																																					0
-shield -> conviction aura	1	2		100	16	509	940		2	"shld"	"dvia,qty=1"						useitem			100	awaken	100		90	90	awakennum	100		1001	1001	aura	100	123	12	12																																																																					0
+shield -> defiance aura	1	2		100	16	509	940		2	"shld"	"dvia,qty=1"						useitem			100	awaken	100		90	90	awakennum	100		1001	1001	aura	100	104	12	12																																																																					0
 shield -> fanaticism aura	1	2		100	16	509	970		2	"shld"	"dvia,qty=1"						useitem			100	awaken	100		90	90	awakennum	100		1001	1001	aura	100	122	12	12																																																																					0
 shield -> +1 all skill	1	2		100	16	509	1000		2	"shld"	"dvia,qty=1"						useitem			100	awaken	100		25	25	awakennum	100		1001	1001	allskills	100		1	1																																																																					0
 																																																																																																								0
@@ -2471,7 +2471,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	1			100					1	"key,qty=1"							helm,uni	131			awaken	100		59	59	awakennum	100		1001	1001	inc-splash-radius	100		20	20											Quetzalcoatl	131																												rotv	131																												0
+generate (dev)	1			100					1	"key,qty=1"							cm1	131			res-mag	100		200	200																					cm1	131																												rotv	131																												0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication (DROP DISABLED)	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
 4 of Luminescence -> Mara's Kaleidoscope 	1			100					1	fslu,qty=4							Mara's Kaleidoscope	95																																																																																						0
 4 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=4							The Stone of Jordan	95																																																																																						0
@@ -2627,7 +2627,7 @@ relic of the void -> The Third Eye	1	2		100	16	509	1000		1	"rotv"							The Thir
 																																																																																																								0
 10 zod + coin -> lightsong	1			100					2	"r33g,qty=10"	"ncoi,qty=1"						lsvl																																																																																							0
 50 pde + 50 jewel fragments + coin -> pandemonium talisman	1			100					3	"dcbl,qty=50"	"ncoi,qty=1"	"jewg,qty=50"					ubtm																																																																																							0
-50 wss + 1 jah -> rathma access	1			100					2	"wss,qty=50"	"r31g,qty=1"						rtma																																																																																							0
+50 wss + jah, cham, zod -> rathma access	1			100					4	"wss,qty=50"	"r31g,qty=1"	"r32g,qty=1"	"r33g,qty=1"				rtma																																																																																							0
 																																																																																																								0
 RELIC OF THE FALSE PROPHET																																																																																																								0
 add relic factor	1	2		100	18	509	0		1	"rofp"							useitem			100	awakennum	100		1	111																																																																															0
