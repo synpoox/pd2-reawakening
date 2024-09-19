@@ -2627,7 +2627,7 @@ relic of the void -> The Third Eye	1	2		100	16	509	1000		1	"rotv"							The Thir
 																																																																																																								0
 10 zod + coin -> lightsong	1			100					2	"r33g,qty=10"	"ncoi,qty=1"						lsvl																																																																																							0
 50 pde + 50 jewel fragments + coin -> pandemonium talisman	1			100					3	"dcbl,qty=50"	"ncoi,qty=1"	"jewg,qty=50"					ubtm																																																																																							0
-50 wss + jah, cham, zod -> rathma access	1			100					4	"wss,qty=50"	"r31g,qty=1"	"r32g,qty=1"	"r33g,qty=1"				rtma																																																																																							0
+50 wss + jah, cham, zod -> rathma access	1			100					2	"wss,qty=50"	"r33g,qty=2"						rtma																																																																																							0
 																																																																																																								0
 RELIC OF THE FALSE PROPHET																																																																																																								0
 add relic factor	1	2		100	18	509	0		1	"rofp"							useitem			100	awakennum	100		1	111																																																																															0
