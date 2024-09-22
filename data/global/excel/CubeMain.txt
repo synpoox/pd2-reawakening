@@ -534,15 +534,15 @@ weapon -> 40 fcr	1	2		100	16	509	970		2	"weap"	"dvia,qty=1"						useitem			100	a
 weapon -> +1 all skill	1	2		100	16	509	1000		2	"weap"	"dvia,qty=1"						useitem			100	awaken	100		25	25	awakennum	100		1001	1001	allskills	100		1	1																																																																					0
 																																																																																																								0
 quiver -> life leech	1	2		100	16	509	95		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		55	55	awakennum	100		1001	1001	lifesteal	100		3	6																																																																					0
-quiver -> mana leech	1	2		100	16	509	190		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		56	56	awakennum	100		1001	1001	manasteal	100		3	6																																																																					0
+quiver -> enhanced damage	1	2		100	16	509	190		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		1	1	awakennum	100		1001	1001	dmg%	100		10	20																																																																					0
 quiver -> frw	1	2		100	16	509	285		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		42	42	awakennum	100		1001	1001	move1	100		20	20																																																																					0
-quiver -> cyclone armor on striking	1	2		100	16	509	380		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		88	88	awakennum	100		1001	1001	hit-skill	100	235	11	18																																																																					0
-quiver -> cold pierce	1	2		100	16	509	475		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		12	12	awakennum	100		1001	1001	pierce-cold	100		10	15																																																																					0
-quiver -> bone armor on striking	1	2		100	16	509	570		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		88	88	awakennum	100		1001	1001	hit-skill	100	68	11	18																																																																					0
-quiver -> fire pierce	1	2		100	16	509	665		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		10	10	awakennum	100		1001	1001	pierce-fire	100		10	15																																																																					0
+quiver -> fire mastery	1	2		100	16	509	380		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		66	66	awakennum	100		1001	1001	extra-fire	100		3	5																																																																					0
+quiver -> ltng mastery	1	2		100	16	509	475		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		67	67	awakennum	100		1001	1001	extra-ltng	100		3	5																																																																					0
+quiver -> cold mastery	1	2		100	16	509	570		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		68	68	awakennum	100		1001	1001	extra-cold	100		3	5																																																																					0
+quiver -> pois mastery	1	2		100	16	509	665		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		69	69	awakennum	100		1001	1001	extra-pois	100		3	5																																																																					0
 quiver -> 10ias	1	2		100	16	509	760		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		18	18	awakennum	100		1001	1001	swing1	100		10	10																																																																					0
-quiver -> 20ias	1	2		100	16	509	790		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		18	18	awakennum	100		1001	1001	swing1	100		20	20																																																																					0
-quiver -> enhanced damage	1	2		100	16	509	820		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		1	1	awakennum	100		1001	1001	dmg%	100		40	65																																																																					0
+quiver -> 20-25ias	1	2		100	16	509	790		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		18	18	awakennum	100		1001	1001	swing1	100		20	25																																																																					0
+quiver -> enhanced damage	1	2		100	16	509	820		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		1	1	awakennum	100		1001	1001	dmg%	100		35	45																																																																					0
 quiver -> flat damage, deadly	1	2		100	16	509	850		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		23	23	awakennum	100		1001	1001	dmg-min	100		10	10	dmg-max	100		15	15	deadly	100		10	10																																																											0
 quiver -> phys pierce	1	2		100	16	509	880		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		30	30	awakennum	100		1001	1001	pierce-phys	100		10	15																																																																					0
 quiver -> might aura	1	2		100	16	509	910		2	"misl"	"dvia,qty=1"						useitem			100	awaken	100		90	90	awakennum	100		1001	1001	aura	100	98	12	12																																																																					0
@@ -2471,7 +2471,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	0			100					1	"key,qty=1"							New Bow	131																												cm1	131																												rotv	131																												0
+generate (dev)	1			100					1	"key,qty=1"							Mark of the Askari	131			awaken	100		88	88	awakennum	100		1001	1001	hit-skill	100	68	2	7											Replica Boneshade	131																												Replica Akarat's Devotion	131																												0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication (DROP DISABLED)	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
 4 of Luminescence -> Mara's Kaleidoscope 	1			100					1	fslu,qty=4							Mara's Kaleidoscope	95																																																																																						0
 4 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=4							The Stone of Jordan	95																																																																																						0
@@ -2630,7 +2630,7 @@ relic of the void -> The Third Eye	1	2		100	16	509	1000		1	"rotv"							The Thir
 50 wss + jah, cham, zod -> rathma access	1			100					2	"wss,qty=50"	"r33g,qty=2"						rtma																																																																																							0
 																																																																																																								0
 RELIC OF THE FALSE PROPHET																																																																																																								0
-add relic factor	1	2		100	18	509	0		1	"rofp"							useitem			100	awakennum	100		1	111																																																																															0
+add relic factor	1	2		100	18	509	0		1	"rofp"							useitem			100	awakennum	100		1	116																																																																															0
 																																																																																																								0
 relic of the false prophet -> replica	1	2		100	16	509	1		1	"rofp"							Replica Templar's Might	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	2		1	"rofp"							Replica Tyrael's Might	125																																																																																						0
@@ -2743,3 +2743,8 @@ relic of the false prophet -> replica	1	2		100	16	509	108		1	"rofp"							Replic
 relic of the false prophet -> replica	1	2		100	16	509	109		1	"rofp"							Replica Death's Web	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	110		1	"rofp"							Replica Ormus' Robes A	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	111		1	"rofp"							Replica Ormus' Robes B	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	112		1	"rofp"							Replica Hellrack	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	113		1	"rofp"							Replica Brimstone Rain	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	114		1	"rofp"							Replica Odium	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	115		1	"rofp"							Replica Akarat's Devotion	120																																																																																						0
+relic of the false prophet -> replica	1	2		100	16	509	116		1	"rofp"							Replica Boneshade	120																																																																																						0
