@@ -498,7 +498,7 @@ Aquariu's Stormrider	100	1		1	1	120	41	tbl	Heavy Belt			5	5000	lred	lred						hi
 Bugged Stormshield	100	1		1	1	120	73	uit	Monarch			3	5000				invkitu				ac/lvl	24			red-dmg%		35	35	str		30	30	indestruct		1	1	block2		35	35	res-ltng		25	25	block		25	25	res-cold		60	60	thorns		10	10	allskills		2	2	hp%		20	20	sock		4	4	0
 Bugged Wartraveler	100	1		1	1	120	42	xtb	Battle Boots			5	5000								vit		10	10	str		10	10	mag%		100	100	indestruct		1	1	move2		35	35	ac%		150	190	dmg-norm		15	25	res-all		30	30	stamdrain		40	40	red-dmg%		15	15	allskills		1	1					0
 King's Jewel of Blazing	100	1		1	1	120	48	jew	jewel			3	5000								allskills		1	1	res-all		25	25	mag%/lvl	2																																							0
-Mark of the Askari	100	1		1	1	69	66	cqv	bolts			5	5000	dyel	dyel						oskill	26	3	3	move2		20	20	att		100	200	crushing		10	15	att%		10	20	dmg%		30	50																									0
+Mark of the Askari	100	1		1	1	69	66	cqv	bolts			5	5000	dyel	dyel						oskill	26	3	3	move2		20	20	att		100	200	crush		10	15	att%		10	20	dmg%		30	50																									0
 Surgefletcher	100	1		1	1	52	45	aqv	arrows			5	5000	dyel	dyel						hit-skill	53	15	40	dmg-ltng		1	256	res-ltng		20	30	res-fire		-15	-15	hp		40	75	swing2		7	10	heal-kill		3	5	oskill	63	1	1																	0
 Light's Hope	100	1		1	1	87	90	cm3	charm			5	5000				lightshope				awakened-skill-reduction		1	1																																													0
 Ember of Eternity	100	1		1	1	87	75	jew	jewel			3	5000								awakened-skill-duration		1	1																																													0
@@ -616,7 +616,7 @@ Replica Firelizard's Talons	100	1		1	1	120	67	7lw	feral claws			5	5000								dm
 Replica Death's Web	100	1		1	1	120	66	7gw	unearthed wand			5	5000	bwht	bwht						allskills		2	2	pierce-fire		20	30	heal-kill		1	3	mana-kill		1	3	skill	74	4	6	pierce-phys		3	8	corpseexplosion-radius		6	6																					0
 Replica Ormus' Robes A	100	1		1	1	120	75	uui	dusk shroud			3	5000	blac	blac						ac		100	200	cast2		20	20	oskill-rand	5	6	155	swing2		20	20	ac%		50	100																													0
 Replica Ormus' Robes B	100	1		1	1	120	75	uui	dusk shroud			3	5000	blac	blac						ac		100	200	cast2		20	20	oskill-rand	5	221	280	swing2		20	20	ac%		50	100																													0
-Replica Hellrack	100	1		1	1	120	76	6hx	colossus crossbow			5	5000	cred			invhxbu				dmg%		180	230	swing2		60	60	hit-skill	229	23	46	att%		100	150	sock		4	4	hit-skill	244	5	52	pierce-fire		10	10	att		150	200																	0
+Replica Hellrack	100	1		1	1	120	76	6hx	colossus crossbow			5	5000	cred			invhxbu				dmg%		180	230	swing2		60	60	hit-skill	229	25	45	att%		100	150	sock		4	4	hit-skill	244	5	55	pierce-fire		10	10	att		150	200	explosivearrow		6	6													0
 Replica The Eye of Etlich	0	0		5	1	120	15	amu	Amulet			5	5000	dgld							dmg-norm		5	15	att		50	100	oskill	26	3	3	manasteal		3	7																																	0
 Replica Brimstone Rain	100	1		1	1	120	80	6bs	Shillelah			5	5000	dred			brimstonerain				cast2		75	75	red-dmg%		10	15	allskills		4	4	ac		100	150	aura	489	12	12	curse-effectiveness		10	15																					splash	358	100	1	0
 Replica Odium	100	1		1	1	120	80	7fb	Colossal Sword			5	5000	blac			odium				dmg%		250	290	swing2		65	65	curse-effectiveness		10	15	dmg-min		35	35	aura	490	12	12	dmg-mag		200	475																					splash	358	100	1	0
