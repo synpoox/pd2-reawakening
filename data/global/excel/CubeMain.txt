@@ -2471,7 +2471,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	1			100					1	"key,qty=1"							Hellfire Torch	131			awaken	100		25	25	awakennum	100		1001	1001	allskills	100		1	1											Dreadweaver	131																												Replica Akarat's Devotion	131																												0
+generate (dev)	1			100					1	"key,qty=1"							"tors,hiq"	131																												Dreadweaver	131																												Replica Akarat's Devotion	131																												0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication (DROP DISABLED)	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
 4 of Luminescence -> Mara's Kaleidoscope 	1			100					1	fslu,qty=4							Mara's Kaleidoscope	95																																																																																						0
 4 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=4							The Stone of Jordan	95																																																																																						0
@@ -2628,6 +2628,10 @@ relic of the void -> The Third Eye	1	2		100	16	509	1000		1	"rotv"							The Thir
 10 zod + coin -> lightsong	1			100					2	"r33g,qty=10"	"ncoi,qty=1"						lsvl																																																																																							0
 50 pde + 50 jewel fragments + coin -> pandemonium talisman	1			100					3	"dcbl,qty=50"	"ncoi,qty=1"	"jewg,qty=50"					ubtm																																																																																							0
 50 wss + jah, cham, zod -> rathma access	1			100					2	"wss,qty=50"	"r33g,qty=2"						rtma																																																																																							0
+r07 + r10 + 1 perfect topaz + sup torso -> socketed torso	1			100					4	"tors,hiq,nos"	"r07g,qty=1"	"r10g,qty=1"	"gg4t,qty=1"				useitem				sock			1	6																																																																															0
+r08 + r11 + 1 perfect amethyst + sup weapon -> socketed weapon	1			100					4	"weap,hiq,nos"	"r08g,qty=1"	"r11g,qty=1"	"gg4a,qty=1"				useitem				sock			1	6																																																																															0
+r08 + r10 + 1 perfect sapphire + sup helm -> socketed helm	1			100					4	"helm,hiq,nos"	"r08g,qty=1"	"r10g,qty=1"	"gg4s,qty=1"				useitem				sock			1	6																																																																															0
+r07 + r11 + 1 perfect ruby + sup shield -> socketed shield	1			100					4	"shld,hiq,nos"	"r07g,qty=1"	"r11g,qty=1"	"gg4r,qty=1"				useitem				sock			1	6																																																																															0
 																																																																																																								0
 RELIC OF THE FALSE PROPHET																																																																																																								0
 add relic factor	1	2		100	18	509	0		1	"rofp"							useitem			100	awakennum	100		1	116																																																																															0

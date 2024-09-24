@@ -600,7 +600,7 @@ Replica Death's Fathom	100	1		1	1	120	73	obf	dimensional shard			3	5000	lblu				
 Replica Eschuta's Temper	100	1		1	1	120	72	obc	eldritch orb			5	5000	cred							sor		3	3	cast2		40	40	extra-fire		10	20	extra-fireball		1	1	enr		10	15	pierce-fire		5	10																									0
 Replica Ursa's Nightmare	100	1		1	1	120	42	drf	Dream Spirit			5	5000	cred			nightmarefeast				ac%		130	160	move2		40	40	red-dmg%		4	8	hp%		10	15	dru		2	2	skilltab	15	2	2	extra-grizzly		1	1																					0
 Replica Band of Skulls	100	1		0	1	125	90	rber	Troll Belt			5	5000				invbsk				ac%		75	100	gethit-skill	Bone Armor	3	20	red-dmg%		3	5	sock		1	1	light		-4	-4																													0
-Replica Call of the Brotherhood	100	1		1	1	125	67	amu	Amulet			5	5000								item-converteletomagic	601	1	1	balance2		20	20	res-fire		-15	-15	res-ltng		-15	-15	res-cold		-15	-15																													0
+Replica Call of the Brotherhood	100	1		1	1	125	67	amu	Amulet			5	5000								item-converteletomagic	601	1	1	balance2		20	20	res-fire		-20	-20	res-ltng		-20	-20	res-cold		-20	-20																													0
 Replica Cage of the Unsullied	100	1		0	1	125	90	rarr	Boneweave			5	5000	lgry			invuns				ac%		50	100	all-stats		3	3	light		-3	-3	sock		6	6																																	0
 Replica The Hand of Broc	0	1		1	1	120	5	ulgr	Bramble Mitts			5	5000	cblu	cblu						sock		2	2	dmg%		20	30																																					splash	358	100	1	0
 Replica The Gladiator's Bane	100	1		1	1	120	85	utu	Wire Fleece			3	5000	lgry	lgry						dmg%		150	200	str		8	15	dex		8	15	oskill	pierce	2	2	res-pois-len		50	50	dur		103	103	swing2		30	30																					0
