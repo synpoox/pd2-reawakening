@@ -2634,7 +2634,7 @@ r08 + r10 + 1 perfect sapphire + sup helm -> socketed helm	1			100					4	"helm,h
 r07 + r11 + 1 perfect ruby + sup shield -> socketed shield	1			100					4	"shld,hiq,nos"	"r07g,qty=1"	"r11g,qty=1"	"gg4r,qty=1"				useitem				sock			1	6																																																																															0
 																																																																																																								0
 RELIC OF THE FALSE PROPHET																																																																																																								0
-add relic factor	1	2		100	18	509	0		1	"rofp"							useitem			100	awakennum	100		1	116																																																																															0
+add relic factor	1	2		100	18	509	0		1	"rofp"							useitem			100	awakennum	100		1	115																																																																															0
 																																																																																																								0
 relic of the false prophet -> replica	1	2		100	16	509	1		1	"rofp"							Replica Templar's Might	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	2		1	"rofp"							Replica Tyrael's Might	125																																																																																						0
@@ -2751,4 +2751,3 @@ relic of the false prophet -> replica	1	2		100	16	509	112		1	"rofp"							Replic
 relic of the false prophet -> replica	1	2		100	16	509	113		1	"rofp"							Replica Brimstone Rain	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	114		1	"rofp"							Replica Odium	120																																																																																						0
 relic of the false prophet -> replica	1	2		100	16	509	115		1	"rofp"							Replica Akarat's Devotion	120																																																																																						0
-relic of the false prophet -> replica	1	2		100	16	509	116		1	"rofp"							Replica Boneshade	120																																																																																						0

@@ -621,4 +621,3 @@ Replica The Eye of Etlich	0	0		5	1	120	15	amu	Amulet			5	5000	dgld							dmg-nor
 Replica Brimstone Rain	100	1		1	1	120	80	6bs	Shillelah			5	5000	dred			brimstonerain				cast2		75	75	red-dmg%		10	15	allskills		4	4	ac		100	150	aura	489	12	12	curse-effectiveness		10	15																					splash	358	100	1	0
 Replica Odium	100	1		1	1	120	80	7fb	Colossal Sword			5	5000	blac			odium				dmg%		250	290	swing2		65	65	curse-effectiveness		10	15	dmg-min		35	35	aura	490	12	12	dmg-mag		200	475																					splash	358	100	1	0
 Replica Akarat's Devotion	100	1		1	1	120	74	7qs	Seraph Rod			5	5000	whit			akaratdevotion				pal		2	2	extra-magi		4	8	cast2		40	40	skill	121	3	4	mag%		25	25	regen		10	15	cast-skill	121	25	35																	splash	358	100	1	0
-Replica Boneshade	100	1		1	1	120	79	7bw	lich wand			3	5000	dgry	dgry		invbwnu				nec		2	2	cast2		22	22	skill	Teeth	2	2	extra-bonespear-teeth		2	2	skill	Bone Spear	2	2	skill	Bone Spirit	2	2																									0
