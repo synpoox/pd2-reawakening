@@ -6,13 +6,14 @@ Comments and feedback would be very appreciated, join the [Discord](https://disc
 
 Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Single-Player-Plus-mod)
 
-**[Discord](https://discord.gg/rBCNMWaCNt) | [Wiki](https://pd2reawakening.com/wiki/) | [Latest Patch Notes (v0.9.14)](https://docs.google.com/document/d/1HYSz3RzBdb_aM_dk2Jn5YEwD1VVv3wye1CwELEukTSg/pub)**
+**[Discord](https://discord.gg/rBCNMWaCNt) | [Wiki](https://pd2reawakening.com/wiki/) | [Latest Patch Notes (v0.9.15)](https://docs.google.com/document/d/1BkNvKE3qftJwLbhnciErsM7UCLz7pQ4JjfU8i32srXc/pub)**
 
 ## New Features
 
 - **Awakening**: A new system similar to corruption. Equipment and unique charms can be awakened when cubed with a Vial of Awakening, awakening it with a new property.
 - **Fate Cards:** Stackable uncommon drops, that upon collecting a certain amount, can be cubed together in exchange for a reward. Similar to Path of Exile’s [divination cards](https://pathofexile.fandom.com/wiki/Divination_card).
 - **Legacy Items**: Obtained through a rare drop Relic of the Nephalem, these legacy items are extremely powerful items from Diablo 2 LoD patch 1.08.
+- **Replica Items**: Reproductions of existing items that come with a twist.
 - **New Orbs**:
   - _Mythic Orb_: Transforms Magic/Rare item to Unique (excluding charms)
   - _Regal Orb_: Transforms Magic/Rare item to Set
@@ -31,9 +32,7 @@ Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Si
   - Uber materials such as: Voidstone, Vision of Terror, Pandemonium Talisman are purchasable from Anya
   - Easily switch between Standard and Crafting modes through the PD2 Reawakening Launcher
 
-### Remember 08 Arkaine's? This is him now
-
-![alt text](PoHIVHh.png)
+![reptyrael](https://github.com/user-attachments/assets/846b48f1-51d7-424b-8893-f2286db8ecb2)
 
 ## Installation
 
