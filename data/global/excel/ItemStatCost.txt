@@ -295,7 +295,7 @@ item_find_gold_bytime	292		1	22										4		0	1024		22	0	22	0			6			item_goldbon
 item_find_magic_bytime	293		1	22										4		0	1024		22	0	22	0			6			item_magicbonus											180	18	1	ModStr1x	ModStr1x									0
 item_converteletomagic	294		1								1						1024		7	0	10	0	12																204	3	0	StrConvertEleMag	StrConvertEleMag									0
 combustion_cd_reduction	295		1	5													1024		6		6																		150	9	2	CombustionCdReduced	CombustionCdReduced	NewSeconds								0
-control_player_hp	296		1	16													1024		6	10	6	10			11			hitpoints																								0
+cannot_have_sockets	296		1	5													1024		6		6																		40	3	0	CannotHaveSockets	CannotHaveSockets									0
 item_damage_undead_bytime	297		1	22										4		0	1024		22	0	22	0			6			item_undeaddamage_percent						1					180	18	1	ModStr4f	ModStr4f									0
 terror_influenced	298			10	10										54	204	1024		8	0	10	0	10																248	3	0	StrTerrorInfluenced	StrTerrorInfluenced									0
 hatred_influenced	299			10	10										54	204	1024		8	0	10	0	10																248	3	0	StrHatredInfluenced	StrHatredInfluenced									0
@@ -464,7 +464,7 @@ extra_skele_war	461		1	5													1024		6		5																		150	9	2	YouMayS
 extra_skele_mage	462		1	5													1024		6		5																		150	9	2	YouMaySummon	YouMaySummon	ExtraSkeleMage								0
 extra_hydra	463		1	5													1024		6		5																		240	9	2	YouMaySummon	YouMaySummon	ExtraHydra								0
 extra_valk	464		1	5													1024		6		5																		240	9	2	YouMaySummon	YouMaySummon	ExtraValk								0
-joustreduction	465		1	5													1024		6		6																		150	3	0	joustreduction	joustreduction									0
+joustreduction	465		1	5													1024		6		6																		155	3	0	joustreduction	joustreduction									0
 grims_extra_skele_mage	466		1	5													1024		6		5																		150	3	0	ExtraSkeleMageGrim	ExtraSkeleMageGrim									0
 map_play_lightradius	467		1	10											451	410	1089		14	120	14	120																	196	9	2	MapPlayHave	MapPlayHave	StrMapLightRadius								0
 blood_warp_life_reduction	468		1	5													1024		5		5																		150	3	0	bloodwarplifereduction	bloodwarplifereduction									0

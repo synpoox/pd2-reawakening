@@ -485,7 +485,7 @@ Crown of the Faceless	100	1		1	1	87	90	ci1	Coronet			5	5000								curse-effecti
 Malediction	100	1		1	1	87	66	rin	Ring			5	5000								maxcurse		1	1	curse-effectiveness		10	15	hit-skill	442	12	28	swing2		10	10																																	0
 Malediction	100	1		1	1	87	66	rin	Ring			5	5000								maxcurse		1	1	curse-effectiveness		10	15	cast-skill	447	12	28	cast2		10	10																																	0
 Malediction	100	1		1	1	87	66	rin	Ring			5	5000								maxcurse		1	1	curse-effectiveness		10	15	att-skill	446	12	28	swing2		10	10																																	0
-Dreadweaver	100	1		1	1	87	70	neg	Hellspawn Skull			5	5000								nec		2	2	skilltab	7	2	2	extra-bonespear-teeth		4	5	cast2		20	20	res-pois		30	40	ac%		100	150	red-mag		15	20																					0
+Dreadweaver	100	1		1	1	87	70	neg	Hellspawn Skull			5	5000								nec		2	2	skilltab	7	2	2	extra-bonespear-teeth		4	4	cast2		10	20	res-pois		20	40	ac%		100	150	red-mag		15	20																					0
 Fleet Footwork	100	1		1	1	87	52	uea	Wyrmhide			5	5000	lgld	lgld						move2		75	85	oskill	29	1	1	sock		4	4	ac%		140	170																																	0
 Mind Over Matter	100	1		1	1	87	67	ung	Diamond Mail			5	5000	cblu	cblu						item-physperenergy	571	1	1	lifesteal-cap		75	75	mana%		40	50	ac%		150	200	manasteal		5	8	mana		100	175	nofreeze		1	1	balance2		30	40																	0
 Phantom Dancer	100	1		1	1	87	63	amc	Grand Matron Bow			5	5000	dgry	dgry						item-frwperenergy	573	1	1	dmg%		350	400	hit-skill	446	8	15	vit		-30	-20	ignore-ac		1	1	dmg/lvl	8			mana%		8	12																					0
@@ -498,7 +498,7 @@ Aquariu's Stormrider	100	1		1	1	120	41	tbl	Heavy Belt			5	5000	lred	lred						hi
 Bugged Stormshield	100	1		1	1	120	73	uit	Monarch			3	5000				invkitu				ac/lvl	24			red-dmg%		35	35	str		30	30	indestruct		1	1	block2		35	35	res-ltng		25	25	block		25	25	res-cold		60	60	thorns		10	10	allskills		2	2	hp%		20	20	sock		4	4	0
 Bugged Wartraveler	100	1		1	1	120	42	xtb	Battle Boots			5	5000								vit		10	10	str		10	10	mag%		100	100	indestruct		1	1	move2		35	35	ac%		150	190	dmg-norm		15	25	res-all		30	30	stamdrain		40	40	red-dmg%		15	15	allskills		1	1					0
 King's Jewel of Blazing	100	1		1	1	120	48	jew	jewel			3	5000								allskills		1	1	res-all		25	25	mag%/lvl	2																																							0
-Mark of the Askari	100	1		1	1	69	66	cqv	bolts			5	5000	dyel	dyel						oskill	26	3	3	move2		20	20	swing2		10	10	crushing		10	15	dex		10	20	dmg%		30	50																									0
+Mark of the Askari	100	1		1	1	69	66	cqv	bolts			5	5000	dyel	dyel						oskill	26	3	3	move2		20	20	att		100	200	crush		10	15	att%		10	20	dmg%		30	50																									0
 Surgefletcher	100	1		1	1	52	45	aqv	arrows			5	5000	dyel	dyel						hit-skill	53	15	40	dmg-ltng		1	256	res-ltng		20	30	res-fire		-15	-15	hp		40	75	swing2		7	10	heal-kill		3	5	oskill	63	1	1																	0
 Light's Hope	100	1		1	1	87	90	cm3	charm			5	5000				lightshope				awakened-skill-reduction		1	1																																													0
 Ember of Eternity	100	1		1	1	87	75	jew	jewel			3	5000								awakened-skill-duration		1	1																																													0
@@ -581,7 +581,7 @@ Replica Earth Shifter	100	1		1	1	120	69	7gm	thunder maul			3	5000								skill	2
 Replica Lightsabre	100	1		1	1	120	58	7cr	Phase Blade			5	5000	lblu			invcrsu				light		7	7	att-skill	49	18	28	ignore-ac	1	1	1	aura	holy shock	18	21	swing2		20	20	dmg-ltng		1	525	manasteal		5	7	dmg%		150	250													splash	358	100	1	0
 Replica Azurewrath	100	1		1	1	125	85	7cr	phase blade	1		5	5000	lgry			invcrs				extra-magi		8	12	dmg%		280	320	aura	Sanctuary	10	12	dmg-cold	250	250	500	cast2		30	30	res-all		5	10	light		3	3	allskills		2	2	cast-skill	Holy Nova	18	25									splash	358	100	1	0
 Replica Hadriels Hand	100	1		0	1	125	85	9bs	Battle Sword			5	5000	cred			dclonesword				dmg%		250	300	swing2		10	10	hit-skill	447	12	14	dmg-fire		300	525	str		20	30	indestruct		1	1	dmg-max		35	35																	splash	358	100	1	0
-Replica Leoric's Mithril Bane	100	1		1	1	120	72	7cm	Highland Blade			5	5000	dgry			invhighlander				pal		2	2	dmg%		240	300	swing2		20	20	joust-reduction		13	13	crush		33	33	hit-skill	Bone Spirit	18	40	lifesteal		5	8	dmg-und/lvl	20															splash	358	100	1	0
+Replica Leoric's Mithril Bane	100	1		1	1	120	72	7cm	Highland Blade			5	5000	dgry			invhighlander				pal		2	2	dmg%		240	300	swing2		20	20	joust-reduction		13	13	crush		33	33	hit-skill	93	18	40	lifesteal		5	8	dmg-und/lvl	20															splash	358	100	1	0
 Replica Grim's Burning Dead	100	1		1	1	120	45	9wc	Grim Scythe			5	5000	cred	cred						dmg-fire		131	232	res-fire		45	45	dmg%		220	260	skill	94	4	4	ease		-50	-50	skilltab	8	4	4	reduce-ac		50	50	extra-golem		4	4	att		200	250									splash	358	100	1	0
 Replica Skull Collector	100	1		1	1	120	41	8ws	Rune Staff			5	5000	blac	blac		inv8wsu				mana%		20	20	mana-kill		10	20	allskills		2	3	mag%/lvl	8			dru		2	2	cast3		60	60	cast-skill	235	8	14																	splash	358	100	1	0
 Replica Mang Song's Lesson	100	1		1	1	120	82	6ws	archon staff			5	5000	dgld	dgld		inv8wsu				allskills		6	6	pierce-phys		15	25	cast-skill	AmpDmg Proc	12	20	regen-mana		20	30	cast2		85	85																									splash	358	100	1	0
@@ -590,7 +590,7 @@ Replica Shadow Killer	100	1		1	1	120	78	7cs	battle cestus			5	5000				invaxfu			
 Replica Aidan's Scar	100	1		0	1	125	85	9qr	Scissors Quhab			5	5000	blac			dcloneclaw				dmg%		300	360	swing2		20	30	skilltab	19	2	2	dmg-min		15	15	indestruct		1	1	hit-skill	442	10	13	vit		-20	-30	att/lvl	12															splash	358	100	1	0
 Replica Surgefletcher	100	1		1	1	120	45	aqv	arrows			5	5000	dyel	dyel						hit-skill	52	2	30	dmg-fire		21	75	res-fire		20	30	res-ltng		-15	-15	hp		40	75	swing2		7	10	manasteal		3	5	oskill	61	1	1																	0
 Replica Malediction	100	1		1	1	120	66	rin	Ring			5	5000								allskills		1	1	kill-skill	447	4	19	res-all		-15	-15																																					0
-Replica Crown of Ages	100	1		1	1	120	82	urn	corona	1		3	5000	dgld	dgld						balance2		30	30	allskills		1	1	curse-res		25	25	ac		100	150	indestruct		1	1	red-dmg%		10	15	ac%		50	50	sock		3	3																	0
+Replica Crown of Ages	100	1		1	1	120	82	urn	corona	1		3	5000	dgld	dgld						balance2		30	30	allskills		1	1	curse-effectiveness		30	40	ac		100	150	indestruct		1	1	red-dmg%		10	15	ac%		50	50	sock		3	3																	0
 Replica Giant Skull	100	1		1	1	120	65	uh9	bone visage			3	5000	lgry	lgry		invbhm				ac		250	320	dex		25	35	dmg%		70	100	sock		3	3																																	0
 Replica Nightwing's Veil	100	1		1	1	120	67	uhm	spired helm			3	5000	cblu	cblu						ac%		90	120	allskills		1	1	enr		10	20	pierce-pois		5	10	res-pois-len		50	50	extra-pois		10	15	ease		-50	-50	poisskill		1	1																	0
 Replica Elemental Overload	100	1		1	1	120	60	ukp	Hydraskull			5	5000	lyel	lyel						extra-magi		35	40	res-fire		-20	-20	res-ltng		-20	-20	res-cold		-20	-20	enr		15	20	dmg-mag		20	55	ac%		50	50	red-mag		12	16	magskill		1	1													0
@@ -600,7 +600,7 @@ Replica Death's Fathom	100	1		1	1	120	73	obf	dimensional shard			3	5000	lblu				
 Replica Eschuta's Temper	100	1		1	1	120	72	obc	eldritch orb			5	5000	cred							sor		3	3	cast2		40	40	extra-fire		10	20	extra-fireball		1	1	enr		10	15	pierce-fire		5	10																									0
 Replica Ursa's Nightmare	100	1		1	1	120	42	drf	Dream Spirit			5	5000	cred			nightmarefeast				ac%		130	160	move2		40	40	red-dmg%		4	8	hp%		10	15	dru		2	2	skilltab	15	2	2	extra-grizzly		1	1																					0
 Replica Band of Skulls	100	1		0	1	125	90	rber	Troll Belt			5	5000				invbsk				ac%		75	100	gethit-skill	Bone Armor	3	20	red-dmg%		3	5	sock		1	1	light		-4	-4																													0
-Replica Call of the Brotherhood	100	1		1	1	125	67	amu	Amulet			5	5000								item-converteletomagic	601	1	1	balance2		20	20	res-fire		-40	-40	res-ltng		-40	-40	res-cold		-40	-40																													0
+Replica Call of the Brotherhood	100	1		1	1	125	67	amu	Amulet			5	5000								item-converteletomagic	601	1	1	balance2		20	20	res-fire		-20	-20	res-ltng		-20	-20	res-cold		-20	-20																													0
 Replica Cage of the Unsullied	100	1		0	1	125	90	rarr	Boneweave			5	5000	lgry			invuns				ac%		50	100	all-stats		3	3	light		-3	-3	sock		6	6																																	0
 Replica The Hand of Broc	0	1		1	1	120	5	ulgr	Bramble Mitts			5	5000	cblu	cblu						sock		2	2	dmg%		20	30																																					splash	358	100	1	0
 Replica The Gladiator's Bane	100	1		1	1	120	85	utu	Wire Fleece			3	5000	lgry	lgry						dmg%		150	200	str		8	15	dex		8	15	oskill	pierce	2	2	res-pois-len		50	50	dur		103	103	swing2		30	30																					0
@@ -616,3 +616,8 @@ Replica Firelizard's Talons	100	1		1	1	120	67	7lw	feral claws			5	5000								dm
 Replica Death's Web	100	1		1	1	120	66	7gw	unearthed wand			5	5000	bwht	bwht						allskills		2	2	pierce-fire		20	30	heal-kill		1	3	mana-kill		1	3	skill	74	4	6	pierce-phys		3	8	corpseexplosion-radius		6	6																					0
 Replica Ormus' Robes A	100	1		1	1	120	75	uui	dusk shroud			3	5000	blac	blac						ac		100	200	cast2		20	20	oskill-rand	5	6	155	swing2		20	20	ac%		50	100																													0
 Replica Ormus' Robes B	100	1		1	1	120	75	uui	dusk shroud			3	5000	blac	blac						ac		100	200	cast2		20	20	oskill-rand	5	221	280	swing2		20	20	ac%		50	100																													0
+Replica Hellrack	100	1		1	1	120	76	6hx	colossus crossbow			5	5000	cred			invhxbu				dmg%		180	230	swing2		60	60	hit-skill	229	25	45	att%		100	150	sock		4	4	hit-skill	244	5	55	pierce-fire		10	10	att		150	200	explosivearrow		6	6													0
+Replica The Eye of Etlich	0	0		5	1	120	15	amu	Amulet			5	5000	dgld							dmg-norm		5	15	att		50	100	oskill	26	3	3	manasteal		3	7																																	0
+Replica Brimstone Rain	100	1		1	1	120	80	6bs	Shillelah			5	5000	dred			brimstonerain				cast2		75	75	red-dmg%		10	15	allskills		3	4	ac		100	150	aura	489	12	12	curse-effectiveness		10	15																					splash	358	100	1	0
+Replica Ondal's Wisdom	100	1		1	1	120	66	6cs	elder staff			3	5000				invcstu				cast2		85	85	hp		40	75	allskills		3	4	ac		750	950	red-mag		10	16	aura	490	12	12																					splash	358	100	1	0
+Replica Arkaine's Valor	100	1		1	1	120	85	uplr	Balrog Skin			3	5000	lred			arkaines				pal		2	2	hp		400	400					cannot-sock		1	1	joust-reduction		13	13	skilltab	9	2	2																									0
