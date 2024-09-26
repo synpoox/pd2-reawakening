@@ -620,3 +620,4 @@ Replica Hellrack	100	1		1	1	120	76	6hx	colossus crossbow			5	5000	cred			invhxbu
 Replica The Eye of Etlich	0	0		5	1	120	15	amu	Amulet			5	5000	dgld							dmg-norm		5	15	att		50	100	oskill	26	3	3	manasteal		3	7																																	0
 Replica Brimstone Rain	100	1		1	1	120	80	6bs	Shillelah			5	5000	dred			brimstonerain				cast2		75	75	red-dmg%		10	15	allskills		3	4	ac		100	150	aura	489	12	12	curse-effectiveness		10	15																					splash	358	100	1	0
 Replica Ondal's Wisdom	100	1		1	1	120	66	6cs	elder staff			3	5000				invcstu				cast2		85	85	hp		40	75	allskills		3	4	ac		750	950	red-mag		10	16	aura	490	12	12																					splash	358	100	1	0
+Replica Arkaine's Valor	100	1		1	1	120	85	uplr	Balrog Skin			3	5000	lred			arkaines				pal		2	2	hp		400	400					cannot-sock		1	1	joust-reduction		13	13	skilltab	9	2	2																									0
