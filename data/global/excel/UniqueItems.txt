@@ -621,3 +621,4 @@ Replica The Eye of Etlich	0	0		5	1	120	15	amu	Amulet			5	5000	dgld							dmg-nor
 Replica Brimstone Rain	100	1		1	1	120	80	6bs	Shillelah			5	5000	dred			brimstonerain				cast2		75	75	red-dmg%		10	15	allskills		3	4	ac		100	150	aura	489	12	12	curse-effectiveness		10	15																					splash	358	100	1	0
 Replica Ondal's Wisdom	100	1		1	1	120	66	6cs	elder staff			3	5000				invcstu				cast2		85	85	hp		40	75	allskills		3	4	ac		750	950	red-mag		10	16	aura	490	12	12																					splash	358	100	1	0
 Replica Arkaine's Valor	100	1		1	1	120	85	uplr	Balrog Skin			3	5000	lred			arkaines				pal		2	2	hp		400	400					cannot-sock		1	1	joust-reduction		13	13	skilltab	9	2	2																									0
+New Stalagmite	100	1		1	1	87	82	obb	heavenly stone			5	5000	lgld	lgld						thunderstorm-delay-red		40	60	sor		2	2	cast2		65	65	skill	57	3	5	abs-ltng%		4	8	res-ltng		35	50																									0
