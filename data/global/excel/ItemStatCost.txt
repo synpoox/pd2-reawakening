@@ -290,9 +290,9 @@ item_resist_pois_bytime	287		1	22										4		0	1024		22	0	22	0			6			poisonresi
 item_absorb_cold_bytime	288		1	22										4		0	1024		22	0	22	0			6			item_absorbcold											180	18	1	ModStre9p	ModStre9p									0
 item_absorb_fire_bytime	289		1	22										4		0	1024		22	0	22	0			6			item_absorbfire											180	18	1	ModStre9o	ModStre9o									0
 item_absorb_ltng_bytime	290		1	22										4		0	1024		22	0	22	0			6			item_absorblight											180	18	1	ModStre9q	ModStre9q									0
-item_absorb_pois_bytime	291		1	22										4		0	1024		22	0	22	0			6			item_absorbmagic																								0
+aura_radius_reduction	291		1	5													1024		7	75	7	75																	180	2	2	AuraRadiusRed	AuraRadiusRed									0
 thunderstorm_delay_reduction	292		1	5													1024		6		6																		150	2	2	ThunderstormDelayRed	ThunderstormDelayRed									0
-aura_radius	293		1	5													1024		7		7																		180	2	2	AuraRadiusIncreased	AuraRadiusDecreased									0
+aura_effect_increase	293		1	5													1024		7		7																		180	2	1	IncAuraEffect	IncAuraEffect									0
 item_converteletomagic	294		1								1						1024		7	0	10	0	12																204	3	0	StrConvertEleMag	StrConvertEleMag									0
 combustion_cd_reduction	295		1	5													1024		6		6																		150	9	2	CombustionCdReduced	CombustionCdReduced	NewSeconds								0
 cannot_have_sockets	296		1	5													1024		6		6																		40	3	0	CannotHaveSockets	CannotHaveSockets									0
