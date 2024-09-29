@@ -458,4 +458,4 @@ cannot-sock	1			1	cannot_have_sockets																													454	0
 aura-delay-reduction	1			1	aura_delay_reduction																									aura perdelay in percentage				455	0
 aura-effect-increase	1			1	aura_effect_increase																									aura effect increase in percentage				456	0
 thunderstorm-delay-red	1			1	thunderstorm_delay_reduction																									thunder storm perdelay reduction in percentage				457	0
-aura-radius-red	1			1	aura_radius_reduction																									aura radius decrease in positive percentage				456	0
+aura-radius	1			1	aura_radius																									aura radius in percentage				458	0
