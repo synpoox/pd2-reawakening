@@ -33,7 +33,7 @@ Runeword26	Doomsayer	1		axe	pole	hamm	spea	swor	scep				HelOhmUmLoCham	r15	r27	r
 Runeword33	Enigma	1		tors									JahIthBer	r31	r06	r30				ac		650	775	allskills		2	2	move2		35	35	str/lvl		5	6	heal-kill		7	7	mag%/lvl		8	8	oskill	Blink	1	1	0
 Runeword137	Stone	1		tors									ShaelUmPulLum	r13	r22	r21	r17			ac%		200	290	charged	Clay Golem	36	16	indestruct		1	1	allskills		1	1	str-and-vit		10	16	rep-charge	33			balance2		40	40	0
 Runeword36	Eternity	1		mele									AmnBerIstSolSur	r11	r30	r24	r12	r29		dmg%		260	310	indestruct		1	1	extra-revives		6	6	oskill	Revive	4	4	reanimate	39	10	10	dmg-norm		61	71	nofreeze		1	1	0
-Runeword37	Exile's Path	1		shld									VexOhmIstDol	r26	r27	r24	r14			block2		30	30	freeze		1	1	ac%		220	260	aura	Defiance	13	16	skilltab	10	2	2	hit-skill	Decrepify Proc	25	18	rep-dur	25			0
+Runeword37	Exile's Path	1		shld									VexOhmIstDol	r26	r27	r24	r14			block2		30	30	freeze		1	1	ac%		220	260	aura	Defiance	13	16	skilltab	10	2	2	hit-skill	442	25	18	rep-dur	25			0
 Runeword39	Famine	1		axe	hamm	swor							FalOhmOrtJah	r19	r27	r09	r31			dmg%		280	330	pierce-cold		10	15	swing2		30	30	pierce-fire		10	15	pierce-ltng		10	15	dmg-elem	100	100	225	dmg-fire		25	25	0
 Runeword48	Hand of Justice	1		weap									SurChamAmnLo	r29	r32	r11	r28			swing2		33	33	dmg%		280	330	aura	Holy Fire	12	12	levelup-skill	Blaze	100	36	death-skill	Meteor	100	48	ignore-ac		1	1	pierce-fire		15	25	0
 Runeword51	Heart of the Oak	1		staf	mace								KoVexPulThul	r18	r26	r21	r10			cast2		40	40	charged	Raven	60	14	mana%		15	15	allskills		3	3	regen		20	20	res-all		30	40	charged	226	25	4	0
