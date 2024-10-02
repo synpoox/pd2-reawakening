@@ -504,7 +504,7 @@ Light's Hope	100	1		1	1	87	90	cm3	charm			5	5000				lightshope				awakened-skill
 Ember of Eternity	100	1		1	1	87	75	jew	jewel			3	5000								awakened-skill-duration		1	1																																													0
 Ith Colossus Blade	100	1		1	1	120	55	7gd	Colossus Blade			5	5000								ethereal		1	1	indestruct		1	1	allskills		2	2	swing2		20	20	balance2		20	20	dmg%		200	200	res-all		75	75	manasteal		4	4	stupidity		33	33	sock	6							splash	358	100	1	0
 Inarius' Trinket	100	1		1	1	131	85	cm1s	Small Charm			3	5000				inariuscharm				sock		1	1	socketed-text		1	1																																									0
-Infernal Mantle	100	1		1	1	87	70	uul	Shadow Plate			5	5000	cred	cred						oskill	61	1	1	res-cold		-50	-50	hp		50	75	inc-splash-radius		20	20	ac%		100	150																													0
+Infernal Mantle	100	1		1	1	87	70	uul	Shadow Plate			5	5000	cred	cred						pierce-fire		10	20	res-cold		-35	-35	hp		50	100	inc-splash-radius		20	20	ac%		100	150	extra-fire		10	20	fireskill		1	1																					0
 The Disintegrator	100	1		1	1	87	76	obf	dimensional shard			5	5000	cred	cred						skilltab	3	3	3	extra-fire		10	20	cast2		20	20	skill	47	1	3	skill	62	1	3	combustion-cd-reduction		1	1	regen-mana		10	15																					0
 Frostripper	100	1		1	1	87	71	amb	Matriarchal Bow			5	5000	cblu	cblu		invam1				oskill	65	1	1	skilltab	0	3	3	freeze		3	3	dmg-cold	125	239	508	res-ltng		-50	-40	move2		13	20																									0
 Replica Templar's Might	100	1		1	1	120	74	uar	sacred armor			5	5000	cgrn	cgrn		invaaru				ac%		170	220	balance2		20	20	ac-miss		250	300	stam		40	50	dex		20	30	enr		20	30	curse-effectiveness		20	20	aura	123	6	8																	0
@@ -542,7 +542,7 @@ Replica Steelrend	100	1		1	1	120	70	uhg	ogre gauntlets			3	5000								ac		170	2
 Replica Wraithgrip	100	1		1	1	120	69	ulg	Bramble Mitts			3	5000	blac	blac						extra-pois		10	15	swing2		20	20	reanimate	39	4	4	vit		5	10	abs-mag		2	3	ac		30	30	hp%		5	10																					0
 Replica Gravepalm	100	1		1	1	120	32	xvg	Sharkskin Gloves			5	5000								enr		10	10	str		10	10	dmg-undead		100	200	att-undead		100	200	ac%		140	180	move2		10	15	skilltab	15	1	1																					0
 Replica Magefist	0	1		1	1	120	23	tgl	Light Gauntlets			5	5000	lgry	lgry						cast3		20	20	regen-mana		10	25	ltngskill		1	1	dmg-ltng		1	66	ac		10	10	ac%		20	30																									0
-Replica Tearhaunch	0	1		1	1	120	29	hbt	Plate Boots			5	5000	dgrn	dgrn						ac		35	35	str		5	10	dex		5	10	move2		20	20	res-all		10	10	ac%		60	80	skill	122	1	2	skilltab	10	2	2																	0
+Replica Tearhaunch	0	1		1	1	120	29	hbt	Plate Boots			5	5000	dgrn	dgrn						ac		35	35	str		5	10	dex		5	10	move2		20	20	res-all		10	10	ac%		60	80	aura	115	2	2																					0
 Replica Infernostride	100	1		1	1	120	29	xlb	Demonhide Boots			5	5000								dmg-fire		24	66	move2		30	30	res-fire-max		5	5	res-fire		30	30	light		2	2	ac%		120	150	gold%		40	70	ac		15	15	hit-skill	46	15	16													0
 Replica Marrowwalk	100	1		1	1	120	66	umb	boneweave boots			5	5000	dgry							ac%		170	200	move2		20	20	regen-stam		10	10	regen-mana		10	20	nofreeze		1	1	str		10	20	dex		17	17	skilltab	15	1	1																	0
 Replica Itheraels Path	100	1		0	1	125	85	xtb	battle boots			5	5000				dcloneboots				ac		20	30	swing2		20	20	move2		20	20	str		10	15																																	0
@@ -621,6 +621,6 @@ Replica The Eye of Etlich	0	0		5	1	120	15	amu	Amulet			5	5000	dgld							dmg-nor
 Replica Brimstone Rain	100	1		1	1	120	80	6bs	Shillelah			5	5000	dred			brimstonerain				cast2		75	75	red-dmg%		10	15	allskills		3	4	ac		100	150	aura	489	12	12	curse-effectiveness		10	15																					splash	358	100	1	0
 Replica Ondal's Wisdom	100	1		1	1	120	66	6cs	elder staff			3	5000				invcstu				cast2		85	85	hp		40	75	allskills		3	4	ac		750	950	red-mag		10	16	aura	490	12	12																					splash	358	100	1	0
 Replica Arkaine's Valor	100	1		1	1	120	85	uplr	Balrog Skin			3	5000	lred			arkaines				pal		2	2	hp		400	400					cannot-sock		1	1	joust-reduction		13	13	skilltab	9	2	2																									0
-Stormsong	100	1		1	1	87	71	obb	heavenly stone			5	5000	lgld	lgld						thunderstorm-delay-red		30	40	sor		2	2	cast2		30	30	skill	57	2	4	abs-ltng%		3	6	res-ltng		25	40	vit		15	25																					0
+Stormsong	100	1		1	1	87	71	obb	heavenly stone			5	5000	lgld	lgld						thunderstorm-delay-red		40	50	sor		2	2	cast2		30	30	skill	57	2	4	abs-ltng%		2	4	res-ltng		20	40	vit		15	30																					0
 Chronowrap	100	1		1	1	77	61	ulc	spiderweb sash			5	5000	lblu	lblu						aura-delay-reduction		50	50	nofreeze		1	1	aura-radius		-40	-20																																					0
-Replica Chronowrap	100	1		1	1	120	61	ulc	spiderweb sash			5	5000	lblu	lblu						aura-effect-increase		20	25	nofreeze		1	1	aura-radius		-20	-10																																					0
+Replica Chronowrap	100	1		1	1	120	61	ulc	spiderweb sash			5	5000	lblu	lblu						aura-effect-increase		15	20	nofreeze		1	1	aura-radius		-20	-10																																					0
