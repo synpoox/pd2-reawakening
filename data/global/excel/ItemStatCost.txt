@@ -289,14 +289,14 @@ item_resist_ltng_bytime	286		1	22										4		0	1024		22	0	22	0			6			lightresis
 item_resist_pois_bytime	287		1	22										4		0	1024		22	0	22	0			6			poisonresist											180	18	2	ModStr1n	ModStr1n									0
 item_absorb_cold_bytime	288		1	22										4		0	1024		22	0	22	0			6			item_absorbcold											180	18	1	ModStre9p	ModStre9p									0
 item_absorb_fire_bytime	289		1	22										4		0	1024		22	0	22	0			6			item_absorbfire											180	18	1	ModStre9o	ModStre9o									0
-item_absorb_ltng_bytime	290		1	22										4		0	1024		22	0	22	0			6			item_absorblight											180	18	1	ModStre9q	ModStre9q									0
-item_absorb_pois_bytime	291		1	22										4		0	1024		22	0	22	0			6			item_absorbmagic																								0
-item_find_gold_bytime	292		1	22										4		0	1024		22	0	22	0			6			item_goldbonus											180	18	2	ModStr1w	ModStr1w									0
-item_find_magic_bytime	293		1	22										4		0	1024		22	0	22	0			6			item_magicbonus											180	18	1	ModStr1x	ModStr1x									0
+aura_radius_increase_UNUSED	290		1	5													1024		7	75	7	75																														0
+aura_radius	291		1	5													1024		7	75	7	75																	180	4	2	AuraRadius	AuraRadius									0
+thunderstorm_delay_reduction	292		1	5													1024		6		6																		150	2	2	ThunderstormDelayRed	ThunderstormDelayRed									0
+aura_effect_increase	293		1	5													1024		7		7																		180	2	1	IncAuraEffect	IncAuraEffect									0
 item_converteletomagic	294		1								1						1024		7	0	10	0	12																204	3	0	StrConvertEleMag	StrConvertEleMag									0
 combustion_cd_reduction	295		1	5													1024		6		6																		150	9	2	CombustionCdReduced	CombustionCdReduced	NewSeconds								0
 cannot_have_sockets	296		1	5													1024		6		6																		40	3	0	CannotHaveSockets	CannotHaveSockets									0
-item_damage_undead_bytime	297		1	22										4		0	1024		22	0	22	0			6			item_undeaddamage_percent						1					180	18	1	ModStr4f	ModStr4f									0
+aura_delay_reduction	297		1	5													1024		7		7																		180	2	2	AuraDelayReduced	AuraDelayReduced									0
 terror_influenced	298			10	10										54	204	1024		8	0	10	0	10																248	3	0	StrTerrorInfluenced	StrTerrorInfluenced									0
 hatred_influenced	299			10	10										54	204	1024		8	0	10	0	10																248	3	0	StrHatredInfluenced	StrHatredInfluenced									0
 prime_evil_influenced	300			1	16											54	1024				12	0																	0	0	0											0

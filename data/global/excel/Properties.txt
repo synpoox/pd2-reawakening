@@ -455,3 +455,7 @@ combustion-cd-reduction	1			1	combustion_cd_reduction																											
 item-converteletomagic	1			22	item_skillonequip			22	item_converteletomagic																									452	0
 oskill-rand	1			12	item_nonclassskill																									Bonus to random oskill	Level	min Skill #	max Skill #	453	0
 cannot-sock	1			1	cannot_have_sockets																													454	0
+aura-delay-reduction	1			1	aura_delay_reduction																									aura perdelay in percentage				455	0
+aura-effect-increase	1			1	aura_effect_increase																									aura effect increase in percentage				456	0
+thunderstorm-delay-red	1			1	thunderstorm_delay_reduction																									thunder storm perdelay reduction in percentage				457	0
+aura-radius	1			1	aura_radius																									aura radius in percentage				458	0
