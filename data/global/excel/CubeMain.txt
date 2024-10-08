@@ -524,7 +524,7 @@ weapon -> ltng mastery	1	2		100	16	509	475		2	"weap"	"dvia,qty=1"						useitem		
 weapon -> enhanced damage, life leech	1	2		100	16	509	570		2	"weap"	"dvia,qty=1"						useitem			100	awaken	100		15	15	awakennum	100		1001	1001	dmg%	100		50	80	lifesteal	100		6	6																																																																0
 weapon -> cold mastery	1	2		100	16	509	665		2	"weap"	"dvia,qty=1"						useitem			100	awaken	100		68	68	awakennum	100		1001	1001	extra-cold	100		4	5																																																																					0
 weapon -> pois mastery	1	2		100	16	509	760		2	"weap"	"dvia,qty=1"						useitem			100	awaken	100		69	69	awakennum	100		1001	1001	extra-pois	100		4	5																																																																					0
-weapon -> crushing blow	1	2		100	16	509	790		2	"weap"	"dvia,qty=1"						useitem			100	awaken	100		19	19	awakennum	100		1001	1001	crush	100		30	40																																																																					0
+weapon -> crushing blow, ed	1	2		100	16	509	790		2	"weap"	"dvia,qty=1"						useitem			100	awaken	100		19	19	awakennum	100		1001	1001	crush	100		30	40	dmg%	100		30	40																																																																0
 weapon -> fcr, ias, fire pierce	1	2		100	16	509	820		2	"weap"	"dvia,qty=1"						useitem			100	awaken	100		26	26	awakennum	100		1001	1001	cast1	100		10	10	swing1	100		10	10	pierce-fire	100		5	10																																																											0
 weapon -> fcr, ias, lightning pierce	1	2		100	16	509	850		2	"weap"	"dvia,qty=1"						useitem			100	awaken	100		27	27	awakennum	100		1001	1001	cast1	100		10	10	swing1	100		10	10	pierce-ltng	100		5	10																																																											0
 weapon -> fcr, ias, cold pierce	1	2		100	16	509	880		2	"weap"	"dvia,qty=1"						useitem			100	awaken	100		28	28	awakennum	100		1001	1001	cast1	100		10	10	swing1	100		10	10	pierce-cold	100		5	10																																																											0
@@ -2471,7 +2471,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	0			100					1	"key,qty=1"							Infernal Mantle	90																												wss,qty=50	131																												wss,qty=50	131																												0
+generate (dev)	1			100					1	"key,qty=1"							Replica Valkyrie Wing	131																												Valkiry Wing	131																												wss,qty=50	131																												0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication (DROP DISABLED)	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
 4 of Luminescence -> Mara's Kaleidoscope 	1			100					1	fslu,qty=4							Mara's Kaleidoscope	95																																																																																						0
 4 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=4							The Stone of Jordan	95																																																																																						0
