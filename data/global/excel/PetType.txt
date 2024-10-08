@@ -25,7 +25,7 @@ desecrate	22		0																		0
 dclonesummon	23		0																		0
 PoisonCreeper	24		0	1		1	1	1	Creeper		2	plaguepoppy	426								0
 rathmasummon	25		0																		0
-dopplezonnew	26		0		1		1	1	DopplezonNew	1	2	rogueicon									0
+dopplezonnew	26		0	1		1	1	1	DopplezonNew	1	2	rogueicon									0
 vine2	27		0	1		1	1	1	Solar		2	vines	427								0
 golem	28		0	1		1	1	1	StrUI0	1	2	earthgolumicon	290	bloodgolumicon	292	firegolumicon	291	metalgolumicon			0
 shadowclone	29		0	1		1	1	1	UiShadowUI	1	2	shadowassassin									0
