@@ -205,7 +205,7 @@ Peasent Crown	100	1		1	1	36	28	xap	War Hat			3	5000	lgry							enr		20	20	vit		2
 Rockstopper	100	1		1	1	39	31	xkp	Sallet			3	5000				invxkpu				res-ltng		20	40	red-dmg%		10	10	balance2		30	30	ac%		160	220	res-fire		20	50	res-cold		20	40	vit		15	15																					0
 Stealskull	100	1		1	1	43	35	xlm	Casque			3	5000				invhlmu				manasteal		3	5	lifesteal		3	5	balance2		20	20	swing2		20	20	ac%		200	240	mag%		30	50																									0
 Darksight Helm	100	1		1	1	46	38	xhl	Basinet			3	5000	blac	blac		invfhlu				light		-4	-4	ac/lvl	24			nofreeze		1	1	manasteal		5	5	gethit-skill	71	16	3	oskill	264	1	1	res-fire		20	40	stupidity		1	1																	0
-Valkiry Wing	100	1		1	1	52	44	xhm	Winged Helm			3	5000	lgld							ac%		150	200	move2		30	30	balance2		30	30	ama		1	2	mana-kill		3	6	dmg%		20	40																									0
+Valkiry Wing	100	1		1	1	52	44	xhm	Winged Helm			3	5000	lgld							ac%		150	200	move2		30	30	balance2		30	30	ama		1	2	mana-kill		3	6	dmg%		20	40	extra-valk		1	1																					0
 Crown of Thieves	100	1		1	1	57	49	xrn	Grand Crown			3	5000	dgld	dgld		invxrnu				dex		25	25	lifesteal		5	10	hp		50	50	gold%		80	100	res-fire		33	33	ac%		160	200	mag%		30	65																					0
 Blackhorn's Face	100	1		1	1	49	41	xsk	Death Mask			3	5000	blac	blac						light-thorns		225	325	slow		20	20	noheal		1	1	abs-ltng		10	20	res-ltng		15	15	ac%		180	220	res-ltng-max		5	5																					0
 Vampiregaze	100	1		1	1	49	41	xh9	Grim Helm			3	5000	cgrn	cgrn		invbhmu				manasteal		6	8	lifesteal		6	8	stamdrain		15	15	red-dmg%		15	20	red-mag		10	15	ac%		100	100	dmg-cold	100	30	60																					0
@@ -518,7 +518,7 @@ Replica Heavenly Garb	0	1		1	1	120	29	ltp	Light Plate			5	5000	cblu	cblu						ac
 Replica Griffon's Eye	100	1		1	1	120	76	ci3	diadem			5	5000								ac		100	200	cast2		25	25	allskills		1	1	extra-fire		10	15	pierce-fire		15	20																													0
 Replica Izual's Redemption	100	1		1	1	120	77	ult	Hellforge Plate			3	5000	lblu	lblu						allskills		2	2	oskill	50	2	2	move2		25	25	mana		200	200	extra-cold		20	25	aura	114	12	15	gethit-skill	44	18	36	ac%		70	100	ease		-30	-30													0
 Replica Infernal Mantle	100	1		1	1	120	70	uul	Shadow Plate			5	5000	cred	cred						res-fire		-50	-50	regen		-25	-25	allskills		2	2	ac%		100	150	dmg-fire		225	315	aura	102	12	15																									0
-Replica Valkyrie Wing	100	1		1	1	120	44	xhm	Winged Helm			3	5000	lgld							ac%		150	200	move2		30	30	swing2		30	30	ama		2	2	heal-kill		3	6	dmg%		20	40																									0
+Replica Valkyrie Wing	100	1		1	1	120	44	xhm	Winged Helm			3	5000	lgld							ac%		150	200	move2		30	30	swing2		30	30	ama		2	2	heal-kill		3	6	cast2		30	30	extra-valk		1	1																					0
 Replica Overlords Helm	100	1		0	1	125	85	xhl	Basinet			3	5000	cred			dclonehelm				pierce-phys		5	10	lifesteal		3	5	ac		270	540	str		10	10	enr		-20	-20	vit		10	10	dex		10	10	curse-effectiveness		-15	-15																	0
 Replica Kira's Guardian	100	1		1	1	120	77	ci2	tiara			3	5000	blac	blac						ac		80	150	move2		20	20	allskills		1	1	extra-fire		15	25	extra-ltng		15	25	extra-cold		15	25																									0
 Replica Halaberd's Reign	100	1		1	1	120	77	bae	conqueror crown			3	5000	blac							ac%		140	170	skilltab	14	2	3	bar		2	2	cast2		20	20	red-dmg%		10	15	skill	Battle Orders	2	3	skill	Battle Cry	2	3	att/lvl	9																			0
