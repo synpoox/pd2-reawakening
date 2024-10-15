@@ -289,7 +289,7 @@ item_resist_ltng_bytime	286		1	22										4		0	1024		22	0	22	0			6			lightresis
 item_resist_pois_bytime	287		1	22										4		0	1024		22	0	22	0			6			poisonresist											180	18	2	ModStr1n	ModStr1n									0
 item_absorb_cold_bytime	288		1	22										4		0	1024		22	0	22	0			6			item_absorbcold											180	18	1	ModStre9p	ModStre9p									0
 item_absorb_fire_bytime	289		1	22										4		0	1024		22	0	22	0			6			item_absorbfire											180	18	1	ModStre9o	ModStre9o									0
-aura_radius_increase_UNUSED	290		1	5													1024		7	75	7	75																														0
+es_absorb	290		1	5													1024		4		4																		25	7	2	StrEsAbsorb	StrEsAbsorb	Damage								0
 aura_radius	291		1	5													1024		7	75	7	75																	180	4	2	AuraRadius	AuraRadius									0
 thunderstorm_delay_reduction	292		1	5													1024		6		6																		150	2	2	ThunderstormDelayRed	ThunderstormDelayRed									0
 aura_effect_increase	293		1	5													1024		7		7																		180	2	1	IncAuraEffect	IncAuraEffect									0

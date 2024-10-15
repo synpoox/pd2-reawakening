@@ -624,3 +624,4 @@ Replica Arkaine's Valor	100	1		1	1	120	85	uplr	Balrog Skin			3	5000	lred			arkai
 Stormsong	100	1		1	1	87	71	obb	heavenly stone			5	5000	lgld	lgld						thunderstorm-delay-red		30	45	sor		2	2	cast2		30	30	skill	57	2	4	abs-ltng%		2	4	res-ltng		20	40	vit		15	30																					0
 Chronowrap	100	1		1	1	77	61	ulc	spiderweb sash			5	5000	lblu	lblu						aura-delay-reduction		50	50	nofreeze		1	1	aura-radius		-40	-20																																					0
 Replica Chronowrap	100	1		1	1	120	61	ulc	spiderweb sash			5	5000	lblu	lblu						aura-effect-increase		15	20	nofreeze		1	1	aura-radius		-20	-10																																					0
+Astralis	100	1		1	1	65	55	rin	Ring			5	5000								allskills		1	1	es-absorb		2	5	mana%		8	12	regen-mana		20	30																																	0
