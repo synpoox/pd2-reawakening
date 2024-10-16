@@ -309,7 +309,7 @@ Odium	100	1		1	1	87	80	7fb	Colossal Sword			5	5000	blac			odium				dmg%		250	290
 Horizon's Tornado	100	1		5	1	72	64	7fl	scourge			5	5000	dpur	dpur						dmg%		250	300	swing2		50	50	cast2		35	35	hit-skill	Tornado	25	28	skill	240	4	6	skill	245	4	6																					splash	358	100	1	0
 Stone Crusher	100	1		4	1	76	68	7wh	legendary mallet			5	5000	whit							dmg%		220	260	str		20	30	crush		40	40	pierce-phys		5	10	dmg-ac		-20	-20																									splash	358	100	1	0
 Jadetalon	100	1		1	1	74	66	7wb	wrist sword			5	5000	cgrn	cgrn						dmg%		240	320	manasteal		10	15	res-all		30	50	balance2		30	30	skilltab	19	1	2	skilltab	20	1	2	block2		30	30																	splash	358	100	1	0
-Shadowdancer	100	1		1	1	79	71	uhb	myrmidon greaves			5	5000	blac	blac						ac%		70	100	move2		30	30	balance2		30	30	dex		15	25	skilltab	19	1	2	ease		-20	-20	curse-effectiveness		10	10																					0
+Shadowdancer	100	1		1	1	79	71	uhb	myrmidon greaves			5	5000	blac	blac						ac%		70	100	move2		30	30	balance2		30	30	dex		15	25	skilltab	19	1	2	ease		-20	-20	curse-effectiveness		10	10	dragonflight-reduction		13	13																	0
 Cerebus	100	1		1	1	71	63	drb	blood spirit			5	5000	bwht	bwht						ac%		130	140	skilltab	16	2	4	Deep-Wounds		360	360	att%		80	120	openwounds		33	33	skill	232	1	2	deadly		33	33	skill	242	1	2																	0
 Tyrael's Might	100	1		1	1	87	84	uar	sacred armor	1		5	5000	dblu	dblu		invaaru				ease		-100	-100	indestruct		1	1	ac%		120	150	dmg-undead		200	250	dmg-demon		200	250	nofreeze		1	1	move2		45	45	res-all		20	30	str		20	30													0
 Souldrain	100	1		1	1	82	74	umg	vambraces			5	5000	dred	dred						ac%		90	120	manasteal		2	3	lifesteal		2	3	regen		-30	-30	dmg-ac		-50	-50	pierce-phys		5	5																									0
