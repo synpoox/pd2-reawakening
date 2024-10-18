@@ -229,12 +229,12 @@ Map Boss TC		85	5					0	Act 5 (H) Equip C	259	Act 5 (H) Good	20	T3 Map Drop	15	d
 Replica			1					0	rofp	1	gld	6																				0
 Prime Evil Embers			1					0	heo	1	teo	1																				0
 Map Orbs Drop			1					0	Orbs	139	Prime Evil Embers	1																				0
-Fate Common A			1					0	fslr	1	fslu	1	fsat	1	fsus	1	fsrb	1	fsla	1	fsvi	1	fstm	1								0
-Fate Common B			1					0	fsar	1	fscf	1	fsed	1	fsta	1	fsts	1	fstf	1	fshs	1	fstw	1								0
-Fate Common C			1					0	fsbl	1	fssf	1	fstb	1	fsew	1	fssg	1	fstu	1	fsmw	1	fsem	1								0
+Fate Common A			1					0	fslr	1	fstm	1	fsem	1	fsus	1	fstw	1	fsla	1	fsvi	1										0
+Fate Common B			1					0	fsar	1	fscf	1	fsed	1	fsta	1	fsts	1	fstf	1	fshs	1										0
+Fate Common C			1					0	fsbl	1	fssf	1	fstb	1	fsew	1	fssg	1	fstu	1	fsmw	1										0
 Fate Common D																																0
-Fate Uncommon A			1					0	fsdg	1	fsds	1	fsps	1	fstc	1	fspv	1	fsms	1												0
-Fate Uncommon B			1					0	fscs	1	fslc	1	fstl	1	fsdw	1	fsbr	1	fsdb	1												0
+Fate Uncommon A			1					0	fsms	1	fspv	1	fsps	1	fstc	1	fsat	1	fslu	1												0
+Fate Uncommon B			1					0	fscs	1	fslc	1	fstl	1	fsdw	1	fsbr	1	fsrb	1												0
 Fate Rare A			1					0	fsha	1	fsjp	1	fsdi	1	fsfr	1	fsfa	1														0
 Fate Drop			1					0	Fate Common A	92	Fate Common B	92	Fate Common C	92	Fate Uncommon A	16	Fate Uncommon B	16	Fate Rare A	1												0
 Act 1 Good	5	0	1						Jewelry A	60	Chipped Gem	48	wss	1	Fate Drop	1																0
