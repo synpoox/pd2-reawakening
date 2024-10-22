@@ -25,34 +25,34 @@ Potion 4			1						hp3	6	hp4	6	hp5	4	mp4	3	mp5	3	rvs	1	vps	2	yps	2	wms	1						0
 Potion 5			1						hp3	4	hp4	6	hp5	6	mp5	5	rvs	1	vps	2	yps	2	wms	1								0
 Potion 6			1						hp4	6	hp5	8	mp4	1	mp5	5	rvs	1	vps	2	yps	2	wms	1								0
 Runes 1 unstack			1						r01	3	r02	2																				0
-Runes 2 unstack			1						r03	3	r04	2	Runes 1 unstack	1																		0
-Runes 3 unstack			1						r05	3	r06	2	Runes 2 unstack	2																		0
-Runes 4 unstack			1						r07	3	r08	2	Runes 3 unstack	3																		0
+Runes 2 unstack			1						r03	3	r04	2	Runes 1 unstack	2																		0
+Runes 3 unstack			1						r05	3	r06	2	Runes 2 unstack	4																		0
+Runes 4 unstack			1						r07	3	r08	2	Runes 3 unstack	5																		0
 Runes 1			1						r01s	3	r02s	2																				0
-Runes 2			1						r03s	3	r04s	2	Runes 1	1																		0
-Runes 3			1						r05s	3	r06s	2	Runes 2	2																		0
-Runes 4			1						r07s	3	r08s	2	Runes 3	3																		0
-Runes 5			1						r09s	3	r10s	2	Runes 4	4																		0
-Runes 6			1						r11s	3	r12s	2	Runes 5	7																		0
-Runes 7			1						r13s	3	r14s	2	Runes 6	15																		0
-Runes 8			1						r15s	3	r16s	2	Runes 7	30																		0
-Runes 9			1						r17s	3	r18s	2	Runes 8	60																		0
-Runes 10			1						r19s	3	r20s	2	Runes 9	120																		0
-Runes 11			1						r21s	3	r22s	2	Runes 10	240																		0
-Runes 12			1						r23s	3	r24s	2	Runes 11	355																		0
-Runes 13			1						r25s	3	r26s	2	Runes 12	505																		0
-Runes 14			1						r27s	3	r28s	2	Runes 13	723																		0
-Runes 15			1						r29s	3	r30s	2	Runes 14	980																		0
-Runes 16			1						r31s	3	r32s	2	Runes 15	1319																		0
-Runes 17			1						r33s	1	Runes 16	1723																				0
-Runes 12 equiv			1						r23s	3	r24s	2	Runes 11	355																		0
-Runes 13 equiv			1						r25s	3	r26s	2	Runes 12 equiv	505																		0
-Runes 14 equiv			1						r27s	3	r28s	2	Runes 13 equiv	723																		0
-Runes 15 equiv			1						r29s	3	r30s	2	Runes 14 equiv	980																		0
-Runes 16 equiv			1						r31s	3	r32s	2	Runes 15 equiv	1319																		0
-Runes 17 equiv			1						r33s	1	Runes 16 equiv	1723																				0
+Runes 2			1						r03s	3	r04s	2	Runes 1	2																		0
+Runes 3			1						r05s	3	r06s	2	Runes 2	4																		0
+Runes 4			1						r07s	3	r08s	2	Runes 3	5																		0
+Runes 5			1						r09s	3	r10s	2	Runes 4	7																		0
+Runes 6			1						r11s	3	r12s	2	Runes 5	9																		0
+Runes 7			1						r13s	3	r14s	2	Runes 6	20																		0
+Runes 8			1						r15s	3	r16s	2	Runes 7	40																		0
+Runes 9			1						r17s	3	r18s	2	Runes 8	80																		0
+Runes 10			1						r19s	3	r20s	2	Runes 9	160																		0
+Runes 11			1						r21s	3	r22s	2	Runes 10	320																		0
+Runes 12			1						r23s	3	r24s	2	Runes 11	473																		0
+Runes 13			1						r25s	3	r26s	2	Runes 12	674																		0
+Runes 14			1						r27s	3	r28s	2	Runes 13	964																		0
+Runes 15			1						r29s	3	r30s	2	Runes 14	1307																		0
+Runes 16			1						r31s	3	r32s	2	Runes 15	1758																		0
+Runes 17			1						r33s	1	Runes 16	2297																				0
+Runes 12 equiv			1						r23s	3	r24s	2	Runes 11	473																		0
+Runes 13 equiv			1						r25s	3	r26s	2	Runes 12 equiv	674																		0
+Runes 14 equiv			1						r27s	3	r28s	2	Runes 13 equiv	964																		0
+Runes 15 equiv			1						r29s	3	r30s	2	Runes 14 equiv	1307																		0
+Runes 16 equiv			1						r31s	3	r32s	2	Runes 15 equiv	1758																		0
+Runes 17 equiv			1						r33s	1	Runes 16 equiv	2297																				0
 Map Tier 1			1			400	800		t23	1	t15	1	t12	1	t26	1	t25	1	t22	1	t36	1										0
-Map Tier 2			1			400	800		t34	1	t31	1	t24	1	t11	1	t33	1	t13	1												0
+Map Tier 2			1			400	800		t34	1	t31	1	t24	1	t11	1	t33	1	t13	1	t27	1	t28	1								0
 Map Tier 3			1			400	800		t3a	2	t38	2	t39	2	t37	2	t14	2	t21	2	t32	2	t16	2	t35	2						0
 T1 Map Drop			1						Map Tier 1	66	Map Tier 2	33																				0
 T2 Map Drop			1						Map Tier 1	39	Map Tier 2	40	Map Tier 3	20																		0
@@ -224,17 +224,17 @@ Act 4 (H) Magic B	4	80	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic A	4	82	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic B	4	83	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic C	4	85	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Orbs			1					0	dvo	200	mfo	131	rgo	90	cho	140	oou	3	tjo	1	dvia	365	rotf	15	rofp	53						0
-Map Boss TC		85	5					0	Act 5 (H) Equip C	259	Act 5 (H) Good	20	T3 Map Drop	15	dcbl	19	dcho	1	dcso	2	rtmv	2										0
-Replica			1					0	rofp	1	gld	6																				0
+Orbs			1					0	dvo	150	mfo	28	rgo	50	cho	200	oou	4	tjo	1	dvia	500	rotf	15	rofp	50						0
+Map Boss TC		85	5					0	Act 5 (H) Equip C	264	Act 5 (H) Good	20	T3 Map Drop	15	dcbl	3	dcho	1	dcso	2	rtmv	2										0
+Replica			1					0	rofp	1	gld	11																				0
 Prime Evil Embers			1					0	heo	1	teo	1																				0
 Map Orbs Drop			1					0	Orbs	139	Prime Evil Embers	1																				0
-Fate Common A			1					0	fslr	1	fslu	1	fsat	1	fsus	1	fsrb	1	fsla	1	fsvi	1	fstm	1								0
-Fate Common B			1					0	fsar	1	fscf	1	fsed	1	fsta	1	fsts	1	fstf	1	fshs	1	fstw	1								0
-Fate Common C			1					0	fsbl	1	fssf	1	fstb	1	fsew	1	fssg	1	fstu	1	fsmw	1	fsem	1								0
-Fate Common D																																0
-Fate Uncommon A			1					0	fsdg	1	fsds	1	fsps	1	fstc	1	fspv	1	fsms	1												0
-Fate Uncommon B			1					0	fscs	1	fslc	1	fstl	1	fsdw	1	fsbr	1	fsdb	1												0
+Fate Common A			1					0	fslr	1	fsvi	1	fsem	1	fshs	1	fstw	1	fsla	1												0
+Fate Common B			1					0	fsar	1	fscf	1	fsed	1	fsta	1	fsts	1	fstf	1												0
+Fate Common C			1					0	fsbl	1	fssf	1	fsmw	1	fsew	1	fssg	1	fstu	1												0
+Map Boss Uber Relic			1					0	rotv	1	gld	7499																				0
+Fate Uncommon A			1					0	fsms	1	fspv	1	fsps	1	fstc	1	fsat	1	fslu	1												0
+Fate Uncommon B			1					0	fscs	1	fslc	1	fstl	1	fsdw	1	fsbr	1	fsrb	1												0
 Fate Rare A			1					0	fsha	1	fsjp	1	fsdi	1	fsfr	1	fsfa	1														0
 Fate Drop			1					0	Fate Common A	92	Fate Common B	92	Fate Common C	92	Fate Uncommon A	16	Fate Uncommon B	16	Fate Rare A	1												0
 Act 1 Good	5	0	1						Jewelry A	60	Chipped Gem	48	wss	1	Fate Drop	1																0
@@ -252,9 +252,9 @@ Act 2 (H) Good	5	72	1						Jewelry C	120	Flawed Gem	27	Normal Gem	28	Flawless Ge
 Act 3 (H) Good	5	78	1						Jewelry C	120	Flawed Gem	27	Normal Gem	28	Flawless Gem	50	Perfect Gem	6	Runes 15 equiv	30	wss	4	Map Tier 1	2	Orbs	4	Fate Drop	2				0
 Act 4 (H) Good	5	82	1						Jewelry C	120	Flawed Gem	27	Normal Gem	28	Flawless Gem	50	Perfect Gem	6	Runes 16 equiv	30	wss	4	Map Tier 1	2	Orbs	4	Fate Drop	2				0
 Act 5 (H) Good	5	85	1						Jewelry C	120	Flawed Gem	27	Normal Gem	28	Flawless Gem	50	Perfect Gem	6	Runes 17 equiv	30	wss	4	Map Tier 1	2	Orbs	4	Fate Drop	2				0
-Map Good t1	20	85	1						Jewelry C	120	Flawed Gem	27	Normal Gem	28	Flawless Gem	50	Perfect Gem	6	Runes 17 equiv	30	wss	6	T1 Map Drop	6	Map Orbs Drop	8	Fate Drop	5				0
-Map Good t2	20	86	1						Jewelry C	120	Flawed Gem	27	Normal Gem	28	Flawless Gem	50	Perfect Gem	6	Runes 17 equiv	30	wss	6	T2 Map Drop	6	Map Orbs Drop	8	Fate Drop	5				0
-Map Good t3	20	87	1						Jewelry C	120	Flawed Gem	27	Normal Gem	28	Flawless Gem	50	Perfect Gem	6	Runes 17 equiv	30	wss	6	T3 Map Drop	6	Map Orbs Drop	8	Fate Drop	5				0
+Map Good t1	20	85	1						Jewelry C	120	Flawed Gem	29	Normal Gem	28	Flawless Gem	50	Perfect Gem	6	Runes 17 equiv	30	wss	5	T1 Map Drop	5	Map Orbs Drop	8	Fate Drop	5				0
+Map Good t2	20	86	1						Jewelry C	120	Flawed Gem	29	Normal Gem	28	Flawless Gem	50	Perfect Gem	6	Runes 17 equiv	30	wss	5	T2 Map Drop	5	Map Orbs Drop	8	Fate Drop	5				0
+Map Good t3	20	87	1						Jewelry C	120	Flawed Gem	29	Normal Gem	28	Flawless Gem	50	Perfect Gem	6	Runes 17 equiv	30	wss	5	T3 Map Drop	5	Map Orbs Drop	8	Fate Drop	5				0
 Act 1 Chest A	6	0	4					173	gld	295	Act 1 Junk	295	Act 1 Equip A	196	Act 1 Good	39																0
 Act 1 Chest B	6	5	4					173	gld	295	Act 1 Junk	295	Act 1 Equip B	196	Act 1 Good	39																0
 Act 1 Chest C	6	9	4					145	gld	272	Act 1 Junk	218	Act 2 Junk	54	Act 1 Equip C	272	Act 1 Good	36														0
@@ -893,9 +893,9 @@ Act 4 (H) Super Cx	18	87	-4	512	654	972	1024	0	Act 4 (H) Uitem B	2	Act 4 (H) Cpo
 Act 5 (H) Super Ax	18	90	-4	512	654	972	1024	0	Act 5 (H) Uitem A	2	Act 5 (H) Cpot A	2																				0
 Act 5 (H) Super Bx	18	93	-4	512	654	972	1024	0	Act 5 (H) Uitem B	2	Act 5 (H) Cpot B	2																				0
 Act 5 (H) Super Cx	18	96	-4	512	654	972	1024	0	Act 5 (H) Uitem C	2	Act 5 (H) Cpot C	2																				0
-Map Boss T1		85	-2	983	983	983	1024	0	Map Boss TC	1	Replica	1																				0
-Map Boss T2		85	-2	983	983	983	1024	0	Map Boss TC	1	Replica	1																				0
-Map Boss T3		85	-2	983	983	983	1024	0	Map Boss TC	1	Replica	1																				0
+Map Boss T1		85	-3	983	983	983	1024	0	Map Boss TC	1	Replica	1	Map Boss Uber Relic	1																		0
+Map Boss T2		85	-3	983	983	983	1024	0	Map Boss TC	1	Replica	1	Map Boss Uber Relic	1																		0
+Map Boss T3		85	-3	983	983	983	1024	0	Map Boss TC	1	Replica	1	Map Boss Uber Relic	1																		0
 Map Boss T4		85	5	983	983	983	1024	0	Act 5 (H) Equip C	283	Act 5 (H) Good	20	T3 Map Drop	15																		0
 Cow King			5	850	983	983	1024	0	Act 1 Uitem C	1	Act 1 Melee B	2																				0
 Cow King (N)			5	850	983	983	1024	0	Act 1 (H) Uitem C	1	Act 1 (N) Melee B	2																				0
@@ -1016,15 +1016,22 @@ Lillith Mirror H				12500	100
 Vial of Lightsong N				6250	100																											
 Vial of Lightsong NM				6250	100																											
 Vial of Lightsong H				6250	100																											
-Corrupted Zone				75																												
-Unique Map Monsters				7500	5																											
-Unique Map MapBoss				3500																												
+Corrupted Zone				150																												
+Unique Map Monsters				7500	10																											
+Unique Map MapBoss				6000																												
 Rathma Jawbone N				2000	30																											
 Rathma Jawbone NM				6750	5																											
 Rathma Jawbone H				2250	5																											
 UberAncients T1				3750																												
 UberAncients T2				3750																												
 UberAncients T3				3750																												
+lucbN				2600	10																											
+lucbNM				9000																												
+lucbH				3000																												
+lucc				2500																												
+lucdN				1500	100																											
+lucdNM				6000	10																											
+lucdH				2000	10																											
 Treasure Fallen Cards N			2					46	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0
 Treasure Fallen Cards NM			2					37	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0
 Treasure Fallen Cards H			2					25	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0

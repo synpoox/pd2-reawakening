@@ -276,18 +276,18 @@ item_convertmasterytomagic	273		1								1						1024		7	0	10	0	12															
 item_physextramagic	274		1								1						1024		7	0	10	0	12																204	3	0	StrPhysExtraMagic	StrPhysExtraMagic									0
 item_elepierceaddmastery	275		1								1						1024		7	0	10	0	12																204	3	0	StrGainPierceAsMastery	StrGainPierceAsMastery									0
 item_damagepercentmastery	276		1								1						1024		7	0	10	0	12																204	3	0	StrDamagePercentMastery	StrDamagePercentMastery									0
-item_vitality_bytime	277		1	22										4		0	1024		22	0	22	0			6			vitality											180	17	1	ModStr1c	ModStr1c									0
+map_glob_sundermonsters	277			10											1065	72	2010		10	0	10	0																	208	3	0	MapGlobSunderMonsters	MapGlobSunderMonsters									0
 item_tohit_bytime	278		1	22										4		0	1024		22	0	22	0			6			tohit						1					180	17	1	ModStr1h	ModStr1h									0
-item_tohitpercent_bytime	279		1	22										4		0	1024		22	0	22	0			6			item_tohit_percent						1					180	18	1	ModStr4c	ModStr4c									0
-item_cold_damagemax_bytime	280		1	22										4		0	1024		22	0	22	0			6			coldmaxdam						1					180	17	1	ModStr1s	ModStr1s									0
-item_fire_damagemax_bytime	281		1	22										4		0	1024		22	0	22	0			6			firemaxdam						1					180	17	1	ModStr1o	ModStr1o									0
-item_ltng_damagemax_bytime	282		1	22										4		0	1024		22	0	22	0			6			lightmaxdam						1					180	17	1	ModStr1q	ModStr1q									0
-item_pois_damagemax_bytime	283		1	22										4		0	1024		22	0	22	0			6			poisonmaxdam						1					180	17	1	ModStr4h	ModStr4h									0
-item_resist_cold_bytime	284		1	22										4		0	1024		22	0	22	0			6			coldresist											180	18	2	ModStr1k	ModStr1k									0
-item_resist_fire_bytime	285		1	22										4		0	1024		22	0	22	0			6			fireresist											180	18	2	ModStr1j	ModStr1j									0
-item_resist_ltng_bytime	286		1	22										4		0	1024		22	0	22	0			6			lightresist											180	18	2	ModStr1l	ModStr1l									0
-item_resist_pois_bytime	287		1	22										4		0	1024		22	0	22	0			6			poisonresist											180	18	2	ModStr1n	ModStr1n									0
-item_absorb_cold_bytime	288		1	22										4		0	1024		22	0	22	0			6			item_absorbcold											180	18	1	ModStre9p	ModStre9p									0
+item_skillonblock	279		1	7	16						1			2	190	256	1024		21	0	7	0	16												doblock	30			160	15		ModItemSkOnBlock	ModItemSkOnBlock									0
+item_skilloncrit	280		1	7	16						1			2	190	256	1024		21	0	7	0	16												docrit	30			160	15		ModItemSkOnCrit	ModItemSkOnCrit									0
+item_skillonpierce	281		1	7	16						1			2	190	256	1024		21	0	7	0	16												dopierce	30			160	15		ModItemSkOnPierce	ModItemSkOnPierce									0
+desecrated	282			10	10										54	204	1024		8	0	10	0	10																246	3	0	StrDesecrated	StrDesecrated									0
+desecrator	283			1	16											54	1024				12	0																	245	0	0	StrCorruptNum	StrCorruptNum									0
+progressive_mindblast	284		1	8													1024																																			0
+unused208	285		1	30										3	401	256	1024		30	0																																0
+item_maxdeadlystrike	286		1	7											31	25	1024		7	0	7	0												1					85	2	1	StrMaxDeadlyStrike	StrMaxDeadlyStrike									0
+unused210	287		1	30										3	401	256	1024		30	0																																0
+unused211	288		1	30										3	401	256	1024		30	0																																0
 item_absorb_fire_bytime	289		1	22										4		0	1024		22	0	22	0			6			item_absorbfire											180	18	1	ModStre9o	ModStre9o									0
 es_absorb	290		1	5													1024		4		4																		25	7	2	StrEsAbsorb	StrEsAbsorb	Damage								0
 aura_radius	291		1	5													1024		7	75	7	75																	180	4	2	AuraRadius	AuraRadius									0
@@ -464,7 +464,7 @@ extra_skele_war	461		1	5													1024		6		5																		150	9	2	YouMayS
 extra_skele_mage	462		1	5													1024		6		5																		150	9	2	YouMaySummon	YouMaySummon	ExtraSkeleMage								0
 extra_hydra	463		1	5													1024		6		5																		240	9	2	YouMaySummon	YouMaySummon	ExtraHydra								0
 extra_valk	464		1	5													1024		6		5																		240	9	2	YouMaySummon	YouMaySummon	ExtraValk								0
-joustreduction	465		1	5													1024		6		6																		155	3	0	joustreduction	joustreduction									0
+joustreduction	465		1	5													1024		6		6																		150	3	0	joustreduction	joustreduction									0
 grims_extra_skele_mage	466		1	5													1024		6		5																		150	3	0	ExtraSkeleMageGrim	ExtraSkeleMageGrim									0
 map_play_lightradius	467		1	10											451	410	1089		14	120	14	120																	196	9	2	MapPlayHave	MapPlayHave	StrMapLightRadius								0
 blood_warp_life_reduction	468		1	5													1024		5		5																		150	3	0	bloodwarplifereduction	bloodwarplifereduction									0
@@ -509,3 +509,4 @@ map_mon_dropjewels	506		1	9											1065	72	506		7	20	7	20																	205
 es_efficiency	507		1	7													1024		5		5																															0
 awakened	508			10	10										54	204	1024		8	0	10	0	10																246	3	0	StrAwakened	StrAwakened									0
 awakener	509			1	16											54	1024				12	0																	0	0	0	StrAwakenNum	StrAwakenNum									0
+no_wolves	510		1	5													1024		6		5																		149	3	0	StrNoWolves	StrNoWolves									0

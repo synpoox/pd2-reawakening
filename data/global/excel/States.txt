@@ -203,7 +203,7 @@ hunger	200																																											bloodlust_state												
 passive_meditate	201																																																																						0
 immune_give	202					1				1							1	1	1																																lightresist																				0
 immune_get	203					1				1							1	1	1																																lightresist																				0
-cowset	204	3			1							1																																																					1	391					0
+cowset	204	3			1							1																																																					1	1112					0
 bloodwarp	205																																																																						0
 poison_weakness	206																											1																poison_weakness																											0
 merc_passive_mastery	207																																																																						0
@@ -232,17 +232,20 @@ tpotfire_debuff	229																								1																			tpotfire_debuff		
 tpotgas_debuff	230																											1																tpotgas_debuff																											0
 tpotcold_debuff	231																										1																	tpotcold_debuff																											0
 tpotlight_debuff	232																									1																		tpotltng_debuff																											0
-holysword	233	4																																																					Holy Sword	weap	bwht														0
+holysword	233	4																																																					Holy Sword	2hsw	bwht														0
 toppvpset	234																																											toppvp_aura																											0
 rakanoth_steal	235																																					1										rakanoth_steal_1			progressive_steal	1	1																		0
 poison_strike	236																																																																						0
 maxlevel8set	237																																											maxlevel_aura	maxlevel_t8_aura																										0
-physperenergyaura	238					1				1																																																													0
-magicmasteryaura	239					1				1																																																													0
-movedexaura	240					1				1																																																													0
-magicmasteryenergyaura	241					1				1																																																													0
-physextramagicaura	242					1				1																																																													0
-convertmasterymagaura	243					1				1																																																													0
-elepierceaddmasteryaura	244					1				1																																																													0
-damagepercentmasteryaura	245					1				1																																																													0
-awakenedconcentration	246									1					1																													concentrationfront	concentrationback						damagepercent												paladin_aura_concentration								0
+progressive_mindblast	238																																					1													progressive_mindblast	1	1																		0
+lucionset	239																																											lucion_aura																											0
+lucion8set	240																																											lucion_aura	lucion_t8_aura																										0
+physperenergyaura	241					1				1																																																													0
+magicmasteryaura	242					1				1																																																													0
+movedexaura	243					1				1																																																													0
+magicmasteryenergyaura	244					1				1																																																													0
+physextramagicaura	245					1				1																																																													0
+convertmasterymagaura	246					1				1																																																													0
+elepierceaddmasteryaura	247					1				1																																																													0
+damagepercentmasteryaura	248					1				1																																																													0
+awakenedconcentration	249									1					1																													concentrationfront	concentrationback						damagepercent												paladin_aura_concentration								0

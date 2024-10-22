@@ -460,3 +460,11 @@ aura-effect-increase	1			1	aura_effect_increase																									aura eff
 thunderstorm-delay-red	1			1	thunderstorm_delay_reduction																									thunder storm perdelay reduction in percentage				457	0
 aura-radius	1			1	aura_radius																									aura radius in percentage				458	0
 es-absorb	1			1	es_absorb																									energy shield damage absorption %				459	0
+block-skill	1			11	item_skillonblock																									Proc Skill on Block	Skill #	% Chance	Level	460	0
+map-glob-sundermonsters	1			1	map_glob_sundermonsters																													461	0
+crit-skill	1			11	item_skilloncrit																									Proc Skill on Crit	Skill #	% Chance	Level	462	0
+pierce-skill	1			11	item_skillonpierce																									Proc Skill on Pierce	Skill #	% Chance	Level	463	0
+desecrate	1			1	desecrated																													464	0
+desecratenum	1			1	desecrator																													465	0
+no-wolves	1			1	no_wolves																													467	0
+max-deadly	1			1	item_maxdeadlystrike																													468	0
