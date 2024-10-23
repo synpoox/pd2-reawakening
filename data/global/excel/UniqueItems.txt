@@ -534,7 +534,7 @@ Replica Spirit Ward	100	1		1	1	120	68	uts	ward			3	5000	dblu	dblu		invgtsu				ac
 Replica Dreadweaver	100	1		1	1	120	70	neg	Hellspawn Skull			5	5000								nec		2	2	skilltab	7	2	2	extra-pois		10	20	cast2		20	20	pierce-pois		10	20	ac%		100	150	red-mag		15	20																					0
 Replica Dragonscale	100	1		1	1	120	80	pae	zakarum shield			3	5000	dgrn	dgrn						ac%		170	200	res-fire		20	40	oskill	Fire Mastery	1	1	str		15	25	cast2		15	15	oskill	Hydra	40	40																									0
 Replica Headhunter's Glory	100	1		1	1	120	75	ush	troll nest			3	5000				invbshu				ac		320	420	cast2		12	18	res-pois		30	40	sock		3	3	res-fire		20	30	mana-kill		5	7	cast-skill	AmpDmg Proc	12	31																					0
-Replica Frostburn	0	1		1	1	120	29	hgl	Gauntlets			5	5000	dred	dred						ac		20	40	extra-fire		13	20	hp%		15	25	extra-cold		13	20	ac%		10	20																													0
+Replica Frostburn	0	1		1	1	120	29	hgl	Gauntlets			5	5000	dred	dred						ac		20	40	extra-fire		12	18	hp%		15	25	extra-cold		12	18	ac%		10	20																													0
 Replica Hellmouth	100	1		1	1	120	47	xhg	War Gauntlets			5	5000								dmg-ltng		1	256	ac%		150	200	dur		15	15	hit-skill	48	4	34	hit-skill	38	8	22	light-thorns		150	300	pierce-ltng		5	10																					0
 Replica Dracul's Grasp	100	1		1	1	120	76	uvg	vampirebone gloves			5	5000	dred	dred						ac%		90	120	lifesteal		7	10	openwounds		25	25	hit-skill	445	5	10	heal-kill		5	10	str		10	15																									0
 Replica Occultist	100	1		1	1	120	70	utg	Crusader Guantlets			5	5000				occultist				stupidity		1	1	curse-res		25	35	hp%		25	35	swing2		20	20	ac%		80	100																													0
@@ -547,7 +547,7 @@ Replica Infernostride	100	1		1	1	120	29	xlb	Demonhide Boots			5	5000								dmg-
 Replica Marrowwalk	100	1		1	1	120	66	umb	boneweave boots			5	5000	dgry							ac%		170	200	move2		20	20	regen-stam		10	10	regen-mana		10	20	nofreeze		1	1	str		10	20	dex		17	17	skilltab	15	1	1																	0
 Replica Itheraels Path	100	1		0	1	125	85	xtb	battle boots			5	5000				dcloneboots				ac		20	30	swing2		20	20	move2		20	20	str		10	15																																	0
 Replica Silkweave	100	1		1	1	120	36	xmb	Mesh Boots			5	5000								ac%		150	190	heal-kill		5	5	dmg%		50	80	hp%		10	20	move2		30	30																													0
-Replica Shadow Dancer	100	1		1	1	120	71	uhb	myrmidon greaves			5	5000	blac	blac						ac%		70	100	move2		30	30	cast2		30	30	skilltab	19	2	2	ease		-20	-20	extra-shadow-master		1	2																									0
+Replica Shadow Dancer	100	1		1	1	120	71	uhb	myrmidon greaves			5	5000	blac	blac						ac%		70	100	move2		30	30	cast2		10	10	skilltab	19	1	2	ease		-25	-25	extra-shadow-master		1	1																									0
 Replica Malthael's Shadow Steps	100	1		1	1	120	68	utbr	Mirrored Boots			5	5000	blac	blac						kill-skill	Lesser Fade	5	5	move2		20	20	sock		1	1	ease		-20	-20																																	0
 Replica Warbringer	100	1		1	1	120	80	uhc	Colossus Girdle			5	5000	oran	oran						allskills		1	1	inc-splash-radius		20	20	balance2		10	15	dmg%		50	80	dmg-min		15	15	dmg-max		20	20	slow		5	10	regen		-50	-50																	0
 Replica Worldshaper's Binding	100	1		1	1	120	75	utc	Troll Belt			5	5000	lgry	lgry						magskill		2	2	curse-res		40	50	red-dmg		12	17	ac%		150	200	hit-skill	84	20	34	hp%		2	5																									0
@@ -584,7 +584,7 @@ Replica Hadriels Hand	100	1		0	1	125	85	9bs	Battle Sword			5	5000	cred			dclones
 Replica Leoric's Mithril Bane	100	1		1	1	120	72	7cm	Highland Blade			5	5000	dgry			invhighlander				pal		2	2	dmg%		240	300	swing2		20	20	joust-reduction		13	13	crush		33	33	hit-skill	93	18	40	lifesteal		5	8	dmg-und/lvl	20															splash	358	100	1	0
 Replica Grim's Burning Dead	100	1		1	1	120	45	9wc	Grim Scythe			5	5000	cred	cred						dmg-fire		131	232	res-fire		45	45	dmg%		220	260	skill	94	4	4	ease		-50	-50	skilltab	8	4	4	reduce-ac		50	50	extra-golem		4	4	att		200	250									splash	358	100	1	0
 Replica Skull Collector	100	1		1	1	120	41	8ws	Rune Staff			5	5000	blac	blac		inv8wsu				mana%		20	20	mana-kill		10	20	allskills		2	3	mag%/lvl	8			dru		2	2	cast3		60	60	cast-skill	235	8	14																	splash	358	100	1	0
-Replica Mang Song's Lesson	100	1		1	1	120	82	6ws	archon staff			5	5000	dgld	dgld		inv8wsu				allskills		6	6	pierce-phys		15	25	cast-skill	AmpDmg Proc	12	20	regen-mana		20	30	cast2		85	85																									splash	358	100	1	0
+Replica Mang Song's Lesson	100	1		1	1	120	82	6ws	archon staff			5	5000	dgld	dgld		inv8wsu				allskills		6	6	pierce-phys		8	15	cast-skill	AmpDmg Proc	12	20	regen-mana		20	30	cast2		85	85																									splash	358	100	1	0
 Replica Blood Raven's Charge	100	1		1	1	120	71	amb	matriarchal bow			5	5000	dgld			bravenbow				dmg%		230	330	att%		200	300	cast2		60	60	ama		3	3	extra-valk		1	1	skill	28	2	2	skill	32	2	2																					0
 Replica Shadow Killer	100	1		1	1	120	78	7cs	battle cestus			5	5000				invaxfu				extra-shadow-master		1	1	cast1		20	30	pierce-phys		8	12	mana-kill		4	8	cast-skill	Decrepify Proc	12	10	ethereal		1	1	indestruct		1	1	skilltab	19	4	4													splash	358	100	1	0
 Replica Aidan's Scar	100	1		0	1	125	85	9qr	Scissors Quhab			5	5000	blac			dcloneclaw				dmg%		300	360	swing2		20	30	skilltab	19	2	2	dmg-min		15	15	indestruct		1	1	hit-skill	442	10	13	vit		-20	-30	att/lvl	12															splash	358	100	1	0
