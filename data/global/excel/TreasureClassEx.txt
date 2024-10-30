@@ -1025,13 +1025,17 @@ Rathma Jawbone H				2250	5
 UberAncients T1				3750																												
 UberAncients T2				3750																												
 UberAncients T3				3750																												
-lucbN				2600	10																											
-lucbNM				9000																												
-lucbH				3000																												
-lucc				2500																												
-lucdN				1500	100																											
-lucdNM				6000	10																											
-lucdH				2000	10																											
+lucbN				1500	10																											
+lucbNM				6000																												
+lucbH				2000																												
+lucc				4000																												
+lucdN				2300	100																											
+lucdNM				7800	10																											
+lucdH				2600	10																											
+T4MidMapBoss		90	6	950	960	990	1024	0	Act 5 (H) Equip C	800	Jewelry C	100	Runes 17 equiv	30	wss	25	T3 Map Drop	10	T2 Map Drop	10	T1 Map Drop	10	scrb	3								0
+T4FinalMapBoss		90	6	950	960	990	1024	0	Act 5 (H) Equip C	800	Jewelry C	100	Runes 17 equiv	30	wss	25	T3 Map Drop	10	T2 Map Drop	10	T1 Map Drop	10	scrb	3								0
+LucionChestLow		90	3	800	900	990	1024	0	Act 5 (H) Equip C	200	Act 5 (H) Good	100	Runes 15 equiv	30	wss	25																0
+LucionChestHigh		90	3	950	960	990	1024	0	Act 5 (H) Equip C	800	Jewelry C	100	Runes 17 equiv	30	scrb	3																0
 Treasure Fallen Cards N			2					46	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0
 Treasure Fallen Cards NM			2					37	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0
 Treasure Fallen Cards H			2					25	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0

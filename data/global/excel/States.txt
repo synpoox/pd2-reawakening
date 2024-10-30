@@ -203,7 +203,7 @@ hunger	200																																											bloodlust_state												
 passive_meditate	201																																																																						0
 immune_give	202					1				1							1	1	1																																lightresist																				0
 immune_get	203					1				1							1	1	1																																lightresist																				0
-cowset	204	3			1							1																																																					1	1112					0
+cowset	204	3			1							1																																																					1	391					0
 bloodwarp	205																																																																						0
 poison_weakness	206																											1																poison_weakness																											0
 merc_passive_mastery	207																																																																						0
