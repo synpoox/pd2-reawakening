@@ -6,7 +6,7 @@ Comments and feedback would be very appreciated, join the [Discord](https://disc
 
 Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Single-Player-Plus-mod)
 
-**[Discord](https://discord.gg/rBCNMWaCNt) | [Wiki](https://pd2reawakening.com/wiki/) | [Latest Patch Notes (v1.0.0)](https://docs.google.com/document/d/e/2PACX-1vQx6eBBlM5Wlm747wFPBjMt1e_BBVHcjL5922Zv0v1rDbwoq3zDWFp4VSYgI-eEj_kH6Kv7P9yMCZUK/pub)**
+**[Discord](https://discord.gg/rBCNMWaCNt) | [Wiki](https://pd2reawakening.com/wiki/) | [Latest Patch Notes (v1.0.1)](https://docs.google.com/document/d/e/2PACX-1vQx6eBBlM5Wlm747wFPBjMt1e_BBVHcjL5922Zv0v1rDbwoq3zDWFp4VSYgI-eEj_kH6Kv7P9yMCZUK/pub)**
 
 ## New Features
 
