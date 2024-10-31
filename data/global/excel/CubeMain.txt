@@ -2025,7 +2025,7 @@ test map drop increase armor -- map + perfect sapphire (gpbs)	0			100					2	"map
 test map drop increase charms -- map + perfect emerald (gpgs)	0			100					2	"map"	"gpgs,qty=1"						useitem			100	map-mon-dropcharms	100		20	20																																																																															0
 BLOCK 3 perfect gems + 1 magic map -> CREATES DUPLICATES due to stackable maps	1			2	30				2	"map"	"ggm4,qty=3"						"usetype,mag"			100																																																																																				0
 BLOCK 6 perfect skulls + 1 rare map -> CREATES DUPLICATES due to stackable maps	1			2	30				2	"map"	"gg4z,qty=6"						"usetype,rar"		40	40																																																																																				0
-BLOCK All recipes with pvp charms	1			2	30				2	"chap"	"ggm4,qty=3"						"usetype,mag"			100																																																																																				0
+BLOCK All recipes with pvp charms	0			2	30				2	"chap"	"ggm4,qty=3"						"usetype,mag"			100																																																																																				0
 3 perfect gems + 1 magic item -> magic item	1			2	18	361	0		2	"any,mag"	"ggm4,qty=3"						"usetype,mag"			100																																																																																				0
 BLOCK 6 perfect skulls + 1 rare t4m -> 1 low level rare item	1			2	30				2	"t4me"	"gg4z,qty=6"						"usetype,rar"		40	40																																																																																				0
 6 perfect skulls + 1 rare item -> 1 low level rare item	1			2	18	361	0		2	"any,rar"	"gg4z,qty=6"						"usetype,rar"		40	40																																																																																				0
@@ -2469,7 +2469,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	0			100					1	"key,qty=1"							t27,rar	90																												dvo,qty=50	91																												dvia,qty=50	131																												0
+generate (dev)	0			100					1	"key,qty=1"							Replica Mang Song's Lesson	131																												Replica Shadow Dancer	131																												dvia,qty=50	131																												0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication (DROP DISABLED)	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
 4 of Luminescence -> Mara's Kaleidoscope	1			100					1	fslu,qty=4							Mara's Kaleidoscope	95																																																																																						0
 4 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=4							The Stone of Jordan	95																																																																																						0
