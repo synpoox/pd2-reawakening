@@ -221,6 +221,7 @@ RerollRare Ready	rrra			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0							misc	0
 UpgradeMag Ready	urma			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0							misc	0
 2H Sword	2hsw	swor	2han	1	1	rarm	larm			0	0	0	0		1	0	0	0	0	3	4	6	0	3		0		0							weap	0
 Craft Ingredient	crft			0	0					0	0	0	1			1	0	0	0	0	0	0	0	3		0		0								0
+PVP Charm	chap	char		0	0					0	0	0	0			0	1	0	0	0	0	0	0	3		0		0								0
 Large Charm Skiller	lchs	char		0	0					0	0	0	0	1		0	1	0	0	0	0	0	0	3		0		3	invch3	invch6	invch9				misc	0
 Small Charm [S]	schs	char		0	0					0	0	0	0	1		0	1	0	0	1	1	1	0	3		0		3	invch1	invch4	invch7				misc	0
 Ring [S]	rins	ring		0	1	rrin	lrin			0	0	0	0			0	0	0	0	1	1	1	0	3		0		5	invrin1	invrin2	invrin3	invrin4	invrin5		misc	0
