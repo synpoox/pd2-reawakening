@@ -905,32 +905,32 @@ item -> added mod 7	1	1		100	16	361	987		2	"shld,nos"	"wss,qty=1"						useitem		
 item -> added mod 8	1	1		100	16	361	1000		2	"shld,nos"	"wss,qty=1"						useitem			100	corrupt	100		56	56	corruptnum	100		1001	1001	res-pois-max	100		4	5	res-pois	100		15	20																																																																0
 RINGS ------------------------------------	0																																																																																																							0
 Tier 1	0																																																																																																							0
-item -> added mod 1	1	1		100	16	361	295		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		68	68	corruptnum	100		1001	1001	str	100		7	10																																																																					0
-item -> added mod 2	1	1		100	16	361	340		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		69	69	corruptnum	100		1001	1001	dex	100		7	10																																																																					0
-item -> added mod 3	1	1		100	16	361	385		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		70	70	corruptnum	100		1001	1001	vit	100		7	10																																																																					0
-item -> added mod 4	1	1		100	16	361	430		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		71	71	corruptnum	100		1001	1001	enr	100		7	10																																																																					0
-item -> added mod 5	1	1		100	16	361	475		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		36	36	corruptnum	100		1001	1001	res-fire	100		10	15																																																																					0
-item -> added mod 6	1	1		100	16	361	520		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		37	37	corruptnum	100		1001	1001	res-cold	100		10	15																																																																					0
-item -> added mod 7	1	1		100	16	361	565		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		38	38	corruptnum	100		1001	1001	res-ltng	100		10	15																																																																					0
-item -> added mod 8	1	1		100	16	361	610		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		39	39	corruptnum	100		1001	1001	res-pois	100		10	15																																																																					0
+item -> added mod 1	1	1		100	16	361	295		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		68	68	corruptnum	100		1001	1001	str	100		7	10																																																																					0
+item -> added mod 2	1	1		100	16	361	340		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		69	69	corruptnum	100		1001	1001	dex	100		7	10																																																																					0
+item -> added mod 3	1	1		100	16	361	385		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		70	70	corruptnum	100		1001	1001	vit	100		7	10																																																																					0
+item -> added mod 4	1	1		100	16	361	430		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		71	71	corruptnum	100		1001	1001	enr	100		7	10																																																																					0
+item -> added mod 5	1	1		100	16	361	475		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		36	36	corruptnum	100		1001	1001	res-fire	100		10	15																																																																					0
+item -> added mod 6	1	1		100	16	361	520		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		37	37	corruptnum	100		1001	1001	res-cold	100		10	15																																																																					0
+item -> added mod 7	1	1		100	16	361	565		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		38	38	corruptnum	100		1001	1001	res-ltng	100		10	15																																																																					0
+item -> added mod 8	1	1		100	16	361	610		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		39	39	corruptnum	100		1001	1001	res-pois	100		10	15																																																																					0
 Tier 2	0																																																																																																							0
-item -> added mod 1	1	1		100	16	361	640		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		61	61	corruptnum	100		1001	1001	hp	100		30	40																																																																					0
-item -> added mod 2	1	1		100	16	361	670		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		7	7	corruptnum	100		1001	1001	mag%	100		15	20																																																																					0
-item -> added mod 3	1	1		100	16	361	700		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		60	60	corruptnum	100		1001	1001	gold%	100		40	80																																																																					0
-item -> added mod 4	1	1		100	16	361	730		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		46	46	corruptnum	100		1001	1001	red-dmg	100		4	6																																																																					0
-item -> added mod 5	1	1		100	16	361	760		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		47	47	corruptnum	100		1001	1001	red-mag	100		4	6																																																																					0
-item -> added mod 6	1	1		100	16	361	790		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		8	8	corruptnum	100		1001	1001	heal-kill	100		2	3																																																																					0
-item -> added mod 7	1	1		100	16	361	820		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		9	9	corruptnum	100		1001	1001	mana-kill	100		2	3																																																																					0
-item -> added mod 8	1	1		100	16	361	850		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		3	3	corruptnum	100		1001	1001	att	100		100	150																																																																					0
+item -> added mod 1	1	1		100	16	361	640		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		61	61	corruptnum	100		1001	1001	hp	100		30	40																																																																					0
+item -> added mod 2	1	1		100	16	361	670		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		7	7	corruptnum	100		1001	1001	mag%	100		15	20																																																																					0
+item -> added mod 3	1	1		100	16	361	700		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		60	60	corruptnum	100		1001	1001	gold%	100		40	80																																																																					0
+item -> added mod 4	1	1		100	16	361	730		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		46	46	corruptnum	100		1001	1001	red-dmg	100		4	6																																																																					0
+item -> added mod 5	1	1		100	16	361	760		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		47	47	corruptnum	100		1001	1001	red-mag	100		4	6																																																																					0
+item -> added mod 6	1	1		100	16	361	790		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		8	8	corruptnum	100		1001	1001	heal-kill	100		2	3																																																																					0
+item -> added mod 7	1	1		100	16	361	820		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		9	9	corruptnum	100		1001	1001	mana-kill	100		2	3																																																																					0
+item -> added mod 8	1	1		100	16	361	850		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		3	3	corruptnum	100		1001	1001	att	100		100	150																																																																					0
 Tier 3	0																																																																																																							0
-item -> added mod 1	1	1		100	16	361	869		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		44	44	corruptnum	100		1001	1001	move1	100		10	10																																																																					0
-item -> added mod 2	1	1		100	16	361	888		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		52	52	corruptnum	100		1001	1001	red-dmg%	100		3	3																																																																					0
-item -> added mod 3	1	1		100	16	361	907		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		49	49	corruptnum	100		1001	1001	curse-res	100		10	10																																																																					0
-item -> added mod 4	1	1		100	16	361	925		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		57	57	corruptnum	100		1001	1001	lifesteal	100		3	4																																																																					0
-item -> added mod 5	1	1		100	16	361	944		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		58	58	corruptnum	100		1001	1001	manasteal	100		3	4																																																																					0
-item -> added mod 6	1	1		100	16	361	963		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		42	42	corruptnum	100		1001	1001	cast1	100		10	10																																																																					0
-item -> added mod 7	1	1		100	16	361	982		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		51	51	corruptnum	100		1001	1001	res-all	100		4	6																																																																					0
-item -> added mod 8	1	1		100	16	361	1000		2	"rin,nos"	"wss,qty=1"						useitem			100	corrupt	100		65	65	corruptnum	100		1001	1001	all-stats	100		4	6																																																																					0
+item -> added mod 1	1	1		100	16	361	869		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		44	44	corruptnum	100		1001	1001	move1	100		10	10																																																																					0
+item -> added mod 2	1	1		100	16	361	888		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		52	52	corruptnum	100		1001	1001	red-dmg%	100		3	3																																																																					0
+item -> added mod 3	1	1		100	16	361	907		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		49	49	corruptnum	100		1001	1001	curse-res	100		10	10																																																																					0
+item -> added mod 4	1	1		100	16	361	925		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		57	57	corruptnum	100		1001	1001	lifesteal	100		3	4																																																																					0
+item -> added mod 5	1	1		100	16	361	944		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		58	58	corruptnum	100		1001	1001	manasteal	100		3	4																																																																					0
+item -> added mod 6	1	1		100	16	361	963		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		42	42	corruptnum	100		1001	1001	cast1	100		10	10																																																																					0
+item -> added mod 7	1	1		100	16	361	982		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		51	51	corruptnum	100		1001	1001	res-all	100		4	6																																																																					0
+item -> added mod 8	1	1		100	16	361	1000		2	"ring"	"wss,qty=1"						useitem			100	corrupt	100		65	65	corruptnum	100		1001	1001	all-stats	100		4	6																																																																					0
 AMULETS --------------------------------	0																																																																																																							0
 Tier 1	0																																																																																																							0
 item -> added mod 1	1	1		100	16	361	295		2	"amul"	"wss,qty=1"						useitem			100	corrupt	100		68	68	corruptnum	100		1001	1001	str	100		6	12																																																																					0
@@ -2469,7 +2469,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	0			100					1	"key,qty=1"							fsem,qty=50	131																												Replica Shadow Dancer	131																												dvia,qty=50	131																												0
+generate (dev)	1			100					1	"key,qty=1"							Replica Kadala's Heirloom	131																												leg	131																												wss,qty=50	131																												0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication (DROP DISABLED)	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
 4 of Luminescence -> Mara's Kaleidoscope	1			100					1	fslu,qty=4							Mara's Kaleidoscope	95																																																																																						0
 4 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=4							The Stone of Jordan	95																																																																																						0

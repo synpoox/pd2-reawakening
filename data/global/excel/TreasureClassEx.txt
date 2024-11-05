@@ -228,7 +228,7 @@ Orbs			1					0	dvo	138	mfo	40	rgo	50	cho	200	oou	4	tjo	1	dvia	500	rotf	15	rofp	5
 Map Boss TC		85	5					0	Act 5 (H) Equip C	264	Act 5 (H) Good	20	T3 Map Drop	15	dcbl	3	dcho	1	dcso	2	rtmv	2										0
 Replica			1					0	rofp	1	gld	11																				0
 Prime Evil Embers			1					0	heo	1	teo	1																				0
-Map Orbs Drop			1					0	Orbs	139	Prime Evil Embers	1																				0
+Map Orbs Drop			1					0	Orbs	129	Prime Evil Embers	1																				0
 Fate Common A			1					0	fslr	1	fsvi	1	fsem	1	fshs	1	fstw	1	fsla	1												0
 Fate Common B			1					0	fsar	1	fscf	1	fsed	1	fsta	1	fsts	1	fstf	1												0
 Fate Common C			1					0	fsbl	1	fssf	1	fsmw	1	fsew	1	fssg	1	fstu	1												0
@@ -921,7 +921,7 @@ Countess (H)			-2	883	883	983	1024	0	Countess Rune (H)	1	Countess Item (H)	1				
 Uber Andariel			-4	512	654	972	1024	0	Act 5 (H) Uitem C	2	Act 5 (H) Cpot C	2																				0
 Uber Duriel			-4	512	654	972	1024	0	Act 5 (H) Uitem C	2	Act 5 (H) Cpot C	2																				0
 Uber Izual			-4	512	654	972	1024	0	Act 5 (H) Uitem C	2	Act 5 (H) Cpot C	2																				0
-Bloodwitch (H)			5	800	800	972	1024	3	"gld,mul=2048"	340	Act 2 (H) Equip B	461	Act 2 (H) Junk	121	Act 2 (H) Good	121	pk2	26														0
+Bloodwitch (H)			5	800	800	972	1024	3	"gld,mul=2048"	340	Act 2 (H) Equip B	461	Act 2 (H) Junk	121	Act 2 (H) Good	121	pk2	261														0
 Map Void			1					400	mp5	5	yps	10	rvl	40																		0
 Map Void2			2					100	mp5	10	rvl	70																				0
 Map Void3			2					25	mp5	10	yps	10	rvl	50																		0
