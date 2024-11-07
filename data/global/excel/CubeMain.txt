@@ -2435,7 +2435,7 @@ tainted jeweller's orb + set -> remove sockets	1			100	16	304	1000		2	"any,sock,
 																																																																																																								0
 HATRED/TERROR EMBER																																																																																																								0
 																																																																																																								0
-hatred ember + torch + ama -> awakened multiple shot	1			100	18	300	0	ama	2	Hellfire Torch	"heo,qty=1"						useitem			100	skill	100	498	3	3	influenced	100		1	1	hatred-influenced	100		1	1	dye	100		7	7																																																																0
+hatred ember + torch + ama -> awakened multiple shot	1			100	18	300	0	ama	2	Hellfire Torch	"heo,qty=1"						useitem			100	skill	100	498	5	5	influenced	100		1	1	hatred-influenced	100		1	1	dye	100		7	7																																																																0
 hatred ember + torch + sor -> awakened charged bolt	1			100	18	300	0	sor	2	Hellfire Torch	"heo,qty=1"						useitem			100	skill	100	510	5	5	influenced	100		1	1	hatred-influenced	100		1	1	dye	100		7	7																																																																0
 hatred ember + torch + nec -> awakened teeth	1			100	18	300	0	nec	2	Hellfire Torch	"heo,qty=1"						useitem			100	skill	100	501	5	5	influenced	100		1	1	hatred-influenced	100		1	1	dye	100		7	7																																																																0
 hatred ember + torch + pal -> awakened concentration	1			100	18	300	0	pal	2	Hellfire Torch	"heo,qty=1"						useitem			100	skill	100	503	5	5	influenced	100		1	1	hatred-influenced	100		1	1	dye	100		7	7																																																																0
@@ -2450,7 +2450,7 @@ terror ember + torch + bar -> awakened war cry	1			100	18	300	0	bar	2	Hellfire T
 terror ember + torch + dru -> awakened tornado	1			100	18	300	0	dru	2	Hellfire Torch	"teo,qty=1"						useitem			100	skill	100	506	5	5	influenced	100		1	1	terror-influenced	100		1	1	dye	100		8	8																																																																0
 terror ember + torch + ass -> awakened mind blast	1			100	18	300	0	ass	2	Hellfire Torch	"teo,qty=1"						useitem			100	skill	100	508	5	5	influenced	100		1	1	terror-influenced	100		1	1	dye	100		8	8																																																																0
 																																																																																																								0
-hatred ember + torch + ama -> awakened multiple shot	1			100	18	300	0	ama	2	Annihilus	"heo,qty=1"						useitem			100	skill	100	498	3	3	influenced	100		1	1	hatred-influenced	100		1	1																																																																					0
+hatred ember + torch + ama -> awakened multiple shot	1			100	18	300	0	ama	2	Annihilus	"heo,qty=1"						useitem			100	skill	100	498	5	5	influenced	100		1	1	hatred-influenced	100		1	1																																																																					0
 hatred ember + torch + sor -> awakened charged bolt	1			100	18	300	0	sor	2	Annihilus	"heo,qty=1"						useitem			100	skill	100	510	5	5	influenced	100		1	1	hatred-influenced	100		1	1																																																																					0
 hatred ember + torch + nec -> awakened teeth	1			100	18	300	0	nec	2	Annihilus	"heo,qty=1"						useitem			100	skill	100	501	5	5	influenced	100		1	1	hatred-influenced	100		1	1																																																																					0
 hatred ember + torch + pal -> awakened concentration	1			100	18	300	0	pal	2	Annihilus	"heo,qty=1"						useitem			100	skill	100	503	5	5	influenced	100		1	1	hatred-influenced	100		1	1																																																																					0
@@ -2469,7 +2469,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	1			100					1	"key,qty=1"							Replica Kadala's Heirloom	131																												leg	131																												wss,qty=50	131																												0
+generate (dev)	0			100					1	"key,qty=1"							Shatterblade	131																												Titangrip	131																												wss,qty=50	131																												0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication (DROP DISABLED)	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
 4 of Luminescence -> Mara's Kaleidoscope	1			100					1	fslu,qty=4							Mara's Kaleidoscope	95																																																																																						0
 4 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=4							The Stone of Jordan	95																																																																																						0
