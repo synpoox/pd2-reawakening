@@ -27,30 +27,30 @@ Potion 6			1						hp4	6	hp5	8	mp4	1	mp5	5	rvs	1	vps	2	yps	2	wms	1								0
 Runes 1 unstack			1						r01	3	r02	2																				0
 Runes 2 unstack			1						r03	3	r04	2	Runes 1 unstack	2																		0
 Runes 3 unstack			1						r05	3	r06	2	Runes 2 unstack	4																		0
-Runes 4 unstack			1						r07	3	r08	2	Runes 3 unstack	5																		0
+Runes 4 unstack			1						r07	3	r08	2	Runes 3 unstack	7																		0
 Runes 1			1						r01s	3	r02s	2																				0
 Runes 2			1						r03s	3	r04s	2	Runes 1	2																		0
 Runes 3			1						r05s	3	r06s	2	Runes 2	4																		0
-Runes 4			1						r07s	3	r08s	2	Runes 3	5																		0
-Runes 5			1						r09s	3	r10s	2	Runes 4	7																		0
-Runes 6			1						r11s	3	r12s	2	Runes 5	9																		0
-Runes 7			1						r13s	3	r14s	2	Runes 6	20																		0
-Runes 8			1						r15s	3	r16s	2	Runes 7	40																		0
-Runes 9			1						r17s	3	r18s	2	Runes 8	80																		0
-Runes 10			1						r19s	3	r20s	2	Runes 9	160																		0
-Runes 11			1						r21s	3	r22s	2	Runes 10	320																		0
-Runes 12			1						r23s	3	r24s	2	Runes 11	473																		0
-Runes 13			1						r25s	3	r26s	2	Runes 12	674																		0
-Runes 14			1						r27s	3	r28s	2	Runes 13	964																		0
-Runes 15			1						r29s	3	r30s	2	Runes 14	1307																		0
-Runes 16			1						r31s	3	r32s	2	Runes 15	1758																		0
-Runes 17			1						r33s	1	Runes 16	2297																				0
-Runes 12 equiv			1						r23s	3	r24s	2	Runes 11	473																		0
-Runes 13 equiv			1						r25s	3	r26s	2	Runes 12 equiv	674																		0
-Runes 14 equiv			1						r27s	3	r28s	2	Runes 13 equiv	964																		0
-Runes 15 equiv			1						r29s	3	r30s	2	Runes 14 equiv	1307																		0
-Runes 16 equiv			1						r31s	3	r32s	2	Runes 15 equiv	1758																		0
-Runes 17 equiv			1						r33s	1	Runes 16 equiv	2297																				0
+Runes 4			1						r07s	3	r08s	2	Runes 3	7																		0
+Runes 5			1						r09s	3	r10s	2	Runes 4	10																		0
+Runes 6			1						r11s	3	r12s	2	Runes 5	12																		0
+Runes 7			1						r13s	3	r14s	2	Runes 6	27																		0
+Runes 8			1						r15s	3	r16s	2	Runes 7	54																		0
+Runes 9			1						r17s	3	r18s	2	Runes 8	107																		0
+Runes 10			1						r19s	3	r20s	2	Runes 9	214																		0
+Runes 11			1						r21s	3	r22s	2	Runes 10	427																		0
+Runes 12			1						r23s	3	r24s	2	Runes 11	631																		0
+Runes 13			1						r25s	3	r26s	2	Runes 12	899																		0
+Runes 14			1						r27s	3	r28s	2	Runes 13	1286																		0
+Runes 15			1						r29s	3	r30s	2	Runes 14	1743																		0
+Runes 16			1						r31s	3	r32s	2	Runes 15	2344																		0
+Runes 17			1						r33s	1	Runes 16	3063																				0
+Runes 12 equiv			1						r23s	3	r24s	2	Runes 11	631																		0
+Runes 13 equiv			1						r25s	3	r26s	2	Runes 12 equiv	899																		0
+Runes 14 equiv			1						r27s	3	r28s	2	Runes 13 equiv	1286																		0
+Runes 15 equiv			1						r29s	3	r30s	2	Runes 14 equiv	1743																		0
+Runes 16 equiv			1						r31s	3	r32s	2	Runes 15 equiv	2344																		0
+Runes 17 equiv			1						r33s	1	Runes 16 equiv	3063																				0
 Map Tier 1			1			400	800		t23	1	t15	1	t12	1	t26	1	t25	1	t22	1	t36	1										0
 Map Tier 2			1			400	800		t34	1	t31	1	t24	1	t11	1	t33	1	t13	1	t27	1	t28	1								0
 Map Tier 3			1			400	800		t3a	2	t38	2	t39	2	t37	2	t14	2	t21	2	t32	2	t16	2	t35	2						0
