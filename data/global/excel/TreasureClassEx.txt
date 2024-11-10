@@ -224,15 +224,15 @@ Act 4 (H) Magic B	4	80	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic A	4	82	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic B	4	83	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic C	4	85	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Orbs			1					0	dvo	138	mfo	40	rgo	50	cho	200	oou	4	tjo	1	dvia	500	rotf	15	rofp	50						0
+Orbs			1					0	dvo	141	mfo	32	rgo	45	cho	200	oou	4	tjo	1	dvia	500	rotf	15	rofp	50						0
 Map Boss TC		85	5					0	Act 5 (H) Equip C	264	Act 5 (H) Good	20	T3 Map Drop	15	dcbl	3	dcho	1	dcso	2	rtmv	2										0
-Replica			1					0	rofp	1	gld	11																				0
+Replica			1					0	rofp	1	gld	10																				0
 Prime Evil Embers			1					0	heo	1	teo	1																				0
 Map Orbs Drop			1					0	Orbs	129	Prime Evil Embers	1																				0
 Fate Common A			1					0	fslr	1	fsvi	1	fsem	1	fshs	1	fstw	1	fsla	1												0
 Fate Common B			1					0	fsar	1	fscf	1	fsed	1	fsta	1	fsts	1	fstf	1												0
 Fate Common C			1					0	fsbl	1	fssf	1	fsmw	1	fsew	1	fssg	1	fstu	1												0
-Map Boss Uber Relic			1					0	rotv	1	gld	7499																				0
+Map Boss Uber Relic			1					0	rotv	1	gld	4999																				0
 Fate Uncommon A			1					0	fsms	1	fspv	1	fsps	1	fstc	1	fsat	1	fslu	1												0
 Fate Uncommon B			1					0	fscs	1	fslc	1	fstl	1	fsdw	1	fsbr	1	fsrb	1												0
 Fate Rare A			1					0	fsha	1	fsjp	1	fsdi	1	fsfr	1	fsfa	1														0
@@ -996,26 +996,26 @@ MapStat DropCharms			1						cm3	1	cm2	1	cm1	1																		0
 MapStat DropWss			1						wss	1																						0
 MapStat DropJewels			1						jew	1																						0
 Larzuk Puzzlebox N				0																												0
-Larzuk Puzzlebox NM				4500	10																											0
-Larzuk Puzzlebox H				3500	10																											0
-Larzuk Puzzlepiece N				4500	10																											0
-Larzuk Puzzlepiece NM				2250	10																											0
-Larzuk Puzzlepiece H				1500	10																											0
-SkeletonKey N				3500	100																											
-SkeletonKey NM				3500	100																											
-SkeletonKey H				3500	100																											
-Horadric ID Book N				3500	100																											
-Horadric ID Book NM				3500	100																											
-Horadric ID Book H				3500	100																											
-Horadric TP Book N				3500	100																											
-Horadric TP Book NM				3500	100																											
-Horadric TP Book H				3500	100																											
-Lillith Mirror N				12500	100																											
-Lillith Mirror NM				12500	100																											
-Lillith Mirror H				12500	100																											
-Vial of Lightsong N				6250	100																											
-Vial of Lightsong NM				6250	100																											
-Vial of Lightsong H				6250	100																											
+Larzuk Puzzlebox NM				2000	100																											0
+Larzuk Puzzlebox H				1000	100																											0
+Larzuk Puzzlepiece N				2000	100																											0
+Larzuk Puzzlepiece NM				1000	100																											0
+Larzuk Puzzlepiece H				500	100																											0
+SkeletonKey N				5000	100																											
+SkeletonKey NM				5000	100																											
+SkeletonKey H				5000	100																											
+Horadric ID Book N				5000	100																											
+Horadric ID Book NM				5000	100																											
+Horadric ID Book H				5000	100																											
+Horadric TP Book N				5000	100																											
+Horadric TP Book NM				5000	100																											
+Horadric TP Book H				5000	100																											
+Lillith Mirror N				15000	100																											
+Lillith Mirror NM				15000	100																											
+Lillith Mirror H				15000	100																											
+Vial of Lightsong N				7500	100																											
+Vial of Lightsong NM				7500	100																											
+Vial of Lightsong H				7500	100																											
 Corrupted Zone				150																												
 Unique Map Monsters				7500	10																											
 Unique Map MapBoss				6000																												
