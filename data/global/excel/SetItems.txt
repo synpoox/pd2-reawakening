@@ -128,9 +128,9 @@ McAuley's Paragon	McAuley's Folly	cap	Cap	3	20	25	lpur	lpur						5	5000		mag%		3
 McAuley's Riprap	McAuley's Folly	vbt	Heavy Boots	7	20	20	lpur	lpur						5	5000		move3		40	40	att		100	100	str		5	5	dex		10	10																																																													0
 McAuley's Taboo	McAuley's Folly	vgl	Heavy Gloves	7	20	28	lpur	lpur						5	5000		ac		20	25	swing2		20	20	hp		40	40	dmg-pois	75	92	113																																																													0
 McAuley's Superstition	McAuley's Folly	bwn	Bone Wand	7	20	25	lpur	lpur						5	5000	2	dmg%	2	75	75	mana		25	25	manasteal		8	8	cast3		20	20	dmg-cold	50	25	75																	allskills		2	2	splash	358	100	1																																	0
-The Fear	Regalia of the Damned	rin	Ring	1	50	45								5	5000	2	all-stats		20	35																																																																									0
-The Anguish	Regalia of the Damned	rin	Ring	1	50	45								5	5000	2	res-all		25	40																																																																									0
-The Despair	Regalia of the Damned	amu	Amulet	2	50	45								5	5000	2	cast2		10	15	swing2		15	20																													allskills		1	1																																					0
+The Fear	Regalia of the Damned	rin	Ring	2	50	45								5	5000	2	all-stats		20	35																																																																									0
+The Anguish	Regalia of the Damned	rin	Ring	2	50	45								5	5000	2	res-all		25	40																																																																									0
+The Despair	Regalia of the Damned	amu	Amulet	3	50	45								5	5000	2	cast2		10	15	swing2		15	20																													allskills		1	1																																					0
 Replica Tals	Collection of Deceit	uth	Lacquered Plate	7	120	71	dpur	dpur						5	5000	2	ease		-60	-60	red-mag		15	15	red-dmg%		25	25	res-all		40	40	allskills		2	2	move2		25	25	ac		400	400	hp%		5	5					allskills		1	1					balance2		20	20																													0
 Replica Ondal's Almighty	Collection of Deceit	uhm	Spired Helm	7	120	69								5	5000	2	ac		50	150	ease		-35	-35	sock		2	2	str		10	15	dex		10	20	move2		24	24	allskills		2	2									allskills		1	1					block		20	20																													0
 Replica Bk Ring	Collection of Deceit	rin	Ring	2	120	69	dgrn	dgrn						5	5000	2	dmg-undead		40	75	dmg-demon		40	75	res-fire		15	25	red-dmg%		5	5																					half-freeze		1	1					allskills		1	1																													0
