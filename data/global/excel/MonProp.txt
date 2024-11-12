@@ -12,7 +12,7 @@ quillrat6																															thorns			15	20																										
 quillrat7																															thorns			15	20																										thorns			30	40																										0
 quillrat8																															thorns			15	20																										thorns			30	40																										0
 druidhawk	hit-skill	100	387	100	1																										hit-skill	100	387	100	1																										hit-skill	100	387	100	1																										0
-druidbear	hit-skill	100	358	100	1																										hit-skill	100	358	100	1																										hit-skill	100	358	100	1																										0
+druidbear	hit-skill	100	358	100	1	inc_splash_radius	100		20	20																					hit-skill	100	358	100	1	inc_splash_radius	100		20	20																					hit-skill	100	358	100	1	inc_splash_radius	100		20	20																					0
 claygolem	hit-skill	100	358	100	1	crush	100		20	20	inc_splash_radius	100		-20	-20																hit-skill	100	358	100	1	crush	100		20	20	inc_splash_radius	100		-20	-20																hit-skill	100	358	100	1	crush	100		20	20	inc_splash_radius	100		-20	-20																0
 fenris	hit-skill	100	393	100	1	inc_splash_radius	100		-60	-60																					hit-skill	100	393	100	1	inc_splash_radius	100		-60	-60																					hit-skill	100	393	100	1	inc_splash_radius	100		-60	-60																					0
 necroskeleton	hit-skill	100	393	100	1																										hit-skill	100	393	100	1																										hit-skill	100	393	100	1																										0
