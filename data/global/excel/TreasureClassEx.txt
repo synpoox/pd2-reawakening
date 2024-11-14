@@ -8,7 +8,7 @@ Flawed Gem			1						gfv	3	gfy	3	gfb	3	gfg	3	gfr	3	gfw	3	skf	2										0
 Normal Gem			1						gsv	3	gsy	3	gsb	3	gsg	3	gsr	3	gsw	3	sku	2										0
 Flawless Gem			1						gzvs	3	glys	3	glbs	3	glgs	3	glrs	3	glws	3	skls	2										0
 Perfect Gem			1						gpvs	3	gpys	3	gpbs	3	gpgs	3	gprs	3	gpws	3	skzs	2										0
-Ammo			1						aqv	1	cqv	1	gld	19																		0
+Ammo			1						aqv	1	cqv	1	gld	17																		0
 Misc 0			1						key	3	tsc	3	isc	3	tpfs	2	tpgs	2	tpcs	2	tpls	2										0
 Misc 1			1						key	3	tsc	3	isc	3	tpfm	2	tpgm	2	tpcm	2	tplm	2										0
 Misc 2			1						key	3	tsc	3	isc	3	tpfl	2	tpgl	2	tpcl	2	tpll	2										0
@@ -27,30 +27,30 @@ Potion 6			1						hp4	6	hp5	8	mp4	1	mp5	5	rvs	1	vps	2	yps	2	wms	1								0
 Runes 1 unstack			1						r01	3	r02	2																				0
 Runes 2 unstack			1						r03	3	r04	2	Runes 1 unstack	2																		0
 Runes 3 unstack			1						r05	3	r06	2	Runes 2 unstack	4																		0
-Runes 4 unstack			1						r07	3	r08	2	Runes 3 unstack	5																		0
+Runes 4 unstack			1						r07	3	r08	2	Runes 3 unstack	7																		0
 Runes 1			1						r01s	3	r02s	2																				0
 Runes 2			1						r03s	3	r04s	2	Runes 1	2																		0
 Runes 3			1						r05s	3	r06s	2	Runes 2	4																		0
-Runes 4			1						r07s	3	r08s	2	Runes 3	5																		0
-Runes 5			1						r09s	3	r10s	2	Runes 4	7																		0
-Runes 6			1						r11s	3	r12s	2	Runes 5	9																		0
-Runes 7			1						r13s	3	r14s	2	Runes 6	20																		0
-Runes 8			1						r15s	3	r16s	2	Runes 7	40																		0
-Runes 9			1						r17s	3	r18s	2	Runes 8	80																		0
-Runes 10			1						r19s	3	r20s	2	Runes 9	160																		0
-Runes 11			1						r21s	3	r22s	2	Runes 10	320																		0
-Runes 12			1						r23s	3	r24s	2	Runes 11	473																		0
-Runes 13			1						r25s	3	r26s	2	Runes 12	674																		0
-Runes 14			1						r27s	3	r28s	2	Runes 13	964																		0
-Runes 15			1						r29s	3	r30s	2	Runes 14	1307																		0
-Runes 16			1						r31s	3	r32s	2	Runes 15	1758																		0
-Runes 17			1						r33s	1	Runes 16	2297																				0
-Runes 12 equiv			1						r23s	3	r24s	2	Runes 11	473																		0
-Runes 13 equiv			1						r25s	3	r26s	2	Runes 12 equiv	674																		0
-Runes 14 equiv			1						r27s	3	r28s	2	Runes 13 equiv	964																		0
-Runes 15 equiv			1						r29s	3	r30s	2	Runes 14 equiv	1307																		0
-Runes 16 equiv			1						r31s	3	r32s	2	Runes 15 equiv	1758																		0
-Runes 17 equiv			1						r33s	1	Runes 16 equiv	2297																				0
+Runes 4			1						r07s	3	r08s	2	Runes 3	7																		0
+Runes 5			1						r09s	3	r10s	2	Runes 4	10																		0
+Runes 6			1						r11s	3	r12s	2	Runes 5	12																		0
+Runes 7			1						r13s	3	r14s	2	Runes 6	27																		0
+Runes 8			1						r15s	3	r16s	2	Runes 7	54																		0
+Runes 9			1						r17s	3	r18s	2	Runes 8	107																		0
+Runes 10			1						r19s	3	r20s	2	Runes 9	214																		0
+Runes 11			1						r21s	3	r22s	2	Runes 10	427																		0
+Runes 12			1						r23s	3	r24s	2	Runes 11	631																		0
+Runes 13			1						r25s	3	r26s	2	Runes 12	899																		0
+Runes 14			1						r27s	3	r28s	2	Runes 13	1286																		0
+Runes 15			1						r29s	3	r30s	2	Runes 14	1743																		0
+Runes 16			1						r31s	3	r32s	2	Runes 15	2344																		0
+Runes 17			1						r33s	1	Runes 16	3063																				0
+Runes 12 equiv			1						r23s	3	r24s	2	Runes 11	631																		0
+Runes 13 equiv			1						r25s	3	r26s	2	Runes 12 equiv	899																		0
+Runes 14 equiv			1						r27s	3	r28s	2	Runes 13 equiv	1286																		0
+Runes 15 equiv			1						r29s	3	r30s	2	Runes 14 equiv	1743																		0
+Runes 16 equiv			1						r31s	3	r32s	2	Runes 15 equiv	2344																		0
+Runes 17 equiv			1						r33s	1	Runes 16 equiv	3063																				0
 Map Tier 1			1			400	800		t23	1	t15	1	t12	1	t26	1	t25	1	t22	1	t36	1										0
 Map Tier 2			1			400	800		t34	1	t31	1	t24	1	t11	1	t33	1	t13	1	t27	1	t28	1								0
 Map Tier 3			1			400	800		t3a	2	t38	2	t39	2	t37	2	t14	2	t21	2	t32	2	t16	2	t35	2						0
@@ -224,24 +224,24 @@ Act 4 (H) Magic B	4	80	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic A	4	82	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic B	4	83	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic C	4	85	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Orbs			1					0	dvo	138	mfo	40	rgo	50	cho	200	oou	4	tjo	1	dvia	500	rotf	15	rofp	50						0
+Orbs			1					0	dvo	148	mfo	30	rgo	40	cho	200	oou	4	tjo	1	dvia	500	rotf	15	rofp	50						0
 Map Boss TC		85	5					0	Act 5 (H) Equip C	264	Act 5 (H) Good	20	T3 Map Drop	15	dcbl	3	dcho	1	dcso	2	rtmv	2										0
-Replica			1					0	rofp	1	gld	11																				0
+Replica			1					0	rofp	1	gld	10																				0
 Prime Evil Embers			1					0	heo	1	teo	1																				0
 Map Orbs Drop			1					0	Orbs	129	Prime Evil Embers	1																				0
 Fate Common A			1					0	fslr	1	fsvi	1	fsem	1	fshs	1	fstw	1	fsla	1												0
 Fate Common B			1					0	fsar	1	fscf	1	fsed	1	fsta	1	fsts	1	fstf	1												0
 Fate Common C			1					0	fsbl	1	fssf	1	fsmw	1	fsew	1	fssg	1	fstu	1												0
-Map Boss Uber Relic			1					0	rotv	1	gld	7499																				0
+Map Boss Uber Relic			1					0	rotv	1	gld	4999																				0
 Fate Uncommon A			1					0	fsms	1	fspv	1	fsps	1	fstc	1	fsat	1	fslu	1												0
 Fate Uncommon B			1					0	fscs	1	fslc	1	fstl	1	fsdw	1	fsbr	1	fsrb	1												0
 Fate Rare A			1					0	fsha	1	fsjp	1	fsdi	1	fsfr	1	fsfa	1														0
 Fate Drop			1					0	Fate Common A	92	Fate Common B	92	Fate Common C	92	Fate Uncommon A	16	Fate Uncommon B	16	Fate Rare A	1												0
-Act 1 Good	5	0	1						Jewelry A	120	Chipped Gem	96	wss	2	Fate Drop	2	Orbs	1														0
-Act 2 Good	5	12	1						Jewelry B	160	Chipped Gem	88	Flawed Gem	32	wss	2	Runes 1	24	Runes 2	24	Fate Drop	2	Orbs	1								0
-Act 3 Good	5	18	1						Jewelry C	160	Chipped Gem	56	Flawed Gem	64	wss	2	Runes 3	24	Runes 4	24	Fate Drop	2	Orbs	1								0
-Act 4 Good	5	26	1						Jewelry C	200	Chipped Gem	12	Flawed Gem	40	Normal Gem	56	Flawless Gem	112	wss	2	Runes 5	56	Runes 6	28	Fate Drop	2	Orbs	1				0
-Act 5 Good	5	32	1						Jewelry C	200	Chipped Gem	6	Flawed Gem	20	Normal Gem	56	Flawless Gem	56	wss	2	Runes 7	28	Fate Drop	2	Orbs	1						0
+Act 1 Good	5	0	1						Jewelry A	240	Chipped Gem	192	wss	4	Fate Drop	2	Orbs	1														0
+Act 2 Good	5	12	1						Jewelry B	320	Chipped Gem	176	Flawed Gem	64	wss	4	Runes 1	48	Runes 2	48	Fate Drop	2	Orbs	1								0
+Act 3 Good	5	18	1						Jewelry C	320	Chipped Gem	112	Flawed Gem	128	wss	4	Runes 3	48	Runes 4	48	Fate Drop	2	Orbs	1								0
+Act 4 Good	5	26	1						Jewelry C	400	Chipped Gem	24	Flawed Gem	80	Normal Gem	112	Flawless Gem	224	wss	4	Runes 5	112	Runes 6	56	Fate Drop	2	Orbs	1				0
+Act 5 Good	5	32	1						Jewelry C	400	Chipped Gem	12	Flawed Gem	40	Normal Gem	112	Flawless Gem	112	wss	4	Runes 7	56	Fate Drop	2	Orbs	1						0
 Act 1 (N) Good	5	38	1						Jewelry C	120	Chipped Gem	4	Flawed Gem	20	Normal Gem	28	Flawless Gem	56	wss	4	Runes 8	28	Fate Drop	2	Orbs	1						0
 Act 2 (N) Good	5	42	1						Jewelry C	120	Chipped Gem	4	Flawed Gem	20	Normal Gem	28	Flawless Gem	56	wss	4	Runes 9	28	Fate Drop	2	Orbs	1						0
 Act 3 (N) Good	5	46	1						Jewelry C	120	Chipped Gem	4	Flawed Gem	20	Normal Gem	28	Flawless Gem	56	wss	4	Runes 10	28	Fate Drop	2	Orbs	1						0
@@ -731,17 +731,17 @@ Map Swarm t1	28	74	1					415	Potion 6	292	Misc 2	143	Map Good t1	23	Act 3 (H) Ma
 Map Swarm t2	28	74	1					415	Potion 6	292	Misc 2	143	Map Good t2	23	Act 3 (H) Magic A	143																0
 Map Swarm t3	28	74	1					415	Potion 6	292	Misc 2	143	Map Good t3	23	Act 3 (H) Magic A	143																0
 Andariel			7	983	983	983	1024	1	"gld,mul=1280"	228	Act 2 Equip A	395	Act 2 Junk	311	Act 2 Good	62																0
-Andariel (N)			7	983	983	983	1024	1	"gld,mul=1536"	228	Act 2 (N) Equip A	395	Act 2 (N) Junk	311	Act 2 (N) Good	62	tes	20														0
-Andariel (H)			7	983	983	983	1024	1	"gld,mul=2048"	224	Act 4 (H) Equip A	387	Act 4 (H) Junk	305	Act 4 (H) Good	70	tes	35														0
+Andariel (N)			7	983	983	983	1024	1	"gld,mul=1536"	228	Act 2 (N) Equip A	395	Act 2 (N) Junk	311	Act 2 (N) Good	62																0
+Andariel (H)			7	983	983	983	1024	1	"gld,mul=2048"	224	Act 4 (H) Equip A	387	Act 4 (H) Junk	305	Act 4 (H) Good	70																0
 Andarielq			7	995	995	1024	1024	1	Act 2 Equip A	845	Act 2 Good	133																				0
-Andarielq (N)			7	995	995	1024	1024	1	Act 2 (N) Equip A	845	Act 2 (N) Good	133	tes	42																		0
-Andarielq (H)			7	995	995	1024	1024	1	Act 4 (H) Equip A	810	Act 4 (H) Good	145	tes	40																		0
+Andarielq (N)			7	995	995	1024	1024	1	Act 2 (N) Equip A	845	Act 2 (N) Good	133																				0
+Andarielq (H)			7	995	995	1024	1024	1	Act 4 (H) Equip A	810	Act 4 (H) Good	145																				0
 Duriel - Base			7	983	983	983	1024	0	"gld,mul=1280"	228	Act 3 Equip A	395	Act 3 Junk	311	Act 3 Good	62																0
-Duriel (N) - Base			7	983	983	983	1024	0	"gld,mul=1536"	228	Act 3 (N) Equip A	395	Act 3 (N) Junk	311	Act 3 (N) Good	62	tes	20														0
-Duriel (H) - Base			7	983	983	983	1024	0	"gld,mul=2048"	75	Act 5 (H) Equip B	787	Act 5 (H) Junk	75	Act 5 (H) Good	45	tes	15														0
+Duriel (N) - Base			7	983	983	983	1024	0	"gld,mul=1536"	228	Act 3 (N) Equip A	395	Act 3 (N) Junk	311	Act 3 (N) Good	62																0
+Duriel (H) - Base			7	983	983	983	1024	0	"gld,mul=2048"	75	Act 5 (H) Equip B	787	Act 5 (H) Junk	75	Act 5 (H) Good	45																0
 Durielq - Base			7	993	993	1024	1024	0	Act 3 Equip A	845	Act 3 Good	133																				0
-Durielq (N) - Base			7	993	993	1024	1024	0	Act 3 (N) Equip A	845	Act 3 (N) Good	133	tes	42																		0
-Durielq (H) - Base			7	993	993	1024	1024	0	Act 5 (H) Equip B	928	Act 5 (H) Good	53	tes	17																		0
+Durielq (N) - Base			7	993	993	1024	1024	0	Act 3 (N) Equip A	845	Act 3 (N) Good	133																				0
+Durielq (H) - Base			7	993	993	1024	1024	0	Act 5 (H) Equip B	928	Act 5 (H) Good	53																				0
 Radament			5	900	900	900	1024	1	"gld,mul=1280"	228	Act 3 Equip B	395	Act 3 Junk	311	Act 3 Good	62																0
 Radament (N)			5	900	900	900	1024	1	"gld,mul=1536"	228	Act 3 (N) Equip B	395	Act 3 (N) Junk	311	Act 3 (N) Good	62																0
 Radament (H)			5	900	900	900	1024	1	"gld,mul=2048"	228	Act 3 (H) Equip C	395	Act 3 (H) Junk	311	Act 3 (H) Good	62																0
@@ -749,17 +749,17 @@ Flying Scimitar			1					95	Act 2 Good	45	scm	859																				0
 Flying Scimitar (N)			1					95	Act 2 (N) Good	45	scm	376	9sm	482																		0
 Flying Scimitar (H)			1					95	Act 2 (H) Good	45	scm	105	9sm	271	7sm	482																0
 Mephisto			7	983	983	983	1024	0	"gld,mul=1280"	76	Act 4 Equip A	799	Act 4 Junk	76	Act 4 Good	46																0
-Mephisto (N)			7	983	983	983	1024	0	"gld,mul=1536"	76	Act 4 (N) Equip A	799	Act 4 (N) Junk	76	Act 4 (N) Good	46	ceh	15														0
-Mephisto (H)			7	983	983	983	1024	0	"gld,mul=2048"	75	Act 4 (H) Equip A	787	Act 4 (H) Junk	75	Act 4 (H) Good	60	ceh	30														0
+Mephisto (N)			7	983	983	983	1024	0	"gld,mul=1536"	76	Act 4 (N) Equip A	799	Act 4 (N) Junk	76	Act 4 (N) Good	46																0
+Mephisto (H)			7	983	983	983	1024	0	"gld,mul=2048"	75	Act 4 (H) Equip A	787	Act 4 (H) Junk	75	Act 4 (H) Good	60																0
 Mephistoq			7	993	993	1024	1024	0	Act 4 Equip A	945	Act 4 Good	54																				0
-Mephistoq (N)			7	993	993	1024	1024	0	Act 4 (N) Equip A	945	Act 4 (N) Good	54	ceh	17																		0
-Mephistoq (H)			7	993	993	1024	1024	0	Act 4 (H) Equip A	928	Act 4 (H) Good	65	ceh	30																		0
+Mephistoq (N)			7	993	993	1024	1024	0	Act 4 (N) Equip A	945	Act 4 (N) Good	54																				0
+Mephistoq (H)			7	993	993	1024	1024	0	Act 4 (H) Equip A	928	Act 4 (H) Good	65																				0
 Diablo			7	983	983	983	1024	0	"gld,mul=1280"	76	Act 5 Equip A	799	Act 5 Junk	76	Act 5 Good	46																0
-Diablo (N)			7	983	983	983	1024	0	"gld,mul=1536"	76	Act 5 (N) Equip A	799	Act 5 (N) Junk	76	Act 5 (N) Good	46	bet	15														0
-Diablo (H)			7	983	983	983	1024	0	"gld,mul=2048"	75	Act 5 (H) Equip A	777	Act 5 (H) Junk	75	Act 5 (H) Good	65	bet	30	dcso	35												0
+Diablo (N)			7	983	983	983	1024	0	"gld,mul=1536"	76	Act 5 (N) Equip A	799	Act 5 (N) Junk	76	Act 5 (N) Good	46																0
+Diablo (H)			7	983	983	983	1024	0	"gld,mul=2048"	75	Act 5 (H) Equip A	777	Act 5 (H) Junk	75	Act 5 (H) Good	65	dcso	35														0
 Diabloq			7	993	993	1024	1024	0	Act 5 Equip A	945	Act 5 Good	54																				0
-Diabloq (N)			7	993	993	1024	1024	0	Act 5 (N) Equip A	945	Act 5 (N) Good	54	bet	17																		0
-Diabloq (H)			7	993	993	1024	1024	0	Act 5 (H) Equip A	918	Act 5 (H) Good	65	bet	30	dcso	35																0
+Diabloq (N)			7	993	993	1024	1024	0	Act 5 (N) Equip A	945	Act 5 (N) Good	54																				0
+Diabloq (H)			7	993	993	1024	1024	0	Act 5 (H) Equip A	918	Act 5 (H) Good	65	dcso	35																		0
 Summoner			5	900	900	972	1024	4	"gld,mul=1280"	248	Act 2 Equip C	414	Act 3 Junk	138	Act 2 Good	82	Act 3 Magic A	110														0
 Summoner (N)			5	900	900	972	1024	4	"gld,mul=1536"	248	Act 2 (N) Equip C	414	Act 3 (N) Junk	138	Act 2 (N) Good	82	Act 3 (N) Magic A	110														0
 Summoner (H)			5	900	900	972	1024	4	"gld,mul=2048"	242	Act 2 (H) Equip C	403	Act 3 (H) Junk	134	Act 2 (H) Good	80	Act 3 (H) Magic A	107	pk2	242												0
@@ -789,11 +789,11 @@ Nihlathak			5	900	900	900	1024	3	"gld,mul=1280"	340	Act 5 Equip B	461	Act 5 Junk
 Nihlathak (N)			5	900	900	900	1024	3	"gld,mul=1536"	340	Act 5 (N) Equip B	461	Act 5 (N) Junk	121	Act 5 (N) Good	72																0
 Nihlathak (H)			5	900	900	900	1024	2	"gld,mul=2048"	332	Act 5 (H) Equip B	451	Act 5 (H) Junk	71	Act 5 (H) Good	71	pk3	232														0
 Baal			7	983	983	983	1024	0	"gld,mul=1280"	76	Act 1 (N) Equip A	799	Act 1 (N) Junk	76	Act 1 (N) Good	46																0
-Baal (N)			7	983	983	983	1024	0	"gld,mul=1536"	76	Act 1 (H) Equip A	799	Act 1 (H) Junk	76	Act 1 (H) Good	46	fed	15														0
-Baal (H)			7	983	983	983	1024	0	"gld,mul=2048"	75	Act 5 (H) Equip B	777	Act 5 (H) Junk	69	Act 5 (H) Good	65	fed	30	dcso	53												0
+Baal (N)			7	983	983	983	1024	0	"gld,mul=1536"	76	Act 1 (H) Equip A	799	Act 1 (H) Junk	76	Act 1 (H) Good	46																0
+Baal (H)			7	983	983	983	1024	0	"gld,mul=2048"	75	Act 5 (H) Equip B	777	Act 5 (H) Junk	69	Act 5 (H) Good	65	dcso	53														0
 Baalq			7	993	993	1024	1024	0	Act 1 (N) Equip A	945	Act 1 (N) Good	54																				0
-Baalq (N)			7	993	993	1024	1024	0	Act 1 (H) Equip A	945	Act 1 (H) Good	54	fed	17																		0
-Baalq (H)			7	993	993	1024	1024	0	Act 5 (H) Equip B	911	Act 5 (H) Good	65	fed	30	dcso	53																0
+Baalq (N)			7	993	993	1024	1024	0	Act 1 (H) Equip A	945	Act 1 (H) Good	54																				0
+Baalq (H)			7	993	993	1024	1024	0	Act 5 (H) Equip B	911	Act 5 (H) Good	65	dcso	53																		0
 Blood Raven			5	800	800	972	1024	3	"gld,mul=1280"	340	Act 1 Equip B	461	Act 1 Junk	121	Act 1 Good	121																0
 Blood Raven (N)			5	800	800	972	1024	3	"gld,mul=1536"	340	Act 1 (N) Equip B	461	Act 1 (N) Junk	121	Act 1 (N) Good	121																0
 Blood Raven (H)			5	800	800	972	1024	3	"gld,mul=2048"	340	Act 1 (H) Equip B	461	Act 1 (H) Junk	121	Act 1 (H) Good	121	pk1	261														0
@@ -996,26 +996,26 @@ MapStat DropCharms			1						cm3	1	cm2	1	cm1	1																		0
 MapStat DropWss			1						wss	1																						0
 MapStat DropJewels			1						jew	1																						0
 Larzuk Puzzlebox N				0																												0
-Larzuk Puzzlebox NM				4500	10																											0
-Larzuk Puzzlebox H				3500	10																											0
-Larzuk Puzzlepiece N				4500	10																											0
-Larzuk Puzzlepiece NM				2250	10																											0
-Larzuk Puzzlepiece H				1500	10																											0
-SkeletonKey N				3500	100																											
-SkeletonKey NM				3500	100																											
-SkeletonKey H				3500	100																											
-Horadric ID Book N				3500	100																											
-Horadric ID Book NM				3500	100																											
-Horadric ID Book H				3500	100																											
-Horadric TP Book N				3500	100																											
-Horadric TP Book NM				3500	100																											
-Horadric TP Book H				3500	100																											
-Lillith Mirror N				12500	100																											
-Lillith Mirror NM				12500	100																											
-Lillith Mirror H				12500	100																											
-Vial of Lightsong N				6250	100																											
-Vial of Lightsong NM				6250	100																											
-Vial of Lightsong H				6250	100																											
+Larzuk Puzzlebox NM				2000	100																											0
+Larzuk Puzzlebox H				1000	100																											0
+Larzuk Puzzlepiece N				2000	100																											0
+Larzuk Puzzlepiece NM				1000	100																											0
+Larzuk Puzzlepiece H				500	100																											0
+SkeletonKey N				5000	100																											
+SkeletonKey NM				5000	100																											
+SkeletonKey H				5000	100																											
+Horadric ID Book N				5000	100																											
+Horadric ID Book NM				5000	100																											
+Horadric ID Book H				5000	100																											
+Horadric TP Book N				5000	100																											
+Horadric TP Book NM				5000	100																											
+Horadric TP Book H				5000	100																											
+Lillith Mirror N				15000	100																											
+Lillith Mirror NM				15000	100																											
+Lillith Mirror H				15000	100																											
+Vial of Lightsong N				7500	100																											
+Vial of Lightsong NM				7500	100																											
+Vial of Lightsong H				7500	100																											
 Corrupted Zone				150																												
 Unique Map Monsters				7500	10																											
 Unique Map MapBoss				6000																												
@@ -1044,13 +1044,13 @@ Treasure Fallen Orbs NM			2					37	Orbs	3																						0
 Treasure Fallen Orbs H			2					25	Orbs	3																						0
 Treasure Fallen Gem H			2					10	Perfect Gem	2	Flawless Gem	1																				0
 Treasure Fallen Map			2					12	T3 Map Drop	2	imra	1	rera	1	imma	1	scou	1														0
-Treasure Fallen Rune H			2					12	Runes 12	7																						0
+Treasure Fallen Rune H			2					12	Runes 13	7																						0
 Treasure Fallen Craft H			1					12	crfb	1	crfc	1	crfs	1	crfh	1	crfv	1	crfu	1	crfp	1										0
 Treasure Fallen Gem N			2					18	Flawless Gem	2																						0
-Treasure Fallen Rune N			2					13	Runes 5	2																						0
+Treasure Fallen Rune N			2					13	Runes 6	2																						0
 Treasure Fallen Craft N			2					18	crfb	1	crfc	1	crfs	1	crfh	1	crfv	1	crfu	1												0
 Treasure Fallen Gem NM			2					16	Perfect Gem	3	Flawless Gem	2																				0
-Treasure Fallen Rune NM			2					12	Runes 10	2																						0
+Treasure Fallen Rune NM			2					12	Runes 11	2																						0
 Treasure Fallen Craft NM			2					16	crfb	1	crfc	1	crfs	1	crfh	1	crfv	1	crfu	1												0
 Treasure Fallen N			3					29	Treasure Fallen Gem N	4	Treasure Fallen Rune N	4	Treasure Fallen Craft N	4	Treasure Fallen Orbs N	1	Treasure Fallen Cards N	1	"gld,mul=2048"	15												0
 Treasure Fallen NM			3					21	Treasure Fallen Gem NM	4	Treasure Fallen Rune NM	4	Treasure Fallen Craft NM	4	Treasure Fallen Orbs NM	1	Treasure Fallen Cards NM	1	"gld,mul=3072"	15												0

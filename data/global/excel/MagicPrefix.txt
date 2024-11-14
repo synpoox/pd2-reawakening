@@ -429,9 +429,9 @@ Astral	426	100	1	1	35		26				1	123	att-demon		151	200	dmg-demon		101	150							w
 Elysian	427	100	1	1	45		33				1	123	att-demon		201	300	dmg-demon		151	200					1	dgld	weap							wand	orb						0
 Celestial	428	100	1		55		41				1	123	att-demon		301	400	dmg-demon		201	300					1	dgld	weap							wand	orb						0
 Diamond	429	100	1	1	26		19				1	123	att-demon		25	50	dmg-demon		25	40							jewl														0
-Fletcher's	430	100	1		50		42	ama			2	125	skilltab	0	1	1											lcha	lchs	lchp												0
-Acrobat's	431	100	1		50		42	ama			2	125	skilltab	1	1	1											lcha	lchs	lchp												0
-Harpoonist's	432	100	1		50		42	ama			2	125	skilltab	2	1	1											lcha	lchs	lchp												0
+Fletcher's	430	100	1		50		42	ama			3	125	skilltab	0	1	1											lcha	lchs	lchp												0
+Acrobat's	431	100	1		50		42	ama			3	125	skilltab	1	1	1											lcha	lchs	lchp												0
+Harpoonist's	432	100	1		50		42	ama			3	125	skilltab	2	1	1											lcha	lchs	lchp												0
 Fletcher's	433	100	1	1	20		15	ama			1	125	skilltab	0	1	1											miss	glov	circ	misl	amul										0
 Bowyer's	434	100	1	1	40		30	ama			1	125	skilltab	0	2	2									1	lgld	miss	glov	circ	misl	amul										0
 Archer's	435	100	1		60		45	ama			1	125	skilltab	0	3	3									1	lgld	miss	glov	circ	misl	amul										0
@@ -441,9 +441,9 @@ Athlete's	438	100	1		60		45	ama			1	125	skilltab	1	3	3									1	lgld	glov	amul	
 Harpoonist's	439	100	1	1	20		15	ama			1	125	skilltab	2	1	1											spea	glov	amul	circ											0
 Spearmaiden's	440	100	1	1	40		30	ama			1	125	skilltab	2	2	2									1	lgld	spea	glov	amul	circ											0
 Lancer's	441	100	1	1	60		45	ama			1	125	skilltab	2	3	3									1	lgld	spea														0
-Burning	442	100	1	1	50		42	sor			2	125	skilltab	3	1	1											lcha	lchs	lchp												0
-Sparking	443	100	1	1	50		42	sor			2	125	skilltab	4	1	1											lcha	lchs	lchp												0
-Chilling	444	100	1	1	50		42	sor			2	125	skilltab	5	1	1											lcha	lchs	lchp												0
+Burning	442	100	1	1	50		42	sor			3	125	skilltab	3	1	1											lcha	lchs	lchp												0
+Sparking	443	100	1	1	50		42	sor			3	125	skilltab	4	1	1											lcha	lchs	lchp												0
+Chilling	444	100	1	1	50		42	sor			3	125	skilltab	5	1	1											lcha	lchs	lchp												0
 Burning	445	100	1	1	20		15	sor			1	125	skilltab	3	1	1											staf	orb	amul	circ											0
 Blazing	446	100	1	1	40		30	sor			1	125	skilltab	3	2	2									1	lgld	staf	orb	amul	circ											0
 Volcanic	447	100	1	1	60		45	sor			1	125	skilltab	3	3	3									1	lgld	staf	orb	amul	circ											0
@@ -453,9 +453,9 @@ Powered	450	100	1	1	60		45	sor			1	125	skilltab	4	3	3									1	lgld	staf	orb	am
 Chilling	451	100	1	1	20		15	sor			1	125	skilltab	5	1	1											staf	orb	amul	circ											0
 Freezing	452	100	1	1	40		30	sor			1	125	skilltab	5	2	2									1	lgld	staf	orb	amul	circ											0
 Glacial	453	100	1	1	60		45	sor			1	125	skilltab	5	3	3									1	lgld	staf	orb	amul	circ											0
-Hexing	454	100	1	1	50		42	nec			2	125	skilltab	6	1	1											lcha	lchs	lchp												0
-Fungal	455	100	1	1	50		42	nec			2	125	skilltab	7	1	1											lcha	lchs	lchp												0
-Graverobber's	456	100	1	1	50		42	nec			2	125	skilltab	8	1	1											lcha	lchs	lchp												0
+Hexing	454	100	1	1	50		42	nec			3	125	skilltab	6	1	1											lcha	lchs	lchp												0
+Fungal	455	100	1	1	50		42	nec			3	125	skilltab	7	1	1											lcha	lchs	lchp												0
+Graverobber's	456	100	1	1	50		42	nec			3	125	skilltab	8	1	1											lcha	lchs	lchp												0
 Hexing	457	100	1	1	20		15	nec			1	125	skilltab	6	1	1											wand	head	amul	circ											0
 Blighting	458	100	1	1	40		30	nec			1	125	skilltab	6	2	2									1	lgld	wand	head	amul	circ											0
 Accursed	459	100	1	1	60		45	nec			1	125	skilltab	6	3	3									1	lgld	wand	head	amul	circ											0
@@ -465,9 +465,9 @@ Venomous	462	100	1	1	60		45	nec			1	125	skilltab	7	3	3									1	lgld	wand	head	
 Graverobber's	463	100	1	1	20		15	nec			1	125	skilltab	8	1	1											wand	head	amul	circ											0
 Vodoun	464	100	1	1	40		30	nec			1	125	skilltab	8	2	2									1	lgld	wand	head	amul	circ											0
 Golemlord's	465	100	1	1	60		45	nec			1	125	skilltab	8	3	3									1	lgld	wand	head	amul	circ											0
-Lion Branded	466	100	1	1	50		42	pal			2	125	skilltab	9	1	1											lcha	lchs	lchp												0
-Captain's	467	100	1	1	50		42	pal			2	125	skilltab	10	1	1											lcha	lchs	lchp												0
-Preserver's	468	100	1	1	50		42	pal			2	125	skilltab	11	1	1											lcha	lchs	lchp												0
+Lion Branded	466	100	1	1	50		42	pal			3	125	skilltab	9	1	1											lcha	lchs	lchp												0
+Captain's	467	100	1	1	50		42	pal			3	125	skilltab	10	1	1											lcha	lchs	lchp												0
+Preserver's	468	100	1	1	50		42	pal			3	125	skilltab	11	1	1											lcha	lchs	lchp												0
 Lion Branded	469	100	1	1	20		15	pal			1	125	skilltab	9	1	1											scep	swor	mace	shld	ashd	amul	circ								0
 Hawk Branded	470	100	1	1	40		30	pal			1	125	skilltab	9	2	2									1	lgld	scep	swor	mace	shld	ashd	amul	circ								0
 Rose Branded	471	100	1	1	60		45	pal			1	125	skilltab	9	3	3									1	lgld	scep	swor	mace	shld	ashd	amul	circ								0
@@ -477,9 +477,9 @@ Marshal's	474	100	1	1	60		45	pal			1	125	skilltab	10	3	3									1	lgld	scep	swo
 Preserver's	475	100	1	1	20		15	pal			1	125	skilltab	11	1	1											shld	ashd	amul	circ											0
 Warder's	476	100	1	1	40		30	pal			1	125	skilltab	11	2	2									1	lgld	shld	ashd	amul	circ											0
 Guardian's	477	100	1	1	60		45	pal			1	125	skilltab	11	3	3									1	lgld	shld	ashd	amul	circ											0
-Expert's	478	100	1	1	50		42	bar			2	125	skilltab	12	1	1											lcha	lchs	lchp												0
-Fanatic	479	100	1	1	50		42	bar			2	125	skilltab	13	1	1											lcha	lchs	lchp												0
-Sounding	480	100	1	1	50		42	bar			2	125	skilltab	14	1	1											lcha	lchs	lchp												0
+Expert's	478	100	1	1	50		42	bar			3	125	skilltab	12	1	1											lcha	lchs	lchp												0
+Fanatic	479	100	1	1	50		42	bar			3	125	skilltab	13	1	1											lcha	lchs	lchp												0
+Sounding	480	100	1	1	50		42	bar			3	125	skilltab	14	1	1											lcha	lchs	lchp												0
 Expert's	481	100	1	1	20		15	bar			1	125	skilltab	12	1	1											phlm	weap	helm					miss	rod	knif					0
 Veteran's	482	100	1	1	40		30	bar			1	125	skilltab	12	2	2									1	lgld	phlm	weap	helm	amul	glov			miss	rod	knif					0
 Master's	483	100	1		60		45	bar			1	125	skilltab	12	3	3									1	lgld	phlm	weap	helm					miss	rod	knif					0
@@ -489,9 +489,9 @@ Furious	486	100	1	1	60		45	bar			1	125	skilltab	13	3	3									1	lgld	phlm	weap	
 Sounding	487	100	1	1	20		15	bar			1	125	skilltab	14	1	1											phlm	weap	amul					miss	rod	knif					0
 Resonant	488	100	1	1	40		30	bar			1	125	skilltab	14	2	2									1	lgld	phlm	weap	amul	glov				miss	rod	knif					0
 Echoing	489	100	1	1	60		45	bar			1	125	skilltab	14	3	3									1	lgld	phlm	weap	amul					miss	rod	knif					0
-Trainer's	490	100	1	1	50		42	dru			2	125	skilltab	15	1	1											lcha	lchs	lchp												0
-Spiritual	491	100	1	1	50		42	dru			2	125	skilltab	16	1	1											lcha	lchs	lchp												0
-Nature's	492	100	1	1	50		42	dru			2	125	skilltab	17	1	1											lcha	lchs	lchp												0
+Trainer's	490	100	1	1	50		42	dru			3	125	skilltab	15	1	1											lcha	lchs	lchp												0
+Spiritual	491	100	1	1	50		42	dru			3	125	skilltab	16	1	1											lcha	lchs	lchp												0
+Nature's	492	100	1	1	50		42	dru			3	125	skilltab	17	1	1											lcha	lchs	lchp												0
 Trainer's	493	100	1	1	20		15	dru			1	125	skilltab	15	1	1											club	pelt	amul	circ											0
 Caretaker's	494	100	1	1	40		30	dru			1	125	skilltab	15	2	2									1	lgld	club	pelt	amul												0
 Keeper's	495	100	1	1	60		45	dru			1	125	skilltab	15	3	3									1	lgld	club	pelt	amul												0
@@ -501,9 +501,9 @@ Communal	498	100	1	1	60		45	dru			1	125	skilltab	16	3	3									1	lgld	club	pelt
 Nature's	499	100	1	1	20		15	dru			1	125	skilltab	17	1	1											club	pelt	amul	circ											0
 Terra's	500	100	1	1	40		30	dru			1	125	skilltab	17	2	2									1	lgld	club	pelt	amul												0
 Gaea's	501	100	1	1	60		45	dru			1	125	skilltab	17	3	3									1	lgld	club	pelt	amul												0
-Entrapping	502	100	1	1	50		42	ass			2	125	skilltab	18	1	1											lcha	lchs	lchp												0
-Mentalist's	503	100	1	1	50		42	ass			2	125	skilltab	19	1	1											lcha	lchs	lchp												0
-Shogukusha's	504	100	1	1	50		42	ass			2	125	skilltab	20	1	1											lcha	lchs	lchp												0
+Entrapping	502	100	1	1	50		42	ass			3	125	skilltab	18	1	1											lcha	lchs	lchp												0
+Mentalist's	503	100	1	1	50		42	ass			3	125	skilltab	19	1	1											lcha	lchs	lchp												0
+Shogukusha's	504	100	1	1	50		42	ass			3	125	skilltab	20	1	1											lcha	lchs	lchp												0
 Entrapping	505	100	1	1	20		15	ass			1	125	skilltab	18	1	1											h2h	amul	circ	knif				tkni							0
 Trickster's	506	100	1	1	40		30	ass			1	125	skilltab	18	2	2									1	lgld	h2h	amul	circ	knif				tkni							0
 Cunning	507	100	1	1	60		45	ass			1	125	skilltab	18	3	3									1	lgld	h2h	amul	circ	knif				tkni							0
@@ -563,22 +563,22 @@ Maiden's	560	1	1	1	36		27	ama			4	125	ama		1	1											amul														0
 Valkyrie's	561	1	1	1	90		67	ama			2	125	ama		2	2									1	cgrn	amul														0
 Maiden's	562	1	1	1	30		22	ama			4	125	ama		1	1											miss	spea													0
 Valkyrie's	563	1	1	1	50		42	ama			2	125	ama		2	2									1	cgrn	miss	spea													0
-Monk's	564	1	1	1	36		27	pal			4	125	pal		1	1											amul	circ													0
-Priest's	565	1	1	1	90		67	pal			2	125	pal		2	2									1	cgrn	amul	circ													0
+Monk's	564	1	1	1	36		27	pal			4	125	pal		1	1											amul														0
+Priest's	565	1	1	1	90		67	pal			2	125	pal		2	2									1	cgrn	amul														0
 Monk's	566	1	1	1	30		22	pal			4	125	pal		1	1											scep	ashd													0
 Priest's	567	1	1	1	50		42	pal			2	125	pal		2	2									1	cgrn	scep	ashd													0
 Monk's	568	1	1	1	35		27	pal			4	125	pal		1	1											swor	mace	hamm	shld											0
 Priest's	569	1	1	1	65		58	pal			2	125	pal		2	2									1	cgrn	swor	mace	hamm	shld											0
-Summoner's	570	1	1	1	36		27	nec			4	125	nec		1	1											amul	circ													0
-Necromancer's	571	1	1	1	90		67	nec			2	125	nec		2	2									1	cgrn	amul	circ													0
+Summoner's	570	1	1	1	36		27	nec			4	125	nec		1	1											amul														0
+Necromancer's	571	1	1	1	90		67	nec			2	125	nec		2	2									1	cgrn	amul														0
 Summoner's	572	1	1	1	30		22	nec			4	125	nec		1	1											wand	knif	head					tkni							0
 Necromancer's	573	1	1	1	50		42	nec			2	125	nec		2	2									1	cgrn	wand	knif	head					tkni							0
-Angel's	574	1	1	1	36		27	sor			4	125	sor		1	1											amul	circ													0
-Arch-Angel's	575	1	1	1	90		67	sor			2	125	sor		2	2									1	cgrn	amul	circ													0
+Angel's	574	1	1	1	36		27	sor			4	125	sor		1	1											amul														0
+Arch-Angel's	575	1	1	1	90		67	sor			2	125	sor		2	2									1	cgrn	amul														0
 Angel's	576	1	1	1	30		22	sor			4	125	sor		1	1											staf	orb													0
 Arch-Angel's	577	1	1	1	50		42	sor			2	125	sor		2	2									1	cgrn	staf	orb													0
-Slayer's	578	1	1	1	36		27	bar			4	125	bar		1	1											amul	circ													0
-Berserker's	579	1	1	1	90		67	bar			2	125	bar		2	2									1	cgrn	amul	circ													0
+Slayer's	578	1	1	1	36		27	bar			4	125	bar		1	1											amul														0
+Berserker's	579	1	1	1	90		67	bar			2	125	bar		2	2									1	cgrn	amul														0
 Slayer's	580	1	1	1	30		22	bar			4	125	bar		1	1											tkni	axe	spea	club	swor	hamm	mace	jave							0
 Berserker's	581	1	1	1	50		42	bar			1	125	bar		2	2									1	cgrn	tkni	axe	spea	club	swor	hamm	mace	jave							0
 Slayer's	582	100	1	1	30		22	bar			4	125	bar		1	1											phlm														0
@@ -747,11 +747,11 @@ Frigid	744	100	1	1	28		28				3	201	extra-cold		2	3											mcha														0
 Wildfire	745	100	1	1	28		28				3	201	extra-fire		2	3											mcha														0
 Malicious	746	100	1	1	28		28				3	201	extra-pois		2	3											mcha														0
 Effervescent	747	100	1	1	28		28				3	201	extra-magi		2	3											mcha														0
-Conduit	748	100	1	1	42		42				2	201	extra-ltng		3	3											mcha														0
-Numbing	749	100	1	1	42		42				2	201	extra-cold		3	3											mcha														0
-Inferno	750	100	1	1	42		42				2	201	extra-fire		3	3											mcha														0
-Infectious	751	100	1	1	42		42				2	201	extra-pois		3	3											mcha														0
-Scintillating	752	100	1	1	42		42				2	201	extra-magi		3	3											mcha														0
+Conduit	748	100	1	1	42		42				2	201	extra-ltng		3	4											mcha														0
+Numbing	749	100	1	1	42		42				2	201	extra-cold		3	4											mcha														0
+Inferno	750	100	1	1	42		42				2	201	extra-fire		3	4											mcha														0
+Infectious	751	100	1	1	42		42				2	201	extra-pois		3	4											mcha														0
+Scintillating	752	100	1	1	42		42				2	201	extra-magi		3	4											mcha														0
 Visceral	753	100	1	1	75		69				1	105	dmg%		301	400									1	blac	miss	amaz	knif	club	mace	tkni	taxe	aspe							0
 Divine	754	100	1	1	45		37				1	142	att-undead		326	450	dmg-undead		276	350						lgld	miss														0
 Celestial	755	100	1	1	55		41				1	123	att-demon		301	400	dmg-demon		201	300					1	dgld	miss														0

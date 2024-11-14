@@ -296,7 +296,7 @@ aura_effect_increase	293		1	5													1024		7		7																		180	2	1	In
 item_converteletomagic	294		1								1						1024		7	0	10	0	12																204	3	0	StrConvertEleMag	StrConvertEleMag									0
 combustion_cd_reduction	295		1	5													1024		6		6																		150	9	2	CombustionCdReduced	CombustionCdReduced	NewSeconds								0
 cannot_have_sockets	296		1	5													1024		6		6																		40	3	0	CannotHaveSockets	CannotHaveSockets									0
-aura_delay_reduction	297		1	5													1024		7		7																		180	2	2	AuraDelayReduced	AuraDelayReduced									0
+aura_delay_reduction	297		1	5													1024		7		7																		180	3	0	AuraDelayReduced	AuraDelayReduced									0
 terror_influenced	298			10	10										54	204	1024		8	0	10	0	10																248	3	0	StrTerrorInfluenced	StrTerrorInfluenced									0
 hatred_influenced	299			10	10										54	204	1024		8	0	10	0	10																248	3	0	StrHatredInfluenced	StrHatredInfluenced									0
 prime_evil_influenced	300			1	16											54	1024				12	0																	0	0	0											0
@@ -477,7 +477,7 @@ dev_clout	474			3											54	204	1024		8	0	3	0																	255	3	0	DevClou
 extra_skele_archer	475		1	5													1024		6		5																		150	9	2	YouMaySummon	YouMaySummon	ExtraSkeleArcher								0
 extra_golem	476		1	5													1024		6		5																		150	9	2	YouMaySummon	YouMaySummon	ExtraGolem								0
 transform_dye	477		1	24													1024		5	0	24	0																														0
-inc_splash_radius	478		1	5													1024		6		5																		159	2	2	IncSplash	IncSplash									0
+inc_splash_radius	478		1	5													1024		6		5																		159	2	2	IncSplash_RE	IncSplash_RE									0
 item_numsockets_textonly	479		1	4													1024		4	0	4	0																	1	3		SocketedTextOnly	SocketedTextOnly									0
 rathma_clout	480			3											54	204	1024		8	0	3	0																	255	3	0	RathmaClout	RathmaClout									0
 extra_holybolts	481		1	5													1024		5		5																															0
