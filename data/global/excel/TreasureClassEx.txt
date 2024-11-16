@@ -252,9 +252,9 @@ Act 2 (H) Good	5	72	1						Jewelry C	120	Flawed Gem	27	Normal Gem	28	Flawless Ge
 Act 3 (H) Good	5	78	1						Jewelry C	120	Flawed Gem	27	Normal Gem	28	Flawless Gem	50	Perfect Gem	6	Runes 15 equiv	30	wss	4	Map Tier 1	2	Orbs	4	Fate Drop	2				0
 Act 4 (H) Good	5	82	1						Jewelry C	120	Flawed Gem	27	Normal Gem	28	Flawless Gem	50	Perfect Gem	6	Runes 16 equiv	30	wss	4	Map Tier 1	2	Orbs	4	Fate Drop	2				0
 Act 5 (H) Good	5	85	1						Jewelry C	120	Flawed Gem	27	Normal Gem	28	Flawless Gem	50	Perfect Gem	6	Runes 17 equiv	30	wss	4	Map Tier 1	2	Orbs	4	Fate Drop	2				0
-Map Good t1	20	85	1						Jewelry C	120	Flawed Gem	29	Normal Gem	28	Flawless Gem	50	Perfect Gem	6	Runes 17 equiv	30	wss	5	T1 Map Drop	5	Map Orbs Drop	8	Fate Drop	5				0
-Map Good t2	20	86	1						Jewelry C	120	Flawed Gem	29	Normal Gem	28	Flawless Gem	50	Perfect Gem	6	Runes 17 equiv	30	wss	5	T2 Map Drop	5	Map Orbs Drop	8	Fate Drop	5				0
-Map Good t3	20	87	1						Jewelry C	120	Flawed Gem	29	Normal Gem	28	Flawless Gem	50	Perfect Gem	6	Runes 17 equiv	30	wss	5	T3 Map Drop	5	Map Orbs Drop	8	Fate Drop	5				0
+Map Good t1	20	85	1						Jewelry C	120	Flawed Gem	28	Normal Gem	28	Flawless Gem	50	Perfect Gem	6	Runes 17 equiv	30	wss	6	T1 Map Drop	5	Map Orbs Drop	8	Fate Drop	5				0
+Map Good t2	20	86	1						Jewelry C	120	Flawed Gem	28	Normal Gem	28	Flawless Gem	50	Perfect Gem	6	Runes 17 equiv	30	wss	6	T2 Map Drop	5	Map Orbs Drop	8	Fate Drop	5				0
+Map Good t3	20	87	1						Jewelry C	120	Flawed Gem	28	Normal Gem	28	Flawless Gem	50	Perfect Gem	6	Runes 17 equiv	30	wss	6	T3 Map Drop	5	Map Orbs Drop	8	Fate Drop	5				0
 Act 1 Chest A	6	0	4					173	gld	295	Act 1 Junk	295	Act 1 Equip A	196	Act 1 Good	39																0
 Act 1 Chest B	6	5	4					173	gld	295	Act 1 Junk	295	Act 1 Equip B	196	Act 1 Good	39																0
 Act 1 Chest C	6	9	4					145	gld	272	Act 1 Junk	218	Act 2 Junk	54	Act 1 Equip C	272	Act 1 Good	36														0
