@@ -15,7 +15,7 @@ druidhawk	hit-skill	100	387	100	1																										hit-skill	100	387	100
 druidbear	hit-skill	100	358	100	1	inc_splash_radius	100		20	20																					hit-skill	100	358	100	1	inc_splash_radius	100		20	20																					hit-skill	100	358	100	1	inc_splash_radius	100		20	20																					0
 claygolem	hit-skill	100	358	100	1	crush	100		20	20	inc_splash_radius	100		-20	-20																hit-skill	100	358	100	1	crush	100		20	20	inc_splash_radius	100		-20	-20																hit-skill	100	358	100	1	crush	100		20	20	inc_splash_radius	100		-20	-20																0
 fenris	hit-skill	100	393	100	1	inc_splash_radius	100		-60	-60																					hit-skill	100	393	100	1	inc_splash_radius	100		-60	-60																					hit-skill	100	393	100	1	inc_splash_radius	100		-60	-60																					0
-necroskeleton	hit-skill	100	393	100	1																										hit-skill	100	393	100	1																										hit-skill	100	393	100	1																										0
+necroskeleton	hit-skill	100	393	100	1	inc_splash_radius	100		20	20																					hit-skill	100	393	100	1	inc_splash_radius	100		20	20																					hit-skill	100	393	100	1	inc_splash_radius	100		20	20																					0
 willowispboss	aura	100	395	1	1																										aura	100	395	1	1																										aura	100	395	1	1																										0
 willowispminion	aura	100	396	1	1																										aura	100	396	1	1																										aura	100	396	1	1																										0
 willowisptotem	aura	100	123	22	22																										aura	100	123	5	5																										aura	100	439	1	1																										0

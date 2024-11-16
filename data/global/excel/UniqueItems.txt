@@ -558,7 +558,7 @@ Replica Nosferatu's Coil	100	1		1	1	120	51	uvc	vampirefang belt			5	5000								
 Replica Saracen's Chance	100	1		1	1	120	47	amu	Amulet			5	5000	dpur	dpur						res-all		15	25	dmg%		30	50	all-stats		12	12	oskill	12	3	3	pierce		10	15																													0
 Replica Highlord's Wrath	100	1		1	1	120	65	amu	Amulet			5	5000	bwht	bwht						res-ltng		30	40	dmg-ltng		1	300	inc-splash-radius		20	20	allskills		1	1	deadly/lvl	2			light-thorns		100	150																									0
 Replica The Cat's Eye	100	1		1	1	120	50	amu	Amulet			5	5000	oran	oran						move2		50	50	oskill	13	1	1	dex		25	35																																					0
-Replica The Third Eye	100	1		0	1	125	90	amu	Amulet			5	5000	oran	oran		invamu				allskills		1	1	move2		20	20	nofreeze		1	1	light		-4	-4	hit-skill	FingermageBossNova	10	25	vit		10	20																									0
+Replica The Third Eye	100	1		0	1	125	90	amu	Amulet			5	5000	oran	oran		invamu				allskills		1	1	move2		20	20	nofreeze		1	1	light		-4	-4	cast-skill	FingermageBossNova	100	25	vit		10	20																									0
 Replica Metalgrid	100	1		1	1	120	81	amu	amulet			5	5000								thorns		750	1000	res-all		25	35	att		400	450	oskill	94	25	25	charged	Iron Maiden Proc	20	12	ac		300	350	oskill	golem mastery	20	20																					0
 Replica Mara's Kaleidoscope	100	1		1	1	120	67	amu	Amulet			5	5000	oran	oran						allskills		2	2	all-stats		20	30	red-dmg%		5	8																																					0
 Replica Amulet of the Viper	100	1		1	1	120	30	amu	Amulet			5	5000				invvip				poisskill		2	2	mana		10	10	extra-pois		5	8	hp		10	10	pierce-pois		5	8																													0

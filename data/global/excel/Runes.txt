@@ -65,7 +65,7 @@ Runeword94	Obsession	1		staf									ZodIstLemLumIoNef	r33	r24	r20	r17	r16	r04	a
 Runeword49	Harmony	1		miss									TirIthSolKo	r03	r06	r12	r18			dmg%		200	275	dmg-elem		55	160	charged	Revive	25	20	aura	Vigor	10	10	regen-mana		20	20	light		2	2	skill	32	3	6	0
 Runeword50	Hatred																																															0
 Runeword40	Flickering Flame	1		helm									NefPulVex	r04	r21	r26				aura	resist fire	1	6	fireskill		2	2	pierce-fire		5	10	mana		65	75	half-freeze		1	1	res-pois-len		25	25					0
-Runeword41	Fortitude	1		tors									ElSolDolLo	r01	r12	r14	r28			ac%		200	200	dmg%		250	300	cast3		25	25	dmg-to-mana		12	12	hp/lvl		8	12	res-all		25	30					0
+Runeword41	Fortitude	1		tors									ElSolDolLo	r01	r12	r14	r28			ac%		200	200	dmg%		280	320	cast3		25	25	dmg-to-mana		12	12	hp/lvl		8	12	res-all		25	30					0
 Runeword42	Fortune's Favor																																															0
 Runeword89	Nature's Kingdom																																															0
 Runeword46	Glory																																															0
