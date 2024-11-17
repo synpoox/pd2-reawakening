@@ -2469,7 +2469,7 @@ Small Charm + TES + CEH + BET + FED = Cain's Wisdom	0			100					5	"tes,qty=1"	"c
 Grand Charm + TES + CEH + BET + FED = Larzuk's Legacy	0			100					5	"tes,qty=1"	"ceh,qty=1"	"bet,qty=1"	"fed,qty=1"	cm3			Larzuk's Legacy	99																																																																																						0
 																																																																																																								0
 FATE SHARD EXCHANGE																																																																																																								0
-generate (dev)	0			100					1	"key,qty=1"							The Third Eye	131																												Replica The Third Eye	131																												Titangrip	131																												0
+generate (dev)	1			100					1	"key,qty=1"							fste,qty=50	131																												fsch,qty=50	131																												Titangrip	131																												0
 3 of Lawful Sentence -> Tal Rasha’s Adjudication (DROP DISABLED)	1			100					1	fsls,qty=3							Tal Rasha's Adjudication	95																																																																																						0
 4 of Luminescence -> Mara's Kaleidoscope	1			100					1	fslu,qty=4							Mara's Kaleidoscope	95																																																																																						0
 4 of Ammuit Treasure -> The Stone of Jordan	1			100					1	fsat,qty=4							The Stone of Jordan	95																																																																																						0
@@ -2517,7 +2517,10 @@ generate (dev)	0			100					1	"key,qty=1"							The Third Eye	131																
 3 of Victory -> 5 standard of heroes	1			100					1	fsvi,qty=3							"std,qty=5"																																																																																							0
 4 of The Brotherhood -> Call of the Brotherhood (DROP DISABLED)	1			100					1	fstb,qty=4							Call of the Brotherhood	95																																																																																						0
 4 of The Fallen Archangel -> Inarius' Trinket	1			100					1	fsfa,qty=4							Inarius' Trinket	131																																																																																						0
-																																																																																																								0
+18 of Blessing of Might -> unique sacred armor	1			100					1	fsbm,qty=18							"uar,uni"	131																																																																																						0
+2 of The Destruction -> 3 wss	1			100					1	fstd,qty=2							wss,qty=3	99																																																																																						0
+3 of The Chaos -> 5 chaos orb	1			100					1	fsch,qty=3							cho,qty=5	99																																																																																						0
+7 of The Enlightened -> rare circ +1 all	1			100					1	fste,qty=7							"circ,rar"		100		allskills	100		1	1																																																																															0
 RUNE DOWNGRADING																																																																																																								0
 r02 downgrade eld -> 1 el	1			100					2	"key,qty=1"	"r02,qty=1"						useitem			100																										"r01s,qty=1"																																																										0
 r03 downgrade tir -> 1 eld	1			100					2	"key,qty=1"	"r03,qty=1"						useitem			100																										"r02s,qty=1"																																																										0
