@@ -230,8 +230,8 @@ Replica			1					0	rofp	1	gld	10																				0
 Prime Evil Embers			1					0	heo	1	teo	1																				0
 Map Orbs Drop			1					0	Orbs	129	Prime Evil Embers	1																				0
 Fate Common A			1					0	fslr	1	fsvi	1	fsem	1	fshs	1	fstw	1	fsla	1	fstd	1	fste	1								0
-Fate Common B			1					0	fsar	1	fscf	1	fsed	1	fsta	1	fsts	1	fstf	1	fsbm	1										0
-Fate Common C			1					0	fsbl	1	fssf	1	fsmw	1	fsew	1	fssg	1	fstu	1	fsch	1										0
+Fate Common B			1					0	fsar	1	fscf	1	fsed	1	fsta	1	fsts	1	fstf	1	fsbm	1	fsas	1								0
+Fate Common C			1					0	fsbl	1	fssf	1	fsmw	1	fsew	1	fssg	1	fstu	1	fsch	1	fsuw	1								0
 Map Boss Uber Relic			1					0	rotv	1	gld	4999																				0
 Fate Uncommon A			1					0	fsms	1	fspv	1	fsps	1	fstc	1	fsat	1	fslu	1												0
 Fate Uncommon B			1					0	fscs	1	fslc	1	fstl	1	fsdw	1	fsbr	1	fsrb	1												0
