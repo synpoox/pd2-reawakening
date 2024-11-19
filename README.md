@@ -15,8 +15,8 @@ Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Si
 - **Legacy Items**: Obtained through a rare drop Relic of the Nephalem, these legacy items are extremely powerful items from Diablo 2 LoD patch 1.08.
 - **Replica Items**: Reproductions of existing items that come with a twist.
 - **New Orbs**:
-  - _Mythic Orb_: Transforms Magic/Rare item to Unique (excluding charms)
-  - _Regal Orb_: Transforms Magic/Rare item to Set
+  - _Ancient Orb_: Transforms Rare item to Unique (excluding charms)
+  - _Regal Orb_: Transforms Rare item to Set
   - _Divine Orb_: Rerolls unique item, limited to: equipment, jewelry, grand charms
   - _Orb of Unmaking_: Allows an item to be Awakened once more, keeping existing properties intact.
   - _Tainted Jeweller's Orb_: Unpredictably unsockets an item, either keeping or destroying contents in the process.
@@ -41,7 +41,7 @@ If you've played PlugY or any other PD2 single player mod, your current characte
 #### With Launcher (auto-updates Reawakening patches)
 
 1. Create a copy of your PD2 installation in a new directory.
-1. Install [PD2-PlugY](https://github.com/BetweenWalls/PD2-PlugY)
+1. Install [PD2-PlugY](https://github.com/synpoox/PD2-PlugY)
 1. Download the [Latest Release](https://github.com/synpoox/pd2-reawakening-launcher/releases/latest) of [PD2 Reawakening Launcher](https://github.com/synpoox/pd2-reawakening-launcher)
 1. Install it in the same folder that `PlugY.exe` is located in.
 1. Run `PD2 Reawakening Launcher.exe` as Administrator (if needed).
@@ -50,7 +50,7 @@ If you've played PlugY or any other PD2 single player mod, your current characte
 #### Manual Install (No auto-updates)
 
 1. Create a copy of your PD2 installation in a new directory.
-1. Install [PD2-PlugY](https://github.com/BetweenWalls/PD2-PlugY)
+1. Install [PD2-PlugY](https://github.com/synpoox/PD2-PlugY)
 1. Go to [Releases](https://github.com/synpoox/pd2-reawakening/releases) and download the latest `pd2data.mpq` and `BH.dll`
 1. Copy and paste `pd2data.mpq` and `BH.dll` into your new PD2-PlugY install, overwriting any old files.
 1. Launch the game with `Plugy.exe`
@@ -91,12 +91,13 @@ Following the above instructions will point your new PD2 Reawakening install you
 
 _Always make backups of your saves_
 
-## Pastable Loot Filter Code
+## Adding new orbs/cards to your filter
 
-This contains all the new item types (fate cards, new orbs, relic of the nephalem), stylized for Kryszard's filter.
-1. Open `loot.filter` in your `...\PD2-Reawakening\ProjectD2` directory
+This contains the new misc item types (fate cards, new orbs, relics), stylized for Kryszard's filter.
+
+1. In-game, set a hotkey for `Reload Loot Filter` and press it
+1. Find and open the file that gets displayed in game
 1. Paste the following somewhere near the top
-
 ```
 //PD2 Single Player Reawakening
 ItemDisplay[awst OR mfo OR exo OR dvo OR rgo OR cho OR tjo OR dvia]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*%RED%*       %NAME%       %RED%*%PURPLE%*%GREEN%*
