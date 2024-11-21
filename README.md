@@ -6,7 +6,7 @@ Comments and feedback would be very appreciated, join the [Discord](https://disc
 
 Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Single-Player-Plus-mod)
 
-**[Discord](https://discord.gg/rBCNMWaCNt) | [Wiki](https://pd2reawakening.com/wiki/) | [Latest Patch Notes (v1.2.0)](https://docs.google.com/document/d/e/2PACX-1vQUOg78Zzmlg1RD0R77EMUnXblyOyN8Qj7pk1KI_5pR64cr1vUAy2MEPgW3S123YngMjhgV6mJdh-ZI/pub)**
+**[Discord](https://discord.gg/rBCNMWaCNt) | [Wiki](https://pd2reawakening.com/wiki/) | [Latest Patch Notes (v1.3.0)](https://docs.google.com/document/d/e/2PACX-1vRDu2Gy_l7OoS6e9lLMObaClzkdzAKwRE4AcmBfJ4X_PWjI8_5AeLVhZoQVeS_bwQG6SGnoWiRaAS-4/pub)**
 
 ## New Features
 
@@ -101,14 +101,8 @@ This contains the new misc item types (fate cards, new orbs, relics), stylized f
 ```
 //PD2 Single Player Reawakening
 ItemDisplay[awst OR mfo OR exo OR dvo OR rgo OR cho OR tjo OR dvia]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*%RED%*       %NAME%       %RED%*%PURPLE%*%GREEN%*
-//rare fate card
-ItemDisplay[fsha OR fsjp OR fsdi OR fsfr OR fsfa]: %BORDER-68%%ORANGE%pick %PURPLE%*%RED%*%YELLOW%*%GREEN%*     %NAME%     %GREEN%*%YELLOW%*%RED%*%PURPLE%* %ORANGE%up
-//uncommon fate cards
-ItemDisplay[fsdg OR fsds OR fsdb OR fstc OR fspv OR  fslc OR fstl OR fsdw OR fsps OR fsbr OR fsms OR fscs]: %BORDER-0A%%DOT-62%%GREEN%*%PURPLE%*       %NAME%       %PURPLE%*%GREEN%*
-//common fate cards
-ItemDisplay[fslr OR fslu OR fsat OR fsus OR fsrb OR fstm OR fsdn OR fsht OR fsvi OR fscf OR fsgd OR fsed OR fsta OR fsts OR fstf OR fshs OR fsar OR fstw OR fsla]: %BORDER-0A%%DOT-62%*%PURPLE%      %NAME%      
-ItemDisplay[fsbl OR fssf OR fsse OR fsew OR fssg OR fsuf OR fsmw OR fsap OR fsem OR fstu OR fstb OR fsls]: %BORDER-0A%%DOT-62%*%PURPLE%      %NAME%      
+//all cards
+ItemDisplay[CARD]: %BORDER-0A%%DOT-62%*%PURPLE%      %NAME%          
 //relics, orb of unmaking, prime evil embers
 ItemDisplay[rotf OR rotv OR rofp OR oou OR teo OR heo OR deo]: %BORDER-68%%ORANGE%pick %PURPLE%*%RED%*%YELLOW%*%GREEN%*     %NAME%     %GREEN%*%YELLOW%*%RED%*%PURPLE%* %ORANGE%up
-
 ```
