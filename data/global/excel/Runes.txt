@@ -182,8 +182,8 @@ Neophyte2	Neophyte	1		staf									ThulTir	r10	r03					half-freeze		1	1	red-dmg	
 Wind Staff	Wind	1		staf									SurEl	r29	r01					dmg%		320	380	aura	Fanaticism	14	16	move2		20	30	reduce-ac		50	50	cast-skill	245	18	35	cast-skill	240	18	35	cast-skill	Cyclone Armor	5	16	0
 Phoenix Staff	Phoenix	1		staf									VexVexLoJah	r26	r26	r28	r31			dmg%		400	450	ac-miss		350	400	cast-skill	Firestorm	12	40	extra-fire		14	14	pierce-fire		28	28	aura	Redemption	10	12	abs-fire		15	21	0
 Shattered Wall	Shattered Wall	1		shld									ZodJahRalCham	r33	r31	r08	r32			ac%		160	200	aura	Holy Freeze	16	16	block2		60	60	mana-kill		5	5	dmg-cold	50	200	250	hp		75	100					0
-Asylum	Asylum	1		hamm	pole	spea	miss	2hsw	swor				GulChamTirJahDolUm	r25	r32	r15	r31	r14	r22	dmg%		265	315	swing2		20	20	allskills		2	2	hit-skill	364	8	32	aura	Sanctuary	17	20	gold%		100	100	hit-skill	121	25	40	0
-Asylum Staff	Asylum	1		staf									GulChamHelJahDolUm	r25	r32	r15	r31	r14	r22	dmg%		265	315	cast2		20	20	allskills		2	2	cast-skill	364	10	32	aura	Sanctuary	17	20	gold%		100	100	cast-skill	121	30	40	0
+Asylum	Asylum	1		hamm	pole	spea	miss	2hsw	swor				GulChamTirJahDolUm	r25	r32	r15	r31	r14	r22	dmg%		265	315	swing2		20	20	allskills		2	2	hit-skill	364	8	26	aura	Sanctuary	17	20	gold%		100	100	hit-skill	121	25	40	0
+Asylum Staff	Asylum	1		staf									GulChamHelJahDolUm	r25	r32	r15	r31	r14	r22	dmg%		265	315	cast2		20	20	allskills		2	2	cast-skill	364	8	26	aura	Sanctuary	17	20	gold%		100	100	cast-skill	121	25	40	0
 Revenge	Revenge			sc9									LoHelZodAmn	r28	r15	r33	r11			dmg%		250	300	red-dmg		18	18	swing2		60	60	skill	68	6	8	balance2		60	60	poisskill		4	4	dmg-pois	50	28672	28672	0
 Runeword41	Fortitude	1		weap									ElSolDolLo	r01	r12	r14	r28			ac%		200	200	dmg%		300	350	cast3		25	25	dmg-to-mana		12	12	hp/lvl		8	12	res-all		25	30					0
 Runeword25	Destruction	1		staf									VexLoBerJahKo	r26	r28	r30	r31	r18		dmg%		300	300	swing2		30	40	cast-skill	Molten Boulder	8	35	cast-skill	Meteor	15	45	cast-skill	Nova	15	40	cast-skill	Frost Nova	20	35					0
