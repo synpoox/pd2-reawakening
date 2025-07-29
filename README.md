@@ -38,13 +38,14 @@ Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Si
 
 If you've played PlugY or any other PD2 single player mod, your current characters/stash will likely be incompatible.
 
-#### With Launcher (auto-updates Reawakening patches)
+#### With Launcher (auto-updates Reawakening)
 
 1. Create a copy of your PD2 installation in a new directory.
 1. Install [PD2-PlugY](https://github.com/synpoox/PD2-PlugY)
-1. Download the [Latest Release](https://github.com/synpoox/pd2-reawakening-launcher/releases/latest) of [PD2 Reawakening Launcher](https://github.com/synpoox/pd2-reawakening-launcher)
-1. Install it in the same folder that `PlugY.exe` is located in.
-1. Run `PD2 Reawakening Launcher.exe` as Administrator (if needed).
+1. Download and Install the [Latest Release](https://github.com/synpoox/pd2-ra-launcher/releases/latest) of [PD2 RA Launcher](https://github.com/synpoox/pd2-ra-launcher)
+1. Run `pd2-ra-launcher.exe`
+1. Set your `Project Diablo II Installation Directory` in the Settings by clicking the cog-wheel in the top right.
+1. Click `Play`.
 1. Go to Akara and look for an item with Alkor's quest potion. If it's there, then the mod was installed successfully.
 
 #### Manual Install (No auto-updates)
@@ -61,11 +62,11 @@ If you've played PlugY or any other PD2 single player mod, your current characte
 Following the above instructions will point your new PD2 Reawakening install your old PD2 save folders, which can cause errors with incomptable characters/stashes. To change your save folder path:
 
 #### With Launcher
-1. Click `Settings` in the top left
-1. Click `Change Save Path`
+1. Click the `Settings` cog-wheel in the top right
+1. In `Preferences`, under Save Folder Directory, click `Change directory`
 1. Select your desired Save directory
 
-![alt text](kAKT28i.png)
+![alt text](/images/H8wsF65.png)
 
 #### Without Launcher
 
@@ -82,6 +83,8 @@ Following the above instructions will point your new PD2 Reawakening install you
 **Note that double backslashes are required**
 
 ## Toggling Between Standard and Crafting
+
+### [!] Crafting league will no longer be supported after game patch 1.3.0. It is currently unsupported in the new 2.0.0 launcher.
 
 1. Click the `Settings` button in the top left
 1. Toggle the checkbox to enable/disable Crafting League
