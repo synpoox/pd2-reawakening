@@ -425,8 +425,8 @@ awaken	1			1	awakened																													421	0
 awakennum	1			1	awakener																													422	0
 extra-fireball	1			1	extra_fireball																													423	0
 extra-ice-lance	1			1	extra_ice_lance																													424	0
-extra-poison-creeper	1			1	extra_poison_creeper																													425	0
-extra-grizzly	1			1	extra_grizzly																													426	0
+desecrate	1			1	desecrated																													425	0
+desecratenum	1			1	desecrator																													426	0
 extra-wakeoffire	1			1	extra_wakeoffire																													427	0
 extra-wakeofinferno	1			1	extra_wakeofinferno																													428	0
 extra-chainlightningsentry	1			1	extra_chainlightningsentry																													429	0
@@ -464,9 +464,8 @@ block-skill	1			11	item_skillonblock																									Proc Skill on Block
 map-glob-sundermonsters	1			1	map_glob_sundermonsters																													422	0
 crit-skill	1			11	item_skilloncrit																									Proc Skill on Crit	Skill #	% Chance	Level	423	0
 pierce-skill	1			11	item_skillonpierce																									Proc Skill on Pierce	Skill #	% Chance	Level	424	0
-desecrate	1			1	desecrated																													425	0
-desecratenum	1			1	desecrator																													426	0
-extra-grizzly	1			1	extra_grizzly																													375	0
+extra-poison-creeper	1			1	extra_poison_creeper																													425	0
+extra-grizzly	1			1	extra_grizzly																													426	0
 no-wolves	1			1	no_wolves																													375	0
 max-deadly	1			1	item_maxdeadlystrike																													113	0
 extra-shadow	1			1	extra_shadow																													375	0
