@@ -200,7 +200,7 @@ act2child	0	2	96	2	2		0	hth	3		lit															1	1	1						1								3										
 greiz	0	2	80	2	2		0	hth	3		lit																1															1		1	1														8	8	8	8	8	8	8	8	8	8	8	8	8	8	8	8													1				1										1	1				1	1					255	255	255				xxx	xxx	1			NU		0
 elzix	0	2	80	2	2		0	hth	3		lit																1															1		1	1														8	8	8	8	8	8	8	8	8	8	8	8	8	8	8	8													1				1										1	1				1	1					255	255	255				xxx	xxx	1			NU		0
 geglash	0	2	96	2	2		0	hth	3		lit																1															1		1	1														8	8	8	8	8	8	8	8	8	8	8	8	8	8	8	8													1				1										1	1				1	1					255	255	255				xxx	xxx	1			NU		0
-jerhyn	0	2	80	2	2		0	hth	3		lit																1															1		1	1														8	8	8	8	8	8	8	8	8	8	8	8	8	8	8	8													1				1										1	1				1	1					255	255	255				xxx	xxx	1			NU		0
+jerhyn	0	2	80	2	2		0	hth	3		lit																1															1		1	1														8	8	8	8	8	8	8	8	8	8	8	8	8	8	8	8													1				1										1	1				1						255	255	255				xxx	xxx	1			NU		0
 lysander	0	2	80	2	2		0	hth	3		lit																1															1		1	1														8	8	8	8	8	8	8	8	8	8	8	8	8	8	8	8													1				1	1									1	1				1	1					255	255	255				xxx	xxx	1			NU		0
 act2guard1	0	2	96	2	2		0	hth	3	"lit,med"	"lit,med"	"lit,med"	"lit,med"	"lit,med"	"spr,glv"			lit	lit	lit						1	1	1	1	1	1			1	1	1						9		1	1														8	8	8	8	8	8	8	8	8	8	8	8	8	8	8	8													1														1	1				1	1					255	255	255				xxx	xxx	1			NU		0
 act2vendor1	0	2	96	2	2		0	hth	3		lit																1															1		1							1								8	1	8	8	8	8	8	8	1	8	8	8	8	8	8	8													1														1	1				1	1					255	255	255				xxx	xxx	1			NU		0
@@ -716,3 +716,7 @@ SkovosBoss	3	2	96	2	2		0	hth	3		lit							lit									1							1		1						3	1	1	1	
 DemonRoadBoss	3	3	64	3	3		0	hth	3		lit																1															2	1	1	1		1	1							1				8	8	8	8	8	8	8	8	8	8	8	8	8	8	8	8													1				1					1					1					1				1		250	0	0				xxx	xxx	1			NU		0
 LucionSpawner	2	2	80	2	2		0	hth	3		lit							lit									1							1								2	1	1	1		1				1				1				1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1													1				1					1											1					255	255	255				xxx	xxx	1			NU		0
 LucionSpawn	1	1	48	2	2		0	hth	3		lit																1															1	1	1	1	1	1								1	1	1		8	8	8	8	8	8	8	8	8	8	8	8	8	8	8	8													1				1					1			1		1					1			2	1		255	255	255				xxx	xxx	1			NU		0
+ImperialBoss	3	2	96	2	2		0	hth	3		lit																1															1	1	1	1		1				1				1		1		8	8	8	8	8	8	8	8	8	8	8	8	8	8	8	8													1				1					1					1					1			2			255	255	255				xxx	xxx	1			NU		0
+ImperialMiniBoss	1	2	64	2	2		0	hth	3		lit							lit									1							1								2	1	1	1		1	1							1		1		8	8	8	8	8	8	8	8	8	8	8	8	8	8	8	8													1				1					1			1		1					1			1	1	5	230	168	255				xxx	xxx	1			NU		0
+TortureBoss	3	3	96	3	3		0	hth	3	"lit,th2,th3,th4,th5"	lit		lit	lit				lit								1	1		1	1				1								5	1	1	1		1	1							1		1		8	8	8	8	8	8	8	8	8	8	8	8	8	8	8	8													1				1					1				1						1						255	255	255				xxx	xxx	1			NU		0
+MendelnSpire	4	3	128	1	1		0	hth	3		lit							lit									1							1								2	1	1			1								1				1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1													1																	1	1	1		1				255	255	255				xxx	xxx	1			NU		0

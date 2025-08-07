@@ -224,13 +224,13 @@ Act 4 (H) Magic B	4	80	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic A	4	82	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic B	4	83	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic C	4	85	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Orbs			1					0	dvo	148	mfo	30	rgo	40	cho	200	oou	4	tjo	1	dvia	500	rotf	15	rofp	50						0
-Map Boss TC		85	5					0	Act 5 (H) Equip C	264	Act 5 (H) Good	20	T3 Map Drop	15	dcbl	3	dcho	1	dcso	2	rtmv	2										0
+Orbs			1					0	dvo	148	mfo	30	rgo	40	cho	208	oou	8	tjo	1	dvia	500	rotf	15	rofp	50						0
+Map Boss TC		85	5					0	Act 5 (H) Equip C	262	Act 5 (H) Good	20	T3 Map Drop	15	dcbl	3	dcho	1	dcso	2	rtmv	2	lucc	2								0
 Replica			1					0	rofp	1	gld	10																				0
 Prime Evil Embers			1					0	heo	1	teo	1																				0
 Map Orbs Drop			1					0	Orbs	129	Prime Evil Embers	1																				0
-Fate Common A			1					0	fslr	1	fsvi	1	fsem	1	fslt	1	fstw	1	fsla	1	fstd	1	fste	1								0
-Fate Common B			1					0	fsar	1	fscf	1	fsed	1	fsta	1	fsts	1	fstf	1	fsaj	1	fsas	1								0
+Fate Common A			1					0	fslr	1	fsvi	1	fsem	1	fslt	1	fstw	1	fsla	1	fstd	1	fste	1	fstv	1						0
+Fate Common B			1					0	fsar	1	fscf	1	fsed	1	fsta	1	fsts	1	fstf	1	fsaj	1	fsas	1	fsph	1						0
 Fate Common C			1					0	fsbl	1	fssf	1	fsmi	1	fsew	1	fssg	1	fstu	1	fsch	1	fsuw	1								0
 Map Boss Uber Relic			1					0	rotv	1	gld	4999																				0
 Fate Uncommon A			1					0	fsms	1	fspv	1	fsps	1	fstc	1	fsat	1	fslu	1	fsbm	1										0
@@ -1025,17 +1025,20 @@ Rathma Jawbone H				2250	5
 UberAncients T1				3750																												
 UberAncients T2				3750																												
 UberAncients T3				3750																												
-lucbN				1500	10																											
-lucbNM				6000																												
-lucbH				2000																												
-lucc				4000																												
-lucdN				2300	100																											
-lucdNM				7800	10																											
-lucdH				2600	10																											
+lucbN				0	10																											
+lucbNM				0																												
+lucbH				1000																												
+lucc				2000																												
+lucdN				0	100																											
+lucdNM				0	10																											
+lucdH				2000	10																											
 T4MidMapBoss		90	6	950	960	990	1024	0	Act 5 (H) Equip C	800	Jewelry C	100	Runes 17 equiv	30	wss	25	T3 Map Drop	10	T2 Map Drop	10	T1 Map Drop	10	scrb	3								0
 T4FinalMapBoss		90	6	950	960	990	1024	0	Act 5 (H) Equip C	800	Jewelry C	100	Runes 17 equiv	30	wss	25	T3 Map Drop	10	T2 Map Drop	10	T1 Map Drop	10	scrb	3								0
-LucionChestLow		90	3	800	900	990	1024	0	Act 5 (H) Equip C	200	Act 5 (H) Good	100	Runes 15 equiv	30	wss	25																0
-LucionChestHigh		90	3	950	960	990	1024	0	Act 5 (H) Equip C	800	Jewelry C	100	Runes 17 equiv	30	scrb	3																0
+LucionChestLow		90	6	800	900	990	1024	0	Act 5 (H) Equip C	200	Act 5 (H) Good	100	Runes 15 equiv	30	wss	25																0
+LucionChestHigh		90	6	950	960	990	1024	0	Act 5 (H) Equip C	800	Jewelry C	100	Runes 17 equiv	30	scrb	3																0
+Demonic Cube N				20000	1000																											
+Demonic Cube NM				10000	1000																											
+Demonic Cube H				5000	1000																											
 Treasure Fallen Cards N			2					46	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0
 Treasure Fallen Cards NM			2					37	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0
 Treasure Fallen Cards H			2					25	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0
