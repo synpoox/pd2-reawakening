@@ -26,11 +26,6 @@ Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Si
 - **Drop Rate Increases**:
   - Rune drops increased by 500%
   - Drop rates increased across the board, see TreasureClassEx.txt for specifics or see [this](https://docs.google.com/spreadsheets/d/e/2PACX-1vSmG2BYE-c6W7l0ha8OcyEQROgDSKFtR99mWHuT9XM6OXW_f4ym87x-d5GrhlO37msQqxt2IJj_XRbF/pubhtml) for a short comparison
-- **Crafting League Option**:
-  - Uniques, sets, and runewords are disabled (All unique charms are exceptions)
-  - Mythic orbs, Divine orbs, Regal orbs, and certain Fate Cards no longer drop
-  - Uber materials such as: Voidstone, Vision of Terror, Pandemonium Talisman are purchasable from Anya
-  - Easily switch between Standard and Crafting modes through the PD2 Reawakening Launcher
 
 ![reptyrael](https://github.com/user-attachments/assets/846b48f1-51d7-424b-8893-f2286db8ecb2)
 
@@ -63,7 +58,7 @@ GitHub Actions builds everything; nothing is built by hand.
 
 1. Edit the tables in `data/global/excel/`. Keep CRLF line endings and trailing tabs (edit with a D2-aware tool or a script).
 1. Launch the game once with `-direct -txt` so it recompiles the `.bin` files, and copy the `.bin` files it wrote back into `data/global/excel/`. In MPQ mode the game reads only the `.bin` files, and the build fails if one is missing.
-1. Commit and push. CI builds `pd2data.mpq`, the 1/2/3/5/10x density variants and `manifest.json` (download them from the run's `dist` artifact to test).
+1. Commit and push. CI builds `pd2data.mpq`, the 1/2/3/5/10x density variants and `manifest.json` (download them from the run's `dist` artifact to test). Density multiplies the MonDen, MonUMin and MonUMax columns of `Levels.txt`/`levels.bin`; unique-pack counts cap at 255 because the game stores them in one byte.
 1. Tag and push to publish: `git tag v14.0.0 && git push origin v14.0.0`. The launcher picks up the release's `manifest.json`.
 
 The S14 port and its open items are described in [docs/s14-port](docs/s14-port/README.md).
@@ -92,18 +87,6 @@ Following the above instructions will point your new PD2 Reawakening install you
 }
 ```
 **Note that double backslashes are required**
-
-## Toggling Between Standard and Crafting
-
-### [!] Crafting league will no longer be supported after game patch 1.3.0. It is currently unsupported in the new 2.0.0 launcher.
-
-1. Click the `Settings` button in the top left
-1. Toggle the checkbox to enable/disable Crafting League
-1. Press `Save`
-
-### **WARNING: Enabling Crafting league and logging into a character can sometimes cause runewords to be deleted from that character and your stash**
-
-_Always make backups of your saves_
 
 ## Adding new orbs/cards to your filter
 

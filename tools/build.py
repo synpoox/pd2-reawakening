@@ -25,29 +25,33 @@ DIST = os.path.join(ROOT, 'dist')
 EXCEL = os.path.join(DATA, 'global', 'excel')
 DLLS = ['BH.dll', 'D2Game.dll', 'D2Game-IdentifiedMagic.dll']
 DENSITIES = [1, 2, 3, 5, 10]
-# Tables the game never compiles to .bin (same set as PD2's own mpq).
-NO_BIN = {'aiparms', 'cubemod', 'cubetype', 'miniskillicons', 'monname',
-          'soundenviron', 'treasureclass', 'weaponclass'}
+# Tables the game reads straight from .txt and never compiles (same set as PD2's own mpq).
+TXT_ONLY_TABLES = {'aiparms', 'cubemod', 'cubetype', 'miniskillicons', 'monname',
+                   'soundenviron', 'treasureclass', 'weaponclass'}
 
-# Levels columns a density variant multiplies, and where they sit in a levels.bin record.
-DENSITY_COLS = ['MonDen', 'MonDen(N)', 'MonDen(H)', 'MonUMin', 'MonUMax',
-                'MonUMin(N)', 'MonUMax(N)', 'MonUMin(H)', 'MonUMax(H)']
-BYTE_COLS = DENSITY_COLS[3:]
-LEVELS_RECORD = 544
-INT_OFFSETS = (28, 32, 36)
-BYTE_OFFSETS = range(40, 46)
+LEVELS_TXT = r'data\global\excel\Levels.txt'
+LEVELS_BIN = r'data\global\excel\levels.bin'
+LEVELS_RECORD_SIZE = 544
+# Levels fields a density variant multiplies: txt column, offset in a levels.bin record, bin type.
+# Byte fields cap at 255; the game would wrap them (v11's 10x turned 60 unique packs into 88).
+DENSITY_FIELDS = [('MonDen', 28, '<i'), ('MonDen(N)', 32, '<i'), ('MonDen(H)', 36, '<i'),
+                  ('MonUMin', 40, 'B'), ('MonUMin(N)', 41, 'B'), ('MonUMin(H)', 42, 'B'),
+                  ('MonUMax', 43, 'B'), ('MonUMax(N)', 44, 'B'), ('MonUMax(H)', 45, 'B')]
+
+
+def scale(value, bin_type, n):
+    return min(value * n, 255) if bin_type == 'B' else value * n
 
 
 def density_txt(raw, n):
     lines = raw.split(b'\r\n')
     header = lines[0].split(b'\t')
-    cols = {header.index(c.encode()): c in BYTE_COLS for c in DENSITY_COLS}
+    columns = [(header.index(col.encode()), bin_type) for col, _, bin_type in DENSITY_FIELDS]
     for i, line in enumerate(lines[1:], 1):
         cells = line.split(b'\t')
-        for j, is_byte in cols.items():
+        for j, bin_type in columns:
             if j < len(cells) and cells[j].strip():
-                v = int(cells[j]) * n
-                cells[j] = str(min(v, 255) if is_byte else v).encode()
+                cells[j] = str(scale(int(cells[j]), bin_type, n)).encode()
         lines[i] = b'\t'.join(cells)
     return b'\r\n'.join(lines)
 
@@ -55,13 +59,12 @@ def density_txt(raw, n):
 def density_bin(raw, n):
     out = bytearray(raw)
     count = struct.unpack_from('<I', out)[0]
-    assert len(out) == 4 + count * LEVELS_RECORD, 'levels.bin record size changed'
+    assert len(out) == 4 + count * LEVELS_RECORD_SIZE, 'levels.bin record size changed'
     for r in range(count):
-        base = 4 + r * LEVELS_RECORD
-        for o in INT_OFFSETS:
-            struct.pack_into('<i', out, base + o, struct.unpack_from('<i', out, base + o)[0] * n)
-        for o in BYTE_OFFSETS:
-            out[base + o] = min(out[base + o] * n, 255)  # byte field: cap so 10x does not wrap
+        record = 4 + r * LEVELS_RECORD_SIZE
+        for _, offset, bin_type in DENSITY_FIELDS:
+            value = struct.unpack_from(bin_type, out, record + offset)[0]
+            struct.pack_into(bin_type, out, record + offset, scale(value, bin_type, n))
     return bytes(out)
 
 
@@ -69,10 +72,15 @@ def check_bins():
     # shortcut: a .bin older than its .txt can't be detected without the game's compiler.
     bins = {f[:-4].lower() for f in os.listdir(EXCEL) if f.endswith('.bin')}
     missing = [f for f in sorted(os.listdir(EXCEL))
-               if f.endswith('.txt') and f[:-4].lower() not in NO_BIN | bins]
+               if f.endswith('.txt') and f[:-4].lower() not in TXT_ONLY_TABLES | bins]
     if missing:
         sys.exit('No .bin for: ' + ', '.join(missing) + '. Launch the game once with -txt, '
                  'then commit the .bin files it writes to data/global/excel/.')
+
+
+def read_bytes(path):
+    with open(path, 'rb') as fh:
+        return fh.read()
 
 
 def read_data():
@@ -80,7 +88,7 @@ def read_data():
     for dirpath, _, names in os.walk(DATA):
         for name in names:
             path = os.path.join(dirpath, name)
-            files[os.path.relpath(path, ROOT).replace('/', '\\')] = open(path, 'rb').read()
+            files[os.path.relpath(path, ROOT).replace('/', '\\')] = read_bytes(path)
     return files
 
 
@@ -92,14 +100,18 @@ def write_mpq(storm, path, files):
     name = path if os.name == 'nt' else path.encode()
     if not storm.SFileCreateArchive(name, 0x00100000, 4096, ctypes.byref(mpq)):
         sys.exit(f'SFileCreateArchive failed: {storm.SErrGetLastError()}')
-    for archived, data in sorted(files.items()):
-        f = ctypes.c_void_p()
-        ok = (storm.SFileCreateFile(mpq, archived.encode(), 0, len(data), 0, 0x100, ctypes.byref(f))
-              and storm.SFileWriteFile(f, data, len(data), 0)
-              and storm.SFileFinishFile(f))
-        if not ok:
-            sys.exit(f'adding {archived} failed: {storm.SErrGetLastError()}')
-    storm.SFileCloseArchive(mpq)
+    try:
+        for archived, data in sorted(files.items()):
+            f = ctypes.c_void_p()
+            ok = (storm.SFileCreateFile(mpq, archived.encode(), 0, len(data), 0, 0x100, ctypes.byref(f))
+                  and storm.SFileWriteFile(f, data, len(data), 0)
+                  and storm.SFileFinishFile(f))
+            if not ok:
+                sys.exit(f'adding {archived} failed: {storm.SErrGetLastError()}')
+    finally:
+        closed = storm.SFileCloseArchive(mpq)
+    if not closed:
+        sys.exit(f'SFileCloseArchive failed: {storm.SErrGetLastError()}')
     reader = MPQReader(path)
     for archived, data in files.items():
         assert reader.read_file(archived) == data, f'{path}: {archived} does not read back'
@@ -108,15 +120,16 @@ def write_mpq(storm, path, files):
 def load_storm(lib):
     storm = (ctypes.WinDLL if os.name == 'nt' else ctypes.CDLL)(lib)
     path_t = ctypes.c_wchar_p if os.name == 'nt' else ctypes.c_char_p
-    p, u32 = ctypes.c_void_p, ctypes.c_uint32
-    storm.SFileCreateArchive.argtypes = [path_t, u32, u32, ctypes.POINTER(p)]
-    storm.SFileCreateFile.argtypes = [p, ctypes.c_char_p, ctypes.c_uint64, u32, u32, u32, ctypes.POINTER(p)]
-    storm.SFileWriteFile.argtypes = [p, ctypes.c_char_p, u32, u32]
-    storm.SFileFinishFile.argtypes = [p]
-    storm.SFileCloseArchive.argtypes = [p]
+    handle, dword = ctypes.c_void_p, ctypes.c_uint32
+    out_handle = ctypes.POINTER(handle)
+    storm.SFileCreateArchive.argtypes = [path_t, dword, dword, out_handle]
+    storm.SFileCreateFile.argtypes = [handle, ctypes.c_char_p, ctypes.c_uint64, dword, dword, dword, out_handle]
+    storm.SFileWriteFile.argtypes = [handle, ctypes.c_char_p, dword, dword]
+    storm.SFileFinishFile.argtypes = [handle]
+    storm.SFileCloseArchive.argtypes = [handle]
     for fn in ('SFileCreateArchive', 'SFileCreateFile', 'SFileWriteFile', 'SFileFinishFile', 'SFileCloseArchive'):
         getattr(storm, fn).restype = ctypes.c_bool
-    storm.SErrGetLastError.restype = u32
+    storm.SErrGetLastError.restype = dword
     return storm
 
 
@@ -126,9 +139,10 @@ def main():
     shutil.rmtree(DIST, ignore_errors=True)
     os.makedirs(DIST)
     files = read_data()
-    txt, bin_ = 'data\\global\\excel\\Levels.txt', 'data\\global\\excel\\levels.bin'
     for n in DENSITIES:
-        variant = dict(files, **{txt: density_txt(files[txt], n), bin_: density_bin(files[bin_], n)})
+        variant = dict(files)
+        variant[LEVELS_TXT] = density_txt(files[LEVELS_TXT], n)
+        variant[LEVELS_BIN] = density_bin(files[LEVELS_BIN], n)
         write_mpq(storm, os.path.join(DIST, f'pd2data-{n}x-density.mpq'), variant)
     shutil.copy(os.path.join(DIST, 'pd2data-1x-density.mpq'), os.path.join(DIST, 'pd2data.mpq'))
     for dll in DLLS:
@@ -137,7 +151,7 @@ def main():
     repo = os.environ.get('GITHUB_REPOSITORY', 'synpoox/pd2-reawakening')
     manifest = [{'filename': f,
                  'url': f'https://github.com/{repo}/releases/download/{tag}/{f}',
-                 'hash': hashlib.sha256(open(os.path.join(DIST, f), 'rb').read()).hexdigest()}
+                 'hash': hashlib.sha256(read_bytes(os.path.join(DIST, f))).hexdigest()}
                 for f in sorted(os.listdir(DIST))]
     with open(os.path.join(DIST, 'manifest.json'), 'w') as fh:
         json.dump(manifest, fh, indent=2)
