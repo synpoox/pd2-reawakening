@@ -52,17 +52,6 @@ If you've played PlugY or any other PD2 single player mod, your current characte
 1. Launch the game with `Plugy.exe`
 1. Go to Akara and look for an item with Alkor's quest potion. If it's there, then the mod was installed successfully.
 
-## Building a release
-
-GitHub Actions builds everything; nothing is built by hand.
-
-1. Edit the tables in `data/global/excel/`. Keep CRLF line endings and trailing tabs (edit with a D2-aware tool or a script).
-1. Launch the game once with `-direct -txt` so it recompiles the `.bin` files, and copy the `.bin` files it wrote back into `data/global/excel/`. In MPQ mode the game reads only the `.bin` files, and the build fails if one is missing.
-1. Commit and push. CI builds `pd2data.mpq`, the 1/2/3/5/10x density variants and `manifest.json` (download them from the run's `dist` artifact to test). Density multiplies the MonDen, MonUMin and MonUMax columns of `Levels.txt`/`levels.bin`; unique-pack counts cap at 255 because the game stores them in one byte.
-1. Tag and push to publish: `git tag v14.0.0 && git push origin v14.0.0`. The launcher picks up the release's `manifest.json`.
-
-The S14 port and its open items are described in [docs/s14-port](docs/s14-port/README.md).
-
 ## Changing Save Folder Path
 
 Following the above instructions will point your new PD2 Reawakening install your old PD2 save folders, which can cause errors with incomptable characters/stashes. To change your save folder path:
@@ -103,3 +92,14 @@ ItemDisplay[CARD]: %BORDER-0A%%DOT-62%*%PURPLE%      %NAME%
 //relics, orb of unmaking, prime evil embers
 ItemDisplay[rotf OR rotv OR rofp OR oou OR teo OR heo OR deo]: %BORDER-68%%ORANGE%pick %PURPLE%*%RED%*%YELLOW%*%GREEN%*     %NAME%     %GREEN%*%YELLOW%*%RED%*%PURPLE%* %ORANGE%up
 ```
+
+## Building a release
+
+GitHub Actions builds everything; nothing is built by hand.
+
+1. Edit the tables in `data/global/excel/`. Keep CRLF line endings and trailing tabs (edit with a D2-aware tool or a script).
+1. Launch the game once with `-direct -txt` so it recompiles the `.bin` files, and copy the `.bin` files it wrote back into `data/global/excel/`. In MPQ mode the game reads only the `.bin` files, and the build fails if one is missing.
+1. Commit and push. CI builds `pd2data.mpq`, the 1/2/3/5/10x density variants and `manifest.json` (download them from the run's `dist` artifact to test). Density multiplies the MonDen, MonUMin and MonUMax columns of `Levels.txt`/`levels.bin`; unique-pack counts cap at 255 because the game stores them in one byte.
+1. Tag and push to publish: `git tag v14.0.0 && git push origin v14.0.0`. The launcher picks up the release's `manifest.json`.
+
+The S14 port and its open items are described in [docs/s14-port](docs/s14-port/README.md).
