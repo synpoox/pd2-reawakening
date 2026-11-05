@@ -20,7 +20,7 @@ jobs:
 
       - name: Build StormLib
         run: |
-          git clone --depth 1 --branch v9.30 https://github.com/ladislav-zezula/StormLib.git "$RUNNER_TEMP/stormlib"
+          git clone --depth 1 --branch v9.31 https://github.com/ladislav-zezula/StormLib.git "$RUNNER_TEMP/stormlib"
           cmake -S "$RUNNER_TEMP/stormlib" -B "$RUNNER_TEMP/stormlib/build" -DBUILD_SHARED_LIBS=ON -DCMAKE_BUILD_TYPE=Release
           cmake --build "$RUNNER_TEMP/stormlib/build" -j
           echo "STORMLIB=$(find "$RUNNER_TEMP/stormlib/build" -name 'lib*.so' | head -1)" >> "$GITHUB_ENV"
