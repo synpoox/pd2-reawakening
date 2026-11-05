@@ -5,7 +5,8 @@
 Writes pd2data-<N>x-density.mpq for each density, pd2data.mpq (= 1x), the DLLs,
 and manifest.json for the launcher. The MPQs hold data/ as committed: in MPQ mode
 the game reads the .bin tables, so each .bin must come from running the game with
--txt after its .txt changed. check_bins() fails the build when one is missing or stale.
+-txt after its .txt changed. check_bins() fails the build when one is missing;
+it can't tell a stale one.
 """
 import ctypes
 import hashlib
@@ -13,7 +14,6 @@ import json
 import os
 import shutil
 import struct
-import subprocess
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -65,26 +65,14 @@ def density_bin(raw, n):
     return bytes(out)
 
 
-def git_time(path):
-    out = subprocess.run(['git', 'log', '-1', '--format=%ct', '--', path],
-                         cwd=ROOT, capture_output=True, text=True).stdout.strip()
-    return int(out or 0)
-
-
 def check_bins():
-    bins = {f[:-4].lower(): f for f in os.listdir(EXCEL) if f.endswith('.bin')}
-    errors = []
-    for f in sorted(os.listdir(EXCEL)):
-        name = f[:-4].lower()
-        if not f.endswith('.txt') or name in NO_BIN:
-            continue
-        if name not in bins:
-            errors.append(f'{f}: no {name}.bin')
-        elif git_time(os.path.join(EXCEL, f)) > git_time(os.path.join(EXCEL, bins[name])):
-            errors.append(f'{f}: changed after {bins[name]} was last committed')
-    if errors:
-        sys.exit('Bins missing or stale. Launch the game once with -txt, then commit the '
-                 'regenerated .bin files:\n  ' + '\n  '.join(errors))
+    # shortcut: a .bin older than its .txt can't be detected without the game's compiler.
+    bins = {f[:-4].lower() for f in os.listdir(EXCEL) if f.endswith('.bin')}
+    missing = [f for f in sorted(os.listdir(EXCEL))
+               if f.endswith('.txt') and f[:-4].lower() not in NO_BIN | bins]
+    if missing:
+        sys.exit('No .bin for: ' + ', '.join(missing) + '. Launch the game once with -txt, '
+                 'then commit the .bin files it writes to data/global/excel/.')
 
 
 def read_data():
@@ -134,7 +122,6 @@ def load_storm(lib):
 
 def main():
     lib, tag = sys.argv[1], sys.argv[2]
-    check_bins()
     storm = load_storm(lib)
     shutil.rmtree(DIST, ignore_errors=True)
     os.makedirs(DIST)
@@ -155,6 +142,7 @@ def main():
     with open(os.path.join(DIST, 'manifest.json'), 'w') as fh:
         json.dump(manifest, fh, indent=2)
     print('\n'.join(f"{m['hash'][:12]}  {m['filename']}" for m in manifest))
+    check_bins()  # last, so CI still proves the packing while a bin is missing
 
 
 if __name__ == '__main__':

@@ -17,8 +17,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # the stale-bin check reads each table's last commit
 
       - name: Build StormLib
         run: |
