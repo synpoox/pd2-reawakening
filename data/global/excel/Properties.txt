@@ -212,7 +212,7 @@ dmg-fire/time	1			18	item_fire_damagemax_bytime																									Fire Dam
 dmg-ltng/time	1			18	item_ltng_damagemax_bytime																									Lightning Damage Max / time inc.	center period	min	max	209	0
 dmg-pois/time	1			18	item_pois_damagemax_bytime																									Poison Damage Max / time inc.	center period	min	max	210	0
 res-cold/time	1			18	item_resist_cold_bytime																									Resist Cold / time inc.	center period	min	max	211	0
-res-fire/time	1			18	item_resist_fire_bytime																									Resist Fire / time inc.	center period	min	max	212	0
+map-mon-dropclassitems	1			8	map_mon_dropclassitems																													212	0
 res-ltng/time	1			18	item_resist_ltng_bytime																									Resist Lightning / time inc	center period	min	max	213	0
 res-pois/time	1			18	item_resist_pois_bytime																									Resist Poison / time inc	center period	min	max	214	0
 abs-cold/time	1			18	item_absorb_cold_bytime																									Absorb Cold / time inc.	center period	min	max	215	0
@@ -288,11 +288,11 @@ map-play-addxp	1			1	map_play_addexperience																									additional x
 map-glob-arealevel	1			1	map_glob_arealevel																													285	0
 map-glob-monsterrarity	1			1	map_glob_monsterrarity																													286	0
 map-mon-fire-min	1			1	map_mon_firemindam																									Fire Damage				287	0
-map-mon-fire-max	1			1	map_mon_firemaxdam																													288	0
+map-mon-fire-max	1			1	map_mon_firemaxdam																													288	
 map-mon-ltng-min	1			1	map_mon_lightmindam																									Lightning Damage				289	0
-map-mon-ltng-max	1			1	map_mon_lightmaxdam																													290	0
+map-mon-ltng-max	1			1	map_mon_lightmaxdam																													290	
 map-mon-mag-min	1			1	map_mon_magicmindam																									Magic Damge				291	0
-map-mon-mag-max	1			1	map_mon_magicmaxdam																													292	0
+map-mon-mag-max	1			1	map_mon_magicmaxdam																													292	
 map-mon-dmg-cold	1			15	map_mon_coldmindam			16	map_mon_coldmaxdam			17	map_mon_coldlength																	Cold Damage	Length (Frames)	Min	Max	293	0
 map-mon-dmg-pois	1			15	map_mon_poisonmindam			16	map_mon_poisonmaxdam			17	map_mon_poisonlength																	Poison Damage	Length (Frames)	Min	Max	294	0
 map-mon-extra-fire	1			1	map_mon_passive_fire_mastery																													295	0
@@ -414,19 +414,54 @@ map-glob-dropcorrupted	1			8	map_glob_dropcorrupted																													
 curse-effectiveness	1			1	curse_effectiveness																													411	0
 map-glob-boss-dropskillers	1			1	map_glob_boss_dropskillers																													412	0
 map-glob-boss-dropcorruptedunique	1			1	map_glob_boss_dropcorruptedunique																													413	0
-equipped-skill	1			22	item_skillonequip			22	item_skillonequip_display																									414	0
+equipped-skill	1			22	item_skillonequip																													414	0
 mindmg/energy	1			17	item_mindamage_energy																									Min Damage per energy	(8ths)			415	0
 map-glob-boss-dropfacet	1			1	map_glob_boss_dropfacet																													416	0
 map-mon-dropjewels	1			8	map_mon_dropjewels																													417	0
 es-efficiency	1			1	es_efficiency																									Extra efficiency as base points to ES	(16ths)			418	0
 sorc-skill-rand-ctc	1			25																										Bonus to random skill + CTC on cast skill	Skill Bonus	CTC Chance	CTC Level	419	0
 str-and-vit	1			1	strength			1	vitality																									420	0
+block-skill	1			11	item_skillonblock																									Proc Skill on Block	Skill #	% Chance	Level	421	0
+map-glob-sundermonsters	1			1	map_glob_sundermonsters																													422	0
+crit-skill	1			11	item_skilloncrit																									Proc Skill on Crit	Skill #	% Chance	Level	423	0
+pierce-skill	1			11	item_skillonpierce																									Proc Skill on Pierce	Skill #	% Chance	Level	424	0
+desecrate	1			1	desecrated																													425	0
+desecratenum	1			1	desecrator																													426	0
+extra-grizzly	1			1	extra_grizzly																													427	0
+no-wolves	1			1	no_wolves																													428	0
+max-deadly	1			1	item_maxdeadlystrike																													429	0
+extra-shadow	1			1	extra_shadow																													430	0
+extra-spiritwolf	1			1	extra_spiritwolf																													431	0
+joust-reduction-zeraes	1			1	joustreduction_zeraes																													432	0
+map-glob-boss-dropubermats	1			1	map_glob_boss_dropubermats																													433	0
+map-glob-boss-droppuzzlebox	1			1	map_glob_boss_droppuzzlebox																													434	0
+crush-efficiency	1			1	item_crushingblow_efficiency																													435	0
+extra-cold-arrows	1			1	extra_cold_arrows																													436	0
+shiny-appearance	1			1	item_shiny_appearance																													437	0
+es-efficiency-and-es-when-equip	1			1	es_efficiency			22	item_skillonequip																					Extra efficiency as base points to ES	(16ths)			438	0
+joust-reduction-leorics	1			1	joustreduction_leorics																													439	0
+map-glob-dropsocketed	1			8	map_glob_dropsocketed																													440	0
+crit-strike-multiplier	1			1	item_crit_multiplier																													441	0
+deadly-strike-multiplier	1			1	item_ds_multiplier																													442	0
+crit-strike-chance	1			1	item_crit_chance																													443	0
+map-glob-dropbonus	1			8	map_glob_dropbonus																													444	0
+map-glob-dropethereal	1			8	map_glob_dropethereal																													445	0
+treacherous	1			1	treacherous																													446	0
+map-mon-att	1			1	map_mon_att																													447	0
+map-glob-bossdropstreasure	1			8	map_glob_bossdropstreasure																													448	0
+phasing	1			8	phasing			24	state	phasing	1	1																						449	0
+zon-ear-drops	1			8	map_glob_monsterrarity			8	zon_ear_drops																									450	0
+sin-ear-drops	1			8	map_glob_monsterrarity			8	sin_ear_drops																									451	0
+barb-ear-drops	1			8	map_glob_monsterrarity			8	barb_ear_drops																									452	0
+druid-ear-drops	1			8	map_glob_monsterrarity			8	map_mon_dropclassitems																									453	0
+necro-ear-drops	1			8	map_glob_monsterrarity			8	necro_ear_drops																									454	0
+paladin-ear-drops	1			8	map_glob_monsterrarity			8	paladin_ear_drops																									455	0
+sorc-ear-drops	1			8	map_glob_monsterrarity			8	sorc_ear_drops																									456	0
+res-fire/time	1			18	item_resist_fire_bytime																									Resist Fire / time inc.	center period	min	max	212	0
 awaken	1			1	awakened																													421	0
 awakennum	1			1	awakener																													422	0
 extra-fireball	1			1	extra_fireball																													423	0
 extra-ice-lance	1			1	extra_ice_lance																													424	0
-desecrate	1			1	desecrated																													425	0
-desecratenum	1			1	desecrator																													426	0
 extra-wakeoffire	1			1	extra_wakeoffire																													427	0
 extra-wakeofinferno	1			1	extra_wakeofinferno																													428	0
 extra-chainlightningsentry	1			1	extra_chainlightningsentry																													429	0
@@ -460,16 +495,4 @@ aura-effect-increase	1			1	aura_effect_increase																									aura eff
 thunderstorm-delay-red	1			1	thunderstorm_delay_reduction																									thunder storm perdelay reduction in percentage				457	0
 aura-radius	1			1	aura_radius																									aura radius in percentage				458	0
 es-absorb	1			1	es_absorb																									energy shield damage absorption %				459	0
-block-skill	1			11	item_skillonblock																									Proc Skill on Block	Skill #	% Chance	Level	421	0
-map-glob-sundermonsters	1			1	map_glob_sundermonsters																													422	0
-crit-skill	1			11	item_skilloncrit																									Proc Skill on Crit	Skill #	% Chance	Level	423	0
-pierce-skill	1			11	item_skillonpierce																									Proc Skill on Pierce	Skill #	% Chance	Level	424	0
 extra-poison-creeper	1			1	extra_poison_creeper																													425	0
-extra-grizzly	1			1	extra_grizzly																													426	0
-no-wolves	1			1	no_wolves																													375	0
-max-deadly	1			1	item_maxdeadlystrike																													113	0
-extra-shadow	1			1	extra_shadow																													375	0
-extra-spiritwolf	1			1	extra_spiritwolf																													375	0
-joust-reduction-zeraes	1			1	joustreduction_zeraes																													374	0
-map-glob-boss-dropubermats	1			1	map_glob_boss_dropubermats																													416	0
-map-glob-boss-droppuzzlebox	1			1	map_glob_boss_droppuzzlebox																													412	0

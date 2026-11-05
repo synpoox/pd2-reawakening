@@ -1,0 +1,337 @@
+# CubeMain label collisions (mod vs S14) - Stage 2 review
+
+332 mod recipes share a label with an S14 recipe but differ functionally.
+Currently the S14 version wins (mod version skipped).
+
+- t1 map upgrade mag to rare
+- t1 map reroll rare
+- t2 map upgrade mag to rare
+- t2 map reroll rare
+- t3 map upgrade mag to rare
+- t3 map reroll rare
+- 3 flawless amethysts -> perfect amethyst
+- 3 flawless rubies -> perfect ruby
+- 3 flawless sapphires -> perfect sapphire
+- 3 flawless topazes -> perfect topaz
+- 3 flawless emeralds -> perfect emerald
+- 3 flawless diamonds -> perfect diamond
+- 3 flawless skulls -> perfect skull
+- 3 rune 01 -> rune 02
+- 3 rune 02 -> rune 03
+- 3 rune 03 -> rune 04
+- 3 rune 04 -> rune 05
+- 3 rune 05 -> rune 06
+- 3 rune 06 -> rune 07
+- 3 rune 07 -> rune 08
+- 3 rune 08 -> rune 09
+- 3 rune 09 -> rune 10
+- 3 rune 10 + 1 chipped topaz -> rune 11
+- 3 rune 11 + 1 chipped amethyst -> rune 12
+- 3 rune 12 + 1 chipped sapphire -> rune 13
+- 3 rune 13 + 1 chipped ruby -> rune 14
+- 3 rune 14 + 1 chipped emerald -> rune 15
+- 3 rune 15 + 1 chipped diamond -> rune 16
+- 3 rune 16 + 1 flawed topaz -> rune 17
+- 3 rune 17 + 1 flawed amethyst -> rune 18
+- 3 rune 18 + 1 flawed sapphire -> rune 19
+- 3 rune 19 + 1 flawed ruby -> rune 20
+- 3 rune 20 + 1 flawed emerald -> rune 21
+- 2 rune 21 + 1 flawed diamond -> rune 22
+- 2 rune 22 + 1 standard topaz -> rune 23
+- 2 rune 23 + 1 standard amethyst -> rune 24
+- 2 rune 24 + 1 standard sapphire -> rune 25
+- 2 rune 25 + 1 standard ruby -> rune 26
+- 2 rune 26 + 1 standard emerald -> rune 27
+- 2 rune 27 + 1 standard diamond -> rune 28
+- 2 rune 28 + 1 flawless topaz -> rune 29
+- 2 rune 29 + 1 flawless amethyst -> rune 30
+- 2 rune 30 + 1 flawless sapphire -> rune 31
+- 2 rune 31 + 1 flawless ruby -> rune 32
+- 2 rune 32 + 1 flawless emerald -> rune 33
+- r07 + r10 + 1 perfect topaz + normal torso -> socketed torso
+- r08 + r10 + 1 perfect sapphire + normal helm -> socketed helm
+- r07 + r11 + 1 perfect ruby + normal shield -> socketed shield
+- Puzzlebox 2h weapon
+- Puzzlebox Bow
+- Puzzlebox Bow
+- map corrupt
+- t2 > zhars sanctum
+- t2 > fallen gardens
+- t2 > imperial palace
+- t2 > warlord of blood
+- t2 > void map
+- t3 > zhars sanctum
+- t3 > fallen gardens
+- t3 > imperial palace
+- t3 > warlord of blood
+- t3 > void map
+- add corrupt factor to arrow
+- quiver -> destroyed (rare) (25%)
+- item -> added mod 1
+- item -> added mod 2
+- item -> added mod 3
+- item -> added mod 4
+- item -> added mod 2
+- item -> added mod 8
+- item -> added mod 1
+- item -> added mod 1
+- item -> added mod 3
+- item -> added mod 5
+- item -> added mod 5
+- item -> added mod 5
+- item -> added mod 4
+- item -> added mod 2
+- item -> added mod 8
+- item -> added mod 1
+- item -> added mod 2
+- item -> added mod 8
+- item -> added mod 1
+- item -> added mod 2
+- item -> added mod 8
+- item -> added mod 1
+- item -> added mod 2
+- item -> added mod 8
+- item -> added mod 1
+- item -> added mod 2
+- item -> added mod 8
+- item -> added mod 1
+- item -> added mod 1
+- item -> added mod 1
+- item -> added mod 1
+- item -> added mod 1
+- item -> added mod 1
+- item -> added mod 1
+- item -> added mod 1
+- item -> added mod 1
+- item -> added mod 1
+- item -> added mod 1
+- item -> added mod 4
+- item -> added mod 4
+- item -> added mod 4
+- item -> added mod 4
+- item -> added mod 4
+- Lillith's Mirror weap (magic)
+- Lillith's Mirror armo (magic)
+- Lillith's Mirror ring (magic)
+- Lillith's Mirror amul (magic)
+- Lillith's Mirror jewl (magic)
+- Lillith's Mirror weap (rare)
+- Lillith's Mirror armo (rare)
+- Lillith's Mirror ring (rare)
+- Lillith's Mirror amul (rare)
+- Lillith's Mirror jewl (rare)
+- Lillith's Mirror weap (craft)
+- Lillith's Mirror armo (craft)
+- Lillith's Mirror ring (craft)
+- Lillith's Mirror amul (craft)
+- Lillith's Mirror jewl (craft)
+- magic full helm + jewel + rune 06 + perfect sapphire -> hitpower helm
+- magic full helm + jewel + rune 06 + perfect sapphire -> hitpower helm
+- magic heavy belt + jewel + rune 07 + perfect sapphire -> hitpower belt
+- magic heavy belt + jewel + rune 07 + perfect sapphire -> hitpower belt
+- magic field plate + jewel + rune 04 + perfect sapphire -> hitpower body
+- magic field plate + jewel + rune 04 + perfect sapphire -> hitpower body
+- magic amulet + jewel + rune 10 + perfect sapphire -> hitpower amulet
+- magic full helm + hitpower craft -> hitpower helm
+- magic full helm + hitpower craft -> hitpower helm
+- magic heavy belt + hitpower craft -> hitpower belt
+- magic heavy belt + hitpower craft -> hitpower belt
+- magic field plate + hitpower craft -> hitpower body
+- magic field plate + hitpower craft -> hitpower body
+- magic amulet + hitpower craft -> hitpower amulet
+- rare full helm + jewel + rune 06 + perfect sapphire -> hitpower helm
+- rare full helm + jewel + rune 06 + perfect sapphire -> eth hitpower helm
+- rare heavy belt + jewel + rune 07 + perfect sapphire -> hitpower belt
+- rare heavy belt + jewel + rune 07 + perfect sapphire -> hitpower belt
+- rare field plate + jewel + rune 04 + perfect sapphire -> hitpower body
+- rare field plate + jewel + rune 04 + perfect sapphire -> hitpower body
+- rare amulet + jewel + rune 10 + perfect sapphire -> hitpower amulet
+- rare full helm + hitpower craft ingredient -> hitpower helm
+- rare full helm + hitpower craft ingredient -> eth hitpower helm
+- rare heavy belt + hitpower craft ingredient -> hitpower belt
+- rare heavy belt + hitpower craft ingredient -> hitpower belt
+- rare field plate + hitpower craft ingredient -> hitpower body
+- rare field plate + hitpower craft ingredient -> hitpower body
+- rare amulet + hitpower craft ingredient -> hitpower amulet
+- magic light plated boots + jewel + rune 05 + perfect ruby -> blood boots
+- magic light plated boots + jewel + rune 05 + perfect ruby -> blood boots
+- magic spiked shield + jewel + rune 06 + perfect ruby -> blood shield
+- magic spiked shield + jewel + rune 06 + perfect ruby -> blood shield
+- magic plate mail + jewel + rune 10 + perfect ruby -> blood body
+- magic plate mail + jewel + rune 10 + perfect ruby -> blood body
+- magic ring + jewel + rune 12 + perfect ruby -> blood ring
+- magic light plated boots + blood craft ingredient -> blood boots
+- magic light plated boots + blood craft ingredient -> blood boots
+- magic spiked shield + blood craft ingredient -> blood shield
+- magic spiked shield + blood craft ingredient -> blood shield
+- magic plate mail + blood craft ingredient -> blood body
+- magic plate mail + blood craft ingredient -> blood body
+- magic ring + blood craft ingredient -> blood ring
+- rare light plated boots + jewel + rune 05 + perfect ruby -> blood boots
+- rare light plated boots + jewel + rune 05 + perfect ruby -> blood boots
+- rare spiked shield + jewel + rune 06 + perfect ruby -> blood shield
+- rare spiked shield + jewel + rune 06 + perfect ruby -> blood shield
+- rare plate mail + jewel + rune 10 + perfect ruby -> blood body
+- rare plate mail + jewel + rune 10 + perfect ruby -> blood body
+- rare ring + jewel + rune 12 + perfect ruby -> blood ring
+- rare light plated boots + blood craft ingredient -> blood boots
+- rare light plated boots + blood craft ingredient -> blood boots
+- rare spiked shield + blood craft ingredient -> blood shield
+- rare spiked shield + blood craft ingredient -> blood shield
+- rare plate mail + blood craft ingredient -> blood body
+- rare plate mail + blood craft ingredient -> blood body
+- rare ring + blood craft ingredient -> blood ring
+- magic mask + jewel + rune 04 + perfect amethyst -> caster helm
+- magic mask + jewel + rune 04 + perfect amethyst -> caster helm
+- magic small shield + jewel + rune 05 + perfect amethyst -> caster shield
+- magic small shield + jewel + rune 05 + perfect amethyst -> caster shield
+- magic light plate + jewel + rune 07 + perfect amethyst -> caster body
+- magic light plate + jewel + rune 07 + perfect amethyst -> caster body
+- magic mask + caster craft ingredient -> caster helm
+- magic mask + caster craft ingredient -> caster helm
+- magic small shield + caster craft ingredient -> caster shield
+- magic small shield + caster craft ingredient -> caster shield
+- magic light plate + caster craft ingredient -> caster body
+- magic light plate + caster craft ingredient -> caster body
+- rare mask + jewel + rune 04 + perfect amethyst -> caster helm
+- rare mask + jewel + rune 04 + perfect amethyst -> caster helm
+- rare small shield + jewel + rune 05 + perfect amethyst -> caster shield
+- rare small shield + jewel + rune 05 + perfect amethyst -> caster shield
+- rare light plate + jewel + rune 07 + perfect amethyst -> caster body
+- rare light plate + jewel + rune 07 + perfect amethyst -> caster body
+- rare mask + caster craft ingredient -> caster helm
+- rare mask + caster craft ingredient -> caster helm
+- rare small shield + caster craft ingredient -> caster shield
+- rare small shield + caster craft ingredient -> caster shield
+- rare light plate + caster craft ingredient -> caster body
+- rare light plate + caster craft ingredient -> caster body
+- magic crown + jewel + rune 06 + perfect emerald -> safety helm
+- magic crown + jewel + rune 06 + perfect emerald -> safety helm
+- magic kite shield + jewel + rune 04 + perfect emerald -> safety shield
+- magic kite shield + jewel + rune 04 + perfect emerald -> safety shield
+- magic breastplate + jewel + rune 05 + perfect emerald -> safety body
+- magic breastplate + jewel + rune 05 + perfect emerald -> safety body
+- magic crown + safety craft ingredient -> safety helm
+- magic crown + safety craft ingredient -> safety helm
+- magic kite shield + safety craft ingredient -> safety shield
+- magic kite shield + safety craft ingredient -> safety shield
+- magic breastplate + safety craft ingredient -> safety body
+- magic breastplate + safety craft ingredient -> safety body
+- rare crown + jewel + rune 06 + perfect emerald -> safety helm
+- rare crown + jewel + rune 06 + perfect emerald -> safety helm
+- rare kite shield + jewel + rune 04 + perfect emerald -> safety shield
+- rare kite shield + jewel + rune 04 + perfect emerald -> safety shield
+- rare breastplate + jewel + rune 05 + perfect emerald -> safety body
+- rare breastplate + jewel + rune 05 + perfect emerald -> safety body
+- rare crown + safety craft ingredient -> safety helm
+- rare crown + safety craft ingredient -> safety helm
+- rare kite shield + safety craft ingredient -> safety shield
+- rare kite shield + safety craft ingredient -> safety shield
+- rare breastplate + safety craft ingredient -> safety body
+- rare breastplate + safety craft ingredient -> safety body
+- magic ring + jewel + rune 15 + perfect skull  -> vampiric ring
+- magic ring + vampire craft ingredient  -> vampiric ring
+- rare ring + jewel + rune 15 + perfect skull  -> vampiric ring
+- rare ring + vampire craft ingredient  -> vampiric ring
+- magic full helm + jewel + rune 03 + perfect topaz -> bountiful helm
+- magic full helm + jewel + rune 03 + perfect topaz -> bountiful helm
+- magic chain boots + jewel + rune 16 + perfect topaz -> bountiful boots
+- magic chain boots + jewel + rune 16 + perfect topaz -> bountiful boots
+- magic chain gloves + jewel + rune 15 + perfect topaz -> bountiful gloves
+- magic chain gloves + jewel + rune 15 + perfect topaz -> bountiful gloves
+- magic heavy belt + jewel + rune 01 + perfect topaz -> bountiful belt
+- magic heavy belt + jewel + rune 01 + perfect topaz -> bountiful belt
+- magic gothic shield + jewel + rune 14 + perfect topaz  -> bountiful shield
+- magic gothic shield + jewel + rune 14 + perfect topaz -> bountiful shield
+- magic field plate + jewel + rune 02 + perfect topaz -> bountiful body
+- magic field plate + jewel + rune 02 + perfect topaz -> bountiful body
+- magic amulet + jewel + rune 18 + perfect topaz -> bountiful amulet
+- magic ring + jewel + rune 17 + perfect topaz -> bountiful ring
+- magic blunt + jewel + rune 13 + perfect topaz -> bountiful weapon
+- magic blunt + jewel + rune 13 + perfect topaz -> bountiful weapon
+- magic full helm + bountiful craft ingredient -> bountiful helm
+- magic full helm + bountiful craft ingredient -> bountiful helm
+- magic chain boots + bountiful craft ingredient -> bountiful boots
+- magic chain boots + bountiful craft ingredient -> bountiful boots
+- magic chain gloves + bountiful craft ingredient -> bountiful gloves
+- magic chain gloves + bountiful craft ingredient -> bountiful gloves
+- magic heavy belt + bountiful craft ingredient -> bountiful belt
+- magic heavy belt + bountiful craft ingredient -> bountiful belt
+- magic gothic shield + bountiful craft ingredient  -> bountiful shield
+- magic gothic shield + bountiful craft ingredient -> bountiful shield
+- magic field plate + bountiful craft ingredient -> bountiful body
+- magic field plate + bountiful craft ingredient -> bountiful body
+- magic amulet + bountiful craft ingredient -> bountiful amulet
+- magic ring + bountiful craft ingredient -> bountiful ring
+- magic blunt + bountiful craft ingredient -> bountiful weapon
+- magic blunt + bountiful craft ingredient -> bountiful weapon
+- rare full helm + jewel + rune 03 + perfect topaz -> bountiful helm
+- rare full helm + jewel + rune 03 + perfect topaz -> bountiful helm
+- rare chain boots + jewel + rune 16 + perfect topaz -> bountiful boots
+- rare chain boots + jewel + rune 16 + perfect topaz -> bountiful boots
+- rare chain gloves + jewel + rune 15 + perfect topaz -> bountiful gloves
+- rare chain gloves + jewel + rune 15 + perfect topaz -> bountiful gloves
+- rare heavy belt + jewel + rune 01 + perfect topaz -> bountiful belt
+- rare heavy belt + jewel + rune 01 + perfect topaz -> bountiful belt
+- rare gothic shield + jewel + rune 14 + perfect topaz  -> bountiful shield
+- rare gothic shield + jewel + rune 14 + perfect topaz -> bountiful shield
+- rare field plate + jewel + rune 02 + perfect topaz -> bountiful body
+- rare field plate + jewel + rune 02 + perfect topaz -> bountiful body
+- rare amulet + jewel + rune 18 + perfect topaz -> bountiful amulet
+- rare ring + jewel + rune 17 + perfect topaz -> bountiful ring
+- rare blunt + jewel + rune 13 + perfect topaz -> bountiful weapon
+- rare blunt + jewel + rune 13 + perfect topaz -> bountiful weapon
+- rare full helm + bountiful craft ingredient -> bountiful helm
+- rare full helm + bountiful craft ingredient -> bountiful helm
+- rare chain boots + bountiful craft ingredient -> bountiful boots
+- rare chain boots + bountiful craft ingredient -> bountiful boots
+- rare chain gloves + bountiful craft ingredient -> bountiful gloves
+- rare chain gloves + bountiful craft ingredient -> bountiful gloves
+- rare heavy belt + bountiful craft ingredient -> bountiful belt
+- rare heavy belt + bountiful craft ingredient -> bountiful belt
+- rare gothic shield + bountiful craft ingredient  -> bountiful shield
+- rare gothic shield + bountiful craft ingredient -> bountiful shield
+- rare field plate + bountiful craft ingredient -> bountiful body
+- rare field plate + bountiful craft ingredient -> bountiful body
+- rare amulet + bountiful craft ingredient -> bountiful amulet
+- rare ring + bountiful craft ingredient -> bountiful ring
+- rare blunt + bountiful craft ingredient -> bountiful weapon
+- rare blunt + bountiful craft ingredient -> bountiful weapon
+- Puzzlepiece 2h weapon
+- Puzzlepiece Bow
+- Puzzlepiece Bow
+- fortify T1 map-- map + fort
+- fortify T2 map-- map + fort
+- fortify T3 map-- map + fort
+- fortify T1 map-- map + fort
+- fortify T2 map-- map + fort
+- fortify T3 map-- map + fort
+- imbue upgrade mag to rare x50
+- imbue upgrade mag to rare x40
+- imbue upgrade mag to rare x30
+- imbue upgrade mag to rare x20
+- imbue upgrade mag to rare x10
+- imbue upgrade mag to rare x9
+- imbue upgrade mag to rare x8
+- imbue upgrade mag to rare x7
+- imbue upgrade mag to rare x6
+- imbue upgrade mag to rare x5
+- imbue upgrade mag to rare x4
+- imbue upgrade mag to rare x3
+- imbue upgrade mag to rare x2
+- imbue upgrade mag to rare x1
+- imbue reroll rare x50
+- imbue reroll rare x40
+- imbue reroll rare x30
+- imbue reroll rare x20
+- imbue reroll rare x10
+- imbue reroll rare x9
+- imbue reroll rare x8
+- imbue reroll rare x7
+- imbue reroll rare x6
+- imbue reroll rare x5
+- imbue reroll rare x4
+- imbue reroll rare x3
+- imbue reroll rare x2
+- imbue reroll rare x1
+- fortify T1 map-- map + fort (unique)
