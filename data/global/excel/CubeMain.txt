@@ -2247,111 +2247,111 @@ Torch -> Torch Fragments (no key)	1			100					1	"Hellfire Torch"							cm2f			10
 3 chipped skulls -> flawed skull (with key)	1			0					2	"key,qty=1"	"skc,qty=3"						skf																																																																																							0
 3 flawed skulls -> standard skull (with key)	1			0					2	"key,qty=1"	"skf,qty=3"						sku																																																																																							0
 3 standard skulls -> flawless skull (with key)	1			0					2	"key,qty=1"	"sku,qty=3"						skl																																																																																							0
-48 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzvs,qty=48"						useitem			100																										"gpvs,qty=16"																																																										0
-45 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzvs,qty=45"						useitem			100																										"gpvs,qty=15"																																																										0
-42 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzvs,qty=42"						useitem			100																										"gpvs,qty=14"																																																										0
-39 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzvs,qty=39"						useitem			100																										"gpvs,qty=13"																																																										0
-36 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzvs,qty=36"						useitem			100																										"gpvs,qty=12"																																																										0
-33 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzvs,qty=33"						useitem			100																										"gpvs,qty=11"																																																										0
-30 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzvs,qty=30"						useitem			100																										"gpvs,qty=10"																																																										0
-27 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzvs,qty=27"						useitem			100																										"gpvs,qty=9"																																																										0
-24 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzvs,qty=24"						useitem			100																										"gpvs,qty=8"																																																										0
-21 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzvs,qty=21"						useitem			100																										"gpvs,qty=7"																																																										0
-18 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzvs,qty=18"						useitem			100																										"gpvs,qty=6"																																																										0
-15 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzvs,qty=15"						useitem			100																										"gpvs,qty=5"																																																										0
-12 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzvs,qty=12"						useitem			100																										"gpvs,qty=4"																																																										0
-9 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzvs,qty=9"						useitem			100																										"gpvs,qty=3"																																																										0
-6 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzvs,qty=6"						useitem			100																										"gpvs,qty=2"																																																										0
-48 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glrs,qty=48"						useitem			100																										"gprs,qty=16"																																																										0
-45 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glrs,qty=45"						useitem			100																										"gprs,qty=15"																																																										0
-42 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glrs,qty=42"						useitem			100																										"gprs,qty=14"																																																										0
-39 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glrs,qty=39"						useitem			100																										"gprs,qty=13"																																																										0
-36 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glrs,qty=36"						useitem			100																										"gprs,qty=12"																																																										0
-33 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glrs,qty=33"						useitem			100																										"gprs,qty=11"																																																										0
-30 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glrs,qty=30"						useitem			100																										"gprs,qty=10"																																																										0
-27 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glrs,qty=27"						useitem			100																										"gprs,qty=9"																																																										0
-24 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glrs,qty=24"						useitem			100																										"gprs,qty=8"																																																										0
-21 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glrs,qty=21"						useitem			100																										"gprs,qty=7"																																																										0
-18 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glrs,qty=18"						useitem			100																										"gprs,qty=6"																																																										0
-15 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glrs,qty=15"						useitem			100																										"gprs,qty=5"																																																										0
-12 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glrs,qty=12"						useitem			100																										"gprs,qty=4"																																																										0
-9 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glrs,qty=9"						useitem			100																										"gprs,qty=3"																																																										0
-6 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glrs,qty=6"						useitem			100																										"gprs,qty=2"																																																										0
-48 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glbs,qty=48"						useitem			100																										"gpbs,qty=16"																																																										0
-45 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glbs,qty=45"						useitem			100																										"gpbs,qty=15"																																																										0
-42 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glbs,qty=42"						useitem			100																										"gpbs,qty=14"																																																										0
-39 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glbs,qty=39"						useitem			100																										"gpbs,qty=13"																																																										0
-36 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glbs,qty=36"						useitem			100																										"gpbs,qty=12"																																																										0
-33 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glbs,qty=33"						useitem			100																										"gpbs,qty=11"																																																										0
-30 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glbs,qty=30"						useitem			100																										"gpbs,qty=10"																																																										0
-27 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glbs,qty=27"						useitem			100																										"gpbs,qty=9"																																																										0
-24 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glbs,qty=24"						useitem			100																										"gpbs,qty=8"																																																										0
-21 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glbs,qty=21"						useitem			100																										"gpbs,qty=7"																																																										0
-18 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glbs,qty=18"						useitem			100																										"gpbs,qty=6"																																																										0
-15 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glbs,qty=15"						useitem			100																										"gpbs,qty=5"																																																										0
-12 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glbs,qty=12"						useitem			100																										"gpbs,qty=4"																																																										0
-9 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glbs,qty=9"						useitem			100																										"gpbs,qty=3"																																																										0
-6 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glbs,qty=6"						useitem			100																										"gpbs,qty=2"																																																										0
-48 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"glys,qty=48"						useitem			100																										"gpys,qty=16"																																																										0
-45 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"glys,qty=45"						useitem			100																										"gpys,qty=15"																																																										0
-42 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"glys,qty=42"						useitem			100																										"gpys,qty=14"																																																										0
-39 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"glys,qty=39"						useitem			100																										"gpys,qty=13"																																																										0
-36 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"glys,qty=36"						useitem			100																										"gpys,qty=12"																																																										0
-33 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"glys,qty=33"						useitem			100																										"gpys,qty=11"																																																										0
-30 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"glys,qty=30"						useitem			100																										"gpys,qty=10"																																																										0
-27 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"glys,qty=27"						useitem			100																										"gpys,qty=9"																																																										0
-24 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"glys,qty=24"						useitem			100																										"gpys,qty=8"																																																										0
-21 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"glys,qty=21"						useitem			100																										"gpys,qty=7"																																																										0
-18 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"glys,qty=18"						useitem			100																										"gpys,qty=6"																																																										0
-15 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"glys,qty=15"						useitem			100																										"gpys,qty=5"																																																										0
-12 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"glys,qty=12"						useitem			100																										"gpys,qty=4"																																																										0
-9 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"glys,qty=9"						useitem			100																										"gpys,qty=3"																																																										0
-6 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"glys,qty=6"						useitem			100																										"gpys,qty=2"																																																										0
-48 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=48"						useitem			100																										"gpgs,qty=16"																																																										0
-45 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=45"						useitem			100																										"gpgs,qty=15"																																																										0
-42 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=42"						useitem			100																										"gpgs,qty=14"																																																										0
-39 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=39"						useitem			100																										"gpgs,qty=13"																																																										0
-36 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=36"						useitem			100																										"gpgs,qty=12"																																																										0
-33 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=33"						useitem			100																										"gpgs,qty=11"																																																										0
-30 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=30"						useitem			100																										"gpgs,qty=10"																																																										0
-27 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=27"						useitem			100																										"gpgs,qty=9"																																																										0
-24 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=24"						useitem			100																										"gpgs,qty=8"																																																										0
-21 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=21"						useitem			100																										"gpgs,qty=7"																																																										0
-18 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=18"						useitem			100																										"gpgs,qty=6"																																																										0
-15 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=15"						useitem			100																										"gpgs,qty=5"																																																										0
-12 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=12"						useitem			100																										"gpgs,qty=4"																																																										0
-9 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=9"						useitem			100																										"gpgs,qty=3"																																																										0
-6 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=6"						useitem			100																										"gpgs,qty=2"																																																										0
-48 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glws,qty=48"						useitem			100																										"gpws,qty=16"																																																										0
-45 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glws,qty=45"						useitem			100																										"gpws,qty=15"																																																										0
-42 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glws,qty=42"						useitem			100																										"gpws,qty=14"																																																										0
-39 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glws,qty=39"						useitem			100																										"gpws,qty=13"																																																										0
-36 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glws,qty=36"						useitem			100																										"gpws,qty=12"																																																										0
-33 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glws,qty=33"						useitem			100																										"gpws,qty=11"																																																										0
-30 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glws,qty=30"						useitem			100																										"gpws,qty=10"																																																										0
-27 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glws,qty=27"						useitem			100																										"gpws,qty=9"																																																										0
-24 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glws,qty=24"						useitem			100																										"gpws,qty=8"																																																										0
-21 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glws,qty=21"						useitem			100																										"gpws,qty=7"																																																										0
-18 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glws,qty=18"						useitem			100																										"gpws,qty=6"																																																										0
-15 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glws,qty=15"						useitem			100																										"gpws,qty=5"																																																										0
-12 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glws,qty=12"						useitem			100																										"gpws,qty=4"																																																										0
-9 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glws,qty=9"						useitem			100																										"gpws,qty=3"																																																										0
-6 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glws,qty=6"						useitem			100																										"gpws,qty=2"																																																										0
-48 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skls,qty=48"						useitem			100																										"skzs,qty=16"																																																										0
-45 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skls,qty=45"						useitem			100																										"skzs,qty=15"																																																										0
-42 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skls,qty=42"						useitem			100																										"skzs,qty=14"																																																										0
-39 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skls,qty=39"						useitem			100																										"skzs,qty=13"																																																										0
-36 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skls,qty=36"						useitem			100																										"skzs,qty=12"																																																										0
-33 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skls,qty=33"						useitem			100																										"skzs,qty=11"																																																										0
-30 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skls,qty=30"						useitem			100																										"skzs,qty=10"																																																										0
-27 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skls,qty=27"						useitem			100																										"skzs,qty=9"																																																										0
-24 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skls,qty=24"						useitem			100																										"skzs,qty=8"																																																										0
-21 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skls,qty=21"						useitem			100																										"skzs,qty=7"																																																										0
-18 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skls,qty=18"						useitem			100																										"skzs,qty=6"																																																										0
-15 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skls,qty=15"						useitem			100																										"skzs,qty=5"																																																										0
-12 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skls,qty=12"						useitem			100																										"skzs,qty=4"																																																										0
-9 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skls,qty=9"						useitem			100																										"skzs,qty=3"																																																										0
-6 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skls,qty=6"						useitem			100																										"skzs,qty=2"																																																										0
+48 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzv,qty=48"						useitem			100																										"gpv,qty=16"																																																										0
+45 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzv,qty=45"						useitem			100																										"gpv,qty=15"																																																										0
+42 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzv,qty=42"						useitem			100																										"gpv,qty=14"																																																										0
+39 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzv,qty=39"						useitem			100																										"gpv,qty=13"																																																										0
+36 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzv,qty=36"						useitem			100																										"gpv,qty=12"																																																										0
+33 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzv,qty=33"						useitem			100																										"gpv,qty=11"																																																										0
+30 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzv,qty=30"						useitem			100																										"gpv,qty=10"																																																										0
+27 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzv,qty=27"						useitem			100																										"gpv,qty=9"																																																										0
+24 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzv,qty=24"						useitem			100																										"gpv,qty=8"																																																										0
+21 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzv,qty=21"						useitem			100																										"gpv,qty=7"																																																										0
+18 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzv,qty=18"						useitem			100																										"gpv,qty=6"																																																										0
+15 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzv,qty=15"						useitem			100																										"gpv,qty=5"																																																										0
+12 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzv,qty=12"						useitem			100																										"gpv,qty=4"																																																										0
+9 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzv,qty=9"						useitem			100																										"gpv,qty=3"																																																										0
+6 flawless amethysts -> perfect amethysts	1			0					2	"key,qty=1"	"gzv,qty=6"						useitem			100																										"gpv,qty=2"																																																										0
+48 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glr,qty=48"						useitem			100																										"gpr,qty=16"																																																										0
+45 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glr,qty=45"						useitem			100																										"gpr,qty=15"																																																										0
+42 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glr,qty=42"						useitem			100																										"gpr,qty=14"																																																										0
+39 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glr,qty=39"						useitem			100																										"gpr,qty=13"																																																										0
+36 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glr,qty=36"						useitem			100																										"gpr,qty=12"																																																										0
+33 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glr,qty=33"						useitem			100																										"gpr,qty=11"																																																										0
+30 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glr,qty=30"						useitem			100																										"gpr,qty=10"																																																										0
+27 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glr,qty=27"						useitem			100																										"gpr,qty=9"																																																										0
+24 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glr,qty=24"						useitem			100																										"gpr,qty=8"																																																										0
+21 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glr,qty=21"						useitem			100																										"gpr,qty=7"																																																										0
+18 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glr,qty=18"						useitem			100																										"gpr,qty=6"																																																										0
+15 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glr,qty=15"						useitem			100																										"gpr,qty=5"																																																										0
+12 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glr,qty=12"						useitem			100																										"gpr,qty=4"																																																										0
+9 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glr,qty=9"						useitem			100																										"gpr,qty=3"																																																										0
+6 flawless rubies -> perfect rubies	1			0					2	"key,qty=1"	"glr,qty=6"						useitem			100																										"gpr,qty=2"																																																										0
+48 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glb,qty=48"						useitem			100																										"gpb,qty=16"																																																										0
+45 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glb,qty=45"						useitem			100																										"gpb,qty=15"																																																										0
+42 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glb,qty=42"						useitem			100																										"gpb,qty=14"																																																										0
+39 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glb,qty=39"						useitem			100																										"gpb,qty=13"																																																										0
+36 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glb,qty=36"						useitem			100																										"gpb,qty=12"																																																										0
+33 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glb,qty=33"						useitem			100																										"gpb,qty=11"																																																										0
+30 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glb,qty=30"						useitem			100																										"gpb,qty=10"																																																										0
+27 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glb,qty=27"						useitem			100																										"gpb,qty=9"																																																										0
+24 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glb,qty=24"						useitem			100																										"gpb,qty=8"																																																										0
+21 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glb,qty=21"						useitem			100																										"gpb,qty=7"																																																										0
+18 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glb,qty=18"						useitem			100																										"gpb,qty=6"																																																										0
+15 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glb,qty=15"						useitem			100																										"gpb,qty=5"																																																										0
+12 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glb,qty=12"						useitem			100																										"gpb,qty=4"																																																										0
+9 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glb,qty=9"						useitem			100																										"gpb,qty=3"																																																										0
+6 flawless sapphires -> perfect sapphires	1			0					2	"key,qty=1"	"glb,qty=6"						useitem			100																										"gpb,qty=2"																																																										0
+48 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"gly,qty=48"						useitem			100																										"gpy,qty=16"																																																										0
+45 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"gly,qty=45"						useitem			100																										"gpy,qty=15"																																																										0
+42 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"gly,qty=42"						useitem			100																										"gpy,qty=14"																																																										0
+39 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"gly,qty=39"						useitem			100																										"gpy,qty=13"																																																										0
+36 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"gly,qty=36"						useitem			100																										"gpy,qty=12"																																																										0
+33 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"gly,qty=33"						useitem			100																										"gpy,qty=11"																																																										0
+30 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"gly,qty=30"						useitem			100																										"gpy,qty=10"																																																										0
+27 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"gly,qty=27"						useitem			100																										"gpy,qty=9"																																																										0
+24 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"gly,qty=24"						useitem			100																										"gpy,qty=8"																																																										0
+21 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"gly,qty=21"						useitem			100																										"gpy,qty=7"																																																										0
+18 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"gly,qty=18"						useitem			100																										"gpy,qty=6"																																																										0
+15 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"gly,qty=15"						useitem			100																										"gpy,qty=5"																																																										0
+12 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"gly,qty=12"						useitem			100																										"gpy,qty=4"																																																										0
+9 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"gly,qty=9"						useitem			100																										"gpy,qty=3"																																																										0
+6 flawless topazes -> perfect topazes	1			0					2	"key,qty=1"	"gly,qty=6"						useitem			100																										"gpy,qty=2"																																																										0
+48 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=48"						useitem			100																										"gpg,qty=16"																																																										0
+45 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=45"						useitem			100																										"gpg,qty=15"																																																										0
+42 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=42"						useitem			100																										"gpg,qty=14"																																																										0
+39 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=39"						useitem			100																										"gpg,qty=13"																																																										0
+36 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=36"						useitem			100																										"gpg,qty=12"																																																										0
+33 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=33"						useitem			100																										"gpg,qty=11"																																																										0
+30 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=30"						useitem			100																										"gpg,qty=10"																																																										0
+27 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=27"						useitem			100																										"gpg,qty=9"																																																										0
+24 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=24"						useitem			100																										"gpg,qty=8"																																																										0
+21 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=21"						useitem			100																										"gpg,qty=7"																																																										0
+18 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=18"						useitem			100																										"gpg,qty=6"																																																										0
+15 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=15"						useitem			100																										"gpg,qty=5"																																																										0
+12 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=12"						useitem			100																										"gpg,qty=4"																																																										0
+9 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=9"						useitem			100																										"gpg,qty=3"																																																										0
+6 flawless emeralds -> perfect emeralds	1			0					2	"key,qty=1"	"gg3e,qty=6"						useitem			100																										"gpg,qty=2"																																																										0
+48 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glw,qty=48"						useitem			100																										"gpw,qty=16"																																																										0
+45 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glw,qty=45"						useitem			100																										"gpw,qty=15"																																																										0
+42 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glw,qty=42"						useitem			100																										"gpw,qty=14"																																																										0
+39 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glw,qty=39"						useitem			100																										"gpw,qty=13"																																																										0
+36 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glw,qty=36"						useitem			100																										"gpw,qty=12"																																																										0
+33 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glw,qty=33"						useitem			100																										"gpw,qty=11"																																																										0
+30 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glw,qty=30"						useitem			100																										"gpw,qty=10"																																																										0
+27 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glw,qty=27"						useitem			100																										"gpw,qty=9"																																																										0
+24 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glw,qty=24"						useitem			100																										"gpw,qty=8"																																																										0
+21 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glw,qty=21"						useitem			100																										"gpw,qty=7"																																																										0
+18 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glw,qty=18"						useitem			100																										"gpw,qty=6"																																																										0
+15 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glw,qty=15"						useitem			100																										"gpw,qty=5"																																																										0
+12 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glw,qty=12"						useitem			100																										"gpw,qty=4"																																																										0
+9 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glw,qty=9"						useitem			100																										"gpw,qty=3"																																																										0
+6 flawless diamonds -> perfect diamonds	1			0					2	"key,qty=1"	"glw,qty=6"						useitem			100																										"gpw,qty=2"																																																										0
+48 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skl,qty=48"						useitem			100																										"skz,qty=16"																																																										0
+45 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skl,qty=45"						useitem			100																										"skz,qty=15"																																																										0
+42 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skl,qty=42"						useitem			100																										"skz,qty=14"																																																										0
+39 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skl,qty=39"						useitem			100																										"skz,qty=13"																																																										0
+36 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skl,qty=36"						useitem			100																										"skz,qty=12"																																																										0
+33 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skl,qty=33"						useitem			100																										"skz,qty=11"																																																										0
+30 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skl,qty=30"						useitem			100																										"skz,qty=10"																																																										0
+27 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skl,qty=27"						useitem			100																										"skz,qty=9"																																																										0
+24 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skl,qty=24"						useitem			100																										"skz,qty=8"																																																										0
+21 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skl,qty=21"						useitem			100																										"skz,qty=7"																																																										0
+18 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skl,qty=18"						useitem			100																										"skz,qty=6"																																																										0
+15 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skl,qty=15"						useitem			100																										"skz,qty=5"																																																										0
+12 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skl,qty=12"						useitem			100																										"skz,qty=4"																																																										0
+9 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skl,qty=9"						useitem			100																										"skz,qty=3"																																																										0
+6 flawless skulls -> perfect skulls	1			0					2	"key,qty=1"	"skl,qty=6"						useitem			100																										"skz,qty=2"																																																										0
 VIAL OF AWAKENING																																																																																																								0
 add awaken factor to weapon	1	2		100	16	509	0		2	"weap"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
 add awaken factor to armor	1	2		100	16	509	0		2	"armo"	"dvia,qty=1"						useitem			100	awakennum	100		1	1000																					"dvia,qty=1"																																																										0
@@ -2537,10 +2537,10 @@ Lillith's Mirror small charm	1	2		100					2	"cm1,mag"	llmr						useitem	99		100	
 Lillith's Mirror large charm	1	2		100					2	"cm2,mag"	llmr						useitem	99		100																										useitem	99		100	dye	100		21	21	mirrored	100		1	1																																													0
 Lillith's Mirror grand charm	1	2		100					2	"cm3,mag"	llmr						useitem	99		100																										useitem	99		100	dye	100		21	21	mirrored	100		1	1																																													0
 Lillith's Mirror skill grand charm	1	2		100					2	"cms,mag"	llmr						useitem	99		100																										useitem	99		100	dye	100		21	21	mirrored	100		1	1																																													0
-test map drop increase jewelry -- map + perfect topas (gpys)	0			100					2	"map"	"gpys,qty=1"						useitem			100	map-mon-dropjewelry	100		20	20																																																																															0
-test map drop increase weapons -- map + perfect ruby (gprs)	0			100					2	"map"	"gprs,qty=1"						useitem			100	map-mon-dropweapons	100		20	20																																																																															0
-test map drop increase armor -- map + perfect sapphire (gpbs)	0			100					2	"map"	"gpbs,qty=1"						useitem			100	map-mon-droparmor	100		20	20																																																																															0
-test map drop increase charms -- map + perfect emerald (gpgs)	0			100					2	"map"	"gpgs,qty=1"						useitem			100	map-mon-dropcharms	100		20	20																																																																															0
+test map drop increase jewelry -- map + perfect topas (gpys)	0			100					2	"map"	"gpy,qty=1"						useitem			100	map-mon-dropjewelry	100		20	20																																																																															0
+test map drop increase weapons -- map + perfect ruby (gprs)	0			100					2	"map"	"gpr,qty=1"						useitem			100	map-mon-dropweapons	100		20	20																																																																															0
+test map drop increase armor -- map + perfect sapphire (gpbs)	0			100					2	"map"	"gpb,qty=1"						useitem			100	map-mon-droparmor	100		20	20																																																																															0
+test map drop increase charms -- map + perfect emerald (gpgs)	0			100					2	"map"	"gpg,qty=1"						useitem			100	map-mon-dropcharms	100		20	20																																																																															0
 Larzuks Malus + hiq weap = max socket	1			100					2	"weap,nos,hiq"	"lmal,qty=1"						useitem			100	sock			6	6																																																																															0
 Larzuks Malus + hiq helm = max socket	1			100					2	"helm,nos,hiq"	"lmal,qty=1"						useitem			100	sock			6	6																																																																															0
 Larzuks Malus + hiq shield = max socket	1			100					2	"shld,nos,hiq"	"lmal,qty=1"						useitem			100	sock			6	6																																																																															0
@@ -2779,7 +2779,7 @@ generate (dev)	0			100					1	"key,qty=1"							fsph,qty=50	131																		
 4 of Hellforge's Secret -> superior max socket eth armor (DROP DISABLED)	1			100					1	fshs,qty=4							"tors,hiq,eth,sock=4"		100																																																																																					0
 1 of Pendant of the Void -> corrupted unique amulet +1 all skills	1			100					1	fspv,qty=1							"amul,uni"		100		corrupt	100		27	27	corruptnum	100		1001	1001	allskills	100		1	1																																																																					0
 1 of Cartographer's Favor -> 5 infused zak orb, 5 infused hora orb,5  destruction	1			100					1	fscf,qty=1							"irra,qty=5"																													"rrra,qty=5"																													"scou,qty=5"																													0
-5 of Chaos Stone -> zod rune	1			100					1	fscs,qty=5							"r33s,qty=1"																																																																																							0
+5 of Chaos Stone -> zod rune	1			100					1	fscs,qty=5							"r33,qty=1"																																																																																							0
 3 of The Awakening -> 5 vials of awakening	1			100					1	fsta,qty=3							"dvia,qty=5"																																																																																							0
 9 of Hood of the Archangel -> corrupted +1 all 2 socket shako	1			100					1	fsha,qty=9							Harlequin Crest	95			corrupt	100		27	27						allskills	100		1	1	sock	100		2	2	corruptnum	100		1001	1001																																																											0
 4 of The Corrupt -> corrupt +1 all 3 socket unique elite armor	1			100					1	fstc,qty=4							"tors,uni,eli"		100		corrupt	100		27	27	sock	100		3	3	corruptnum	100		1001	1001	allskills	100		1	1																																																																0
@@ -2829,42 +2829,42 @@ ITEM DYE																																																																								
 remove dye	0			100	17	477	0		2	any	yps						useitem				dye	100		-20	-20																																																																															0
 red armor	0			100	18	477	0		3	"armo"	"gg4r,qty=1"	lmal					useitem				dye	100		10	10																																																																															0
 RUNE DOWNGRADING																																																																																																								0
-r02 downgrade eld -> 1 el	1			100					2	"key,qty=1"	"r02,qty=1"						useitem			100																										"r01s,qty=1"																																																										0
-r03 downgrade tir -> 1 eld	1			100					2	"key,qty=1"	"r03,qty=1"						useitem			100																										"r02s,qty=1"																																																										0
-r04 downgrade nef -> 1 tir	1			100					2	"key,qty=1"	"r04,qty=1"						useitem			100																										"r03s,qty=1"																																																										0
-r05 downgrade eth -> 1 nef	1			100					2	"key,qty=1"	"r05,qty=1"						useitem			100																										"r04s,qty=1"																																																										0
-r06 downgrade ith ->1 eth	1			100					2	"key,qty=1"	"r06,qty=1"						useitem			100																										"r05s,qty=1"																																																										0
-r07 downgrade tal -> 1 ith	1			100					2	"key,qty=1"	"r07,qty=1"						useitem			100																										"r06s,qty=1"																																																										0
-r08 downgrade ral -> 1 tal	1			100					2	"key,qty=1"	"r08,qty=1"						useitem			100																										"r07s,qty=1"																																																										0
-r09 downgrade ort -> 1 ral	1			100					2	"key,qty=1"	"r09,qty=1"						useitem			100																										"r08s,qty=1"																																																										0
-r10 downgrade thul -> 1 ort	1			100					2	"key,qty=1"	"r10,qty=1"						useitem			100																										"r09s,qty=1"																																																										0
-r11 downgrade amn -> 1 thul	1			100					2	"key,qty=1"	"r11,qty=1"						useitem			100																										"r10s,qty=1"																																																										0
-r12 downgrade sol -> 1 amn	1			100					2	"key,qty=1"	"r12,qty=1"						useitem			100																										"r11s,qty=1"																																																										0
-r13 downgrade shael -> 1 sol	1			100					2	"key,qty=1"	"r13,qty=1"						useitem			100																										"r12s,qty=1"																																																										0
-r14 downgrade dol -> 1 shael	1			100					2	"key,qty=1"	"r14,qty=1"						useitem			100																										"r13s,qty=1"																																																										0
-r15 downgrade hel -> 1 dol	1			100					2	"key,qty=1"	"r15,qty=1"						useitem			100																										"r14s,qty=1"																																																										0
-r16 downgrade io -> 1 hel	1			100					2	"key,qty=1"	"r16,qty=1"						useitem			100																										"r15s,qty=1"																																																										0
-r17 downgrade lum -> 1 io	1			100					2	"key,qty=1"	"r17,qty=1"						useitem			100																										"r16s,qty=1"																																																										0
-r18 downgrade ko -> 1 lum	1			100					2	"key,qty=1"	"r18,qty=1"						useitem			100																										"r17s,qty=1"																																																										0
-r19 downgrade fal -> 1 ko	1			100					2	"key,qty=1"	"r19,qty=1"						useitem			100																										"r18s,qty=1"																																																										0
-r20 downgrade lem -> 1 fal	1			100					2	"key,qty=1"	"r20,qty=1"						useitem			100																										"r19s,qty=1"																																																										0
-r21 downgrade pul -> 1 lem	1			100					2	"key,qty=1"	"r21,qty=1"						useitem			100																										"r20s,qty=1"																																																										0
-r22 downgrade um -> 1 pul	1			100					2	"key,qty=1"	"r22,qty=1"						useitem			100																										"r21s,qty=1"																																																										0
-r23 downgrade mal -> 1 um	1			100					2	"key,qty=1"	"r23,qty=1"						useitem			100																										"r22s,qty=1"																																																										0
-r24 downgrade ist -> 1 mal	1			100					2	"key,qty=1"	"r24,qty=1"						useitem			100																										"r23s,qty=1"																																																										0
-r25 downgrade gul -> ist	1			100					2	"key,qty=1"	"r25,qty=1"						useitem			100																										"r24s,qty=1"																																																										0
-r26 downgrade vex -> gul	1			100					2	"key,qty=1"	"r26,qty=1"						useitem			100																										"r25s,qty=1"																																																										0
-r27 downgrade ohm -> vex	1			100					2	"key,qty=1"	"r27,qty=1"						useitem			100																										"r26s,qty=1"																																																										0
-r28 downgrade lo -> ohm	1			100					2	"key,qty=1"	"r28,qty=1"						useitem			100																										"r27s,qty=1"																																																										0
-r29 downgrade sur -> lo	1			100					2	"key,qty=1"	"r29,qty=1"						useitem			100																										"r28s,qty=1"																																																										0
-r30 downgrade ber -> sur	1			100					2	"key,qty=1"	"r30,qty=1"						useitem			100																										"r29s,qty=1"																																																										0
-r31 downgrade jah -> ber	1			100					2	"key,qty=1"	"r31,qty=1"						useitem			100																										"r30s,qty=1"																																																										0
-r32 downgrade cham -> jah	1			100					2	"key,qty=1"	"r32,qty=1"						useitem			100																										"r31s,qty=1"																																																										0
-r33 downgrade zod -> cham	1			100					2	"key,qty=1"	"r33,qty=1"						useitem			100																										"r32s,qty=1"																																																										0
+r02 downgrade eld -> 1 el	1			100					2	"key,qty=1"	"r02,qty=1"						useitem			100																										"r01,qty=1"																																																										0
+r03 downgrade tir -> 1 eld	1			100					2	"key,qty=1"	"r03,qty=1"						useitem			100																										"r02,qty=1"																																																										0
+r04 downgrade nef -> 1 tir	1			100					2	"key,qty=1"	"r04,qty=1"						useitem			100																										"r03,qty=1"																																																										0
+r05 downgrade eth -> 1 nef	1			100					2	"key,qty=1"	"r05,qty=1"						useitem			100																										"r04,qty=1"																																																										0
+r06 downgrade ith ->1 eth	1			100					2	"key,qty=1"	"r06,qty=1"						useitem			100																										"r05,qty=1"																																																										0
+r07 downgrade tal -> 1 ith	1			100					2	"key,qty=1"	"r07,qty=1"						useitem			100																										"r06,qty=1"																																																										0
+r08 downgrade ral -> 1 tal	1			100					2	"key,qty=1"	"r08,qty=1"						useitem			100																										"r07,qty=1"																																																										0
+r09 downgrade ort -> 1 ral	1			100					2	"key,qty=1"	"r09,qty=1"						useitem			100																										"r08,qty=1"																																																										0
+r10 downgrade thul -> 1 ort	1			100					2	"key,qty=1"	"r10,qty=1"						useitem			100																										"r09,qty=1"																																																										0
+r11 downgrade amn -> 1 thul	1			100					2	"key,qty=1"	"r11,qty=1"						useitem			100																										"r10,qty=1"																																																										0
+r12 downgrade sol -> 1 amn	1			100					2	"key,qty=1"	"r12,qty=1"						useitem			100																										"r11,qty=1"																																																										0
+r13 downgrade shael -> 1 sol	1			100					2	"key,qty=1"	"r13,qty=1"						useitem			100																										"r12,qty=1"																																																										0
+r14 downgrade dol -> 1 shael	1			100					2	"key,qty=1"	"r14,qty=1"						useitem			100																										"r13,qty=1"																																																										0
+r15 downgrade hel -> 1 dol	1			100					2	"key,qty=1"	"r15,qty=1"						useitem			100																										"r14,qty=1"																																																										0
+r16 downgrade io -> 1 hel	1			100					2	"key,qty=1"	"r16,qty=1"						useitem			100																										"r15,qty=1"																																																										0
+r17 downgrade lum -> 1 io	1			100					2	"key,qty=1"	"r17,qty=1"						useitem			100																										"r16,qty=1"																																																										0
+r18 downgrade ko -> 1 lum	1			100					2	"key,qty=1"	"r18,qty=1"						useitem			100																										"r17,qty=1"																																																										0
+r19 downgrade fal -> 1 ko	1			100					2	"key,qty=1"	"r19,qty=1"						useitem			100																										"r18,qty=1"																																																										0
+r20 downgrade lem -> 1 fal	1			100					2	"key,qty=1"	"r20,qty=1"						useitem			100																										"r19,qty=1"																																																										0
+r21 downgrade pul -> 1 lem	1			100					2	"key,qty=1"	"r21,qty=1"						useitem			100																										"r20,qty=1"																																																										0
+r22 downgrade um -> 1 pul	1			100					2	"key,qty=1"	"r22,qty=1"						useitem			100																										"r21,qty=1"																																																										0
+r23 downgrade mal -> 1 um	1			100					2	"key,qty=1"	"r23,qty=1"						useitem			100																										"r22,qty=1"																																																										0
+r24 downgrade ist -> 1 mal	1			100					2	"key,qty=1"	"r24,qty=1"						useitem			100																										"r23,qty=1"																																																										0
+r25 downgrade gul -> ist	1			100					2	"key,qty=1"	"r25,qty=1"						useitem			100																										"r24,qty=1"																																																										0
+r26 downgrade vex -> gul	1			100					2	"key,qty=1"	"r26,qty=1"						useitem			100																										"r25,qty=1"																																																										0
+r27 downgrade ohm -> vex	1			100					2	"key,qty=1"	"r27,qty=1"						useitem			100																										"r26,qty=1"																																																										0
+r28 downgrade lo -> ohm	1			100					2	"key,qty=1"	"r28,qty=1"						useitem			100																										"r27,qty=1"																																																										0
+r29 downgrade sur -> lo	1			100					2	"key,qty=1"	"r29,qty=1"						useitem			100																										"r28,qty=1"																																																										0
+r30 downgrade ber -> sur	1			100					2	"key,qty=1"	"r30,qty=1"						useitem			100																										"r29,qty=1"																																																										0
+r31 downgrade jah -> ber	1			100					2	"key,qty=1"	"r31,qty=1"						useitem			100																										"r30,qty=1"																																																										0
+r32 downgrade cham -> jah	1			100					2	"key,qty=1"	"r32,qty=1"						useitem			100																										"r31,qty=1"																																																										0
+r33 downgrade zod -> cham	1			100					2	"key,qty=1"	"r33,qty=1"						useitem			100																										"r32,qty=1"																																																										0
 EXCHANGES																																																																																																								0
 3x LPP + Coin = Larzuk's Puzzle Box	0			100					2	lpp,qty=3	ncoi,qty=1						lbox																																																																																							0
-Larzuk's Puzzle Box + Coin = Vex	0			100					2	lbox,qty=1	ncoi,qty=1						"r26s,qty=1"																																																																																							0
-LPP + Coin = Mal	0			100					2	lpp,qty=1	ncoi,qty=1						"r23s,qty=1"																																																																																							0
+Larzuk's Puzzle Box + Coin = Vex	0			100					2	lbox,qty=1	ncoi,qty=1						"r26,qty=1"																																																																																							0
+LPP + Coin = Mal	0			100					2	lpp,qty=1	ncoi,qty=1						"r23,qty=1"																																																																																							0
 Catalyst Shard + Coin = 2x catalyst shard	0			100					2	iwss,qty=1	ncoi,qty=1						iwss																													iwss																																																										0
 Lilith's Mirror + 4x Coin = 4x Ber	0			100					2	llmr	ncoi,qty=4						r30s,qty=4																																																																																							0
 Vial of Lightsong + 2x Coin = 2x Ber	0			100					2	lsvl	ncoi,qty=2						r30s,qty=2																																																																																							0
@@ -2880,18 +2880,18 @@ Lo + jewel + coin -> 10 divine orbs	0			100					3	"r28g,qty=1"	"jewg,qty=50"	"nc
 sur + jewel + coin -> 10 mythic orbs	0			100					3	"r29g,qty=1"	"jewg,qty=50"	"ncoi,qty=1"					"mfo,qty=10"																																																																																							0
 sur + 50 t2 sigil -> 50 t1 sigil	1			100					2	"r29g,qty=1"	"ubab,qty=50"						"ubaa,qty=50"																																																																																							0
 sur + 50 t3 sigil -> 50 t2 sigil	1			100					2	"r29g,qty=1"	"ubac,qty=50"						"ubab,qty=50"																																																																																							0
-ist + el -> 50 el	1			100					2	"r24s,qty=1"	"r01,qty=1"						"r01s,qty=50"																																																																																							0
-ist + eld -> 50 eld	1			100					2	"r24s,qty=1"	"r02,qty=1"						"r02s,qty=50"																																																																																							0
-ist + tir -> 50 tir	1			100					2	"r24s,qty=1"	"r03,qty=1"						"r03s,qty=50"																																																																																							0
-ist + nef -> 50 nef	1			100					2	"r24s,qty=1"	"r04,qty=1"						"r04s,qty=50"																																																																																							0
-ist + eth -> 50 eth	1			100					2	"r24s,qty=1"	"r05,qty=1"						"r05s,qty=50"																																																																																							0
-ist + ith -> 50 ith	1			100					2	"r24s,qty=1"	"r06,qty=1"						"r06s,qty=50"																																																																																							0
-ist + tal -> 50 tal	1			100					2	"r24s,qty=1"	"r07,qty=1"						"r07s,qty=50"																																																																																							0
-ist + ral -> 50 ral	1			100					2	"r24s,qty=1"	"r08,qty=1"						"r08s,qty=50"																																																																																							0
-ist + ort -> 50 ort	1			100					2	"r24s,qty=1"	"r09,qty=1"						"r09s,qty=50"																																																																																							0
-ist + thul -> 50 thul	1			100					2	"r24s,qty=1"	"r10,qty=1"						"r10s,qty=50"																																																																																							0
-ist + amn -> 50 amn	1			100					2	"r24s,qty=1"	"r11,qty=1"						"r11s,qty=50"																																																																																							0
-ist + sol -> 50 sol	1			100					2	"r24s,qty=1"	"r12,qty=1"						"r12s,qty=50"																																																																																							0
+ist + el -> 50 el	1			100					2	"r24,qty=1"	"r01,qty=1"						"r01,qty=50"																																																																																							0
+ist + eld -> 50 eld	1			100					2	"r24,qty=1"	"r02,qty=1"						"r02,qty=50"																																																																																							0
+ist + tir -> 50 tir	1			100					2	"r24,qty=1"	"r03,qty=1"						"r03,qty=50"																																																																																							0
+ist + nef -> 50 nef	1			100					2	"r24,qty=1"	"r04,qty=1"						"r04,qty=50"																																																																																							0
+ist + eth -> 50 eth	1			100					2	"r24,qty=1"	"r05,qty=1"						"r05,qty=50"																																																																																							0
+ist + ith -> 50 ith	1			100					2	"r24,qty=1"	"r06,qty=1"						"r06,qty=50"																																																																																							0
+ist + tal -> 50 tal	1			100					2	"r24,qty=1"	"r07,qty=1"						"r07,qty=50"																																																																																							0
+ist + ral -> 50 ral	1			100					2	"r24,qty=1"	"r08,qty=1"						"r08,qty=50"																																																																																							0
+ist + ort -> 50 ort	1			100					2	"r24,qty=1"	"r09,qty=1"						"r09,qty=50"																																																																																							0
+ist + thul -> 50 thul	1			100					2	"r24,qty=1"	"r10,qty=1"						"r10,qty=50"																																																																																							0
+ist + amn -> 50 amn	1			100					2	"r24,qty=1"	"r11,qty=1"						"r11,qty=50"																																																																																							0
+ist + sol -> 50 sol	1			100					2	"r24,qty=1"	"r12,qty=1"						"r12,qty=50"																																																																																							0
 goggly moogly																																																																																																								0
 RELIC OF THE NEPHALEM																																																																																																								0
 add relic factor	1	2		100	18	509	0		1	"rotf"							useitem			100	awakennum	100		1	1000																																																																															0

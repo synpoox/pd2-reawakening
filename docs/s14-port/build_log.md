@@ -50,3 +50,29 @@ Current working install:
 - Integrity: 1269 issues, identical to pre-edit baseline. Only TreasureClassEx.txt changed.
 - Deployed to ProjectD2/data; all bins deleted for recompile on next launch.
   TreasureClassEx.bin removed from repo (stale; game regenerates).
+
+## 2026-11-05 — FIX: class-specific save corruption ("bad inventory data")
+
+**Symptom:** every class except Barbarian got "bad inventory data" on rejoin,
+even naked (no items). Only barb saves reloaded.
+
+**Root cause:** merged Skills.txt had unequal per-class skill counts
+(barb 39, everyone else 36). D2's save format sizes the skills section per
+class but the reload path realigns only for the class with the max count;
+everyone else's item section was read 3 bytes off.
+
+The merge appended the old barb mastery rows (General Mastery, Pole Arm and
+Spear Mastery, bartemp2) as NEW barb-tagged skills at rows 614/615/617,
+while S14 had already removed/renamed the originals. The s11 mod instead
+renamed them in place (rows 128/134/375), keeping every class at 36.
+
+**Fix:** blanked `charclass` on rows 614/615/617 (rows kept, IDs stable,
+references from items stay valid; mastery rework can re-tag later).
+All classes now 36. Integrity check unchanged (1269 known baseline).
+
+**Also:** CharStats starting items per user request — S14 default set
+(class weapons, hp1 x4, tsc, isc) PLUS tome of town portal, tome of
+identify and Horadric cube (item6=tbk, item7=ibk, item8=box).
+
+**Note:** saves written while the bug was present are misaligned and stay
+broken — delete old test characters.
