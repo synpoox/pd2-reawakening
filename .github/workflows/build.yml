@@ -1,0 +1,59 @@
+name: Build
+
+# Every push and PR builds and verifies the MPQs. Pushing a tag (e.g. v14.0.0)
+# also publishes them, with manifest.json, as a GitHub release.
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build StormLib
+        run: |
+          git clone --depth 1 --branch v9.31 https://github.com/ladislav-zezula/StormLib.git "$RUNNER_TEMP/stormlib"
+          cmake -S "$RUNNER_TEMP/stormlib" -B "$RUNNER_TEMP/stormlib/build" -DBUILD_SHARED_LIBS=ON -DCMAKE_BUILD_TYPE=Release
+          cmake --build "$RUNNER_TEMP/stormlib/build" -j
+          echo "STORMLIB=$(find "$RUNNER_TEMP/stormlib/build" -name 'lib*.so' | head -1)" >> "$GITHUB_ENV"
+
+      - run: python3 tools/test_build.py
+
+      - run: python3 tools/build.py "$STORMLIB" "${{ github.ref_type == 'tag' && github.ref_name || 'dev' }}"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+
+  release:
+    if: github.ref_type == 'tag'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          # A re-run replaces the assets of the release the first run made.
+          if gh release view "$GITHUB_REF_NAME" > /dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" dist/* --clobber
+          else
+            gh release create "$GITHUB_REF_NAME" dist/* --title "$GITHUB_REF_NAME" --generate-notes
+          fi

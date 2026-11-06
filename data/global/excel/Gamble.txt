@@ -110,3 +110,7 @@ Pilum	pil
 Short Spear	ssp
 Glaive	glv
 Throwing Spear	tsp
+Circlet	ci0
+Coronet	ci1
+Arrows	aqv
+Bolts	cqv
