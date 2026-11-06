@@ -5,8 +5,8 @@
 Writes pd2data-<N>x-density.mpq for each density, pd2data.mpq (= 1x), the DLLs,
 and manifest.json for the launcher. The MPQs hold data/ as committed: in MPQ mode
 the game reads the .bin tables, so each .bin must come from running the game with
--txt after its .txt changed. check_bins() fails the build when one is missing;
-it can't tell a stale one.
+-txt after its .txt changed. check_bins() fails the build when one is missing or
+its record count differs from the .txt's rows; it can't tell other stale contents.
 """
 import ctypes
 import hashlib
@@ -68,14 +68,32 @@ def density_bin(raw, n):
     return bytes(out)
 
 
+def bin_problems(excel):
+    """Tables whose .bin is missing or holds a different number of records than the .txt has rows."""
+    # shortcut: a .bin with the right count but stale contents can't be caught without the game's compiler.
+    bins = {f[:-4].lower(): f for f in os.listdir(excel) if f.endswith('.bin')}
+    problems = []
+    for txt in sorted(f for f in os.listdir(excel) if f.endswith('.txt')):
+        table = txt[:-4].lower()
+        if table in TXT_ONLY_TABLES:
+            continue
+        if table not in bins:
+            problems.append(f'{txt}: no .bin')
+            continue
+        lines = [l for l in read_bytes(os.path.join(excel, txt)).split(b'\r\n')[1:] if l.strip(b'\t ')]
+        # The game drops 'Expansion' divider rows from most tables (objgroup keeps them).
+        row_counts = {len(lines), len([l for l in lines if not l.lower().startswith(b'expansion')])}
+        records = struct.unpack('<I', read_bytes(os.path.join(excel, bins[table]))[:4])[0]
+        if records not in row_counts:
+            problems.append(f'{bins[table]}: {records} records, {txt} has {min(row_counts)} rows')
+    return problems
+
+
 def check_bins():
-    # shortcut: a .bin older than its .txt can't be detected without the game's compiler.
-    bins = {f[:-4].lower() for f in os.listdir(EXCEL) if f.endswith('.bin')}
-    missing = [f for f in sorted(os.listdir(EXCEL))
-               if f.endswith('.txt') and f[:-4].lower() not in TXT_ONLY_TABLES | bins]
-    if missing:
-        sys.exit('No .bin for: ' + ', '.join(missing) + '. Launch the game once with -txt, '
-                 'then commit the .bin files it writes to data/global/excel/.')
+    problems = bin_problems(EXCEL)
+    if problems:
+        sys.exit('Bins missing or out of date:\n  ' + '\n  '.join(problems) + '\nLaunch the game '
+                 'once with -txt, then commit the .bin files it writes to data/global/excel/.')
 
 
 def read_bytes(path):

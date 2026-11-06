@@ -98,7 +98,7 @@ ItemDisplay[rotf OR rotv OR rofp OR oou OR teo OR heo OR deo]: %BORDER-68%%ORANG
 GitHub Actions builds everything; nothing is built by hand.
 
 1. Edit the tables in `data/global/excel/`. Keep CRLF line endings and trailing tabs (edit with a D2-aware tool or a script).
-1. Launch the game once with `-direct -txt` so it recompiles the `.bin` files, and copy the `.bin` files it wrote back into `data/global/excel/`. In MPQ mode the game reads only the `.bin` files, and the build fails if one is missing.
+1. Launch the game once with `-direct -txt` so it recompiles the `.bin` files, and copy the `.bin` files it wrote back into `data/global/excel/`. In MPQ mode the game reads only the `.bin` files, and the build fails if one is missing or its record count differs from the `.txt`.
 1. Commit and push. CI builds `pd2data.mpq`, the 1/2/3/5/10x density variants and `manifest.json` (download them from the run's `dist` artifact to test). Density multiplies the MonDen, MonUMin and MonUMax columns of `Levels.txt`/`levels.bin`; unique-pack counts cap at 255 because the game stores them in one byte.
 1. Tag and push to publish: `git tag v14.0.0 && git push origin v14.0.0`. The launcher picks up the release's `manifest.json`.
 
