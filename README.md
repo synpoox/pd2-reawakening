@@ -8,7 +8,7 @@ Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Si
 
 **Current version: v14.0.0 Alliance**, built on PD2 Season 14 (Alliance).
 
-**[Discord](https://discord.gg/rBCNMWaCNt) | [Wiki](https://pd2reawakening.com/wiki/) | [Latest Patch Notes (v1.3.0)](https://docs.google.com/document/d/e/2PACX-1vRDu2Gy_l7OoS6e9lLMObaClzkdzAKwRE4AcmBfJ4X_PWjI8_5AeLVhZoQVeS_bwQG6SGnoWiRaAS-4/pub)**
+**[Discord](https://discord.gg/rBCNMWaCNt) | [Wiki](https://pd2reawakening.com/wiki/)**
 
 ## New Features
 
