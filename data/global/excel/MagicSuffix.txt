@@ -292,12 +292,12 @@ of Luck	289	100	1		26		19				40	22	mag%		26	35									1	lgld	boot	amul	circ	mis
 of Fortune	290	100	1	1	31		18				30	22	mag%		3	5											scha														0
 of Good Luck	291	100	1		47		33				20	22	mag%		6	7											scha														0
 of Prosperity	292	100	1	1	26		19				20	22	mag%		5	10											jewl														0
-of Energy	293	1	1	1	1	41	1				40	23	enr		1	3											amul	orb	circ	wand	staf	helm	tors								0
-of the Mind	294	1	1	1	7	47	3				40	23	enr		4	6											misl	orb	circ	wand	staf	helm	tors								0
-of Brilliance	295	1	1	1	13		9				30	23	enr		7	10											amul	orb	circ	wand	staf	misl	helm								0
-of Sorcery	296	1	1	1	21		16				30	23	enr		11	15											amul	orb	circ	wand	staf	misl	helm								0
-of Wizardry	297	1	1	1	31		23				30	23	enr		16	20									1	dgld	amul	orb	circ	wand	staf	helm	tors								0
-of Enlightenment	298	100	1	1	41		33				30	23	enr		21	30									1	dgld	amul	orb	circ	wand	staf	helm	tors								0
+of Energy	293	1	1	1	1	41	1				40	23	enr		1	3											amul	orb	circ	wand	staf	helm	tors	shld							0
+of the Mind	294	1	1	1	7	47	3				40	23	enr		4	6											misl	orb	circ	wand	staf	helm	tors	shld							0
+of Brilliance	295	1	1	1	13		9				30	23	enr		7	10											amul	orb	circ	wand	staf	misl	helm	tors	shld						0
+of Sorcery	296	1	1	1	21		16				30	23	enr		11	15											amul	orb	circ	wand	staf	misl	helm	tors	shld						0
+of Wizardry	297	1	1	1	31		23				30	23	enr		16	20									1	dgld	amul	orb	circ	wand	staf	helm	tors	shld							0
+of Enlightenment	298	100	1	1	41		33				30	23	enr		21	30									1	dgld	amul	orb	circ	wand	staf	helm	tors	shld							0
 of Energy	299	1	1	1	7	47	5				40	23	enr		1	3											ring														0
 of the Mind	300	1	1	1	13		9				30	23	enr		4	6											ring	amul													0
 of Brilliance	301	1	1	1	21		16				30	23	enr		7	10											ring														0
@@ -334,12 +334,12 @@ of the Mammoth	331	102	1	1	68		60				30	26	hp		31	40									1	cred	club	hamm	ma
 of Life	332	100	1	1	1		1				40	26	hp		5	10											lcha														0
 of Life	333	100	1	1	9		6				40	26	hp		11	15											lcha														0
 of Life	334	100	1	1	19		14				40	26	hp		16	20											lcha														0
-of Substinence	335	100	1	1	31		23				40	26	hp		21	25											lcha														0
-of Substinence	336	101	1	1	45		37				40	26	hp		26	30											lcha														0
-of Substinence	337	102	1	1	61		53				40	26	hp		31	35											lcha														0
-of Vita	338	103	1		77		69				40	26	hp		36	40											lcha														0
-of Vita	339	104	1		91		83				40	26	hp		41	45											lcha														0
-of Vita	340	100			110		97				40	26	hp		46	50											lcha														0
+of Substinence	335	100	1	1	31		23				40	26	hp		21	25											lcha	lchs													0
+of Substinence	336	101	1	1	45		37				40	26	hp		26	30											lcha	lchs													0
+of Substinence	337	102	1	1	61		53				40	26	hp		31	35											lcha	lchs													0
+of Vita	338	103	1		77		69				40	26	hp		36	40											lcha	lchs													0
+of Vita	339	104	1		91		83				40	26	hp		41	45											lcha	lchs													0
+of Vita	340	100			110		97				40	26	hp		46	50											lcha	lchs													0
 of Life	341	100	1	1	1		9				40	26	hp		6	10											mcha														0
 of Life	342	100	1	1	12		9				40	26	hp		11	15											mcha														0
 of Substinence	343	100	1	1	26		19				40	26	hp		16	20											mcha														0
@@ -376,7 +376,7 @@ of Might	373	1	1	1	10	50	8				30	31	str		3	5											misl	belt	club	hamm	circ	
 of the Ox	374	1	1	1	26		19				30	31	str		6	9											amul	belt	club	hamm	circ	misl	helm								0
 of the Giant	375	1	1	1	42		34				30	31	str		10	15											amul	belt	club	hamm	circ	misl	helm								0
 of the Titan	376	101	1	1	58		50				30	31	str		16	20									1	dgld	amul	belt	club	hamm	circ	helm									0
-of Atlus	377	102	1	1	71		63				30	31	str		21	30									1	dgld	amul	belt	club	hamm	circ	helm	shld								0
+of Atlus	377	102	1	1	71		63				30	31	str		21	30									1	dgld	amul	belt	club	hamm	circ	helm	shld	tors							0
 of Strength	378	1	1	1	5	45	3				40	31	str		1	2											ring	scep	mace	staf	wand	orb									0
 of Might	379	1	1	1	21	61	15				30	31	str		3	5											tors	scep	mace	staf	wand	orb									0
 of the Ox	380	1	1	1	38		30				30	31	str		6	9											ring	scep	mace	tors	staf	wand	orb								0
@@ -398,7 +398,7 @@ of Haste	395	1	1	1	22		16				60	35	move2		20	20											boot														0
 of Speed	396	1	1	1	37		29				40	35	move3		30	30											boot														0
 of Traveling	397	102	1	1	65		57				40	35	move3		30	30	stamdrain		80	90							boot														0
 of Acceleration	398	100	1		51		43				40	35	move3		40	40											boot														0
-of Inertia	399	100	1	1	19		14				40	35	move3		7	7											lcha														0
+of Inertia	399	100	1	1	19		14				40	35	move3		7	7											lcha	lchs													0
 of Inertia	400	100	1	1	24		18				40	35	move2		5	5											mcha														0
 of Inertia	401	100	1		35		27				40	35	move1		3	3											scha														0
 of Self-Repair	402	100	1	1	3		1				30	37	rep-dur	3													weap	armo						thro	miss	orb	wand				0
@@ -1044,10 +1044,11 @@ of the Archmage	1033	104	1	3	49		41				10	9	cast3		30	30											tors	shld				
 of Frostward	1034	104	1	3	52		47				5	11	nofreeze		1	1											tors	shld													0
 of the Magus	1035	104	1	3	49		41				25	9	cast3		20	20											belt	amul	glov												0
 of the Inferno	917	100	1	1	46	66	37					287	pierce-fire		1	3											mcha														0
-of the Inferno	918	100	1	1	76		67				1	287	pierce-fire		2	4											mcha														0
+of the Inferno	918	100	1	1	76		67				10	287	pierce-fire		2	4											mcha														0
 of the Storm	919	100	1	1	46	66	37					287	pierce-ltng		1	3											mcha														0
-of the Storm	920	100	1	1	76		67				1	287	pierce-ltng		2	4											mcha														0
+of the Storm	920	100	1	1	76		67				10	287	pierce-ltng		2	4											mcha														0
 of the Frost	921	100	1	1	46	66	37					287	pierce-cold		1	3											mcha														0
-of the Frost	922	100	1	1	76		67				1	287	pierce-cold		2	4											mcha														0
+of the Frost	922	100	1	1	76		67				10	287	pierce-cold		2	4											mcha														0
 of the Plague	923	100	1	1	46	66	37					287	pierce-pois		1	3											mcha														0
-of the Plague	924	100	1	1	76		67				1	287	pierce-pois		2	4											mcha														0
+of the Plague	924	100	1	1	76		67				10	287	pierce-pois		2	4											mcha														0
+of the Apprentice	925	100	1		5		3				60	9	cast1		10	10											jewl														0

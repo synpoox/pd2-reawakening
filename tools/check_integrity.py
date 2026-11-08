@@ -141,4 +141,4 @@ for c, m in issues:
     if (c, m) in seen: continue
     seen.add((c, m))
     print(f'[{c}] {m}')
-    if len(seen) > 100: print('...'); break
+

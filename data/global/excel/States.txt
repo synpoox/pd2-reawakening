@@ -244,13 +244,12 @@ uberscaling	241																																																																	
 holygrail	242																																											holygrail_aura																											0
 holygrail_top3	243																																											holygrail_aura	maxlevel_t8_aura																										0
 phasing	244					1				1																																									phasing																				0
-temp_splash	224																																																																						0
-physperenergyaura	241					1				1																																																													0
-magicmasteryaura	242					1				1																																																													0
-movedexaura	243					1				1																																																													0
-magicmasteryenergyaura	244					1				1																																																													0
-physextramagicaura	245					1				1																																																													0
-convertmasterymagaura	246					1				1																																																													0
-elepierceaddmasteryaura	247					1				1																																																													0
-damagepercentmasteryaura	248					1				1																																																													0
-awakenedconcentration	249									1					1																													concentrationfront	concentrationback						damagepercent												paladin_aura_concentration								0
+physperenergyaura	245					1				1																																																													0
+magicmasteryaura	246					1				1																																																													0
+movedexaura	247					1				1																																																													0
+magicmasteryenergyaura	248					1				1																																																													0
+physextramagicaura	249					1				1																																																													0
+convertmasterymagaura	250					1				1																																																													0
+elepierceaddmasteryaura	251					1				1																																																													0
+damagepercentmasteryaura	252					1				1																																																													0
+awakenedconcentration	253									1					1																													concentrationfront	concentrationback						damagepercent												paladin_aura_concentration								0

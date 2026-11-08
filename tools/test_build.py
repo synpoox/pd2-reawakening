@@ -26,6 +26,7 @@ with tempfile.TemporaryDirectory() as excel:
     table = b'name\tcode\r\na\t1\r\nExpansion\r\nb\t2\r\n\r\n'  # 2 rows + a divider
     put('Good.txt', table); put('good.bin', struct.pack('<I', 2))
     put('Kept.txt', table); put('kept.bin', struct.pack('<I', 3))   # divider counted, like objgroup
+    put('Spacer.txt', b'name\tcode\r\na\t1\r\n\t\r\nb\t2\r\n'); put('spacer.bin', struct.pack('<I', 3))  # tab-only row counted
     put('Stale.txt', table); put('stale.bin', struct.pack('<I', 1))
     put('Missing.txt', table)
     put('MonName.txt', table)  # txt-only table
