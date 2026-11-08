@@ -9,7 +9,7 @@ on both sides takes TBL_RESOLVE or else ours, and is reported.
 import sys, os, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from merge_patchstring import parse, build, verify
-from resolutions import TBL_RESOLVE
+from resolutions import TBL_RESOLVE, TBL_EDITS
 
 
 def entries(path):
@@ -42,6 +42,7 @@ def main():
     added = [(k, v) for k, v in O if k not in tkeys and k not in B]
     dropped = [k for k, v in O if k not in tkeys and k in B]   # theirs removed it
     pairs += [(k[0], v) for k, v in added]
+    pairs = [(k, TBL_EDITS[k.decode('latin1')].encode('utf-8') if k.decode('latin1') in TBL_EDITS else v) for k, v in pairs]
     blob, nl = build(pairs)
     bad, ok = verify(blob, pairs)
     assert bad == 0 and ok, (bad, ok)

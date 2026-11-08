@@ -92,6 +92,10 @@ TBL_RESOLVE = {f'{d}{c}PVPModifiers': 'theirs'
                for d in ('Normal', 'Nightmare', 'Hell')
                for c in ('Amazon', 'Assassin', 'Barbarian', 'Druid', 'Necromancer', 'Paladin', 'Sorceress')}
 
+# patchstring.tbl values set after merging: key -> value.
+# pdreDesc: the version item's tooltip (lines show bottom-up).
+TBL_EDITS = {'pdreDesc': 'ÿc8Alliance\nÿc;v14.0.0'}
+
 # Rows taken whole from S14: (table, first-column key) -> 'theirs' drops Reawakening's
 # version of the row; 'split' also appends Reawakening's version as a row of its own.
 # Runes 'Loyalty Spear': Reawakening had its own helm runeword Runeword77 "Loyalty"
