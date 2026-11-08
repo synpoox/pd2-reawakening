@@ -102,4 +102,4 @@ GitHub Actions builds everything; nothing is built by hand.
 1. Commit and push. CI builds `pd2data.mpq`, the 1/2/3/5/10x density variants and `manifest.json` (download them from the run's `dist` artifact to test). Density multiplies the MonDen, MonUMin and MonUMax columns of `Levels.txt`/`levels.bin`; unique-pack counts cap at 255 because the game stores them in one byte.
 1. Tag and push to publish: `git tag v14.0.0 && git push origin v14.0.0`. The launcher picks up the release's `manifest.json`.
 
-The S14 port and its open items are described in [docs/s14-port](docs/s14-port/README.md).
+How the S14 Alliance data was merged is described in [docs/s14-merge](docs/s14-merge/README.md).
