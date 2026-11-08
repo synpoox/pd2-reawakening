@@ -80,9 +80,11 @@ def bin_problems(excel):
         if table not in bins:
             problems.append(f'{txt}: no .bin')
             continue
-        lines = [l for l in read_bytes(os.path.join(excel, txt)).split(b'\r\n')[1:] if l.strip(b'\t ')]
-        # The game drops 'Expansion' divider rows from most tables (objgroup keeps them).
-        row_counts = {len(lines), len([l for l in lines if not l.lower().startswith(b'expansion')])}
+        raw = [l for l in read_bytes(os.path.join(excel, txt)).split(b'\r\n')[1:] if l]
+        lines = [l for l in raw if l.strip(b'\t ')]
+        # The game drops 'Expansion' divider rows from most tables (objgroup keeps them), and
+        # compiles tab-only spacer rows as empty records in some (S14's CubeMain has 40).
+        row_counts = {len(lines), len([l for l in lines if not l.lower().startswith(b'expansion')]), len(raw)}
         records = struct.unpack('<I', read_bytes(os.path.join(excel, bins[table]))[:4])[0]
         if records not in row_counts:
             problems.append(f'{bins[table]}: {records} records, {txt} has {min(row_counts)} rows')
