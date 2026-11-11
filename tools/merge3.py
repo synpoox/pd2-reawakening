@@ -12,7 +12,8 @@ Rules
   different values is a conflict: resolved by RESOLVE (default ours) and reported.
 - theirs rows keep their row index, since PD2's DLLs hardcode skill, stat and item ids.
   Rows only ours added go at the end, except in ANCHORED tables, where order matters
-  (the first matching cube recipe wins) and they follow their Reawakening neighbour.
+  (the first matching cube recipe wins) and they follow their Reawakening neighbour,
+  and in TreasureClassEx, where a class must sit above its users (place_tcs()).
 - A row ours deleted is deleted, unless theirs changed it (kept, reported).
   A row theirs deleted is deleted; if ours had changed it, that is reported.
 - Id columns are renumbered to the row index; numeric skill ids in cells taken from
@@ -23,8 +24,9 @@ import os, sys, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from t3lib import Table, find, align
 from resolutions import (RESOLVE, ISC_SLOTS, ISC_DROP, ROW_THEIRS, CELL_EDITS,
-                         RESIST_CAP, RESIST_CAP_EXEMPT)
+                         RESIST_CAP, RESIST_CAP_EXEMPT, TC_INSERT_BEFORE, TC_TO_END, TC_SLOTS)
 from slots import groups_for
+from build import tc_below, KNOWN_TC_BELOW
 
 ANCHORED = {'cubemain'}
 # Tables whose row index is an id the DLLs or other tables use: S14 rows are never deleted.
@@ -431,6 +433,50 @@ def place_isc(m, notes):
     return placed
 
 
+def place_tcs(m, notes):
+    """Order TreasureClassEx so every class sits above its users (see TC_INSERT_BEFORE)."""
+    by = {r[0][0]: r for r in m.rows}
+    for n in [*TC_INSERT_BEFORE, *TC_TO_END, *TC_SLOTS, *TC_SLOTS.values(),
+              *(x for xs in TC_INSERT_BEFORE.values() for x in xs)]:
+        assert n in by, f'TreasureClassEx placement names a missing class: {n!r}'
+    s14 = [r for r in m.rows if r[2] != 'ours-new']
+    placed = set(TC_SLOTS.values()) | {x for xs in TC_INSERT_BEFORE.values() for x in xs}
+    out = []
+    for r in s14:
+        n = r[0][0]
+        out += [by[x] for x in TC_INSERT_BEFORE.get(n, [])]
+        if n not in TC_TO_END:
+            out.append(by[TC_SLOTS[n]] if n in TC_SLOTS else r)
+    tail = [r for r in m.rows if r[2] == 'ours-new' and r[0][0] not in placed]
+    # Displaced S14 classes go below their children, a run of adjacent ones together.
+    blocks, deferred = [], []
+    for r in s14:
+        if r[0][0] in TC_SLOTS:
+            if blocks and s14.index(blocks[-1][-1]) == s14.index(r) - 1:
+                blocks[-1].append(r)
+            else:
+                blocks.append([r])
+    for block in blocks:
+        refs = {r[0][c] for r in block for c in range(9, min(29, len(r[0])), 2)}
+        hits = [i for i, r in enumerate(tail) if r[0][0] in refs]
+        if hits:
+            tail[max(hits) + 1:max(hits) + 1] = block
+        else:
+            deferred += block
+    out += tail + [by[x] for x in TC_TO_END] + deferred
+    assert sorted(id(r) for r in out) == sorted(id(r) for r in m.rows)
+    below = [p for p in tc_below([m.theirs.header] + [r[0] for r in out]) if p not in KNOWN_TC_BELOW]
+    assert not below, f'TreasureClassEx classes below their users, add a placement decision: {below}'
+    old = {r[0][0]: i for i, r in enumerate(s14)}
+    to_end = set(TC_TO_END) | set(TC_SLOTS)
+    moved = [old[r[0][0]] for i, r in enumerate(out)
+             if r[2] != 'ours-new' and r[0][0] not in to_end and old[r[0][0]] != i]
+    notes['TreasureClassEx.txt'].append(
+        f'classes placed above their users; S14 rows {min(moved)}-{max(moved)} shifted, '
+        f'{len(TC_TO_END) + len(TC_SLOTS)} moved to the end (decision)')
+    m.rows = out
+
+
 def write(m, path):
     t = m.theirs
     lines = ['\t'.join(m.hdr) if m.hdr != t.header else t.header_raw]
@@ -485,6 +531,8 @@ def main():
     if 'ItemStatCost.txt' in merged:
         renumber(merged['ItemStatCost.txt'])
     post_edits(merged, mg.notes)
+    if 'TreasureClassEx.txt' in merged:
+        place_tcs(merged['TreasureClassEx.txt'], mg.notes)
     for f in names:
         dst = os.path.join(out_x, f)
         if f in merged:

@@ -226,6 +226,16 @@ Act 4 (H) Magic B	4	80	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic A	4	82	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic B	4	83	1						tsc	2	isc	4	mp4	2	mp5	4																0
 Act 5 (H) Magic C	4	85	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Fate Common A			1					0	fslr	1	fsvi	1	fsem	1	fslt	1	fstw	1	fsla	1	fstd	1	fste	1	fstv	1						0
+Fate Common B			1					0	fsar	1	fscf	1	fsed	1	fsta	1	fsts	1	fstf	1	fsaj	1	fsas	1	fsph	1						0
+Fate Common C			1					0	fsbl	1	fssf	1	fsmi	1	fsew	1	fssg	1	fstu	1	fsch	1	fsuw	1								0
+Fate Uncommon A			1					0	fsms	1	fspv	1	fsps	1	fstc	1	fsat	1	fslu	1	fsbm	1										0
+Fate Uncommon B			1					0	fscs	1	fslc	1	fstl	1	fsdw	1	fsbr	1	fsrb	1	fsds	1										0
+Fate Rare A			1					0	fsha	1	fsjp	1	fsdi	1	fsfr	1	fsfa	1														0
+Fate Drop			1					0	Fate Common A	175	Fate Common B	175	Fate Common C	175	Fate Uncommon A	45	Fate Uncommon B	45	Fate Rare A	3												0
+Orbs			1					0	dvo	148	mfo	30	rgo	40	cho	208	oou	8	tjo	1	dvia	500	rotf	15	rofp	50						0
+Prime Evil Embers			1					0	heo	1	teo	1																				0
+Map Orbs Drop			1					0	Orbs	129	Prime Evil Embers	1																				0
 Act 1 Good	5	0	1						Jewelry A	240	Chipped Gem	192	wss	4	Fate Drop	2	Orbs	1														0
 Act 2 Good	5	12	1						Jewelry B	320	Chipped Gem	176	Flawed Gem	64	wss	4	Runes 1	48	Runes 2	48	Fate Drop	2	Orbs	1								0
 Act 3 Good	5	18	1						Jewelry C	320	Chipped Gem	112	Flawed Gem	128	wss	4	Runes 3	48	Runes 4	48	Fate Drop	2	Orbs	1								0
@@ -599,9 +609,6 @@ Act 4 (H) Champ B	13	80	-2					0	Act 4 (H) Citem B	1	Act 4 (H) Cpot B	3									
 Act 5 (H) Champ A	13	81	-2					0	Act 5 (H) Citem A	1	Act 5 (H) Cpot A	3																				0
 Act 5 (H) Champ B	13	83	-2					0	Act 5 (H) Citem B	1	Act 5 (H) Cpot B	3																				0
 Act 5 (H) Champ C	13	85	-2					0	Act 5 (H) Citem C	1	Act 5 (H) Cpot C	3																				0
-Map Champ t1		85	-2					0	Map Citem t1	1	Act 5 (H) Cpot C	3																				0
-Map Champ t2		85	-2					0	Map Citem t2	1	Act 5 (H) Cpot C	3																				0
-Map Champ t3		85	-2					0	Map Citem t3	1	Act 5 (H) Cpot C	3																				0
 Act 1 Uitem A	14	0	1	800	800	800	1024	0	Act 1 Equip A	58	Act 1 Good	4																				0
 Act 1 Uitem B	14	5	1	800	800	800	1024	0	Act 1 Equip B	58	Act 1 Good	4																				0
 Act 1 Uitem C	14	9	1	800	800	800	1024	0	Act 1 Equip C	58	Act 1 Good	4																				0
@@ -689,9 +696,6 @@ Act 4 (H) Unique B	15	80	-3					0	Act 4 (H) Uitem B	1	Act 4 (H) Cpot B	2								
 Act 5 (H) Unique A	15	81	-3					0	Act 5 (H) Uitem A	1	Act 5 (H) Cpot A	2																				0
 Act 5 (H) Unique B	15	83	-3					0	Act 5 (H) Uitem B	1	Act 5 (H) Cpot B	2																				0
 Act 5 (H) Unique C	15	85	-3					0	Act 5 (H) Uitem C	1	Act 5 (H) Cpot C	2																				0
-Map Unique t1		85	-3					0	Map Uitem t1	1	Act 5 (H) Cpot C	2																				0
-Map Unique t2		85	-3					0	Map Uitem t2	1	Act 5 (H) Cpot C	2																				0
-Map Unique t3		85	-3					0	Map Uitem t3	1	Act 5 (H) Cpot C	2																				0
 Quill 1	16	0	1					265	gld	367	Act 1 Junk	367																				0
 Quill 2	16	4	1					265	gld	367	Act 1 Junk	367																				0
 Quill 3	16	8	1					257	gld	361	Act 1 Junk	361	Act 1 Good	19																		0
@@ -719,10 +723,6 @@ Swarm 2 (H)	17	74	1					415	Potion 6	292	Misc 2	143	Act 3 (H) Good	23	Act 3 (H) 
 Map Swarm t1	28	74	1					415	Potion 6	292	Misc 2	143	Map Good t1	23	Act 3 (H) Magic A	143																0
 Map Swarm t2	28	74	1					415	Potion 6	292	Misc 2	143	Map Good t2	23	Act 3 (H) Magic A	143																0
 Map Swarm t3	28	74	1					415	Potion 6	292	Misc 2	143	Map Good t3	23	Act 3 (H) Magic A	143																0
-Andariel			7	983	983	983	1024	1	"gld,mul=1280"	228	Act 2 Equip A	395	Act 2 Junk	311	Act 2 Good	62																0
-Andariel (N)			7	983	983	983	1024	1	"gld,mul=1536"	228	Act 2 (N) Equip A	395	Act 2 (N) Junk	311	Act 2 (N) Good	62																0
-Andariel (H)			7	983	983	983	1024	1	"gld,mul=2048"	224	Act 4 (H) Equip A	387	Act 4 (H) Junk	305	Act 4 (H) Good	70																0
-Andarielq			7	995	995	1024	1024	1	Act 2 Equip A	845	Act 2 Good	133																				0
 Andarielq (N)			7	995	995	1024	1024	1	Act 2 (N) Equip A	845	Act 2 (N) Good	133																				0
 Andarielq (H)			7	995	995	1024	1024	1	Act 4 (H) Equip A	810	Act 4 (H) Good	145																				0
 Duriel - Base			7	983	983	983	1024	0	"gld,mul=1280"	228	Act 3 Equip A	395	Act 3 Junk	311	Act 3 Good	62																0
@@ -882,9 +882,9 @@ Act 4 (H) Super Cx	18	87	-4	512	654	972	1024	0	Act 4 (H) Uitem B	2	Act 4 (H) Cpo
 Act 5 (H) Super Ax	18	90	-4	512	654	972	1024	0	Act 5 (H) Uitem A	2	Act 5 (H) Cpot A	2																				0
 Act 5 (H) Super Bx	18	93	-4	512	654	972	1024	0	Act 5 (H) Uitem B	2	Act 5 (H) Cpot B	2																				0
 Act 5 (H) Super Cx	18	96	-4	512	654	972	1024	0	Act 5 (H) Uitem C	2	Act 5 (H) Cpot C	2																				0
-Map Boss T1		85	-3	983	983	983	1024	0	Map Boss TC	1	Replica	1	Map Boss Uber Relic	1																		0
-Map Boss T2		85	-3	983	983	983	1024	0	Map Boss TC	1	Replica	1	Map Boss Uber Relic	1																		0
-Map Boss T3		85	-3	983	983	983	1024	0	Map Boss TC	1	Replica	1	Map Boss Uber Relic	1																		0
+Map Boss TC		85	5					0	Act 5 (H) Equip C	262	Act 5 (H) Good	20	T3 Map Drop	15	dcbl	3	dcho	1	dcso	2	rtmv	2	lucc	2								0
+Replica			1					0	rofp	1	gld	10																				0
+Map Boss Uber Relic			1					0	rotv	1	gld	4999																				0
 Map Boss T4		85	5	983	983	983	1024	0	Act 5 (H) Equip C	283	Act 5 (H) Good	20	T3 Map Drop	15																		0
 Cow King			5	850	983	983	1024	0	Act 1 Uitem C	1	Act 1 Melee B	2																				0
 Cow King (N)			5	850	983	983	1024	0	Act 1 (H) Uitem C	1	Act 1 (N) Melee B	2																				0
@@ -994,9 +994,9 @@ Treasure Fallen Craft N			2					18	crfb	1	crfc	1	crfs	1	crfh	1	crfv	1	crfu	1				
 Treasure Fallen Gem NM			2					16	Perfect Gem	3	Flawless Gem	2																				0
 Treasure Fallen Rune NM			2					12	Runes 11	2																						0
 Treasure Fallen Craft NM			2					16	crfb	1	crfc	1	crfs	1	crfh	1	crfv	1	crfu	1												0
-Treasure Fallen N			3					29	Treasure Fallen Gem N	4	Treasure Fallen Rune N	4	Treasure Fallen Craft N	4	Treasure Fallen Orbs N	1	Treasure Fallen Cards N	1	"gld,mul=2048"	15												0
-Treasure Fallen NM			3					21	Treasure Fallen Gem NM	4	Treasure Fallen Rune NM	4	Treasure Fallen Craft NM	4	Treasure Fallen Orbs NM	1	Treasure Fallen Cards NM	1	"gld,mul=3072"	15												0
-Treasure Fallen H			3						Treasure Fallen Gem H	4	Treasure Fallen Rune H	4	Treasure Fallen Craft H	4	Treasure Fallen Map	4	Treasure Fallen Orbs H	1	Treasure Fallen Cards H	1	"gld,mul=4096"	4										0
+Treasure Fallen Cards N			2					46	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0
+Treasure Fallen Cards NM			2					37	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0
+Treasure Fallen Cards H			2					25	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0
 Larzuk Puzzlebox N				0																												0
 Larzuk Puzzlebox NM				2000	100																											0
 Larzuk Puzzlebox H				1000	100																											0
@@ -1139,25 +1139,12 @@ Druid Ear Necromancer			1						ne6	2315	ne7	924	ne8	728	ne9	568	nea	817	neb	1201
 Druid Ear Paladin			1						pa6	1475	pa7	781	pa8	1613	pa9	566	paa	1381	pab	836	pac	1022	pad	1186	pae	649	paf	490				0
 Druid Ear Sorceress			1						ob6	1243	ob7	877	ob8	687	ob9	832	oba	866	obb	1507	obc	1422	obd	1374	obe	793	obf	398				0
 Druid Ear Drop			1						Druid Ear Amazon	1	Druid Ear Assassin	1	Druid Ear Barbarian	1	Druid Ear Druid	1	Druid Ear Necromancer	1	Druid Ear Paladin	1	Druid Ear Sorceress	1										0
-Orbs			1					0	dvo	148	mfo	30	rgo	40	cho	208	oou	8	tjo	1	dvia	500	rotf	15	rofp	50						0
-Map Boss TC		85	5					0	Act 5 (H) Equip C	262	Act 5 (H) Good	20	T3 Map Drop	15	dcbl	3	dcho	1	dcso	2	rtmv	2	lucc	2								0
-Replica			1					0	rofp	1	gld	10																				0
-Prime Evil Embers			1					0	heo	1	teo	1																				0
-Map Orbs Drop			1					0	Orbs	129	Prime Evil Embers	1																				0
-Fate Common A			1					0	fslr	1	fsvi	1	fsem	1	fslt	1	fstw	1	fsla	1	fstd	1	fste	1	fstv	1						0
-Fate Common B			1					0	fsar	1	fscf	1	fsed	1	fsta	1	fsts	1	fstf	1	fsaj	1	fsas	1	fsph	1						0
-Fate Common C			1					0	fsbl	1	fssf	1	fsmi	1	fsew	1	fssg	1	fstu	1	fsch	1	fsuw	1								0
-Map Boss Uber Relic			1					0	rotv	1	gld	4999																				0
-Fate Uncommon A			1					0	fsms	1	fspv	1	fsps	1	fstc	1	fsat	1	fslu	1	fsbm	1										0
-Fate Uncommon B			1					0	fscs	1	fslc	1	fstl	1	fsdw	1	fsbr	1	fsrb	1	fsds	1										0
-Fate Rare A			1					0	fsha	1	fsjp	1	fsdi	1	fsfr	1	fsfa	1														0
-Fate Drop			1					0	Fate Common A	175	Fate Common B	175	Fate Common C	175	Fate Uncommon A	45	Fate Uncommon B	45	Fate Rare A	3												0
-Treasure Fallen Cards N			2					46	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0
-Treasure Fallen Cards NM			2					37	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0
-Treasure Fallen Cards H			2					25	Fate Common A	1	Fate Common B	1	Fate Common C	1																		0
 Treasure Fallen Orbs N			2					46	Orbs	3																						0
 Treasure Fallen Orbs NM			2					37	Orbs	3																						0
 Treasure Fallen Orbs H			2					25	Orbs	3																						0
+Treasure Fallen N			3					29	Treasure Fallen Gem N	4	Treasure Fallen Rune N	4	Treasure Fallen Craft N	4	Treasure Fallen Orbs N	1	Treasure Fallen Cards N	1	"gld,mul=2048"	15												0
+Treasure Fallen NM			3					21	Treasure Fallen Gem NM	4	Treasure Fallen Rune NM	4	Treasure Fallen Craft NM	4	Treasure Fallen Orbs NM	1	Treasure Fallen Cards NM	1	"gld,mul=3072"	15												0
+Treasure Fallen H			3						Treasure Fallen Gem H	4	Treasure Fallen Rune H	4	Treasure Fallen Craft H	4	Treasure Fallen Map	4	Treasure Fallen Orbs H	1	Treasure Fallen Cards H	1	"gld,mul=4096"	4										0
 Uber Diablo Legacy			1					0	rotf	1	gld	69																				0
 Uber Diablo Replica			1					0	rofp	1	gld	3																				0
 Uber Diablo Void			1					0	rotv	1	gld	109																				0
@@ -1166,3 +1153,16 @@ Rathma Replica			1					0	rofp	1																						0
 Rathma Void			1					0	rotv	1	gld	84																				0
 Uber Diablo Relics			-3					0	Uber Diablo Legacy	1	Uber Diablo Replica	1	Uber Diablo Void	1																		0
 Rathma Relics			-3					0	Rathma Legacy	1	Rathma Replica	1	Rathma Void	1																		0
+Map Champ t1		85	-2					0	Map Citem t1	1	Act 5 (H) Cpot C	3																				0
+Map Champ t2		85	-2					0	Map Citem t2	1	Act 5 (H) Cpot C	3																				0
+Map Champ t3		85	-2					0	Map Citem t3	1	Act 5 (H) Cpot C	3																				0
+Map Unique t1		85	-3					0	Map Uitem t1	1	Act 5 (H) Cpot C	2																				0
+Map Unique t2		85	-3					0	Map Uitem t2	1	Act 5 (H) Cpot C	2																				0
+Map Unique t3		85	-3					0	Map Uitem t3	1	Act 5 (H) Cpot C	2																				0
+Andariel			7	983	983	983	1024	1	"gld,mul=1280"	228	Act 2 Equip A	395	Act 2 Junk	311	Act 2 Good	62																0
+Andariel (N)			7	983	983	983	1024	1	"gld,mul=1536"	228	Act 2 (N) Equip A	395	Act 2 (N) Junk	311	Act 2 (N) Good	62																0
+Andariel (H)			7	983	983	983	1024	1	"gld,mul=2048"	224	Act 4 (H) Equip A	387	Act 4 (H) Junk	305	Act 4 (H) Good	70																0
+Andarielq			7	995	995	1024	1024	1	Act 2 Equip A	845	Act 2 Good	133																				0
+Map Boss T1		85	-3	983	983	983	1024	0	Map Boss TC	1	Replica	1	Map Boss Uber Relic	1																		0
+Map Boss T2		85	-3	983	983	983	1024	0	Map Boss TC	1	Replica	1	Map Boss Uber Relic	1																		0
+Map Boss T3		85	-3	983	983	983	1024	0	Map Boss TC	1	Replica	1	Map Boss Uber Relic	1																		0
