@@ -109,6 +109,8 @@ CELL_EDITS = {
     ('Misc.txt', 'Charm Small PVP', 'spawnable'): '0',
     ('Misc.txt', 'Charm Medium PVP', 'spawnable'): '0',
     ('Misc.txt', 'Charm Large PVP', 'spawnable'): '0',
+    # Dev recipe: key -> generate, fed by Vials of Awakening.
+    ('CubeMain.txt', 'generate (dev)', 'output'): 'dvia,qty=50',
 }
 
 # TreasureClassEx placement. The game links a treasure class only to classes above it in
