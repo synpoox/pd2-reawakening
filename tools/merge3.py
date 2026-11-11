@@ -17,7 +17,8 @@ Rules
 - A row ours deleted is deleted, unless theirs changed it (kept, reported).
   A row theirs deleted is deleted; if ours had changed it, that is reported.
 - Id columns are renumbered to the row index; numeric skill ids in cells taken from
-  ours are remapped through skill names.
+  ours are remapped through skill names, and stat ids in CubeMain's stat ops through
+  stat names (remap_cube_stats()).
 - ItemStatCost has a 511-row cap and is placed by place_isc().
 """
 import os, sys, collections
@@ -407,6 +408,35 @@ def remap_ids(merged, ours_dir, notes):
     return miss
 
 
+# CubeMain ops whose param is an ItemStatCost id.
+CUBE_STAT_OPS = {'16', '17', '18'}
+
+
+def remap_cube_stats(merged, ours_dir, notes):
+    """Stat ids in CubeMain stat-op params taken from Reawakening -> merged ids, through
+    the names in Reawakening's own ItemStatCost. Runs once ItemStatCost is placed."""
+    m, isc = merged.get('CubeMain.txt'), merged.get('ItemStatCost.txt')
+    if m is None or isc is None:
+        return []
+    o_names = [r[0] for r in Table(find(ours_dir, 'ItemStatCost.txt')).rows]
+    m_idx = {isc.get(r, 'Stat'): i for i, r in enumerate(isc.rows)}
+    oi, qi = m.col['op'], m.col['param']
+    count, miss = 0, []
+    for r in m.rows:
+        if r[0][oi] not in CUBE_STAT_OPS or r[1][qi] != 'o' or not r[0][qi].isdigit():
+            continue
+        v = int(r[0][qi])
+        if v < len(o_names) and o_names[v] in m_idx:
+            nv = str(m_idx[o_names[v]])
+            if nv != r[0][qi]:
+                r[0][qi] = nv; r[3] = None; count += 1
+        else:
+            miss.append(('CubeMain.txt', r[0][0], 'param', v))
+    if count:
+        notes['CubeMain.txt'].append(f'{count} numeric stat ids remapped')
+    return miss
+
+
 def place_isc(m, notes):
     """S14 stats keep their ids. Reawakening's stats replace dead S14 rows (ISC_SLOTS)."""
     s14 = [r for r in m.rows if r[2] != 'ours-new']
@@ -530,6 +560,7 @@ def main():
     placed = place_isc(merged['ItemStatCost.txt'], mg.notes) if 'ItemStatCost.txt' in merged else []
     if 'ItemStatCost.txt' in merged:
         renumber(merged['ItemStatCost.txt'])
+    miss += remap_cube_stats(merged, O, mg.notes)
     post_edits(merged, mg.notes)
     if 'TreasureClassEx.txt' in merged:
         place_tcs(merged['TreasureClassEx.txt'], mg.notes)
@@ -554,7 +585,7 @@ def main():
         for c in mg.conflicts:
             r.write('| ' + ' | '.join(esc(x) for x in c) + ' |\n')
         if miss:
-            r.write(f'\n## Unmapped numeric skill ids ({len(miss)})\n\n')
+            r.write(f'\n## Unmapped numeric skill and stat ids ({len(miss)})\n\n')
             for x in miss:
                 r.write(f'- {x}\n')
         if mg.unused_resolutions:
@@ -564,7 +595,7 @@ def main():
     import json
     with open(os.path.splitext(REPORT)[0] + '.json', 'w', encoding='utf-8') as j:
         json.dump({'notes': mg.notes, 'conflicts': mg.conflicts, 'placed': placed}, j)
-    print(f'merged {len(merged)} tables, {len(mg.conflicts)} conflicts, {len(miss)} unmapped skill ids, '
+    print(f'merged {len(merged)} tables, {len(mg.conflicts)} conflicts, {len(miss)} unmapped skill/stat ids, '
           f'{len(placed)} stats placed')
 
 

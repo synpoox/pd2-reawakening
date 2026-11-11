@@ -36,12 +36,14 @@ CHK_ROOT=<out>/data/global/excel python tools/check_integrity.py
   - **PvP charms.** Reawakening had removed them. The rows stay so ids don't shift, with `spawnable` set to 0.
   - **Resist cap on new monsters.** Monsters new in S14 get Reawakening's cap: resists ≥100 drop to 95 on killable monsters. The cap skips Prime Evils, uncounted event monsters, town NPCs and the Bitter Depths sarcophagus.
   - **PvP modifier tooltips** use S14's text.
+  - **Dev generate recipe** takes 50 Vials of Awakening.
 
 ## ItemStatCost
 
 S14 fills the 511-row table, so all 37 Reawakening stats take over rows nothing in S14 uses (`ISC_SLOTS`):
 - The `*_bytime` rows from 286 to 304 already belonged to Reawakening and keep the same ids.
 - All other S14 stats keep their S14 ids.
+- CubeMain's stat ops (16, 17, 18) name a stat by id in `param`. `remap_cube_stats()` follows each Reawakening stat to its new id (v14.0.2 shipped without it, so awakening recipes still tested `awakener` at 509).
 
 BH.dll hardcodes three of these stats:
 

@@ -18,6 +18,8 @@
 - **Composit.txt**: Reawakening did not change it: S14 verbatim
 - **CubeMain.txt**: 2288 S14 rows; 37 carry Reawakening edits; 734 Reawakening rows added
 - **CubeMain.txt**: 28 numeric skills ids remapped
+- **CubeMain.txt**: 311 numeric stat ids remapped
+- **CubeMain.txt**: generate (dev): output = dvia,qty=50 (decision)
 - **CubeMod.txt**: Reawakening did not change it: S14 verbatim
 - **CubeType.txt**: Reawakening did not change it: S14 verbatim
 - **DifficultyLevels.txt**: Reawakening did not change it: S14 verbatim
