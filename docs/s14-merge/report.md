@@ -141,6 +141,7 @@
 - **SuperUniques.txt**: Reawakening did not change it: S14 verbatim
 - **TreasureClass.txt**: Reawakening did not change it: S14 verbatim
 - **TreasureClassEx.txt**: 1140 S14 rows; 136 carry Reawakening edits; 27 Reawakening rows added
+- **TreasureClassEx.txt**: classes placed above their users; S14 rows 227-719 shifted, 16 moved to the end (decision)
 - **UniqueAppellation.txt**: Reawakening did not change it: S14 verbatim
 - **UniqueItems.txt**: 485 S14 rows; 448 carry Reawakening edits; 191 Reawakening rows added
 - **UniqueItems.txt**: 9 numeric skills ids remapped

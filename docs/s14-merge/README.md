@@ -20,7 +20,9 @@ CHK_ROOT=<out>/data/global/excel python tools/check_integrity.py
 
 ## Rules
 
-- **Row placement.** S14 rows keep their row index, because the PD2 DLLs hardcode skill, stat and item ids. Rows Reawakening added are appended. The exception is CubeMain, where order matters: there, added rows follow their Reawakening neighbour.
+- **Row placement.** S14 rows keep their row index, because the PD2 DLLs hardcode skill, stat and item ids. Rows Reawakening added are appended. There are two exceptions:
+  - **CubeMain**, where order matters: added rows follow their Reawakening neighbour.
+  - **TreasureClassEx**, the one table where a reference must point up: the game links a treasure class only to classes listed above it, so a class appended below its users drops nothing (v14.0.1 shipped this way, with no Vials, orbs or fate cards). `place_tcs()` puts Reawakening's classes above their users, following `TC_INSERT_BEFORE`, `TC_SLOTS` and `TC_TO_END` in `tools/resolutions.py`. For each class inserted near the top, one S14 class that only MonStats uses moves to the end. Rows from `Andarielq (N)` on therefore keep their S14 index. The build fails when any class references one listed below it.
 - **Slot groups merge by content, not by column.** This covers item properties, skill description lines and treasure class items: two rows that list the same property in different slots still merge correctly. The groups are defined in `tools/slots.py`.
 - **S14's global rescales are applied to Reawakening's values before merging:**
   - affix `frequency` ×10;

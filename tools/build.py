@@ -91,7 +91,34 @@ def bin_problems(excel):
     return problems
 
 
+# TreasureClassEx is the one table whose row order is a rule: a class links only to classes
+# listed above it, and a reference to one below drops nothing. These were already there:
+# the first two in PD2 S14 itself; 'lucc' is also a Misc item code.
+KNOWN_TC_BELOW = {('MapStat DropCrafting', 'Treasure Fallen Rune NM'),
+                  ('InvaderBarbarian1h', 'Invader2hSword'), ('Map Boss TC', 'lucc')}
+
+
+def tc_below(lines):
+    """(class, referenced class) pairs where the referenced class sits at or below its user.
+    lines: TreasureClassEx rows as lists of cells, header first."""
+    pos = {}
+    for i, r in enumerate(lines[1:]):
+        pos.setdefault(r[0], i)
+    return [(r[0], r[c]) for i, r in enumerate(lines[1:])
+            for c in range(9, min(29, len(r)), 2) if r[c] in pos and pos[r[c]] >= i]
+
+
+def tc_order_problems(excel):
+    raw = read_bytes(os.path.join(excel, 'TreasureClassEx.txt')).decode('latin-1')
+    lines = [l.split('\t') for l in raw.split('\r\n') if l]
+    return [f'{a} -> {b}' for a, b in tc_below(lines) if (a, b) not in KNOWN_TC_BELOW]
+
+
 def check_bins():
+    order = tc_order_problems(EXCEL)
+    if order:
+        sys.exit('TreasureClassEx.txt: these classes reference a class listed below them, which '
+                 'drops nothing. Move the referenced class above its user:\n  ' + '\n  '.join(order))
     problems = bin_problems(EXCEL)
     if problems:
         sys.exit('Bins missing or out of date:\n  ' + '\n  '.join(problems) + '\nLaunch the game '

@@ -94,7 +94,7 @@ TBL_RESOLVE = {f'{d}{c}PVPModifiers': 'theirs'
 
 # patchstring.tbl values set after merging: key -> value.
 # pdreDesc: the version item's tooltip (lines show bottom-up).
-TBL_EDITS = {'pdreDesc': 'ÿc8Alliance\nÿc;v14.0.1'}
+TBL_EDITS = {'pdreDesc': 'ÿc8Alliance\nÿc;v14.0.2'}
 
 # Rows taken whole from S14: (table, first-column key) -> 'theirs' drops Reawakening's
 # version of the row; 'split' also appends Reawakening's version as a row of its own.
@@ -109,6 +109,29 @@ CELL_EDITS = {
     ('Misc.txt', 'Charm Small PVP', 'spawnable'): '0',
     ('Misc.txt', 'Charm Medium PVP', 'spawnable'): '0',
     ('Misc.txt', 'Charm Large PVP', 'spawnable'): '0',
+}
+
+# TreasureClassEx placement. The game links a treasure class only to classes above it in
+# the file (a class listed below its user drops nothing), so Reawakening's added classes
+# can't simply be appended. The DLLs also reach some S14 classes by row index, so rows from
+# 'Andarielq (N)' on keep their S14 index: each class inserted above that point is paid for
+# by a MonStats-only, ungrouped S14 class moved to the end (MonStats.bin stores the index,
+# so it follows the move once the bins are recompiled).
+# TC_INSERT_BEFORE: S14 class -> Reawakening classes inserted right above it.
+TC_INSERT_BEFORE = {
+    'Act 1 Good': ['Fate Common A', 'Fate Common B', 'Fate Common C', 'Fate Uncommon A',
+                   'Fate Uncommon B', 'Fate Rare A', 'Fate Drop', 'Orbs', 'Prime Evil Embers',
+                   'Map Orbs Drop'],
+}
+# S14 classes moved to the end, one per class inserted above.
+TC_TO_END = ['Map Champ t1', 'Map Champ t2', 'Map Champ t3', 'Map Unique t1', 'Map Unique t2',
+             'Map Unique t3', 'Andariel', 'Andariel (N)', 'Andariel (H)', 'Andarielq']
+# TC_SLOTS: S14 class -> Reawakening child that takes its row; the S14 class moves to the end,
+# below its children.
+TC_SLOTS = {
+    'Map Boss T1': 'Map Boss TC', 'Map Boss T2': 'Replica', 'Map Boss T3': 'Map Boss Uber Relic',
+    'Treasure Fallen N': 'Treasure Fallen Cards N', 'Treasure Fallen NM': 'Treasure Fallen Cards NM',
+    'Treasure Fallen H': 'Treasure Fallen Cards H',
 }
 
 # Reawakening caps every resist >= 100 at 95 on killable monsters that aren't Prime Evils,

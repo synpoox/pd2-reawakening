@@ -6,7 +6,7 @@ Comments and feedback would be very appreciated, join the [Discord](https://disc
 
 Forked from the original sp mod [PD2 SP Plus](https://github.com/Lukaszpg/PD2-Single-Player-Plus-mod)
 
-**Current version: v14.0.1 Alliance**, built on PD2 Season 14 (Alliance).
+**Current version: v14.0.2 Alliance**, built on PD2 Season 14 (Alliance).
 
 **[Discord](https://discord.gg/rBCNMWaCNt) | [Wiki](https://pd2reawakening.com/wiki/)**
 
@@ -45,7 +45,7 @@ If you've played PlugY or any other PD2 single player mod, your current characte
 1. Run `pd2-ra-launcher.exe`
 1. Set your `Project Diablo II Installation Directory` in the Settings by clicking the cog-wheel in the top right.
 1. Click `Play`.
-1. Go to Akara and look for an item with Alkor's quest potion. If it's there and reads `v14.0.1 Alliance`, then the mod was installed successfully.
+1. Go to Akara and look for an item with Alkor's quest potion. If it's there and reads `v14.0.2 Alliance`, then the mod was installed successfully.
 
 #### Manual Install (No auto-updates)
 
@@ -54,7 +54,7 @@ If you've played PlugY or any other PD2 single player mod, your current characte
 1. Go to [Releases](https://github.com/synpoox/pd2-reawakening/releases) and download the latest `pd2data.mpq` and `BH.dll`
 1. Copy and paste `pd2data.mpq` and `BH.dll` into your new PD2-PlugY install, overwriting any old files.
 1. Launch the game with `Plugy.exe`
-1. Go to Akara and look for an item with Alkor's quest potion. If it's there and reads `v14.0.1 Alliance`, then the mod was installed successfully.
+1. Go to Akara and look for an item with Alkor's quest potion. If it's there and reads `v14.0.2 Alliance`, then the mod was installed successfully.
 
 ## Changing Save Folder Path
 
@@ -105,7 +105,7 @@ GitHub Actions builds everything; nothing is built by hand.
 1. Launch the game once with `-direct -txt` so it recompiles the `.bin` files, and copy the `.bin` files it wrote back into `data/global/excel/`. In MPQ mode the game reads only the `.bin` files, and the build fails if one is missing or its record count differs from the `.txt`.
 1. Commit and push. CI builds `pd2data.mpq`, the 1/2/3/5/10x density variants and `manifest.json` (download them from the run's `dist` artifact to test). Density multiplies the MonDen, MonUMin and MonUMax columns of `Levels.txt`/`levels.bin`; unique-pack counts cap at 255 because the game stores them in one byte.
 1. For a new version, update the version item's text: `pdreDesc` in `data/local/LNG/ENG/patchstring.tbl`, and `TBL_EDITS` in `tools/resolutions.py` so a rerun of the merge keeps it.
-1. Tag and push to publish: `git tag v14.0.1 && git push origin v14.0.1`. The launcher picks up the release's `manifest.json`.
+1. Tag and push to publish: `git tag v14.0.2 && git push origin v14.0.2`. The launcher picks up the release's `manifest.json`.
 
 `BH.dll` is built from the [synpoox/BH](https://github.com/synpoox/BH) fork (branch `s14-upstream`: upstream PD2 BH plus Reawakening's awaken indicators and `CARD` filter keyword). BH hardcodes some of Reawakening's stat and item type ids (`STAT_AWAKENED`, `STAT_AWAKENER`, `STAT_SKILLONEQUIP_DISPLAY`, `ITEM_TYPE_CARD` in `BH/Constants.h`); if a merge moves them, update those and rebuild.
 
