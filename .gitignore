@@ -1,2 +1,3 @@
 *.bak
 dist/
+__pycache__/
