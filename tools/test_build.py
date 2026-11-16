@@ -3,7 +3,8 @@ import os
 import struct
 import tempfile
 
-from build import DENSITY_FIELDS, LEVELS_RECORD_SIZE, bin_problems, density_bin, density_txt, tc_below
+from build import (DENSITY_FIELDS, LEVELS_RECORD_SIZE, bin_problems, density_bin, density_txt, tc_below,
+                   high_class_skills)
 
 header = b'Name\t' + b'\t'.join(col.encode() for col, _, _ in DENSITY_FIELDS) + b'\tOther'
 row = b'Lvl\t100\t200\t300\t1\t2\t3\t4\t5\t60\t7'
@@ -39,4 +40,7 @@ def tc(name, *items):
     return cells
 tcs = [['Treasure Class'], tc('Orbs', 'dvo'), tc('Good', 'Orbs', 'Fate'), tc('Fate', 'fsta'), tc('Self', 'Self')]
 assert tc_below(tcs) == [('Good', 'Fate'), ('Self', 'Self')], tc_below(tcs)
+skills = [['skill', 'Id', 'charclass'], ['Bash', '126', 'bar'], ['Awakened Cold Arrow', '618', 'ama'],
+          ['UberTalicBash', '638', '']]
+assert high_class_skills(skills) == ['Awakened Cold Arrow (618)'], high_class_skills(skills)
 print('ok')
