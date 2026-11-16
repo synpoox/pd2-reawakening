@@ -86,6 +86,32 @@ ISC_SLOTS = {
     'awakened': 313,                    # BH STAT_AWAKENED (was 508)
     'awakener': 314,                    # BH STAT_AWAKENER (was 509)
 }
+# Reawakening class skill -> Skills id. Class skills must stay at or below 511 (build.py
+# PLAYER_SKILL_MAX), and these are the ids they had in v11. The S14 rows there (Rathma, Iskatu,
+# Horror and Uber Talic map-boss skills) take the rows these leave at the end, as v11 had them.
+SKILL_SLOTS = {
+    'Awakened Cold Arrow': 491,
+    'null nec': 492,
+    'Awakened Blessed Hammer': 493,
+    'null bar': 494,
+    'null dru': 495,
+    'null sin': 496,
+    'Awakened Fade of Speed': 497,
+    'Awakened Multiple Shot': 498,
+    'Awakened Plague Javelin': 499,
+    'Awakened Bone Spear': 500,
+    'Awakened Teeth': 501,
+    'Awakened Smite': 502,
+    'Awakened Concentration': 503,
+    'Awakened War Cry': 504,
+    'Awakened Concentrate': 505,
+    'Awakened Tornado': 506,
+    'Awakened Cyclone Armor': 507,
+    'Awakened Mind Blast': 508,
+    'Awakened Blizzard': 509,
+    'Awakened Charged Bolt': 510,
+    'null sor': 511,
+}
 # patchstring.tbl keys changed on both sides. PvP modifier tooltips describe S14's PvP
 # balance, which S14 maintains; Reawakening never changed PvP.
 TBL_RESOLVE = {f'{d}{c}PVPModifiers': 'theirs'
@@ -94,7 +120,7 @@ TBL_RESOLVE = {f'{d}{c}PVPModifiers': 'theirs'
 
 # patchstring.tbl values set after merging: key -> value.
 # pdreDesc: the version item's tooltip (lines show bottom-up).
-TBL_EDITS = {'pdreDesc': 'ÿc8Alliance\nÿc;v14.0.3'}
+TBL_EDITS = {'pdreDesc': 'ÿc8Alliance\nÿc;v14.0.4'}
 
 # Rows taken whole from S14: (table, first-column key) -> 'theirs' drops Reawakening's
 # version of the row; 'split' also appends Reawakening's version as a row of its own.

@@ -20,14 +20,16 @@ Rules
   ours are remapped through skill names, and stat ids in CubeMain's stat ops through
   stat names (remap_cube_stats()).
 - ItemStatCost has a 511-row cap and is placed by place_isc().
+- Class skills must have ids <= 511; place_skills() gives Reawakening's theirs.
 """
 import os, sys, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from t3lib import Table, find, align
 from resolutions import (RESOLVE, ISC_SLOTS, ISC_DROP, ROW_THEIRS, CELL_EDITS,
-                         RESIST_CAP, RESIST_CAP_EXEMPT, TC_INSERT_BEFORE, TC_TO_END, TC_SLOTS)
+                         RESIST_CAP, RESIST_CAP_EXEMPT, TC_INSERT_BEFORE, TC_TO_END, TC_SLOTS,
+                         SKILL_SLOTS)
 from slots import groups_for
-from build import tc_below, KNOWN_TC_BELOW
+from build import tc_below, KNOWN_TC_BELOW, PLAYER_SKILL_MAX
 
 ANCHORED = {'cubemain'}
 # Tables whose row index is an id the DLLs or other tables use: S14 rows are never deleted.
@@ -371,9 +373,11 @@ def renumber(m):
             r[3] = None
 
 
-def remap_ids(merged, ours_dir, notes):
+def remap_ids(merged, ours_dir, notes, moved_skills=None):
     """Numeric skill/state ids in property params taken from Reawakening -> merged ids,
-    through the names in Reawakening's own Skills/States tables."""
+    through the names in Reawakening's own Skills/States tables. S14's own numeric skill
+    ids follow the S14 rows place_skills() moved (moved_skills: old id -> new id)."""
+    moved_skills = moved_skills or {}
     props = merged['Properties.txt']
     kinds = {}  # property code -> id table
     for r in props.rows:
@@ -393,7 +397,12 @@ def remap_ids(merged, ours_dir, notes):
             pi, qi = m.col[p], m.col[q]
             for r in m.rows:
                 kind = kinds.get(r[0][pi])
-                if kind is None or r[1][qi] != 'o' or not r[0][qi].isdigit():
+                if kind is None or not r[0][qi].isdigit():
+                    continue
+                if r[1][qi] != 'o':
+                    nv = moved_skills.get(int(r[0][qi])) if kind == 'Skills.txt' else None
+                    if nv is not None:
+                        r[0][qi] = str(nv); r[3] = None; count[(name, 'S14 Skills.txt')] += 1
                     continue
                 o_names, m_idx = maps[kind]
                 v = int(r[0][qi])
@@ -404,7 +413,7 @@ def remap_ids(merged, ours_dir, notes):
                 else:
                     miss.append((name, r[0][0], p, v))
     for (n, k), c in count.items():
-        notes[n].append(f'{c} numeric {k[:-4].lower()} ids remapped')
+        notes[n].append(f'{c} numeric {k.replace(".txt", "").lower()} ids remapped')
     return miss
 
 
@@ -435,6 +444,25 @@ def remap_cube_stats(merged, ours_dir, notes):
     if count:
         notes['CubeMain.txt'].append(f'{count} numeric stat ids remapped')
     return miss
+
+
+def place_skills(m, notes):
+    """Reawakening's class skills take their SKILL_SLOTS ids, since items save a skill param
+    in 9 bits and a higher id wraps. The S14 row in each slot moves to the row it leaves.
+    Returns {old S14 id: new id} for the moved S14 rows."""
+    idx = {m.get(r, 'skill'): i for i, r in enumerate(m.rows)}
+    moved = {}
+    for name, slot in SKILL_SLOTS.items():
+        assert name in idx, f'SKILL_SLOTS names a missing skill: {name!r}'
+        i, s14 = idx[name], m.rows[slot]
+        assert m.rows[i][2] == 'ours-new', f'SKILL_SLOTS skill {name!r} is not a Reawakening row'
+        assert s14[2] != 'ours-new' and not m.get(s14, 'charclass'),             f'slot {slot} for {name!r} holds {m.get(s14, "skill")!r}, which must keep its id'
+        m.rows[slot], m.rows[i] = m.rows[i], s14
+        moved[slot] = i
+        notes['Skills.txt'].append(f'{name} placed at {slot}; S14 {m.get(s14, "skill")} moved {slot} -> {i} (decision)')
+    high = [m.get(r, 'skill') for i, r in enumerate(m.rows) if i > PLAYER_SKILL_MAX and m.get(r, 'charclass')]
+    assert not high, f'class skills above id {PLAYER_SKILL_MAX}, give them a SKILL_SLOTS id: {high}'
+    return moved
 
 
 def place_isc(m, notes):
@@ -553,10 +581,11 @@ def main():
         m = mg.merge_table(f)
         if m is not None:
             merged[f] = m
+    moved = place_skills(merged['Skills.txt'], mg.notes) if 'Skills.txt' in merged else {}
     for m in merged.values():
         if m.name.lower() != 'itemstatcost.txt':
             renumber(m)
-    miss = remap_ids(merged, O, mg.notes)
+    miss = remap_ids(merged, O, mg.notes, moved)
     placed = place_isc(merged['ItemStatCost.txt'], mg.notes) if 'ItemStatCost.txt' in merged else []
     if 'ItemStatCost.txt' in merged:
         renumber(merged['ItemStatCost.txt'])

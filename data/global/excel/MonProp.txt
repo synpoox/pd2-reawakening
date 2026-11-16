@@ -35,7 +35,7 @@ rathma	cast2	100		30	30	swing2	100		30	30	death-skill	100	485	100	1													
 mendeln	cast2	100		30	30	swing2	100		30	30	death-skill	100	487	100	1																cast2	100		30	30	swing2	100		30	30	death-skill	100	487	100	1																cast2	100		30	30	swing2	100		30	30	death-skill	100	487	100	1	curse-res	100		95	95	res-pois-len	100		30	30						0
 rathma_golem	aura	100	99	22	22																										aura	100	99	22	22																										aura	100	99	22	22																										0
 nihlathakmap	death-skill	100	487	100	1																										death-skill	100	487	100	1																										death-skill	100	487	100	1																										0
-butchermapprop	aura	100	495	22	22	att-skill	100	389	100	1																					aura	100	495	22	22	att-skill	100	389	100	1																					aura	100	495	22	22	att-skill	100	389	100	1																					0
+butchermapprop	aura	100	622	22	22	att-skill	100	389	100	1																					aura	100	495	22	22	att-skill	100	389	100	1																					aura	100	495	22	22	att-skill	100	389	100	1																					0
 treasurefallenprop	state	100	175	1	1																										state	100	175	1	1																										state	100	175	1	1																										0
 bloodgolemow	openwounds	100	62	100	100	hit-skill	100	358	100	1																					openwounds	100	62	100	100	hit-skill	100	358	100	1																					openwounds	100	62	100	100	hit-skill	100	358	100	1																					0
 rathmaminion																																																													curse-res	100		100	100	res-pois-len	100		25	25																					0

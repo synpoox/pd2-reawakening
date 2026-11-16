@@ -114,7 +114,25 @@ def tc_order_problems(excel):
     return [f'{a} -> {b}' for a, b in tc_below(lines) if (a, b) not in KNOWN_TC_BELOW]
 
 
+# Items save a skill param in 9 bits (item_singleskill, item_nonclassskill, item_aura), so a
+# class skill above this id wraps on save: Awakened Cold Arrow at 618 came back as skill 106.
+PLAYER_SKILL_MAX = 511
+
+
+def high_class_skills(lines):
+    """Class skills whose Id is above PLAYER_SKILL_MAX. lines: Skills rows as lists of cells, header first."""
+    hdr = lines[0]
+    sid, cls = hdr.index('Id'), hdr.index('charclass')
+    return [f'{r[0]} ({r[sid]})' for r in lines[1:]
+            if len(r) > cls and r[cls] and r[sid].isdigit() and int(r[sid]) > PLAYER_SKILL_MAX]
+
+
 def check_bins():
+    raw = read_bytes(os.path.join(EXCEL, 'Skills.txt')).decode('latin-1')
+    high = high_class_skills([l.split('\t') for l in raw.split('\r\n') if l])
+    if high:
+        sys.exit(f'Skills.txt: class skills above id {PLAYER_SKILL_MAX} wrap on items. Give them a '
+                 'lower row (SKILL_SLOTS in tools/resolutions.py):\n  ' + '\n  '.join(high))
     order = tc_order_problems(EXCEL)
     if order:
         sys.exit('TreasureClassEx.txt: these classes reference a class listed below them, which '
